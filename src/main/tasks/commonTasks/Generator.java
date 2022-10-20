@@ -1,9 +1,7 @@
-package main.tasks.actividadesEconomicas.commonAec;
+package main.tasks.commonTasks;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.MediaEntityBuilder;
-import com.aventstack.extentreports.Status;
 import main.actions.DisplayAlert;
 import main.actions.Log;
 import main.actions.LogTime;
@@ -11,9 +9,9 @@ import main.helpers.common.Constants;
 import main.helpers.common.actividadesEconomicas.ConstantsAEC;
 import main.helpers.dataUtility.AccessExcel;
 import main.helpers.dataUtility.ExcelData;
-import main.helpers.dataUtility.ScreenShotHelper;
 import main.tasks.actividadesEconomicas.login.LoginActividadesEconomicas;
-import org.openqa.selenium.*;
+import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -22,7 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-public class Generator {
+public abstract class Generator {
     protected String url;
     protected boolean useTestData; //usar excel de casos de prueba
     protected WebDriver driverApp;
@@ -31,14 +29,10 @@ public class Generator {
     protected ExtentReports extentReport;
     protected ArrayList< String > namesReportFiles;
     protected AccessExcel accessExcel;
-    protected Object childObject;
-    //protected ExcelData inputData;
-
     //--- These variables have the same name of columns defined on Excel file.
     protected String password;
     protected String usuario;
     protected String municipio;
-
 
     public Generator() {
         this.useTestData = false;
@@ -49,7 +43,7 @@ public class Generator {
     //VARIABLES PARA REPORTES GENERADOS EN CADA EJECUCION run()
     public static List<ExtentTest> test = new ArrayList<>();
     public static int i=0;
-    public  <E extends Generator> void run(WebDriver driver, WebDriverWait wait, ExtentReports extentReport){
+    public  <E extends main.tasks.actividadesEconomicas.commonAec.Generator> void run(WebDriver driver, WebDriverWait wait, ExtentReports extentReport){
         String currentTown  = "";
         String beforeTown = "";
         int quantityCases = this.accessExcel.getNroDatosPrueba();
@@ -58,8 +52,8 @@ public class Generator {
         {
             try
             {
-                ExcelData.load(row_i, this.accessExcel, childObject);
-                test.add( this.extentReport.createTest(this.getIdReport()).assignAuthor("T - " + row_i));
+                ExcelData.load(row_i, this.accessExcel, this);
+                test.add( this.extentReport.createTest(this.setTestCaseName()).assignAuthor("T - " + row_i));
                 currentTown = this.municipio;
                 beforeTown = ExcelData.getBeforeTown(this.accessExcel, row_i);
                 i = row_i;
@@ -137,11 +131,9 @@ public class Generator {
             return false;
         }
     }
-    public void start(){}
-    public void returnMainMenu(){}
-    public void login(WebDriver driver, ExtentReports extentReports, ExtentTest extentTest, String user, String password){}
-    public void logout(){}
-    public String getIdReport(){
-        return "";
-    }
+    public abstract void start();
+    public abstract void returnMainMenu();
+    public abstract void login(WebDriver driver, ExtentReports extentReports, ExtentTest extentTest, String user, String password);
+    public abstract void logout();
+    public abstract String setTestCaseName();
 }

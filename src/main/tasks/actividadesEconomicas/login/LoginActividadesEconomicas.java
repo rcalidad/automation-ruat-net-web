@@ -4,6 +4,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import main.actions.*;
+import main.helpers.dataUtility.ScreenShotHelper;
 import main.tasks.actividadesEconomicas.commonAec.Generator;
 import main.ui.actividadesEconomicasUI.commonUI.MainMenuUI;
 import main.ui.actividadesEconomicasUI.loginUI.LoginUI;
@@ -19,7 +20,8 @@ public class LoginActividadesEconomicas {
         }else{
             if(IsDisplayed.element(driver, LoginUI.msgNotificacionUsuarioInexistente)){
                 loginFailed = true;
-                Generator.takeScreenShotAndAdToHTMLReportGenerator(driver,extentApp, Status.FAIL, "<b>No se pudo autenticar, usuario inexistente.</b>");
+                ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, Generator.test.get(Generator.i), Status.FAIL, "<b>No se pudo autenticar, usuario inexistente.</b>");
+                //Generator.takeScreenShotAndAdToHTMLReportGenerator(driver,extentApp, Status.FAIL, "<b>No se pudo autenticar, usuario inexistente.</b>");
                 Log.recordInLog(" ".concat(GetText.of(driver, LoginUI.msgNotificacionUsuarioInexistente)));
             }else{
                 if (IsDisplayed.element(driver, LoginUI.msgNotificacionContrasenaIncorrecta)){
@@ -30,7 +32,8 @@ public class LoginActividadesEconomicas {
                         login(driver, user, changePassword(user, password));
                         if(IsDisplayed.element(driver, LoginUI.msgNotificacionContrasenaIncorrecta)){
                             loginFailed = true;
-                            Generator.takeScreenShotAndAdToHTMLReportGenerator(driver, extentApp, Status.FAIL, "<b>No se pudo autenticar, contraseña incorrecta</b>");
+                            ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, Generator.test.get(Generator.i), Status.FAIL, "<b>No se pudo autenticar, contraseña incorrecta</b>");
+                            //Generator.takeScreenShotAndAdToHTMLReportGenerator(driver, extentApp, Status.FAIL, "<b>No se pudo autenticar, contraseña incorrecta</b>");
                             Log.recordInLog(" ".concat("Error al intentar autenticarse"));
                         }
                     }

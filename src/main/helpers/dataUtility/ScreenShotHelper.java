@@ -28,6 +28,27 @@ public class ScreenShotHelper {
        }
     }
 
+    public static void takeScreenShotAndAdToHTMLReportGenerator(WebDriver webDriver,ExtentTest extentTest, Status status, String details){
+        String imageBase64 = ScreenShotHelper.takeScreenShot(webDriver);
+        try {
+            switch (status.toString()){
+                case "Skip" :
+                    extentTest.log(Status.SKIP,"TEST OMITIDA: ".concat(details), MediaEntityBuilder.createScreenCaptureFromBase64String(imageBase64).build()  );
+                    break;
+                case "Pass":
+                    extentTest.log(Status.PASS,"TEST EXITOSO: ".concat(details), MediaEntityBuilder.createScreenCaptureFromBase64String(imageBase64).build()  );
+                    break;
+                case "Info" :
+                    extentTest.log(Status.INFO,"TEST INFORMATIVO: ".concat(details), MediaEntityBuilder.createScreenCaptureFromBase64String(imageBase64).build()  );
+                    break;
+                default:
+                    extentTest.log(Status.FAIL,"TEST CON FALLA: ".concat(details), MediaEntityBuilder.createScreenCaptureFromBase64String(imageBase64).build()  );
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
     public static void setUpSuiteReport() throws Exception {
         ReportManager.init("C:\\Reports", "Resporte");
     }

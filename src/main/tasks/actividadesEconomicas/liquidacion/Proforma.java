@@ -1,18 +1,24 @@
 package main.tasks.actividadesEconomicas.liquidacion;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import main.actions.*;
 import main.helpers.common.Constants;
 import main.helpers.common.actividadesEconomicas.ConstantsAEC;
 import main.helpers.dataUtility.AccessExcel;
+import main.helpers.dataUtility.ExcelData;
+import main.helpers.dataUtility.ScreenShotHelper;
 import main.helpers.fileUtility.FileBuilder;
-import main.tasks.actividadesEconomicas.commonAec.Generator;
+import main.tasks.commonTasks.Generator;
+//import main.tasks.actividadesEconomicas.commonAec.Generator;
 import main.tasks.actividadesEconomicas.login.LoginActividadesEconomicas;
 import main.tasks.actividadesEconomicas.mainMenu.MainMenu;
 import main.ui.actividadesEconomicasUI.commonUI.FramesUI;
 import main.ui.actividadesEconomicasUI.commonUI.LeftMenuUI;
 import main.ui.actividadesEconomicasUI.liquidacionUI.DeudaUI;
 import main.ui.actividadesEconomicasUI.liquidacionUI.ProformaUI;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
@@ -23,10 +29,17 @@ public class Proforma extends Generator {
     public static final String DEFAULT_REPORT_NAME = "reportePDF.pdf";
     private String operation;
 
+    protected String operacion;
+    protected String detalleDeuda;
+    protected String numeroActividadEconomica;
+    protected String gestionInicio;
+    protected String gestionFin;
+
     public Proforma ( )
     {
         super ( );
         this.accessExcel = new AccessExcel(ConstantsAEC.GENERATOR_DATA_FILE, ConstantsAEC.PROFORMA_DATA_SHEET);
+        this.url = ExcelData.getUrl(ConstantsAEC.GENERATOR_DATA_FILE);
         FileBuilder.newDirectory(this.getClass().getSimpleName().toUpperCase(), ConstantsAEC.SUBSYSTEM_ID);
     }
     public void start(){
@@ -50,7 +63,8 @@ public class Proforma extends Generator {
         Log.recordInLog("Nro. Actividad Economica: ".concat(numeroActividadEconomica));
         Enter.text(this.driverApp, ProformaUI.txtIdentificador, numeroActividadEconomica);
         Click.on(this.driverApp, ProformaUI.rbtNumeroActividad);
-        Generator.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, this.extentReport, Status.INFO, "<b>BUSQUEDA ACTIVIDAD ECONOMICA</b>");
+        ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, this.test.get(i), Status.INFO, "<b>BUSQUEDA ACTIVIDAD ECONOMICA</b>");
+        //Generator.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, this.extentReport, Status.INFO, "<b>BUSQUEDA ACTIVIDAD ECONOMICA</b>");
         Click.on(this.driverApp, ProformaUI.btnBuscar);
         if(IsDisplayed.element(this.driverApp, ProformaUI.imgEnProgreso)){
             WaitUntilElement.isInvisibleElement(this.driverApp, ProformaUI.imgEnProgreso);
@@ -74,7 +88,8 @@ public class Proforma extends Generator {
                     }
                 }
             }
-            Generator.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, this.extentReport, Status.INFO, "<b>Detalle de deuda: ".concat(this.detalleDeuda).concat("</b>"));
+            ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, this.test.get(i), Status.INFO, "<b>Detalle de deuda: ".concat(this.detalleDeuda).concat("</b>"));
+            //Generator.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, this.extentReport, Status.INFO, "<b>Detalle de deuda: ".concat(this.detalleDeuda).concat("</b>"));
             print();
             if (WaitUntilAlert.isPresent(this.driverApp)){
                 DisplayAlert.toAcept(this.driverApp);
@@ -147,7 +162,13 @@ public class Proforma extends Generator {
                 break;
         }
     }
+    public String setTestCaseName(){
+        return "Nro. de Actividad Económica ".concat(this.numeroActividadEconomica);
+    }
     public void logout(){
         LoginActividadesEconomicas.logout(this.driverApp);
+    }
+    public void login(WebDriver driver, ExtentReports extentReports, ExtentTest extentTest, String user, String password){
+        LoginActividadesEconomicas.as(driver, extentReports, extentTest, user, password);
     }
 }
