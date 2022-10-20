@@ -9,7 +9,6 @@ import main.helpers.common.Constants;
 import main.helpers.common.actividadesEconomicas.ConstantsAEC;
 import main.helpers.dataUtility.AccessExcel;
 import main.helpers.dataUtility.ExcelData;
-import main.tasks.actividadesEconomicas.login.LoginActividadesEconomicas;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -57,7 +56,7 @@ public abstract class Generator {
                 currentTown = this.municipio;
                 beforeTown = ExcelData.getBeforeTown(this.accessExcel, row_i);
                 i = row_i;
-                if(!currentTown.equals(beforeTown) || LoginActividadesEconomicas.loginFailed)
+                if(!currentTown.equals(beforeTown) || loggedIn())
                 {
                     this.logout();
                     this.driverApp = driver;
@@ -136,4 +135,5 @@ public abstract class Generator {
     public abstract void login(WebDriver driver, ExtentReports extentReports, ExtentTest extentTest, String user, String password);
     public abstract void logout();
     public abstract String setTestCaseName();
+    public abstract boolean loggedIn();
 }

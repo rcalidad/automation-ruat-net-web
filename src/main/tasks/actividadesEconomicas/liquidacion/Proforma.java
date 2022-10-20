@@ -171,4 +171,7 @@ public class Proforma extends Generator {
     public void login(WebDriver driver, ExtentReports extentReports, ExtentTest extentTest, String user, String password){
         LoginActividadesEconomicas.as(driver, extentReports, extentTest, user, password);
     }
+    public boolean loggedIn(){
+        return LoginActividadesEconomicas.loginFailed;
+    }
 }
