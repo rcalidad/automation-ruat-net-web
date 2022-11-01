@@ -11,4 +11,6 @@ public class ProformaUI {
     public static By rbtPublicidadPermanente = By.id("idPublicidad");
     public static By rbtInfraccionesAutorizaciones = By.id("idInfraccion");
     public static By btnBuscar = By.name("btnBuscar");
+
+
 }

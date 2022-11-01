@@ -61,7 +61,7 @@ public abstract class Generator {
                     this.logout();
                     this.driverApp = driver;
                     this.wait = wait;
-                    this.usuario = ExcelData.getUser(ConstantsAEC.GENERATOR_DATA_FILE,this.accessExcel,row_i);
+                    this.usuario = this.getUser();
                     this.password = ExcelData.getPassword(this.usuario);
                     this.initApplication(this.url, this.usuario, this.password);
                 }
@@ -82,7 +82,7 @@ public abstract class Generator {
                     returnMainMenu( );
                 }
                 catch ( Exception generarExcepcion ) { }
-            }
+             }
         }
         Log.recordInLog(Constants.DELIMITER_MARK);
         LogTime.end();
@@ -95,7 +95,7 @@ public abstract class Generator {
     public void initApplication(String url, String user, String password) throws Exception {
         openApplication(url);
         Log.onEnvironment( this.getClass().getSimpleName().toUpperCase(), url);
-        login(this.driverApp, extentReport, test.get(i), user, password);
+        this.login(this.driverApp, extentReport, test.get(i), user, password);
     }
     protected void openApplication(String url){
         Set<String> windows = null;
@@ -136,4 +136,5 @@ public abstract class Generator {
     public abstract void logout();
     public abstract String setTestCaseName();
     public abstract boolean loggedIn();
+    public abstract String getUser();
 }

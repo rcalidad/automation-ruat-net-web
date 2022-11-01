@@ -93,4 +93,12 @@ public class WaitUntilElement {
         WebDriverWait wait= new WebDriverWait(webDriver,TIME_SECOND);
         wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(locator));
     }
+    public static void isSelected(WebDriver webDriver, By locator){
+        WebDriverWait wait = new WebDriverWait(webDriver, TIME_SECOND);
+        wait.until(ExpectedConditions.elementToBeSelected(locator));
+    }
+    public static void isSelected(WebDriver driver, WebElement element){
+        WebDriverWait wait = new WebDriverWait(driver, TIME_SECOND);
+        wait.until(ExpectedConditions.elementToBeSelected(element));
+    }
 }

@@ -1,16 +1,22 @@
 package main.tasks.vehiculos.liquidacion;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 import main.actions.*;
 import main.helpers.common.Constants;
+import main.helpers.common.actividadesEconomicas.ConstantsAEC;
 import main.helpers.common.vehiculos.ConstantsVEH;
 import main.helpers.dataUtility.AccessExcel;
+import main.helpers.dataUtility.ExcelData;
 import main.helpers.fileUtility.FileBuilder;
-import main.tasks.vehiculos.commonVeh.Generator;
+import main.tasks.commonTasks.Generator;
+//import main.tasks.vehiculos.commonVeh.Generator;
 import main.tasks.vehiculos.mainMenu.MainMenu;
 import main.ui.vehiculosUI.commonUI.FramesUI;
 import main.ui.vehiculosUI.commonUI.LeftMenuUI;
 import main.ui.vehiculosUI.liquidacionUI.DeudaUI;
 import main.ui.vehiculosUI.liquidacionUI.ProformaUI;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
@@ -20,10 +26,17 @@ public class Proforma extends Generator {
     public static final String PROFORMA_MODULE = "Proforma";
     public static final String PROFORMA_NAME = "enviarPDF.pdf";
     private String operation;
+    //--- These variables have the same name of columns defined on Excel file.
+    protected String operacion;
+    protected String detalleDeuda;
+    protected String identificador;
+    protected String gestionInicio;
+    protected String gestionFin;
 
     public Proforma() {
         super ( );
         this.accessExcel = new AccessExcel(ConstantsVEH.GENERATOR_DATA_FILE, ConstantsVEH.PROFORMA_DATA_SHEET);
+        this.url = ExcelData.getUrl(ConstantsVEH.GENERATOR_DATA_FILE);
         FileBuilder.newDirectory(PROFORMA_MODULE.toUpperCase(), ConstantsVEH.ID_SUBSYSTEM);
     }
     public void start(){
@@ -136,8 +149,29 @@ public class Proforma extends Generator {
         Click.on(this.driverApp, LeftMenuUI.lnkMenuPrincipal);
         this.driverApp.switchTo().parentFrame();
     }
+
     @Override
-    public Object getChildObject(){
-        return this;
+    public void login(WebDriver driver, ExtentReports extentReports, ExtentTest extentTest, String user, String password) {
+
+    }
+
+    @Override
+    public void logout() {
+
+    }
+
+    @Override
+    public String setTestCaseName() {
+        return null;
+    }
+
+    @Override
+    public boolean loggedIn() {
+        return false;
+    }
+
+    @Override
+    public String getUser() {
+        return ExcelData.getUser(ConstantsVEH.GENERATOR_DATA_FILE,this.accessExcel,i);
     }
 }

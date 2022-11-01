@@ -11,7 +11,6 @@ import main.helpers.dataUtility.ExcelData;
 import main.helpers.dataUtility.ScreenShotHelper;
 import main.helpers.fileUtility.FileBuilder;
 import main.tasks.commonTasks.Generator;
-//import main.tasks.actividadesEconomicas.commonAec.Generator;
 import main.tasks.actividadesEconomicas.login.LoginActividadesEconomicas;
 import main.tasks.actividadesEconomicas.mainMenu.MainMenu;
 import main.ui.actividadesEconomicasUI.commonUI.FramesUI;
@@ -28,7 +27,7 @@ public class Proforma extends Generator {
     public static final String MODULO_PROFORMA = "Proforma";
     public static final String DEFAULT_REPORT_NAME = "reportePDF.pdf";
     private String operation;
-
+    //--- These variables have the same name of columns defined on Excel file.
     protected String operacion;
     protected String detalleDeuda;
     protected String numeroActividadEconomica;
@@ -173,5 +172,10 @@ public class Proforma extends Generator {
     }
     public boolean loggedIn(){
         return LoginActividadesEconomicas.loginFailed;
+    }
+
+    @Override
+    public String getUser() {
+        return ExcelData.getUser(ConstantsAEC.GENERATOR_DATA_FILE,this.accessExcel,i);
     }
 }

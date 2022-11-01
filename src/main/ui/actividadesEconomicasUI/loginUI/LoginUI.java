@@ -34,7 +34,7 @@ public class LoginUI {
 
     //-------------- PASSWORD CHANGED -------------
     public static By lnkAceptar                 = By.linkText("Aceptar");
-    public static By msgCambioContraseña = By.xpath("//table/tbody/tr[3]/td/span");
+    public static By msgCambioContrasenia = By.xpath("//table/tbody/tr[3]/td/span");
 
     //-------------- FIRST GET INTO ---------------
     public static By btnPrimerIngresar          = By.id("btnIngreso");
