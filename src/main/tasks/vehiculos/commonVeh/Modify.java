@@ -18,6 +18,7 @@ public class Modify {
         int newCilindrada = currentCilindrada.equals("") ? 0 : Integer.parseInt(currentCilindrada);
         int addCilindrada = Integer.parseInt(cylinderCapacity);
         newCilindrada = operation.equals("INCREMENTAR BASE IMPONIBLE") ? newCilindrada + addCilindrada : newCilindrada - addCilindrada;
+        Log.recordInLog("Moficando cilindrada: de " + currentCilindrada + " a " + String.valueOf(newCilindrada));
         Clear.on(driver, TechnicalDataUI.txtCilindrada, 1);
         Enter.text(driver, TechnicalDataUI.txtCilindrada, String.valueOf(newCilindrada));
         String currentTraction = GetText.ofValue(driver, TechnicalDataUI.lstTraccion);
