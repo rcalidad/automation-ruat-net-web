@@ -1,6 +1,7 @@
 package main.actions;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -58,6 +59,24 @@ public class WaitUntilElement {
     public static void isVisibleElement(WebDriver webDriver,By locator){
         WebDriverWait wait= new WebDriverWait(webDriver,TIME_SECOND);
         wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    }
+    public static boolean isElementVisible(WebDriver webDriver, By locator){
+        WebDriverWait wait = new WebDriverWait(webDriver, TIME_SECOND);
+        try{
+            wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+            return true;
+        }catch (TimeoutException timeoutException){
+            return false;
+        }
+    }
+    public static boolean isElementVisible(WebDriver webDriver, By locator, int timeSeconds){
+        WebDriverWait wait = new WebDriverWait(webDriver, timeSeconds);
+        try{
+            wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+            return true;
+        }catch (TimeoutException timeoutException){
+            return false;
+        }
     }
 
     public static void isClikeableOf(WebDriver webDriver,By locator,int timeSecond){

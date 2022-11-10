@@ -71,6 +71,7 @@ public class FileBuilder {
         return sw;
     }
     public static void deleteTemporalDirectory(){
+        moveFile("Index.html");
         File tempDirectory = new File(getPathTemporalDirectory());
         tempDirectory.delete();
     }

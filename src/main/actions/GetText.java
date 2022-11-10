@@ -18,4 +18,9 @@ public class GetText {
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
         return element.getText();
     }
+    public static String ofValue(WebDriver driver, By locator){
+        WebDriverWait wait = new WebDriverWait(driver, TIME_SECOND);
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+        return element.getAttribute("value");
+    }
 }

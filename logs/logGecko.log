@@ -1,40 +1,22 @@
-1667319051088	geckodriver	INFO	Listening on 127.0.0.1:9456
-1667319051448	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileknHAXU"
-1667319052684	Marionette	INFO	Marionette enabled
-1667319052693	Marionette	INFO	Listening on port 59527
-1667319052981	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileknHAXU\\search.json.mozlz4", (void 0)))
+1668092543562	geckodriver	INFO	Listening on 127.0.0.1:46770
+1668092543920	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileibepx8"
+1668092544538	Marionette	INFO	Marionette enabled
+1668092544547	Marionette	INFO	Listening on port 61501
+1668092545291	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileibepx8\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://vehiculosimpl.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
 console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
 console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tasasimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tasasimpl.ruat.gob.bo."
-JavaScript error: https://tasasimpl.ruat.gob.bo/TasasWeb/resources/js/lib/validaciones/validaciones.js, line 31: ReferenceError: evt is not defined
-JavaScript error: https://tasasimpl.ruat.gob.bo/TasasWeb/resources/js/lib/validaciones/validaciones.js, line 31: ReferenceError: evt is not defined
-JavaScript error: https://tasasimpl.ruat.gob.bo/TasasWeb/resources/js/lib/validaciones/validaciones.js, line 31: ReferenceError: evt is not defined
-JavaScript error: https://tasasimpl.ruat.gob.bo/TasasWeb/resources/js/lib/validaciones/validaciones.js, line 31: ReferenceError: evt is not defined
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tasasimpl.ruat.gob.bo."
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: https://tasasimpl.ruat.gob.bo/TasasWeb/resources/js/lib/validaciones/validaciones.js, line 31: ReferenceError: evt is not defined
-JavaScript error: https://tasasimpl.ruat.gob.bo/TasasWeb/resources/js/lib/validaciones/validaciones.js, line 31: ReferenceError: evt is not defined
-JavaScript error: https://tasasimpl.ruat.gob.bo/TasasWeb/resources/js/lib/validaciones/validaciones.js, line 31: ReferenceError: evt is not defined
-JavaScript error: https://tasasimpl.ruat.gob.bo/TasasWeb/resources/js/lib/validaciones/validaciones.js, line 31: ReferenceError: evt is not defined
-JavaScript error: https://tasasimpl.ruat.gob.bo/TasasWeb/resources/js/lib/validaciones/validaciones.js, line 31: ReferenceError: evt is not defined
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tasasimpl.ruat.gob.bo."
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tasasimpl.ruat.gob.bo."
-JavaScript error: https://tasasimpl.ruat.gob.bo/TasasWeb/Administracion/Autentificacion/LoginUsuario.jsp, line 1: ReferenceError: actualizar_captcha is not defined
-JavaScript error: https://tasasimpl.ruat.gob.bo/TasasWeb/Administracion/Autentificacion/LoginUsuario.jsp, line 1: ReferenceError: actualizar_captcha is not defined
-JavaScript error: https://tasasimpl.ruat.gob.bo/TasasWeb/Administracion/Autentificacion/LoginUsuario.jsp, line 1: ReferenceError: actualizar_captcha is not defined
-JavaScript error: https://tasasimpl.ruat.gob.bo/TasasWeb/resources/js/lib/validaciones/validaciones.js, line 31: ReferenceError: evt is not defined
-JavaScript error: https://tasasimpl.ruat.gob.bo/TasasWeb/resources/js/lib/validaciones/validaciones.js, line 31: ReferenceError: evt is not defined
-JavaScript error: https://tasasimpl.ruat.gob.bo/TasasWeb/resources/js/lib/validaciones/validaciones.js, line 31: ReferenceError: evt is not defined
-JavaScript error: https://tasasimpl.ruat.gob.bo/TasasWeb/resources/js/lib/validaciones/validaciones.js, line 31: ReferenceError: evt is not defined
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tasasimpl.ruat.gob.bo."
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tasasimpl.ruat.gob.bo."
-JavaScript error: https://tasasimpl.ruat.gob.bo/TasasWeb/Administracion/Autentificacion/LoginUsuario.jsp, line 1: ReferenceError: actualizar_captcha is not defined
-1667319305003	Marionette	INFO	Stopped listening on port 59527
-[Parent 8836, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vehiculosimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vehiculosimpl.ruat.gob.bo."
+JavaScript warning: http://vehiculosimpl.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+[Parent 13148, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://vehiculosimpl.ruat.gob.bo."
+JavaScript warning: http://vehiculosimpl.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+JavaScript warning: http://vehiculosimpl.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+JavaScript warning: http://vehiculosimpl.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://vehiculosimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://vehiculosimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://vehiculosimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://vehiculosimpl.ruat.gob.bo."
+1668092574893	Marionette	INFO	Stopped listening on port 61501

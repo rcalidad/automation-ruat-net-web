@@ -11,6 +11,7 @@ import main.helpers.dataUtility.ExcelData;
 import main.helpers.fileUtility.FileBuilder;
 import main.tasks.commonTasks.Generator;
 //import main.tasks.vehiculos.commonVeh.Generator;
+import main.tasks.vehiculos.login.LoginVehiculos;
 import main.tasks.vehiculos.mainMenu.MainMenu;
 import main.ui.vehiculosUI.commonUI.FramesUI;
 import main.ui.vehiculosUI.commonUI.LeftMenuUI;
@@ -152,7 +153,7 @@ public class Proforma extends Generator {
 
     @Override
     public void login(WebDriver driver, ExtentReports extentReports, ExtentTest extentTest, String user, String password) {
-
+        LoginVehiculos.as(driver, extentReports, extentTest, user, password);
     }
 
     @Override
@@ -162,16 +163,16 @@ public class Proforma extends Generator {
 
     @Override
     public String setTestCaseName() {
-        return null;
+        return "Nro. de vehiculo ".concat(this.identificador);
     }
 
     @Override
-    public boolean loggedIn() {
+    public boolean isNotLoggedIn() {
         return false;
     }
 
     @Override
     public String getUser() {
-        return ExcelData.getUser(ConstantsVEH.GENERATOR_DATA_FILE,this.accessExcel,i);
+        return ExcelData.getUser(ConstantsVEH.GENERATOR_DATA_FILE, this.accessExcel, i);
     }
 }

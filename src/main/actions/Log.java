@@ -18,8 +18,9 @@ public class Log {
     static long    tiempoInicioTest;
 
     public static void onEnvironment(String modulo, String url){
+        String title = giveTitleFormat(modulo);
         recordInLog("*************************************************************************");
-        recordInLog("                       ".concat(modulo));
+        recordInLog("                       ".concat(title));
         recordInLog("*************************************************************************");
         recordInLog("Ambiente: ".concat(url));
         fechaHoraInicio   = new SimpleDateFormat(Constants.DATE_TIME_MASK).format(Calendar.getInstance().getTime());
@@ -53,7 +54,23 @@ public class Log {
         }
     }
     public static void endInLog(String msgLog) {
-        recordInLog("Proceso concluido: ".concat(msgLog));
+        String title = giveTitleFormat(msgLog);
+        recordInLog("Proceso concluido: ".concat("Módulo - ").concat(title));
         recordInLog(Constants.END_OF_EXECUTION_MARK);
+    }
+    public static String giveTitleFormat(String title){  //title: ModificarDatos -> MODIFICAR-DATOS
+        char charsArray[] = title.toCharArray();
+        String newTitle="";
+        int j = 0;
+        for (int i = 0; i < charsArray.length; i++){
+            if (Character.isUpperCase(charsArray[i])){
+                if (i != 0){
+                    newTitle = newTitle + title.substring(j,i) + "-";
+                    j = i;
+                }
+            }
+        }
+        newTitle = newTitle + title.substring(j,title.length());
+        return newTitle.toUpperCase();
     }
 }

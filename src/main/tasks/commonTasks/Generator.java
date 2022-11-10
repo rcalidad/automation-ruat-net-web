@@ -6,7 +6,6 @@ import main.actions.DisplayAlert;
 import main.actions.Log;
 import main.actions.LogTime;
 import main.helpers.common.Constants;
-import main.helpers.common.actividadesEconomicas.ConstantsAEC;
 import main.helpers.dataUtility.AccessExcel;
 import main.helpers.dataUtility.ExcelData;
 import org.openqa.selenium.NoAlertPresentException;
@@ -56,7 +55,7 @@ public abstract class Generator {
                 currentTown = this.municipio;
                 beforeTown = ExcelData.getBeforeTown(this.accessExcel, row_i);
                 i = row_i;
-                if(!currentTown.equals(beforeTown) || loggedIn())
+                if(!currentTown.equals(beforeTown) || isNotLoggedIn())
                 {
                     this.logout();
                     this.driverApp = driver;
@@ -86,7 +85,7 @@ public abstract class Generator {
         }
         Log.recordInLog(Constants.DELIMITER_MARK);
         LogTime.end();
-        Log.endInLog(" Módulo (".concat(this.getClass().getSimpleName().toUpperCase().concat(")")));
+        Log.endInLog(this.getClass().getSimpleName());
         this.extentReport.flush();
         if (this.driverApp != null){
             this.driverApp.quit();
@@ -94,7 +93,7 @@ public abstract class Generator {
     }
     public void initApplication(String url, String user, String password) throws Exception {
         openApplication(url);
-        Log.onEnvironment( this.getClass().getSimpleName().toUpperCase(), url);
+        Log.onEnvironment( this.getClass().getSimpleName(), url);
         this.login(this.driverApp, extentReport, test.get(i), user, password);
     }
     protected void openApplication(String url){
@@ -135,6 +134,6 @@ public abstract class Generator {
     public abstract void login(WebDriver driver, ExtentReports extentReports, ExtentTest extentTest, String user, String password);
     public abstract void logout();
     public abstract String setTestCaseName();
-    public abstract boolean loggedIn();
+    public abstract boolean isNotLoggedIn();
     public abstract String getUser();
 }

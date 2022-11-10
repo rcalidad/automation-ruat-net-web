@@ -213,7 +213,7 @@ public class Proforma extends Generator {
     }
 
     @Override
-    public boolean loggedIn() {
+    public boolean isNotLoggedIn() {
         return false;
     }
 

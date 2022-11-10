@@ -14,4 +14,8 @@ public class LeftMenuUI {
     public static By lnkCosultaVehiculo = By.linkText("Consulta Vehículo");
     public static By lnkObservacionesSugerencias = By.linkText("Observaciones y/o Sugerencias");
     public static By lnkMenuPrincipal = By.linkText("Menú Principal");
+
+    public static By getOption(String textLink){
+        return By.linkText(textLink);
+    }
 }
