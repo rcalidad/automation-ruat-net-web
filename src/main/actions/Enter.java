@@ -1,6 +1,7 @@
 package main.actions;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -22,5 +23,15 @@ public class Enter {
         element.clear();
         element.sendKeys(texto);
 
+    }
+    public static void date(WebDriver driver, By locator, String date){
+        WebDriverWait wait = new WebDriverWait(driver, TIME_SECOND);
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+        String locatorStrategy = locator.toString();
+        String strategyParts[] = locatorStrategy.split(":");
+        String idLocator = strategyParts[1].trim();
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        String script = "document.getElementById('" + idLocator + "').value='" + date + "'";
+        js.executeScript(script);
     }
 }

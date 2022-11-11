@@ -1,22 +1,24 @@
-1668092543562	geckodriver	INFO	Listening on 127.0.0.1:46770
-1668092543920	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileibepx8"
-1668092544538	Marionette	INFO	Marionette enabled
-1668092544547	Marionette	INFO	Listening on port 61501
-1668092545291	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileibepx8\\search.json.mozlz4", (void 0)))
-JavaScript warning: https://vehiculosimpl.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+1668206610342	geckodriver	INFO	Listening on 127.0.0.1:15210
+1668206610747	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofile3gveUf"
+1668206611500	Marionette	INFO	Marionette enabled
+1668206611510	Marionette	INFO	Listening on port 51804
+1668206612003	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofile3gveUf\\search.json.mozlz4", (void 0)))
 console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
 console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+JavaScript warning: https://vehiculosimpl.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vehiculosimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vehiculosimpl.ruat.gob.bo."
-JavaScript warning: http://vehiculosimpl.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
-[Parent 13148, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://vehiculosimpl.ruat.gob.bo."
-JavaScript warning: http://vehiculosimpl.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
-JavaScript warning: http://vehiculosimpl.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+JavaScript warning: https://vehiculosimpl.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+JavaScript warning: https://vehiculosimpl.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+JavaScript warning: https://vehiculosimpl.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
 JavaScript warning: http://vehiculosimpl.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://vehiculosimpl.ruat.gob.bo."
+JavaScript warning: http://vehiculosimpl.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+JavaScript warning: http://vehiculosimpl.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+JavaScript warning: http://vehiculosimpl.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://vehiculosimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://vehiculosimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://vehiculosimpl.ruat.gob.bo."
-1668092574893	Marionette	INFO	Stopped listening on port 61501
+JavaScript error: http://vehiculosimpl.ruat.gob.bo/VehiculosWeb/RegTecnico/ModificacionDatosVehiculo/modificarServicio.do, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: http://vehiculosimpl.ruat.gob.bo/VehiculosWeb/resources/js/RegTecnico/ModificacionDatosVehiculo/servicio.js, line 20: TypeError: serv is null
+1668206642797	Marionette	INFO	Stopped listening on port 51804
+[Parent 16840, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
