@@ -2,12 +2,14 @@ package main.tasks.commonTasks;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import main.actions.DisplayAlert;
 import main.actions.Log;
 import main.actions.LogTime;
 import main.helpers.common.Constants;
 import main.helpers.dataUtility.AccessExcel;
 import main.helpers.dataUtility.ExcelData;
+import main.helpers.dataUtility.ScreenShotHelper;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -41,7 +43,7 @@ public abstract class Generator {
     //VARIABLES PARA REPORTES GENERADOS EN CADA EJECUCION run()
     public static List<ExtentTest> test = new ArrayList<>();
     public static int i=0;
-    public  <E extends main.tasks.actividadesEconomicas.commonAec.Generator> void run(WebDriver driver, WebDriverWait wait, ExtentReports extentReport){
+    public void run(WebDriver driver, WebDriverWait wait, ExtentReports extentReport){
         String currentTown  = "";
         String beforeTown = "";
         int quantityCases = this.accessExcel.getNroDatosPrueba();
@@ -80,7 +82,9 @@ public abstract class Generator {
                 {
                     returnMainMenu( );
                 }
-                catch ( Exception generarExcepcion ) { }
+                catch ( Exception generarExcepcion ) {
+                    ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, test.get(i), Status.FAIL, "No se pudo completar la tarea." );
+                }
              }
         }
         Log.recordInLog(Constants.DELIMITER_MARK);

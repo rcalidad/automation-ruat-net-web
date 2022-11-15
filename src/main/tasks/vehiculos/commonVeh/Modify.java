@@ -26,16 +26,21 @@ public class Modify {
             SelectOption.byText(driver, TechnicalDataUI.lstTraccion, traction);
         }
         Click.on(driver, TechnicalDataUI.btnAceptar);
-        WaitUntilAlert.isPresent(driver);
-        message = DisplayAlert.getText(driver);
-        if (message.contains("Desea continuar")){
-            DisplayAlert.toAcept(driver);
-            WaitUntilElement.isElementVisible(driver, TechnicalDataUI.btnAceptar);
+        if (WaitUntilAlert.isPresent(driver)){
+            message = DisplayAlert.getText(driver);
+            if (message.contains("Desea continuar")){
+                DisplayAlert.toAcept(driver);
+                WaitUntilElement.isElementVisible(driver, TechnicalDataUI.btnAceptar);
+                Click.on(driver, TechnicalDataUI.btnAceptar);
+            }else{
+                ScreenShotHelper.takeScreenShotOfAnAlert(driver, extentTest, Status.SKIP, message);
+                DisplayAlert.toAcept(driver);
+                Log.recordInLog("No es posible continuar: " + message);
+            }
+        }else if (WaitUntilElement.isElementVisible(driver, TechnicalDataUI.btnAceptar)){
             Click.on(driver, TechnicalDataUI.btnAceptar);
         }else{
-            ScreenShotHelper.takeScreenShotOfAnAlert(driver, extentTest, Status.INFO, message);
-            DisplayAlert.toAcept(driver);
-            Log.recordInLog("No es posible continuar: " + message);
+            ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.SKIP, "No es posible continuar.");
         }
     }
     public static void technicalData(WebDriver driver, String turbo){

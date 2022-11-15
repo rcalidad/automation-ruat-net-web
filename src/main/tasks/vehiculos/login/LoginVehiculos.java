@@ -21,7 +21,7 @@ public class LoginVehiculos {
         if (WaitUntilAlert.isPresent(driver, 2)){
             message = DisplayAlert.getText(driver);
             DisplayAlert.toAcept(driver);
-        } else if (WaitUntilElement.isElementVisible(driver, LoginUI.msgNotificacion, 3)) {
+        } else if (WaitUntilElement.isElementVisible(driver, LoginUI.msgNotificacion, 2)) {
             message = GetText.of(driver, LoginUI.msgNotificacion);
         }else if (WaitUntilElement.isElementVisible(driver, MainMenuUI.lnkCerrarSesion)){
             message = "Login process: OK";
@@ -71,5 +71,11 @@ public class LoginVehiculos {
         Enter.text(driver, LoginUI.txtContrasenia, password);
         Click.on(driver, LoginUI.btnIngresar);
         return WaitUntilElement.isElementVisible(driver, MainMenuUI.lnkCerrarSesion);
+    }
+
+    public static void logout(WebDriver driver){
+        if(IsDisplayed.element(driver, main.ui.actividadesEconomicasUI.commonUI.MainMenuUI.lnkCerrarSesion)){
+            Click.on(driver, main.ui.actividadesEconomicasUI.commonUI.MainMenuUI.lnkCerrarSesion);
+        }
     }
 }

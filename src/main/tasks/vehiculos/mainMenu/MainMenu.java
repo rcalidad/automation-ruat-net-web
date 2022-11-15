@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 
 public class MainMenu {
     public static void selectOption(WebDriver driver, String textLink){
-        WaitUntilElement.isVisibleElement(driver, MainMenuUI.lnkCerrarSesion);
+        WaitUntilElement.isVisibleElement(driver, MainMenuUI.lnkCerrarSesion, 2);
         Click.on(driver, MainMenuUI.option(textLink));
     }
 }

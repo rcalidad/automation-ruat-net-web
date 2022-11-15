@@ -19,14 +19,16 @@ public class ModificarServicio {
         Log.recordInLog("Modificando servicio: Particular...");
         Scroll.toEndPage(driver);
         SelectOption.byText(driver, ModificarServicioUI.lstServicio, option);
-        Enter.text(driver, ModificarServicioUI.txtFechaInicio, initialDate);
+        //Enter.text(driver, ModificarServicioUI.txtFechaInicio, initialDate);
+        Enter.dateById(driver, ModificarServicioUI.txtFechaInicio, initialDate);
         Click.on(driver, ModificarServicioUI.btnAceptar);
     }
     public static void toOfficial(WebDriver driver, String initialDate, String option){
         Log.recordInLog("Modificando servicio: Oficial...");
         Scroll.toTopPage(driver);
         SelectOption.byText(driver, ModificarServicioUI.lstServicio, option);
-        Enter.text(driver, ModificarServicioUI.txtFechaInicio, option);
+        //Enter.text(driver, ModificarServicioUI.txtFechaInicio, option);
+        Enter.dateById(driver, ModificarServicioUI.txtFechaInicio, initialDate);
         Click.on(driver, ModificarServicioUI.btnAceptar);
     }
     public static void toPublic(WebDriver driver, ExtentTest extentTest, String option, String nroCard, String initialDate, String finalDate){

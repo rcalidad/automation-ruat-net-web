@@ -19,4 +19,6 @@ public class ProformaUI {
     public static By imgEnProgreso = By.id("fondo");
     public static By btnContinuar = By.id("btnContinuar");
 
+    public static By ttlNotificacion = By.xpath("//h2[text()='NOTIFICACION']");
+
 }

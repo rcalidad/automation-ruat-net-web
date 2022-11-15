@@ -6,7 +6,7 @@
  * */
 package main.helpers.fileUtility;
 
-import java.io.File;
+import java.io.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import static org.awaitility.Awaitility.*;
@@ -69,6 +69,35 @@ public class FileBuilder {
             }
         }
         return sw;
+    }
+    public static boolean moveAndRenameFile(String originalFilename, String operation, String debtDetail, String identifier, String subsystem, int numberCase){
+        String pathTemporalDirectory = getPathTemporalDirectory().concat("/");
+        String newFilename = String.valueOf(numberCase).concat("-").concat(subsystem).concat("-").concat(operation).concat("-").concat(identifier).concat("-").concat(debtDetail);
+        if(waitUntilDownload(originalFilename, pathTemporalDirectory)) {
+            File currentFile = new File(pathTemporalDirectory.concat(originalFilename));
+            File newFile = new File(pathFile.concat("/").concat(newFilename));
+            if (currentFile.exists()){
+                try{
+                    InputStream in = new FileInputStream(currentFile);
+                    OutputStream out = new FileOutputStream(newFile);
+                    byte[] buffer = new byte[1024];
+                    int len;
+                    while ((len = in.read(buffer)) > 0){
+                        out.write(buffer, 0, len);
+                    }
+                    in.close();
+                    out.close();
+                    return currentFile.delete();
+                }catch (IOException ioException){
+                    ioException.printStackTrace();
+                    return false;
+                }
+            }else {
+                return false;
+            }
+        }else {
+            return false;
+        }
     }
     public static void deleteTemporalDirectory(){
         moveFile("Index.html");

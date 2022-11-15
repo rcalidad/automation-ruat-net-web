@@ -153,7 +153,8 @@ public class Proforma extends Generator {
 
     @Override
     public void login(WebDriver driver, ExtentReports extentReports, ExtentTest extentTest, String user, String password) {
-        LoginVehiculos.as(driver, extentReports, extentTest, user, password);
+        LoginVehiculos.authenticate(driver, extentReports, extentTest, user, password);
+        //LoginVehiculos.as(driver, extentReports, extentTest, user, password);
     }
 
     @Override

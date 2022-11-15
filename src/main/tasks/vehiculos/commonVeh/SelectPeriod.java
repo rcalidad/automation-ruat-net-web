@@ -11,7 +11,7 @@ public class SelectPeriod {
     public static boolean isReady(WebDriver driver){
         return WaitUntilElement.isElementVisible(driver, SelectPeriodUI.lstGestion);
     }
-    public static void toModifyTechnicalData(WebDriver driver, String year){
+    public static void toModifyTechnicalData(WebDriver driver){
         //SelectOption.byText(driver, SelectPeriodUI.lstGestion, year);
         Click.on(driver, SelectPeriodUI.btnAceptar);
     }

@@ -2,10 +2,7 @@ package main.tasks.vehiculos.commonVeh;
 
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-import main.actions.DisplayAlert;
-import main.actions.Log;
-import main.actions.WaitUntilAlert;
-import main.actions.WaitUntilElement;
+import main.actions.*;
 import main.helpers.dataUtility.ScreenShotHelper;
 import main.ui.vehiculosUI.commonUI.CommonElementsUI;
 import org.openqa.selenium.By;
@@ -16,16 +13,27 @@ public class Verify {
         String message;
         if(WaitUntilAlert.isPresent(driver, 1)){
             message = DisplayAlert.getText(driver);
-            ScreenShotHelper.takeScreenShotOfAnAlert(driver, extentTest, Status.INFO, message);
+            ScreenShotHelper.takeScreenShotOfAnAlert(driver, extentTest, Status.SKIP, message);
+            DisplayAlert.toAcept(driver);
             Log.recordInLog(message);
             return false;
         }else{
+            try{
+                Thread.sleep(500);
+            }catch (Exception e){
+                Log.recordInLog("Sin alertas, esperando respuesta...");
+            }
             WaitUntilElement.isInvisibleElement(driver, CommonElementsUI.imgEnProgreso);
-            if (WaitUntilElement.isElementVisible(driver, controlLocator, 1)){
-                Log.recordInLog("Seleccionando servicio...");
+            if (WaitUntilElement.isElementVisible(driver, CommonElementsUI.btnContinuar, 3)){
+                ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.INFO, "El vehículo tiene notificaciones.");
+                Log.recordInLog("El vehículo tiene notificaciones.");
+                Click.on(driver, CommonElementsUI.btnContinuar);
+            }
+            if (WaitUntilElement.isElementVisible(driver, controlLocator)){
+                Log.recordInLog("Cargando opción...");
                 return true;
             }else{
-                ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.INFO, "El vehículo no pasó las validaciones necesarias.");
+                ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.SKIP, "El vehículo no pasó las validaciones necesarias.");
                 Log.recordInLog("El vehículo no pasó las validaciones necesarias.");
                 return false;
             }

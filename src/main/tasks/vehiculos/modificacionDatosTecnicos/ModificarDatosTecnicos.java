@@ -32,7 +32,6 @@ public class ModificarDatosTecnicos extends Generator {
     protected String identificador;
     protected String crpva;
     protected String numeroCopia;
-    protected String gestionInicio;
     protected String cilindrada;
     protected String traccion;
     protected String turbo;
@@ -41,15 +40,16 @@ public class ModificarDatosTecnicos extends Generator {
         super();
         this.accessExcel = new AccessExcel(ConstantsVEH.GENERATOR_DATA_FILE, MODIFICACION_DATOS_TECNICOS_DATA_SHEET);
         this.url = ExcelData.getUrl(ConstantsVEH.GENERATOR_DATA_FILE);
-        FileBuilder.newDirectory(this.getClass().getSimpleName(), ConstantsVEH.ID_SUBSYSTEM);
+        FileBuilder.newDirectory(GiveFormat.ofTitle(this.getClass().getSimpleName()), ConstantsVEH.ID_SUBSYSTEM);
     }
     public void getReport(By btnReport){
         Click.on(this.driverApp, btnReport);
-        FileBuilder.moveFile("enviarPDF.pdf");
-        FileBuilder.renameReport("enviarPDF.pdf", this.operacion, GetText.ofValue(this.driverApp, btnReport).trim(), this.identificador, ConstantsVEH.ID_SUBSYSTEM, i + 1);
-        try{
+        //FileBuilder.moveFile("enviarPDF.pdf");
+        //FileBuilder.renameReport("enviarPDF.pdf", this.operacion, GetText.ofValue(this.driverApp, btnReport).trim(), this.identificador, ConstantsVEH.ID_SUBSYSTEM, i + 1);
+        FileBuilder.moveAndRenameFile("enviarPDF.pdf", this.operacion, GetText.ofValue(this.driverApp, btnReport).trim(), this.identificador, ConstantsVEH.ID_SUBSYSTEM, i + 1);
+        /*try{
             Thread.sleep(1000);
-        }catch (Exception exception){}
+        }catch (Exception exception){}*/
 
     }
     public void confirmProcedure(){
@@ -78,33 +78,35 @@ public class ModificarDatosTecnicos extends Generator {
         SearchVehicle.forPTA(this.driverApp, this.identificador);
         if (ValidatePropertyCertificate.isReady(this.driverApp)){
             ValidatePropertyCertificate.withData(this.driverApp, this.crpva, this.numeroCopia);
-            if(ReceiveDocumentation.isReady(this.driverApp)){
+            if(ReceiveDocumentation.isReady(this.driverApp, test.get(i))){
                 ReceiveDocumentation.toModifyTechnicalData(this.driverApp);
-                if (SelectPeriod.isReady(this.driverApp)){
-                    SelectPeriod.toModifyTechnicalData(this.driverApp, this.gestionInicio);
-                    if(Modify.isReady(this.driverApp)){
-                        Modify.cilindrada(this.driverApp, test.get(i), this.operacion, this.cilindrada, this.traccion);
-                        if (WaitUntilElement.isElementVisible(this.driverApp, TramiteUI.btnImprimirReporte, 2)){
-                            confirmProcedure();
-                        }else{
-                            //ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, test.get(i), Status.INFO, "Something was wrong modifying technical data...");
-                            Log.recordInLog("Something was wrong modifying technical data...");
-                        }
-                    }else{
-                        ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, test.get(i), Status.INFO, "Something was wrong modifying technical data...");
-                        Log.recordInLog("Something was wrong modifying technical data...");
-                    }
+                if (SelectPeriod.isReady(this.driverApp)) {
+                    SelectPeriod.toModifyTechnicalData(this.driverApp);
                 }else {
-                    ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, test.get(i), Status.INFO, "Something was wrong selecting period...");
-                    Log.recordInLog("Something was wrong selecting period...");
+                    ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, test.get(i), Status.INFO, "No se pudo seleccionar el periodo de modificación de datos...");
+                    Log.recordInLog("No se pudo seleccionar el periodo de modificación de datos...");
+                }
+                if(Modify.isReady(this.driverApp)){
+                    Modify.cilindrada(this.driverApp, test.get(i), this.operacion, this.cilindrada, this.traccion);
+                    if (WaitUntilElement.isElementVisible(this.driverApp, TramiteUI.btnImprimirReporte, 2)){
+                        confirmProcedure();
+                        returnMainMenu();
+                        GetProforma.detailed(this.driverApp, test.get(i), this.identificador, i + 1);
+                    }else{
+                        //ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, test.get(i), Status.INFO, "Something was wrong modifying technical data...");
+                        Log.recordInLog("No se pudo completar la modificación técnica...");
+                    }
+                }else{
+                    ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, test.get(i), Status.SKIP, "No se pudo realizar la modificación técnica...");
+                    Log.recordInLog("No se pudo realizar la modificación técnica...");
                 }
             }else {
-                ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, test.get(i), Status.INFO, "Something was wrong validating CRPVA...");
-                Log.recordInLog("Something was wrong validating CRPVA...");
+                //ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, test.get(i), Status.INFO, "Something was wrong validating CRPVA...");
+                Log.recordInLog("No se pudo validar el CRPVA...");
             }
         }else{
-            ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, test.get(i), Status.INFO, "Something was wrong searching vehicle...");
-            Log.recordInLog("Algo salió mal al buscar el vehículo...");
+            ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, test.get(i), Status.SKIP, "El vehículo tiene alguna observación...");
+            Log.recordInLog("El vehículo tiene alguna observación...");
         }
     }
 
@@ -125,7 +127,7 @@ public class ModificarDatosTecnicos extends Generator {
 
     @Override
     public void logout() {
-
+        LoginVehiculos.logout(this.driverApp);
     }
 
     @Override
@@ -135,6 +137,7 @@ public class ModificarDatosTecnicos extends Generator {
 
     @Override
     public boolean isNotLoggedIn() {
+        boolean flag = WaitUntilElement.isElementVisible(this.driverApp, MainMenuUI.lnkCerrarSesion);
         return !WaitUntilElement.isElementVisible(this.driverApp, MainMenuUI.lnkCerrarSesion);
     }
 

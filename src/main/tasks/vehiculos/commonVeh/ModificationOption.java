@@ -8,4 +8,6 @@ import java.util.Map;
 public class ModificationOption {
     public static Map<String, By> modificationOption = Map.of("MODIFICAR FECHA INICIO DE IMPUESTOS", SeleccionarModificacionUI.lnkModificarFechaInicioImpuestos,
                                                               "MODIFICAR SERVICIO", SeleccionarModificacionUI.lnkModificarServicio);
+    public static Map<String, String> modificationProcess = Map.of("MODIFICAR FECHA INICIO DE IMPUESTOS", "modifyTaxStartDate",
+                                                                   "MODIFICAR SERVICIO", "modifyService");
 }

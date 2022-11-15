@@ -20,10 +20,8 @@ public class RegistrarTarjetaOperacion {
         SelectOption.firstOption(driver, RegistrarTarjetaOperacionUI.txtTipoTarjetaOperacion);
         Enter.text(driver, RegistrarTarjetaOperacionUI.txtNombreAutoridadEmisora, "Autoridad");
         Enter.text(driver, RegistrarTarjetaOperacionUI.txtNumeroTarjeta, nroCard);
-        //Enter.text(driver, RegistrarTarjetaOperacionUI.txtFechaInicio, initialDate);
-        //Enter.text(driver, RegistrarTarjetaOperacionUI.txtFechaFin, finalDate);
-        Enter.date(driver, RegistrarTarjetaOperacionUI.txtFechaInicio, initialDate);
-        Enter.date(driver, RegistrarTarjetaOperacionUI.txtFechaFin, finalDate);
+        Enter.dateById(driver, RegistrarTarjetaOperacionUI.txtFechaInicio, initialDate);
+        Enter.dateById(driver, RegistrarTarjetaOperacionUI.txtFechaFin, finalDate);
         Click.on(driver, RegistrarTarjetaOperacionUI.btnAceptar);
     }
 }
