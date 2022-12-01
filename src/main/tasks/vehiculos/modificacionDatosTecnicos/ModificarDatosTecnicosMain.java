@@ -18,11 +18,10 @@ import main.ui.vehiculosUI.commonUI.FramesUI;
 import main.ui.vehiculosUI.commonUI.LeftMenuUI;
 import main.ui.vehiculosUI.mainMenuUI.MainMenuUI;
 import main.ui.vehiculosUI.modificacionDatosTecnicosUI.TramiteUI;
-import main.ui.vehiculosUI.commonUI.ValidarCertificadoPropiedadUI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class ModificarDatosTecnicos extends Generator {
+public class ModificarDatosTecnicosMain extends Generator {
     public static final String MODIFICACION_DATOS_TECNICOS_DATA_SHEET = "ModificacionDatosTecnicos";
     public static final String MODIFICACION_DATOS_TECNICOS_GROUPER = "Modificación Datos Técnicos";
     public static final String MODIFICACION_DATOS_TECNICOS_MODULE = "Modificación de Datos Técnicos";
@@ -36,7 +35,7 @@ public class ModificarDatosTecnicos extends Generator {
     protected String traccion;
     protected String turbo;
 
-    public ModificarDatosTecnicos(){
+    public ModificarDatosTecnicosMain(){
         super();
         this.accessExcel = new AccessExcel(ConstantsVEH.GENERATOR_DATA_FILE, MODIFICACION_DATOS_TECNICOS_DATA_SHEET);
         this.url = ExcelData.getUrl(ConstantsVEH.GENERATOR_DATA_FILE);
@@ -76,7 +75,7 @@ public class ModificarDatosTecnicos extends Generator {
         this.driverApp.switchTo().defaultContent();
         this.driverApp.switchTo().frame(FramesUI.frameNameContenido);
         SearchVehicle.forPTA(this.driverApp, this.identificador);
-        if (ValidatePropertyCertificate.isReady(this.driverApp)){
+        if (ValidatePropertyCertificate.isReady(this.driverApp, test.get(i))){
             ValidatePropertyCertificate.withData(this.driverApp, this.crpva, this.numeroCopia);
             if(ReceiveDocumentation.isReady(this.driverApp, test.get(i))){
                 ReceiveDocumentation.toModifyTechnicalData(this.driverApp);
@@ -86,8 +85,8 @@ public class ModificarDatosTecnicos extends Generator {
                     ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, test.get(i), Status.INFO, "No se pudo seleccionar el periodo de modificación de datos...");
                     Log.recordInLog("No se pudo seleccionar el periodo de modificación de datos...");
                 }
-                if(Modify.isReady(this.driverApp)){
-                    Modify.cilindrada(this.driverApp, test.get(i), this.operacion, this.cilindrada, this.traccion);
+                if(ModifyTechnicalData.isReady(this.driverApp)){
+                    ModifyTechnicalData.cilindrada(this.driverApp, test.get(i), this.operacion, this.cilindrada, this.traccion);
                     if (WaitUntilElement.isElementVisible(this.driverApp, TramiteUI.btnImprimirReporte, 2)){
                         confirmProcedure();
                         returnMainMenu();

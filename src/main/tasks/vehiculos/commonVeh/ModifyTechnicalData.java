@@ -5,10 +5,9 @@ import com.aventstack.extentreports.Status;
 import main.actions.*;
 import main.helpers.dataUtility.ScreenShotHelper;
 import main.ui.vehiculosUI.commonUI.TechnicalDataUI;
-import main.ui.vehiculosUI.modificacionDatosTecnicosUI.TramiteUI;
 import org.openqa.selenium.WebDriver;
 
-public class Modify {
+public class ModifyTechnicalData {
     public static boolean isReady(WebDriver driver){
         return WaitUntilElement.isElementVisible(driver, TechnicalDataUI.txtNumeroMotor);
     }

@@ -14826,3 +14826,616 @@
 15/11/2022 17:38:10.173: Proceso concluido: Módulo - MODIFICAR-DATOS-TECNICOS-OPERADOR
 15/11/2022 17:38:10.173: =========================================================================
 15/11/2022 17:38:12.193: Proceso concluido.
+29/11/2022 13:13:21.559: Tiempo Inicialización (navegador): 1 min. 13 seg. 115 mseg.
+29/11/2022 13:13:21.618: Abriendo aplicación...
+29/11/2022 13:13:21.933: *************************************************************************
+29/11/2022 13:13:21.936:                        MODIFICAR-DATOS-SUPERVISOR-MAIN
+29/11/2022 13:13:21.938: *************************************************************************
+29/11/2022 13:13:21.942: Ambiente: https://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/Administracion/Autentificacion/begin.do
+29/11/2022 13:13:21.947: Fecha: 29/11/2022 13:13:21.945
+29/11/2022 13:13:28.034: Proceso de Iniciar sesión: ...
+29/11/2022 13:13:40.627: Login process: OK
+29/11/2022 13:13:57.545: =========================================================================
+29/11/2022 13:16:59.984: Tiempo Inicialización (navegador): 31 seg. 475 mseg.
+29/11/2022 13:17:00.043: Abriendo aplicación...
+29/11/2022 13:17:00.367: *************************************************************************
+29/11/2022 13:17:00.370:                        MODIFICAR-DATOS-SUPERVISOR-MAIN
+29/11/2022 13:17:00.372: *************************************************************************
+29/11/2022 13:17:00.375: Ambiente: https://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/Administracion/Autentificacion/begin.do
+29/11/2022 13:17:00.379: Fecha: 29/11/2022 13:17:00.377
+29/11/2022 13:17:06.392: Proceso de Iniciar sesión: ...
+29/11/2022 13:17:18.045: Login process: OK
+29/11/2022 13:17:20.587: =========================================================================
+29/11/2022 13:17:56.254: Searching vehicle: 5988TAE
+29/11/2022 13:18:16.730: PTA no registrada.
+29/11/2022 13:19:07.164: Cargando opción...
+29/11/2022 13:19:44.484: =========================================================================
+29/11/2022 13:20:15.528: Searching vehicle: 109KBC
+29/11/2022 13:20:42.395: Cargando opción...
+29/11/2022 13:20:50.377: Proceso de recibir documentación...
+29/11/2022 13:21:37.091: Cargando opción...
+29/11/2022 13:21:47.153: Seleccionando tipo de modificación: MODIFICAR DATOS MINUTA
+29/11/2022 13:22:28.903: Cargando opción...
+29/11/2022 13:22:53.012: La transacción demoró demasiado...
+29/11/2022 13:23:44.782: Se tiene un pago por Concepto de IMT el mismo que será rectificado.
+29/11/2022 13:24:19.242: -------------------------------------------------------------------------
+29/11/2022 13:24:19.973: Tiempo Total de Ejecución: 7 min. 51 seg. 966 mseg.
+29/11/2022 13:24:20.522: Proceso concluido: Módulo - MODIFICAR-DATOS-SUPERVISOR-MAIN
+29/11/2022 13:24:20.534: =========================================================================
+29/11/2022 13:24:33.112: Proceso concluido.
+29/11/2022 13:34:09.304: Tiempo Inicialización (navegador): 7 seg. 878 mseg.
+29/11/2022 13:34:09.346: Abriendo aplicación...
+29/11/2022 13:34:09.657: *************************************************************************
+29/11/2022 13:34:09.658:                        MODIFICAR-DATOS-SUPERVISOR-MAIN
+29/11/2022 13:34:09.659: *************************************************************************
+29/11/2022 13:34:09.660: Ambiente: https://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/Administracion/Autentificacion/begin.do
+29/11/2022 13:34:09.719: Fecha: 29/11/2022 13:34:09.661
+29/11/2022 13:34:10.849: Proceso de Iniciar sesión: ...
+29/11/2022 13:34:15.304: Login process: OK
+29/11/2022 13:34:15.305: =========================================================================
+29/11/2022 13:34:17.557: Searching vehicle: 5988TAE
+29/11/2022 13:34:18.043: PTA no registrada.
+29/11/2022 13:34:23.192: Cargando opción...
+29/11/2022 13:34:23.192: =========================================================================
+29/11/2022 13:34:27.432: Searching vehicle: 109KBC
+29/11/2022 13:34:32.407: Cargando opción...
+29/11/2022 13:34:32.408: Proceso de recibir documentación...
+29/11/2022 13:34:38.196: Cargando opción...
+29/11/2022 13:34:39.063: Seleccionando tipo de modificación: MODIFICAR DATOS MINUTA
+29/11/2022 13:34:43.960: Cargando opción...
+29/11/2022 13:35:09.757: La transacción demoró demasiado...
+29/11/2022 13:35:15.194: Proceso inconcluso
+29/11/2022 13:40:16.202: Tiempo Inicialización (navegador): 7 seg. 375 mseg.
+29/11/2022 13:40:16.259: Abriendo aplicación...
+29/11/2022 13:40:16.575: *************************************************************************
+29/11/2022 13:40:16.576:                        MODIFICAR-DATOS-SUPERVISOR-MAIN
+29/11/2022 13:40:16.576: *************************************************************************
+29/11/2022 13:40:16.577: Ambiente: https://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/Administracion/Autentificacion/begin.do
+29/11/2022 13:40:16.577: Fecha: 29/11/2022 13:40:16.577
+29/11/2022 13:40:17.660: Proceso de Iniciar sesión: ...
+29/11/2022 13:40:22.131: Login process: OK
+29/11/2022 13:40:22.131: =========================================================================
+29/11/2022 13:40:23.878: Searching vehicle: 5988TAE
+29/11/2022 13:40:24.431: PTA no registrada.
+29/11/2022 13:40:29.475: Cargando opción...
+29/11/2022 13:40:29.476: =========================================================================
+29/11/2022 13:40:33.609: Searching vehicle: 109KBC
+29/11/2022 13:40:38.543: Cargando opción...
+29/11/2022 13:40:38.544: Proceso de recibir documentación...
+29/11/2022 13:40:44.448: Cargando opción...
+29/11/2022 13:40:44.706: Seleccionando tipo de modificación: MODIFICAR DATOS MINUTA
+29/11/2022 13:40:49.594: Cargando opción...
+29/11/2022 13:41:19.507: No se pudo ejecutar el método...
+29/11/2022 13:41:19.727: Se tiene un pago por Concepto de IMT el mismo que será rectificado.
+29/11/2022 13:41:19.934: -------------------------------------------------------------------------
+29/11/2022 13:41:19.936: Tiempo Total de Ejecución: 1 min. 11 seg. 123 mseg.
+29/11/2022 13:41:19.937: Proceso concluido: Módulo - MODIFICAR-DATOS-SUPERVISOR-MAIN
+29/11/2022 13:41:19.938: =========================================================================
+29/11/2022 13:41:22.232: Proceso concluido.
+29/11/2022 13:43:10.707: Tiempo Inicialización (navegador): 7 seg. 602 mseg.
+29/11/2022 13:43:10.738: Abriendo aplicación...
+29/11/2022 13:43:11.056: *************************************************************************
+29/11/2022 13:43:11.057:                        MODIFICAR-DATOS-SUPERVISOR-MAIN
+29/11/2022 13:43:11.060: *************************************************************************
+29/11/2022 13:43:11.061: Ambiente: https://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/Administracion/Autentificacion/begin.do
+29/11/2022 13:43:11.062: Fecha: 29/11/2022 13:43:11.062
+29/11/2022 13:43:12.168: Proceso de Iniciar sesión: ...
+29/11/2022 13:43:16.590: Login process: OK
+29/11/2022 13:43:16.590: =========================================================================
+29/11/2022 13:43:18.324: Searching vehicle: 5988TAE
+29/11/2022 13:43:18.811: PTA no registrada.
+29/11/2022 13:43:23.857: Cargando opción...
+29/11/2022 13:43:23.857: =========================================================================
+29/11/2022 13:43:28.004: Searching vehicle: 109KBC
+29/11/2022 13:43:32.975: Cargando opción...
+29/11/2022 13:43:32.977: Proceso de recibir documentación...
+29/11/2022 13:43:38.809: Cargando opción...
+29/11/2022 13:43:39.122: Seleccionando tipo de modificación: MODIFICAR DATOS MINUTA
+29/11/2022 13:43:44.031: Cargando opción...
+29/11/2022 13:44:15.983: Modificación de minuta: Se tiene un pago por Concepto de IMT el mismo que será rectificado.
+29/11/2022 13:44:20.882: Cargando opción...
+29/11/2022 13:44:25.935: Cargando opción...
+29/11/2022 13:44:31.272: Cargando opción...
+29/11/2022 13:44:35.327: Los datos se consolidaron correctamente.
+29/11/2022 13:44:42.198: Entrando a proforma...
+29/11/2022 13:44:42.644: Cargando módulo Proforma
+29/11/2022 13:44:46.465: Searching vehicle: 109KBC
+29/11/2022 13:44:46.467: Buscando PTA: 109KBC
+29/11/2022 13:44:46.467: Verificando si hay alertas...
+29/11/2022 13:44:51.587: Verificando notificaciones...
+29/11/2022 13:44:54.881: deslizando la página hasta el final...
+29/11/2022 13:44:55.113: Obteniendo proforma detallada
+29/11/2022 13:44:57.734: La proforma fue generada correctamente.
+29/11/2022 13:44:57.899: -------------------------------------------------------------------------
+29/11/2022 13:44:57.900: Tiempo Total de Ejecución: 1 min. 54 seg. 824 mseg.
+29/11/2022 13:44:57.901: Proceso concluido: Módulo - MODIFICAR-DATOS-SUPERVISOR-MAIN
+29/11/2022 13:44:57.902: =========================================================================
+29/11/2022 13:45:00.342: Proceso concluido.
+29/11/2022 14:25:33.683: Tiempo Inicialización (navegador): 7 seg. 810 mseg.
+29/11/2022 14:25:33.715: Abriendo aplicación...
+29/11/2022 14:25:34.003: *************************************************************************
+29/11/2022 14:25:34.004:                        MODIFICAR-DATOS-SUPERVISOR-MAIN
+29/11/2022 14:25:34.004: *************************************************************************
+29/11/2022 14:25:34.005: Ambiente: https://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/Administracion/Autentificacion/begin.do
+29/11/2022 14:25:34.006: Fecha: 29/11/2022 14:25:34.006
+29/11/2022 14:25:35.154: Proceso de Iniciar sesión: ...
+29/11/2022 14:25:39.555: Login process: OK
+29/11/2022 14:25:39.556: =========================================================================
+29/11/2022 14:25:42.974: Searching vehicle: 662KKI
+29/11/2022 14:26:18.234: El vehículo no pasó las validaciones necesarias.
+29/11/2022 14:26:23.347: Cargando opción...
+29/11/2022 14:26:23.348: =========================================================================
+29/11/2022 14:26:25.885: Searching vehicle: 057LHN
+29/11/2022 14:27:01.197: El vehículo no pasó las validaciones necesarias.
+29/11/2022 14:27:01.390: -------------------------------------------------------------------------
+29/11/2022 14:27:01.391: Tiempo Total de Ejecución: 1 min. 35 seg. 552 mseg.
+29/11/2022 14:27:01.392: Proceso concluido: Módulo - MODIFICAR-DATOS-SUPERVISOR-MAIN
+29/11/2022 14:27:01.392: =========================================================================
+29/11/2022 14:27:04.268: Proceso concluido.
+29/11/2022 14:30:23.651: Tiempo Inicialización (navegador): 7 seg. 716 mseg.
+29/11/2022 14:30:23.684: Abriendo aplicación...
+29/11/2022 14:30:23.978: *************************************************************************
+29/11/2022 14:30:23.978:                        PROFORMA
+29/11/2022 14:30:23.979: *************************************************************************
+29/11/2022 14:30:23.979: Ambiente: https://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/Administracion/Autentificacion/begin.do
+29/11/2022 14:30:23.980: Fecha: 29/11/2022 14:30:23.980
+29/11/2022 14:30:25.078: Proceso de Iniciar sesión: ...
+29/11/2022 14:30:29.496: Login process: OK
+29/11/2022 14:30:29.496: =========================================================================
+29/11/2022 14:30:30.481: Identificador de Vehículo: 662KKI
+29/11/2022 14:30:58.555: =========================================================================
+29/11/2022 14:30:59.986: Identificador de Vehículo: 285SXH
+29/11/2022 14:31:20.640: -------------------------------------------------------------------------
+29/11/2022 14:31:20.640: Tiempo Total de Ejecución: 1 min. 4 seg. 741 mseg.
+29/11/2022 14:31:20.641: Proceso concluido: Módulo - PROFORMA
+29/11/2022 14:31:20.642: =========================================================================
+29/11/2022 14:31:22.698: Proceso concluido exitosamente
+01/12/2022 09:12:48.900: Tiempo Inicialización (navegador): 13 seg. 717 mseg.
+01/12/2022 09:12:48.951: Abriendo aplicación...
+01/12/2022 09:12:49.266: *************************************************************************
+01/12/2022 09:12:49.266:                        P-R-O-F-O-R-M-A
+01/12/2022 09:12:49.267: *************************************************************************
+01/12/2022 09:12:49.267: Ambiente: http://inmueblesimpl.ruat.gob.bo/InmueblesWeb/index.jsp
+01/12/2022 09:12:49.269: Fecha: 01/12/2022 09:12:49.268
+01/12/2022 09:12:53.722:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+01/12/2022 09:12:55.621: Proceso de autentificación: ...
+01/12/2022 09:13:01.810: -------------------------------
+01/12/2022 09:13:02.642: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 09:13:03.769: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 09:13:04.507: Búsqueda Inmueble: ...
+01/12/2022 09:13:04.507:  Número Inmueble: 204692 ( LA PAZ )
+01/12/2022 09:13:29.973: Búsqueda Inmueble: OK.
+01/12/2022 09:13:30.066: Detalle Deudas: ...
+01/12/2022 09:13:30.951:   No existe la deuda requerida (IMT)
+01/12/2022 09:13:30.952: Detalle Deudas: OK.
+01/12/2022 09:13:31.717: -------------------------------
+01/12/2022 09:13:32.397: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 09:13:33.357: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 09:13:33.463: Búsqueda Inmueble: ...
+01/12/2022 09:13:33.464:  Número Inmueble: 204692 ( LA PAZ )
+01/12/2022 09:13:34.593: Búsqueda Inmueble: OK.
+01/12/2022 09:13:34.697: Detalle Deudas: ...
+01/12/2022 09:13:42.417:   Generar Proforma: (TODOS)
+01/12/2022 09:33:20.538: Tiempo Inicialización (navegador): 8 seg. 438 mseg.
+01/12/2022 09:33:20.577: Abriendo aplicación...
+01/12/2022 09:33:20.911: *************************************************************************
+01/12/2022 09:33:20.912:                        P-R-O-F-O-R-M-A
+01/12/2022 09:33:20.912: *************************************************************************
+01/12/2022 09:33:20.913: Ambiente: http://inmueblesimpl.ruat.gob.bo/InmueblesWeb/index.jsp
+01/12/2022 09:33:20.914: Fecha: 01/12/2022 09:33:20.914
+01/12/2022 09:33:23.876:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+01/12/2022 09:33:25.646: Proceso de autentificación: ...
+01/12/2022 09:33:27.119: Proceso de autentificación: OK.
+01/12/2022 09:33:27.121: -------------------------------
+01/12/2022 09:33:27.889: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 09:33:28.890: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 09:33:29.007: Búsqueda Inmueble: ...
+01/12/2022 09:33:29.007:  Número Inmueble: 204692 ( LA PAZ )
+01/12/2022 09:33:31.030: Búsqueda Inmueble: OK.
+01/12/2022 09:33:31.154: Detalle Deudas: ...
+01/12/2022 09:33:31.392:   Solo Liquida: (IP)
+01/12/2022 09:33:31.392:   Solo Liquida: OK.
+01/12/2022 09:33:31.393: Detalle Deudas: OK.
+01/12/2022 09:33:32.035: -------------------------------
+01/12/2022 09:33:32.738: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 09:33:33.743: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 09:33:33.836: Búsqueda Inmueble: ...
+01/12/2022 09:33:33.845:  Número Inmueble: 204692 ( LA PAZ )
+01/12/2022 09:33:34.936: Búsqueda Inmueble: OK.
+01/12/2022 09:33:35.082: Detalle Deudas: ...
+01/12/2022 09:33:35.839:   No existe la deuda requerida (IMT)
+01/12/2022 09:33:35.839: Detalle Deudas: OK.
+01/12/2022 09:33:36.613: -------------------------------
+01/12/2022 09:33:37.331: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 09:33:38.302: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 09:33:38.392: Búsqueda Inmueble: ...
+01/12/2022 09:33:38.393:  Número Inmueble: 204692 ( LA PAZ )
+01/12/2022 09:33:40.224: Búsqueda Inmueble: OK.
+01/12/2022 09:33:40.325: Detalle Deudas: ...
+01/12/2022 09:33:44.423:   Generar Proforma: (TODOS)
+01/12/2022 09:33:44.958:   Generar Proforma: OK.
+01/12/2022 09:33:44.959: Detalle Deudas: OK.
+01/12/2022 09:33:45.664: -------------------------------
+01/12/2022 09:33:46.386: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 09:33:47.454: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 09:33:47.547: Búsqueda Inmueble: ...
+01/12/2022 09:33:47.547:  Número Inmueble: 284818 ( LA PAZ )
+01/12/2022 09:33:52.636: Búsqueda Inmueble: OK.
+01/12/2022 09:33:52.794: Detalle Deudas: ...
+01/12/2022 09:33:55.733:   Generar Proforma: (MIDF (IP))
+01/12/2022 09:33:56.012:   Generar Proforma: OK.
+01/12/2022 09:33:56.013: Detalle Deudas: OK.
+01/12/2022 09:33:56.677: -------------------------------
+01/12/2022 09:33:57.367: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 09:33:58.344: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 09:33:58.468: Búsqueda Inmueble: ...
+01/12/2022 09:33:58.468:  Número Inmueble: 965748 ( LA PAZ )
+01/12/2022 09:34:03.593: Búsqueda Inmueble: OK.
+01/12/2022 09:34:03.701: Detalle Deudas: ...
+01/12/2022 09:34:05.680:   Generar Proforma: (IMT)
+01/12/2022 09:34:05.924:   Generar Proforma: OK.
+01/12/2022 09:34:05.926: Detalle Deudas: OK.
+01/12/2022 09:34:06.592: -------------------------------
+01/12/2022 09:34:07.295: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 09:34:08.274: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 09:34:08.365: Búsqueda Inmueble: ...
+01/12/2022 09:34:08.366:  Número Inmueble: 84925 ( LA PAZ )
+01/12/2022 09:34:09.823: Búsqueda Inmueble: OK.
+01/12/2022 09:34:09.924: Detalle Deudas: ...
+01/12/2022 09:34:10.206:   No existe la deuda requerida (MIDF (IMT))
+01/12/2022 09:34:10.206: Detalle Deudas: OK.
+01/12/2022 09:34:10.966: -------------------------------
+01/12/2022 09:34:11.681: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 09:34:12.649: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 09:34:12.739: Búsqueda Inmueble: ...
+01/12/2022 09:34:12.739:  Número Inmueble: 1031924 ( LA PAZ )
+01/12/2022 09:34:16.353: Búsqueda Inmueble: OK.
+01/12/2022 09:34:16.457: Detalle Deudas: ...
+01/12/2022 09:34:18.798:   Generar Proforma: (TODOS)
+01/12/2022 09:34:19.052:   Generar Proforma: OK.
+01/12/2022 09:34:19.053: Detalle Deudas: OK.
+01/12/2022 09:34:19.678: -------------------------------
+01/12/2022 09:34:20.367: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 09:34:21.343: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 09:34:21.433: Búsqueda Inmueble: ...
+01/12/2022 09:34:21.433:  Número Inmueble: 204692 ( LA PAZ )
+01/12/2022 09:34:22.533: Búsqueda Inmueble: OK.
+01/12/2022 09:34:22.626: Detalle Deudas: ...
+01/12/2022 09:34:22.844:   Solo Liquida: (IP)
+01/12/2022 09:34:22.844:   Solo Liquida: OK.
+01/12/2022 09:34:22.845: Detalle Deudas: OK.
+01/12/2022 09:34:23.568: -------------------------------
+01/12/2022 09:34:24.286: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 09:34:25.279: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 09:34:25.374: Búsqueda Inmueble: ...
+01/12/2022 09:34:25.375:  Número Inmueble: 204692 ( LA PAZ )
+01/12/2022 09:34:26.388: Búsqueda Inmueble: OK.
+01/12/2022 09:34:26.480: Detalle Deudas: ...
+01/12/2022 09:34:26.698:   Solo Liquida: (IMT)
+01/12/2022 09:34:26.699:   Solo Liquida: OK.
+01/12/2022 09:34:26.699: Detalle Deudas: OK.
+01/12/2022 09:34:27.372: -------------------------------
+01/12/2022 09:34:28.091: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 09:34:29.021: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 09:34:29.142: Búsqueda Inmueble: ...
+01/12/2022 09:34:29.142:  Número Inmueble: 204692 ( LA PAZ )
+01/12/2022 09:34:30.176: Búsqueda Inmueble: OK.
+01/12/2022 09:34:30.266: Detalle Deudas: ...
+01/12/2022 09:34:30.513:   Solo Liquida: (TODOS)
+01/12/2022 09:34:30.513:   Solo Liquida: OK.
+01/12/2022 09:34:30.515: Detalle Deudas: OK.
+01/12/2022 09:34:31.159: -------------------------------
+01/12/2022 09:34:31.844: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 09:34:32.813: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 09:34:32.907: Búsqueda Inmueble: ...
+01/12/2022 09:34:32.908:  Número Inmueble: 284818 ( LA PAZ )
+01/12/2022 09:34:34.190: Búsqueda Inmueble: OK.
+01/12/2022 09:34:34.298: Detalle Deudas: ...
+01/12/2022 09:34:36.907:   Generar Proforma: (MIDF (IP))
+01/12/2022 09:34:37.157:   Generar Proforma: OK.
+01/12/2022 09:34:37.159: Detalle Deudas: OK.
+01/12/2022 09:34:37.887: -------------------------------
+01/12/2022 09:34:38.575: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 09:34:39.595: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 09:34:39.686: Búsqueda Inmueble: ...
+01/12/2022 09:34:39.687:  Número Inmueble: 965748 ( LA PAZ )
+01/12/2022 09:34:40.725: Búsqueda Inmueble: OK.
+01/12/2022 09:34:40.816: Detalle Deudas: ...
+01/12/2022 09:34:41.896:   Generar Proforma: (IMT)
+01/12/2022 09:34:42.133:   Generar Proforma: OK.
+01/12/2022 09:34:42.135: Detalle Deudas: OK.
+01/12/2022 09:34:42.774: -------------------------------
+01/12/2022 09:34:43.475: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 09:34:44.457: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 09:34:44.530: Búsqueda Inmueble: ...
+01/12/2022 09:34:44.531:  Número Inmueble: 84925 ( LA PAZ )
+01/12/2022 09:34:45.436: Búsqueda Inmueble: OK.
+01/12/2022 09:34:45.526: Detalle Deudas: ...
+01/12/2022 09:34:45.837:   No existe la deuda requerida (MIDF (IMT))
+01/12/2022 09:34:45.837: Detalle Deudas: OK.
+01/12/2022 09:34:46.484: -------------------------------
+01/12/2022 09:34:47.190: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 09:34:48.177: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 09:34:48.267: Búsqueda Inmueble: ...
+01/12/2022 09:34:48.267:  Número Inmueble: 1031924 ( LA PAZ )
+01/12/2022 09:34:49.412: Búsqueda Inmueble: OK.
+01/12/2022 09:34:49.568: Detalle Deudas: ...
+01/12/2022 09:34:49.834:   Solo Liquida: (TODOS)
+01/12/2022 09:34:49.834:   Solo Liquida: OK.
+01/12/2022 09:34:49.834: Detalle Deudas: OK.
+01/12/2022 09:34:50.444: -------------------------------------------------------------------------
+01/12/2022 09:34:50.445: Tiempo Total de Ejecución: 1 min. 38 seg. 400 mseg.
+01/12/2022 09:34:50.445: Proceso concluido: Módulo -  -MÓDULO (-P-R-O-F-O-R-M-A)
+01/12/2022 09:34:50.446: =========================================================================
+01/12/2022 09:34:53.146: Proceso concluido exitosamente
+01/12/2022 11:04:13.572: Tiempo Inicialización (navegador): 6 seg. 984 mseg.
+01/12/2022 11:04:13.623: Abriendo aplicación...
+01/12/2022 11:04:13.945: *************************************************************************
+01/12/2022 11:04:13.946:                        P-R-O-F-O-R-M-A
+01/12/2022 11:04:13.947: *************************************************************************
+01/12/2022 11:04:13.948: Ambiente: http://inmueblesimpl.ruat.gob.bo/InmueblesWeb/index.jsp
+01/12/2022 11:04:13.949: Fecha: 01/12/2022 11:04:13.949
+01/12/2022 11:04:17.118:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+01/12/2022 11:04:18.910: Proceso de autentificación: ...
+01/12/2022 11:04:20.426: Proceso de autentificación: OK.
+01/12/2022 11:04:20.427: -------------------------------
+01/12/2022 11:04:21.142: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 11:04:22.215: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 11:04:22.342: Búsqueda Inmueble: ...
+01/12/2022 11:04:22.342:  Número Inmueble: 204692 ( LA PAZ )
+01/12/2022 11:04:23.561: Búsqueda Inmueble: OK.
+01/12/2022 11:04:23.664: Detalle Deudas: ...
+01/12/2022 11:04:23.900:   Solo Liquida: (IP)
+01/12/2022 11:04:23.900:   Solo Liquida: OK.
+01/12/2022 11:04:23.901: Detalle Deudas: OK.
+01/12/2022 11:04:24.697: -------------------------------
+01/12/2022 11:04:25.399: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 11:04:26.404: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 11:04:26.496: Búsqueda Inmueble: ...
+01/12/2022 11:04:26.497:  Número Inmueble: 204692 ( LA PAZ )
+01/12/2022 11:04:27.590: Búsqueda Inmueble: OK.
+01/12/2022 11:04:27.713: Detalle Deudas: ...
+01/12/2022 11:04:28.561:   No existe la deuda requerida (IMT)
+01/12/2022 11:04:28.562: Detalle Deudas: OK.
+01/12/2022 11:04:29.993: -------------------------------
+01/12/2022 11:04:30.763: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 11:04:31.769: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 11:04:31.862: Búsqueda Inmueble: ...
+01/12/2022 11:04:31.863:  Número Inmueble: 204692 ( LA PAZ )
+01/12/2022 11:04:32.937: Búsqueda Inmueble: OK.
+01/12/2022 11:04:33.056: Detalle Deudas: ...
+01/12/2022 11:04:37.122:   Generar Proforma: (TODOS)
+01/12/2022 11:04:37.524:   Generar Proforma: OK.
+01/12/2022 11:04:37.525: Detalle Deudas: OK.
+01/12/2022 11:04:38.196: -------------------------------
+01/12/2022 11:04:39.003: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 11:04:40.146: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 11:04:40.242: Búsqueda Inmueble: ...
+01/12/2022 11:04:40.242:  Número Inmueble: 284818 ( LA PAZ )
+01/12/2022 11:04:41.621: Búsqueda Inmueble: OK.
+01/12/2022 11:04:41.753: Detalle Deudas: ...
+01/12/2022 11:04:44.533:   Generar Proforma: (MIDF (IP))
+01/12/2022 11:04:44.916:   Generar Proforma: OK.
+01/12/2022 11:04:44.917: Detalle Deudas: OK.
+01/12/2022 11:04:45.569: -------------------------------
+01/12/2022 11:04:46.368: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 11:04:47.542: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 11:04:47.653: Búsqueda Inmueble: ...
+01/12/2022 11:04:47.654:  Número Inmueble: 965748 ( LA PAZ )
+01/12/2022 11:04:48.689: Búsqueda Inmueble: OK.
+01/12/2022 11:04:48.791: Detalle Deudas: ...
+01/12/2022 11:04:50.126:   Generar Proforma: (IMT)
+01/12/2022 11:04:50.427:   Generar Proforma: OK.
+01/12/2022 11:04:50.427: Detalle Deudas: OK.
+01/12/2022 11:04:51.081: -------------------------------
+01/12/2022 11:04:51.915: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 11:04:53.136: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 11:04:53.231: Búsqueda Inmueble: ...
+01/12/2022 11:04:53.231:  Número Inmueble: 84925 ( LA PAZ )
+01/12/2022 11:04:54.215: Búsqueda Inmueble: OK.
+01/12/2022 11:04:54.331: Detalle Deudas: ...
+01/12/2022 11:04:54.615:   No existe la deuda requerida (MIDF (IMT))
+01/12/2022 11:04:54.616: Detalle Deudas: OK.
+01/12/2022 11:04:55.318: -------------------------------
+01/12/2022 11:04:55.986: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 11:04:57.271: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 11:04:57.399: Búsqueda Inmueble: ...
+01/12/2022 11:04:57.399:  Número Inmueble: 1031924 ( LA PAZ )
+01/12/2022 11:04:58.455: Búsqueda Inmueble: OK.
+01/12/2022 11:04:58.561: Detalle Deudas: ...
+01/12/2022 11:05:00.938:   Generar Proforma: (TODOS)
+01/12/2022 11:05:01.262:   Generar Proforma: OK.
+01/12/2022 11:05:01.269: Detalle Deudas: OK.
+01/12/2022 11:05:01.942: -------------------------------
+01/12/2022 11:05:02.626: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 11:05:03.615: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 11:05:03.714: Búsqueda Inmueble: ...
+01/12/2022 11:05:03.714:  Número Inmueble: 204692 ( LA PAZ )
+01/12/2022 11:05:04.757: Búsqueda Inmueble: OK.
+01/12/2022 11:05:04.853: Detalle Deudas: ...
+01/12/2022 11:05:05.084:   Solo Liquida: (IP)
+01/12/2022 11:05:05.085:   Solo Liquida: OK.
+01/12/2022 11:05:05.085: Detalle Deudas: OK.
+01/12/2022 11:05:05.853: -------------------------------
+01/12/2022 11:05:06.684: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 11:05:07.896: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 11:05:08.005: Búsqueda Inmueble: ...
+01/12/2022 11:05:08.005:  Número Inmueble: 204692 ( LA PAZ )
+01/12/2022 11:05:09.160: Búsqueda Inmueble: OK.
+01/12/2022 11:05:09.258: Detalle Deudas: ...
+01/12/2022 11:05:09.487:   Solo Liquida: (IMT)
+01/12/2022 11:05:09.488:   Solo Liquida: OK.
+01/12/2022 11:05:09.488: Detalle Deudas: OK.
+01/12/2022 11:05:10.449: -------------------------------
+01/12/2022 11:05:11.244: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 11:05:12.368: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 11:05:12.468: Búsqueda Inmueble: ...
+01/12/2022 11:05:12.468:  Número Inmueble: 204692 ( LA PAZ )
+01/12/2022 11:05:13.579: Búsqueda Inmueble: OK.
+01/12/2022 11:05:13.686: Detalle Deudas: ...
+01/12/2022 11:05:13.913:   Solo Liquida: (TODOS)
+01/12/2022 11:05:13.914:   Solo Liquida: OK.
+01/12/2022 11:05:13.914: Detalle Deudas: OK.
+01/12/2022 11:05:14.637: -------------------------------
+01/12/2022 11:05:15.432: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 11:05:16.477: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 11:05:16.608: Búsqueda Inmueble: ...
+01/12/2022 11:05:16.609:  Número Inmueble: 284818 ( LA PAZ )
+01/12/2022 11:05:17.993: Búsqueda Inmueble: OK.
+01/12/2022 11:05:18.121: Detalle Deudas: ...
+01/12/2022 11:05:20.960:   Generar Proforma: (MIDF (IP))
+01/12/2022 11:05:21.288:   Generar Proforma: OK.
+01/12/2022 11:05:21.288: Detalle Deudas: OK.
+01/12/2022 11:05:21.992: -------------------------------
+01/12/2022 11:05:22.765: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 11:05:23.941: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 11:05:24.029: Búsqueda Inmueble: ...
+01/12/2022 11:05:24.029:  Número Inmueble: 965748 ( LA PAZ )
+01/12/2022 11:05:25.040: Búsqueda Inmueble: OK.
+01/12/2022 11:05:25.143: Detalle Deudas: ...
+01/12/2022 11:05:26.320:   Generar Proforma: (IMT)
+01/12/2022 11:05:26.619:   Generar Proforma: OK.
+01/12/2022 11:05:26.625: Detalle Deudas: OK.
+01/12/2022 11:05:27.334: -------------------------------
+01/12/2022 11:05:28.052: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 11:05:29.065: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 11:05:29.164: Búsqueda Inmueble: ...
+01/12/2022 11:05:29.164:  Número Inmueble: 84925 ( LA PAZ )
+01/12/2022 11:05:30.213: Búsqueda Inmueble: OK.
+01/12/2022 11:05:30.330: Detalle Deudas: ...
+01/12/2022 11:05:30.625:   No existe la deuda requerida (MIDF (IMT))
+01/12/2022 11:05:30.626: Detalle Deudas: OK.
+01/12/2022 11:05:31.240: -------------------------------
+01/12/2022 11:05:31.940: Iniciando módulo Proforma Inmuebles: ...
+01/12/2022 11:05:32.968: Iniciando módulo Proforma Inmuebles: OK.
+01/12/2022 11:05:33.064: Búsqueda Inmueble: ...
+01/12/2022 11:05:33.064:  Número Inmueble: 1031924 ( LA PAZ )
+01/12/2022 11:05:34.060: Búsqueda Inmueble: OK.
+01/12/2022 11:05:34.193: Detalle Deudas: ...
+01/12/2022 11:05:34.439:   Solo Liquida: (TODOS)
+01/12/2022 11:05:34.440:   Solo Liquida: OK.
+01/12/2022 11:05:34.440: Detalle Deudas: OK.
+01/12/2022 11:05:35.076: -------------------------------------------------------------------------
+01/12/2022 11:05:35.077: Tiempo Total de Ejecución: 1 min. 28 seg. 648 mseg.
+01/12/2022 11:05:35.077: Proceso concluido: Módulo -  -MÓDULO (-P-R-O-F-O-R-M-A)
+01/12/2022 11:05:35.078: =========================================================================
+01/12/2022 11:05:38.558: Proceso concluido exitosamente
+01/12/2022 15:21:39.980: Tiempo Inicialización (navegador): 10 seg. 117 mseg.
+01/12/2022 15:21:40.081: Abriendo aplicación...
+01/12/2022 15:21:40.378: *************************************************************************
+01/12/2022 15:21:40.379:                        TRANSFERENCIA-MAIN
+01/12/2022 15:21:40.379: *************************************************************************
+01/12/2022 15:21:40.379: Ambiente: https://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/Administracion/Autentificacion/begin.do
+01/12/2022 15:21:40.379: Fecha: 01/12/2022 15:21:40.379
+01/12/2022 15:21:41.521: Proceso de Iniciar sesión: ...
+01/12/2022 15:21:45.921: Login process: OK
+01/12/2022 15:21:45.922: =========================================================================
+01/12/2022 15:21:48.402: Searching vehicle: 1765TUD
+01/12/2022 15:22:23.399: El vehículo no pasó las validaciones necesarias.
+01/12/2022 15:22:28.387: Cargando opción...
+01/12/2022 15:22:28.388: =========================================================================
+01/12/2022 15:22:31.399: Searching vehicle: 1259DPC
+01/12/2022 15:22:36.216: Cargando opción...
+01/12/2022 15:22:36.524: Validating CRPVA: 2TP2N2OG
+01/12/2022 15:22:41.360: Cargando opción...
+01/12/2022 15:22:41.361: Proceso de recibir documentación...
+01/12/2022 15:22:42.458: ¿Está seguro de registrar la información?
+01/12/2022 15:22:47.318: Cargando opción...
+01/12/2022 15:22:48.691: El formato de fecha es inválido.
+01/12/2022 15:22:48.741: Proceso inconcluso
+01/12/2022 15:28:46.215: Tiempo Inicialización (navegador): 1 min. 28 seg. 933 mseg.
+01/12/2022 15:28:46.284: Abriendo aplicación...
+01/12/2022 15:28:46.633: *************************************************************************
+01/12/2022 15:28:46.637:                        TRANSFERENCIA-MAIN
+01/12/2022 15:28:46.639: *************************************************************************
+01/12/2022 15:28:46.642: Ambiente: https://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/Administracion/Autentificacion/begin.do
+01/12/2022 15:28:46.646: Fecha: 01/12/2022 15:28:46.644
+01/12/2022 15:28:52.669: Proceso de Iniciar sesión: ...
+01/12/2022 15:29:04.261: Login process: OK
+01/12/2022 15:29:19.091: =========================================================================
+01/12/2022 15:30:26.390: Searching vehicle: 1765TUD
+01/12/2022 15:31:37.470: El vehículo no pasó las validaciones necesarias.
+01/12/2022 15:32:24.980: Cargando opción...
+01/12/2022 15:32:31.086: =========================================================================
+01/12/2022 15:33:00.420: Searching vehicle: 1259DPC
+01/12/2022 15:33:38.262: Cargando opción...
+01/12/2022 15:34:02.561: Validating CRPVA: 2TP2N2OG
+01/12/2022 15:34:24.247: Cargando opción...
+01/12/2022 15:34:29.295: Proceso de recibir documentación...
+01/12/2022 15:34:47.796: ¿Está seguro de registrar la información?
+01/12/2022 15:35:14.967: Cargando opción...
+01/12/2022 15:44:39.131: Tiempo Inicialización (navegador): 6 seg. 968 mseg.
+01/12/2022 15:44:39.185: Abriendo aplicación...
+01/12/2022 15:44:39.485: *************************************************************************
+01/12/2022 15:44:39.486:                        TRANSFERENCIA-MAIN
+01/12/2022 15:44:39.487: *************************************************************************
+01/12/2022 15:44:39.488: Ambiente: https://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/Administracion/Autentificacion/begin.do
+01/12/2022 15:44:39.489: Fecha: 01/12/2022 15:44:39.489
+01/12/2022 15:44:40.596: Proceso de Iniciar sesión: ...
+01/12/2022 15:44:45.011: Login process: OK
+01/12/2022 15:44:45.012: =========================================================================
+01/12/2022 15:44:48.812: Searching vehicle: 1765TUD
+01/12/2022 15:44:56.869: El vehículo no pasó las validaciones necesarias.
+01/12/2022 15:45:01.853: Cargando opción...
+01/12/2022 15:45:01.854: =========================================================================
+01/12/2022 15:45:05.746: Searching vehicle: 1259DPC
+01/12/2022 15:45:10.579: Cargando opción...
+01/12/2022 15:45:10.898: Validating CRPVA: 2TP2N2OG
+01/12/2022 15:45:15.760: Cargando opción...
+01/12/2022 15:45:15.760: Proceso de recibir documentación...
+01/12/2022 15:45:16.885: ¿Está seguro de registrar la información?
+01/12/2022 15:45:21.764: Cargando opción...
+01/12/2022 15:45:27.386: Cargando opción...
+01/12/2022 15:45:27.387: Iniciando la asignación de propiedad.
+01/12/2022 15:46:04.698: Cargando opción...
+01/12/2022 15:46:09.782: Cargando opción...
+01/12/2022 15:46:11.722: Los datos se consolidaron correctamente.
+01/12/2022 15:46:17.095: -------------------------------------------------------------------------
+01/12/2022 15:46:17.095: Tiempo Total de Ejecución: 1 min. 44 seg. 971 mseg.
+01/12/2022 15:46:17.096: Proceso concluido: Módulo - TRANSFERENCIA-MAIN
+01/12/2022 15:46:17.096: =========================================================================
+01/12/2022 15:46:19.344: Proceso concluido.
+01/12/2022 16:04:23.200: Tiempo Inicialización (navegador): 7 seg. 67 mseg.
+01/12/2022 16:04:23.230: Abriendo aplicación...
+01/12/2022 16:04:23.528: *************************************************************************
+01/12/2022 16:04:23.529:                        TRANSFERENCIA-MAIN
+01/12/2022 16:04:23.530: *************************************************************************
+01/12/2022 16:04:23.530: Ambiente: https://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/Administracion/Autentificacion/begin.do
+01/12/2022 16:04:23.531: Fecha: 01/12/2022 16:04:23.530
+01/12/2022 16:04:24.550: Proceso de Iniciar sesión: ...
+01/12/2022 16:04:28.980: Login process: OK
+01/12/2022 16:04:28.980: =========================================================================
+01/12/2022 16:04:32.613: Searching vehicle: 1640FSH
+01/12/2022 16:04:34.381: El vehículo tiene notificaciones.
+01/12/2022 16:04:34.639: Cargando opción...
+01/12/2022 16:04:34.970: Validating CRPVA: 35IE97BY
+01/12/2022 16:04:39.772: Cargando opción...
+01/12/2022 16:04:39.772: Proceso de recibir documentación...
+01/12/2022 16:04:40.932: ¿Está seguro de registrar la información?
+01/12/2022 16:04:45.901: Cargando opción...
+01/12/2022 16:04:51.532: Cargando opción...
+01/12/2022 16:04:51.533: Iniciando la asignación de propiedad.
+01/12/2022 16:05:20.135: Cargando opción...
+01/12/2022 16:05:25.285: Cargando opción...
+01/12/2022 16:05:27.231: Los datos se consolidaron correctamente.
+01/12/2022 16:05:31.290: Entrando a proforma...
+01/12/2022 16:05:31.681: Cargando módulo Proforma
+01/12/2022 16:05:34.076: Searching vehicle: 1640FSH
+01/12/2022 16:05:34.077: Buscando PTA: 1640FSH
+01/12/2022 16:05:34.077: Verificando si hay alertas...
+01/12/2022 16:05:39.255: Verificando notificaciones...
+01/12/2022 16:05:39.430: Hay notificaciones (ver reporte html). Continuando con el proceso
+01/12/2022 16:05:40.010: deslizando la página hasta el final...
+01/12/2022 16:05:40.176: Obteniendo proforma detallada
+01/12/2022 16:05:42.059: La proforma fue generada correctamente.
+01/12/2022 16:05:47.065: Cargando opción...
+01/12/2022 16:05:47.066: =========================================================================
+01/12/2022 16:05:49.072: Searching vehicle: 1647EGP
+01/12/2022 16:05:53.934: Cargando opción...
+01/12/2022 16:05:54.248: Validating CRPVA: 35O8979Q
+01/12/2022 16:05:54.523: El número de copia del Certificado Propiedad (CRPVA) no corresponde al actual.
+01/12/2022 16:05:54.708: -------------------------------------------------------------------------
+01/12/2022 16:05:54.708: Tiempo Total de Ejecución: 1 min. 38 seg. 615 mseg.
+01/12/2022 16:05:54.709: Proceso concluido: Módulo - TRANSFERENCIA-MAIN
+01/12/2022 16:05:54.710: =========================================================================
+01/12/2022 16:05:56.992: Proceso concluido.

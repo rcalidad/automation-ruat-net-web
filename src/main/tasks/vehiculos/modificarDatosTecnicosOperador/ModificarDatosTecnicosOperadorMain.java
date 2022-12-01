@@ -2,28 +2,24 @@ package main.tasks.vehiculos.modificarDatosTecnicosOperador;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
 import main.actions.*;
 import main.helpers.common.Constants;
 import main.helpers.common.vehiculos.ConstantsVEH;
 import main.helpers.dataUtility.AccessExcel;
 import main.helpers.dataUtility.ExcelData;
-import main.helpers.dataUtility.ScreenShotHelper;
 import main.helpers.fileUtility.FileBuilder;
 import main.tasks.commonTasks.Generator;
 import main.tasks.vehiculos.commonVeh.*;
 import main.tasks.vehiculos.login.LoginVehiculos;
 import main.tasks.vehiculos.mainMenu.MainMenu;
-import main.tasks.vehiculos.modificacionDatosTecnicos.ModificarDatosTecnicos;
 import main.ui.vehiculosUI.commonUI.FramesUI;
 import main.ui.vehiculosUI.mainMenuUI.MainMenuUI;
-import main.ui.vehiculosUI.modificarDatosTecnicosOperadorUI.SeleccionarModificacionUI;
+import main.ui.vehiculosUI.commonUI.SeleccionarModificacionUI;
 import org.openqa.selenium.WebDriver;
 
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-public class ModificarDatosTecnicosOperador extends Generator {
+public class ModificarDatosTecnicosOperadorMain extends Generator {
     public static final String MODIFICACION_DATOS_TECNICOS_OPERADOR_DATA_SHEET = "ModificarDatosTecnicosOperador";
     public static final String MODIFICACION_DATOS_TECNICOS_GROUPER = "Modificación Datos Técnicos";
     public static final String MODIFICACION_DATOS_TECNICOS_OPERADOR_MODULE = "Modificación Datos Técnicos Operador";
@@ -34,7 +30,7 @@ public class ModificarDatosTecnicosOperador extends Generator {
     protected String fechaInicio;
     protected String fechaFin;
 
-    public ModificarDatosTecnicosOperador(){
+    public ModificarDatosTecnicosOperadorMain(){
         super();
         this.accessExcel = new AccessExcel(ConstantsVEH.GENERATOR_DATA_FILE, MODIFICACION_DATOS_TECNICOS_OPERADOR_DATA_SHEET);
         this.url = ExcelData.getUrl(ConstantsVEH.GENERATOR_DATA_FILE);
@@ -90,7 +86,7 @@ public class ModificarDatosTecnicosOperador extends Generator {
                 if (ConfirmarModificacion.isReady(this.driverApp, test.get(i))){
                     ConfirmarModificacion.now(this.driverApp);
                     if(ConfirmarTramite.isReady(this.driverApp, test.get(i))){
-                        ConfirmarTramite.modificaiconDatosPorOperador(this.driverApp, test.get(i),"enviarPDF.pdf", this.operacion, this.identificador, i + 1);
+                        ConfirmarTramite.grabar(this.driverApp, test.get(i),"enviarPDF.pdf", this.operacion, this.identificador, i + 1);
                         returnMainMenu();
                         GetProforma.detailed(this.driverApp, test.get(i), this.identificador, i + 1);
                         Log.recordInLog("Dato modificado...");

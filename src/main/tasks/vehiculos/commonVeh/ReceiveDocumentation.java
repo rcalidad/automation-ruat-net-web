@@ -19,4 +19,27 @@ public class ReceiveDocumentation {
         WaitUntilAlert.isPresent(driver);
         DisplayAlert.toAcept(driver);
     }
+    public static void toModifyDataBySupervisor(WebDriver driver){
+        Log.recordInLog("Proceso de recibir documentación...");
+        Click.on(driver, ReceiveDocumentationUI.chkSolicitudCorreccionDatos);
+        SelectOption.firstOption(driver, ReceiveDocumentationUI.lstGestorTramite);
+        Click.on(driver, ReceiveDocumentationUI.btnGrabar);
+        if(WaitUntilAlert.isPresent(driver)){
+            String message = DisplayAlert.getText(driver);
+            Log.recordInLog(message);
+            DisplayAlert.toAcept(driver);
+        }
+    }
+    public static void toTransfer(WebDriver driver){
+        Log.recordInLog("Proceso de recibir documentación...");
+        Click.on(driver, ReceiveDocumentationUI.chkCrpva);
+        Click.on(driver, ReceiveDocumentationUI.chkMinutaCompraVenta);
+        Click.on(driver, ReceiveDocumentationUI.chkDocumentoIdentidadComprador);
+        Click.on(driver, ReceiveDocumentationUI.btnGrabar);
+        if(WaitUntilAlert.isPresent(driver)){
+            String message = DisplayAlert.getText(driver);
+            Log.recordInLog(message);
+            DisplayAlert.toAcept(driver);
+        }
+    }
 }

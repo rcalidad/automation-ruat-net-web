@@ -1,14 +1,9 @@
 package main.tasks.vehiculos.modificarDatosTecnicosOperador;
 
 import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
 import main.actions.*;
-import main.helpers.dataUtility.ScreenShotHelper;
 import main.tasks.vehiculos.commonVeh.Verify;
-import main.ui.vehiculosUI.commonUI.CommonElementsUI;
 import main.ui.vehiculosUI.modificarDatosTecnicosOperadorUI.ModificarServicioUI;
-import main.ui.vehiculosUI.modificarDatosTecnicosOperadorUI.SeleccionarModificacionUI;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class ModificarServicio {
@@ -20,7 +15,7 @@ public class ModificarServicio {
         Scroll.toEndPage(driver);
         SelectOption.byText(driver, ModificarServicioUI.lstServicio, option);
         //Enter.text(driver, ModificarServicioUI.txtFechaInicio, initialDate);
-        Enter.dateById(driver, ModificarServicioUI.txtFechaInicio, initialDate);
+        Enter.dateByElementId(driver, ModificarServicioUI.txtFechaInicio, initialDate);
         Click.on(driver, ModificarServicioUI.btnAceptar);
     }
     public static void toOfficial(WebDriver driver, String initialDate, String option){
@@ -28,7 +23,7 @@ public class ModificarServicio {
         Scroll.toTopPage(driver);
         SelectOption.byText(driver, ModificarServicioUI.lstServicio, option);
         //Enter.text(driver, ModificarServicioUI.txtFechaInicio, option);
-        Enter.dateById(driver, ModificarServicioUI.txtFechaInicio, initialDate);
+        Enter.dateByElementId(driver, ModificarServicioUI.txtFechaInicio, initialDate);
         Click.on(driver, ModificarServicioUI.btnAceptar);
     }
     public static void toPublic(WebDriver driver, ExtentTest extentTest, String option, String nroCard, String initialDate, String finalDate){

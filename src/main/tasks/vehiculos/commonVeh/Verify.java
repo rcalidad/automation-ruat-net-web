@@ -29,7 +29,7 @@ public class Verify {
                 Log.recordInLog("El vehículo tiene notificaciones.");
                 Click.on(driver, CommonElementsUI.btnContinuar);
             }
-            if (WaitUntilElement.isElementVisible(driver, controlLocator)){
+            if (WaitUntilElement.isElementVisible(driver, controlLocator,3)){
                 Log.recordInLog("Cargando opción...");
                 return true;
             }else{

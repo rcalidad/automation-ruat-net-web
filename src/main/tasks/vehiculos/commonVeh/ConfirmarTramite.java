@@ -20,7 +20,7 @@ public class ConfirmarTramite {
         Click.on(driver, locator);
         return FileBuilder.moveAndRenameFile(originalFilename, operation, GetText.ofValue(driver, locator).trim(), identificador, ConstantsVEH.ID_SUBSYSTEM, index);
     }
-    public static void modificaiconDatosPorOperador(WebDriver driver, ExtentTest extentTest, String originalFilename, String operation, String identificador, int index){
+    public static void grabar(WebDriver driver, ExtentTest extentTest, String originalFilename, String operation, String identificador, int index){
         if (getReport(driver, originalFilename, operation, identificador, index, ConfirmarTramiteUI.btnImprimirReporte)){
             WaitUntilElement.isClikeableOf(driver, ConfirmarTramiteUI.btnGrabar);
             Click.on(driver, ConfirmarTramiteUI.btnGrabar);

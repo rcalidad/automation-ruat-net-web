@@ -24,7 +24,7 @@ public class Enter {
         element.sendKeys(texto);
 
     }
-    public static void dateById(WebDriver driver, By locator, String date){
+    public static void dateByElementId(WebDriver driver, By locator, String date){
         WebDriverWait wait = new WebDriverWait(driver, TIME_SECOND);
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
         String locatorStrategy = locator.toString();

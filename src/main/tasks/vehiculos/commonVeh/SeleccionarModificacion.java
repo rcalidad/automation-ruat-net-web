@@ -1,13 +1,8 @@
-package main.tasks.vehiculos.modificarDatosTecnicosOperador;
+package main.tasks.vehiculos.commonVeh;
 
 import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
 import main.actions.*;
-import main.helpers.dataUtility.ScreenShotHelper;
-import main.tasks.vehiculos.commonVeh.ModificationOption;
-import main.tasks.vehiculos.commonVeh.Verify;
-import main.ui.vehiculosUI.commonUI.CommonElementsUI;
-import main.ui.vehiculosUI.modificarDatosTecnicosOperadorUI.SeleccionarModificacionUI;
+import main.ui.vehiculosUI.commonUI.SeleccionarModificacionUI;
 import org.openqa.selenium.WebDriver;
 
 public class SeleccionarModificacion {
