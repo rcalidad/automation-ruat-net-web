@@ -18,15 +18,18 @@ public class ConstantsVEH {
     public static final String MODIFICACION_DATOS_SUPERVISOR_DATA_SHEET = "ModificacionDatosSupervisor";
     public static final String MODIFICACION_DATOS_TECNICOS_OPERADOR_DATA_SHEET = "ModificarDatosTecnicosOperador";
     public static final String TRANSFERENCIA_DATA_SHEET = "Transferencia";
+    public static final String BASES_IMPOSIBLES_DATA_SHEET = "BasesImponibles";
 
     //GROUPERS
     public static final String MODIFICACION_DATOS_TECNICOS_GROUPER = "Modificación Datos Técnicos";
     public static final String TRANSFERENCIAS_GROUPER = "Transferencias";
+    public static final String BASES_IMPONIBLES_GROUPER = "Bases Imponibles";
 
     //MODULES
     public static final String MODIFICACION_DATOS_TECNICOS_OPERADOR_MODULE = "Modificación Datos Técnicos Operador";
     public static final String MODIFICACION_DATOS_SUPERVISOR_MODULE = "Modificación Datos por Supervisor";
     public static final String TRANSFERENCIA_NORMAL_MODULE = "Transferencia Normal";
+    public static final String BASES_IMPONIBLES_MODULE = "Bases Imponibles";
 
     //TITLES
     public static final String testCaseNameHtmlReportVEH = "Nro. de vehículo: ";

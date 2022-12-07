@@ -98,7 +98,8 @@ public class ReportManager {
         htmlReporter.config().setReportName("Reporte Automatizacion");
         //htmlReporter.config().setTheme(Theme.STANDARD);
         htmlReporter.config().setTheme(Theme.DARK);
-        htmlReporter.config().setEncoding("UTF-16");
+        //htmlReporter.config().setEncoding("UTF-16");
+        //htmlReporter.config().setEncoding("utf-8");
         htmlReporter.config().setTimeStampFormat("dd.MMMM.yyyy HH:mm:ss a");
         //htmlReporter.config().setResourceCDN(ResourceCDN.EXTENTREPORTS);
         //htmlReporter.config().setTestViewChartLocation(ChartLocation.BOTTOM);

@@ -127,7 +127,7 @@ public class Proforma extends GeneratorExcel {
                 }
                 Log.recordInLog("  Generar Proforma: OK.");
             }else{
-                takeScreenShotAndAdToHTMLReportGenerator(driverApp, extentApp,Status.FAIL, "<b>DETALLE DEUDAS</b> No existe deuda ("+this.detalleDeuda.toString()+")");
+                takeScreenShotAndAdToHTMLReportGenerator(driverApp, extentApp,Status.SKIP, "<b>DETALLE DEUDAS</b> No existe deuda ("+this.detalleDeuda.toString()+")");
                 Log.recordInLog( "  No existe la deuda requerida ("+this.detalleDeuda.toString()+")");
             }
         }
