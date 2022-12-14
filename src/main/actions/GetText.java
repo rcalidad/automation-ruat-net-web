@@ -23,4 +23,10 @@ public class GetText {
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
         return element.getAttribute("value");
     }
+    public static String ifContains(WebDriver driver, By locator, String text){
+        WebDriverWait wait = new WebDriverWait(driver, TIME_SECOND);
+        wait.until(ExpectedConditions.textToBePresentInElementLocated(locator, text));
+        WebElement element = driver.findElement(locator);
+        return element.getText();
+    }
 }

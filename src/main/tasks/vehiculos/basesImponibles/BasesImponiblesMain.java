@@ -10,6 +10,7 @@ import main.helpers.common.vehiculos.ConstantsVEH;
 import main.helpers.dataUtility.AccessExcel;
 import main.helpers.dataUtility.ExcelData;
 import main.helpers.fileUtility.FileBuilder;
+import main.tasks.cobro.cobrosVehiculos.PayOneVehicle;
 import main.tasks.commonTasks.Generator;
 import main.tasks.vehiculos.commonVeh.*;
 import main.tasks.vehiculos.login.LoginVehiculos;
@@ -25,6 +26,7 @@ public class BasesImponiblesMain extends Generator {
     protected String operacion;
     protected String gestion;
     protected String baseImponible;
+    protected String cashierUser;
 
     public BasesImponiblesMain(){
         super();
@@ -60,6 +62,11 @@ public class BasesImponiblesMain extends Generator {
         LoadModule.whichIs(this.driverApp, ConstantsVEH.BASES_IMPONIBLES_MODULE);
         this.driverApp.switchTo().parentFrame();
         this.driverApp.switchTo().frame(FramesUI.frameNameContenido);
+        if (registerTaxBase()){
+            PayOneVehicle cajero = new PayOneVehicle(test.get(i), this.extentReport, this.cashierUser);
+            //cajero.allDebts(this.identificador, test.get(i), this.extentReport);
+            cajero.makesAVehicleCharge(this.identificador);
+        }
 
     }
 

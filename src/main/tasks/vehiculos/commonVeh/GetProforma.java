@@ -7,7 +7,6 @@ import main.helpers.common.vehiculos.ConstantsVEH;
 import main.helpers.dataUtility.ScreenShotHelper;
 import main.helpers.fileUtility.FileBuilder;
 import main.tasks.vehiculos.mainMenu.MainMenu;
-import main.ui.commonElementsUI.DebtDetail;
 import main.ui.vehiculosUI.commonUI.CommonElementsUI;
 import main.ui.vehiculosUI.commonUI.FramesUI;
 import main.ui.vehiculosUI.liquidacionUI.DeudaUI;

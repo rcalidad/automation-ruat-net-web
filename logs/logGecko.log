@@ -1,41 +1,39 @@
-1670417357927	geckodriver	INFO	Listening on 127.0.0.1:33180
-1670417358240	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileO2RMrz"
-1670417358819	Marionette	INFO	Marionette enabled
-1670417358827	Marionette	INFO	Listening on port 51764
-1670417359372	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileO2RMrz\\search.json.mozlz4", (void 0)))
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
-JavaScript error: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp, line 1: ReferenceError: actualizar_captcha is not defined
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+1671053434818	geckodriver	INFO	Listening on 127.0.0.1:43114
+1671053435296	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileVOggnS"
+1671053436239	Marionette	INFO	Marionette enabled
+1671053436256	Marionette	INFO	Listening on port 51706
+1671053436626	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileVOggnS\\search.json.mozlz4", (void 0)))
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+JavaScript warning: https://cobrocalidad.ruat.gob.bo/BancosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cobrocalidad.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cobrocalidad.ruat.gob.bo."
+JavaScript warning: https://cobrocalidad.ruat.gob.bo/BancosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+JavaScript warning: https://cobrocalidad.ruat.gob.bo/BancosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+JavaScript warning: https://cobrocalidad.ruat.gob.bo/BancosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+JavaScript warning: https://cobrocalidad.ruat.gob.bo/BancosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/menu.jsp, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/cabecera.jsp, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/resources/js/Administracion/Logon/scriptTemplate.js, line 1: ReferenceError: $ is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cobrocalidad.ruat.gob.bo."
+JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Tasas/Pagos/PagosController.jpf, line 1: ReferenceError: validaDatosIngresados is not defined
+JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Tasas/Comun/BusquedaGeneralNst/buscar.do, line 1: ReferenceError: barraEstado is not defined
+JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Tasas/Comun/BusquedaGeneralNst/buscar.do, line 1: ReferenceError: barraEstado is not defined
+JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Tasas/Comun/BusquedaGeneralNst/buscar.do, line 1: ReferenceError: barraEstado is not defined
+JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/menu.jsp, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/cabecera.jsp, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/resources/js/Administracion/Logon/scriptTemplate.js, line 1: ReferenceError: $ is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cobrocalidad.ruat.gob.bo."
+JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Tasas/Pagos/PagosController.jpf, line 1: ReferenceError: validaDatosIngresados is not defined
+JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/menu.jsp, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/cabecera.jsp, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/resources/js/Administracion/Logon/scriptTemplate.js, line 1: ReferenceError: $ is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cobrocalidad.ruat.gob.bo."
+JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Tasas/Pagos/PagosController.jpf, line 1: ReferenceError: validaDatosIngresados is not defined
+JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/menu.jsp, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/cabecera.jsp, line 1: TypeError: document.getElementById(...) is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cobrocalidad.ruat.gob.bo."
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-1670417493187	Marionette	INFO	Stopped listening on port 51764
+1671053533260	Marionette	INFO	Stopped listening on port 51706
