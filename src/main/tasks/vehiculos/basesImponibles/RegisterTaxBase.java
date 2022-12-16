@@ -24,20 +24,33 @@ public class RegisterTaxBase {
         Enter.text(driver, RegistrarBaseImponibleUI.txtVerificacionBaseImponible, taxBase);
         Enter.text(driver, RegistrarBaseImponibleUI.txtNumeroFormulario, numForm);
         Click.on(driver, RegistrarBaseImponibleUI.btnRegistrar);
-        if (WaitUntilAlert.isPresent(driver)){
+        if (WaitUntilAlert.isPresent(driver, 15)){
             String message = DisplayAlert.getText(driver);
             if (message.contains("Confirma")){
                 DisplayAlert.toAcept(driver);
-            }else {
-                ScreenShotHelper.takeScreenShotOfAnAlert(driver, extentTest, Status.SKIP, message);
-                Log.recordInLog(message);
-            }
-        }
-        //WaitUntilElement.isInvisibleElement(driver, CommonElementsUI.imgEnProgreso);
-        if (WaitUntilAlert.isPresent(driver)){
-            String message = DisplayAlert.getText(driver);
-            if (message.contains("correctamente")){
-                DisplayAlert.toAcept(driver);
+                if (WaitUntilAlert.isPresent(driver, 15)){
+                    message = DisplayAlert.getText(driver);
+                    if (message.contains("continuar")){
+                        DisplayAlert.toAcept(driver);
+                        if (WaitUntilAlert.isPresent(driver, 15)){
+                            message = DisplayAlert.getText(driver);
+                            if (message.contains("correctamente")){
+                                DisplayAlert.toAcept(driver);
+                            }else {
+                                ScreenShotHelper.takeScreenShotOfAnAlert(driver, extentTest, Status.SKIP, message);
+                                Log.recordInLog(message);
+                            }
+                        }
+                    }else {
+                        if (message.contains("correctamente")){
+                            DisplayAlert.toAcept(driver);
+                        }else {
+                            ScreenShotHelper.takeScreenShotOfAnAlert(driver, extentTest, Status.SKIP, message);
+                            Log.recordInLog(message);
+                        }
+                    }
+                }
+
             }else {
                 ScreenShotHelper.takeScreenShotOfAnAlert(driver, extentTest, Status.SKIP, message);
                 Log.recordInLog(message);

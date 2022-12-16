@@ -29,6 +29,10 @@ public class Verify {
                 Log.recordInLog("El vehículo tiene notificaciones.");
                 Click.on(driver, CommonElementsUI.btnContinuar);
             }
+            if (WaitUntilElement.isElementVisible(driver, CommonElementsUI.ttlErrorRojo, 3)){
+                ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.FAIL, "Hubo un error.");
+                Log.recordInLog("Hubo un error.");
+            }
             if (WaitUntilElement.isElementVisible(driver, controlLocator,3)){
                 Log.recordInLog("Cargando opción...");
                 return true;
@@ -37,6 +41,11 @@ public class Verify {
                 Log.recordInLog("El vehículo no pasó las validaciones necesarias.");
                 return false;
             }
+        }
+    }
+    public static void isLoading(WebDriver driver, int waitTime){
+        if (IsDisplayed.element(driver, CommonElementsUI.imgEnProgreso)){
+            WaitUntilElement.isInvisibleElement(driver, CommonElementsUI.imgEnProgreso, 70);
         }
     }
 }

@@ -49,9 +49,11 @@ public class GetProforma {
                 DisplayAlert.toAcept(driver);
             }
         }
-        /*if(FileBuilder.moveFile("enviarPDF.pdf")){
-            FileBuilder.renameReport("enviarPDF.pdf", "TODOS", "PROFORMA-DETALLADA", pta, ConstantsVEH.ID_SUBSYSTEM, index);
-        }*/
+        try{
+            Thread.sleep(2000);
+        }catch (Exception exception){
+            Log.recordInLog(exception.getMessage());
+        }
         FileBuilder.moveAndRenameFile("enviarPDF.pdf", "TODOS", "PROFORMA-DETALLADA", pta, ConstantsVEH.ID_SUBSYSTEM, index);
         if(WaitUntilElement.isElementVisible(driver, ProformaUI.ttlNotificacion)){
             ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.INFO, "La proforma fue generada correctamente.");

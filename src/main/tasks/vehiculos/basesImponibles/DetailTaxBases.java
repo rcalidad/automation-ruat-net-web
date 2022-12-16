@@ -20,7 +20,7 @@ public class DetailTaxBases {
     }
     public static int getRowOfYear(WebDriver driver, ExtentTest extentTest, String searchedYear){
         List<WebElement> rows = driver.findElements(DetailTaxBasesUI.filas);
-        for (int r = 2; r < rows.size(); r++){
+        for (int r = 2; r <= rows.size(); r++){
             String year = GetText.of(driver, DetailTaxBasesUI.getCell(r, 1));
             if (year.equals(searchedYear)){
                 return r;
@@ -44,9 +44,6 @@ public class DetailTaxBases {
         int row = getRowOfYear(driver, extentTest, year);
         if(row > 1 && isPresentRegistrar(driver, row)){
             Click.on(driver, DetailTaxBasesUI.getCell(row, columns.size() - 1));
-        }else{
-            Log.recordInLog("No es posible continuar, la gestión no se encuentra disponible o no se tiene la opción registrar.");
-            ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.SKIP, "Gestión no disponible o no se tiene la opción registrar.");
         }
     }
     public static void annul(WebDriver driver, ExtentTest extentTest, String year){
