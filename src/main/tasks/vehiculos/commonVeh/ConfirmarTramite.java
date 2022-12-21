@@ -35,6 +35,21 @@ public class ConfirmarTramite {
             Log.recordInLog("Algo salió mal durante la impresión del reporte");
         }
     }
+    public static void toConsolidacionLeyMunicipal(WebDriver driver, ExtentTest extentTest, String originalFileName, String operation, String identificador, int index){
+        if (getReport(driver, originalFileName, operation, identificador, index, ConfirmarTramiteUI.btnImprimirReporte)){
+            WaitUntilElement.isClikeableOf(driver, ConfirmarTramiteUI.btnImprimirProforma);
+            if (getReport(driver, originalFileName, operation, identificador, index, ConfirmarTramiteUI.btnImprimirProforma)){
+                Click.on(driver, ConfirmarTramiteUI.btnSalir);
+                Log.recordInLog("Se confirmó el trámite condonación ley municipal.");
+            }else {
+                ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.SKIP, "Algo salió mal durante la impresión de la proforma.");
+                Log.recordInLog("Algo salió mal durante la impresión de la proforma.");
+            }
+        }else {
+            ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.SKIP, "Algo salió mal durante la impresión del reporte.");
+            Log.recordInLog("Algo salió mal durante la impresión del reporte");
+        }
+    }
     public static void grabar(WebDriver driver, ExtentTest extentTest, String originalFilename, String operation, String identificador, int index){
         if (getReport(driver, originalFilename, operation, identificador, index, ConfirmarTramiteUI.btnImprimirReporte)){
             WaitUntilElement.isClikeableOf(driver, ConfirmarTramiteUI.btnGrabar);

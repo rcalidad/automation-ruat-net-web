@@ -8,5 +8,5 @@ public class CommonElementsUI {
     public static By imgFondo = By.xpath("/html/body/center/img");
     public static By btnContinuar = By.id("btnContinuar");
 
-    public static By ttlErrorRojo = By.xpath("//*[text()='HUBO UN ERROR']");
+    public static By ttlErrorRojo = By.xpath("//*[contains(.,''HUBO UN ERROR'')]");
 }

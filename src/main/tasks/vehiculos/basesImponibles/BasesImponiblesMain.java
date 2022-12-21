@@ -4,7 +4,6 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import main.actions.*;
 import main.helpers.common.Constants;
-import main.helpers.common.cobro.ConstantsCOB;
 import main.helpers.common.vehiculos.ConstantsVEH;
 import main.helpers.dataUtility.AccessExcel;
 import main.helpers.dataUtility.ExcelData;
@@ -64,12 +63,12 @@ public class BasesImponiblesMain extends Generator {
         }
         return false;
     }
-    public boolean anullTaxBase(){
-        boolean isReadyToAnull = prepareTaxBase();
-        if (isReadyToAnull){
+    public boolean annulTaxBase(){
+        boolean isReadyToAnnul = prepareTaxBase();
+        if (isReadyToAnnul){
             DetailTaxBases.annul(this.driverApp, test.get(i), this.gestion);
-            if (AnullTaxBase.isReady(this.driverApp, test.get(i))){
-                AnullTaxBase.now(this.driverApp, test.get(i), this.identificador);
+            if (AnnulTaxBase.isReady(this.driverApp, test.get(i))){
+                AnnulTaxBase.now(this.driverApp, test.get(i), this.identificador);
                 if (DetailTaxBases.isReady(this.driverApp, test.get(i))){
                     Scroll.toEndPage(this.driverApp);
                     Click.on(this.driverApp, DetailTaxBasesUI.btnAceptar);
@@ -102,8 +101,8 @@ public class BasesImponiblesMain extends Generator {
                 LoadModule.whichIs(this.driverApp, ConstantsVEH.BASES_IMPONIBLES_MODULE);
                 this.driverApp.switchTo().parentFrame();
                 this.driverApp.switchTo().frame(FramesUI.frameNameContenido);
-                boolean isAnullTaxBaseSuccessful = anullTaxBase();
-                if (isAnullTaxBaseSuccessful){
+                boolean isAnnulTaxBaseSuccessful = annulTaxBase();
+                if (isAnnulTaxBaseSuccessful){
                     int base;
                     try{
                         base = Integer.parseInt(this.baseImponible);

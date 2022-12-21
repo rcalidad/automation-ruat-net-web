@@ -9,7 +9,7 @@ import main.tasks.vehiculos.commonVeh.Verify;
 import main.ui.vehiculosUI.basesImponiblesUI.AnularBaseImponibleUI;
 import org.openqa.selenium.WebDriver;
 
-public class AnullTaxBase {
+public class AnnulTaxBase {
     public static boolean isReady(WebDriver driver, ExtentTest extentTest){
         return Verify.isReady(driver, extentTest, AnularBaseImponibleUI.ttlAnularBaseImponible);
     }

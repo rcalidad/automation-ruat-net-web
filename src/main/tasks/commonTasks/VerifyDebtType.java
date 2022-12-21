@@ -8,11 +8,11 @@ public class VerifyDebtType {
     private static List<String> debtsWithOutYear = Arrays.asList("IMT", "MOP (IMT)", "MIDF (IMT)", "RE");
     private static Map<String, String> vehicleDebtType = Map.of("IP","PROPIEDAD",
                                                          "IMT", "TRANSFERENCIA",
-                                                         "MOP (IP)", "OMISION DE PAGO IPVA",
+                                                         "MOP (IP)", "OMISION DE PAGO IMPVA",
                                                          "MOP (IMT)", "OMISION DE PAGO IMT",
                                                          "MOR", "REGISTRO",
                                                          "MIDF (IMT)", "FORMALES IMT",
-                                                         "MIDF (IP)", "FORMALES IPVA",
+                                                         "MIDF (IP)", "FORMALES IMPVA",
                                                          "RE", "RECIBO");
     private static Map<String, String> inmuebleDebtType = Map.of("IP","PROPIEDAD",
                                                                  "IMT", "TRANSFERENCIA",

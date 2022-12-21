@@ -32,6 +32,7 @@ public class Verify {
             if (WaitUntilElement.isElementVisible(driver, CommonElementsUI.ttlErrorRojo, 3)){
                 ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.FAIL, "Hubo un error.");
                 Log.recordInLog("Hubo un error.");
+                return false;
             }
             if (WaitUntilElement.isElementVisible(driver, controlLocator,3)){
                 Log.recordInLog("Cargando opción...");
@@ -45,7 +46,8 @@ public class Verify {
     }
     public static void isLoading(WebDriver driver, int waitTime){
         if (IsDisplayed.element(driver, CommonElementsUI.imgEnProgreso)){
-            WaitUntilElement.isInvisibleElement(driver, CommonElementsUI.imgEnProgreso, 70);
+            Log.recordInLog("Barra de progreso visible...");
+            WaitUntilElement.isInvisibleElement(driver, CommonElementsUI.imgEnProgreso, waitTime);
         }
     }
 }

@@ -10,6 +10,7 @@ public class ReceiveDocumentationUI {
     public static By chkMinutaCompraVenta = By.xpath("//td[contains(.,'MINUTA DE COMPRA Y VENTA')]/following-sibling::td/input");
     public static By chkDocumentoIdentidadComprador = By.xpath("//td[contains(.,'DOCUMENTO DE IDENTIDAD COMPRADOR')]/following-sibling::td/input");
     public static By chkDocumentoDeIdentidad = By.xpath("//td[contains(.,'DOCUMENTO DE IDENTIDAD')]/following-sibling::td/input");
+    public static By chkNotaSolicitud = By.xpath("//td[contains(.,'NOTA SOLICITUD')]/following-sibling::td/input");
 
     public static By lstGestorTramite = By.id("tipoGestorTramite");
     public static By btnLimpiar = By.id("btnSubmit2");

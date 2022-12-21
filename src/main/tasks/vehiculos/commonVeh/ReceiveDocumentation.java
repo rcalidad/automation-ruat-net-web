@@ -15,7 +15,9 @@ public class ReceiveDocumentation {
         Log.recordInLog("Proceso de recibir documentación...");
         Click.on(driver, ReceiveDocumentationUI.chkCrpva);
         Click.on(driver, ReceiveDocumentationUI.chkDocumentoIdentidad);
-        SelectOption.firstOption(driver, ReceiveDocumentationUI.lstGestorTramite);
+        if (IsPresent.elements(driver,ReceiveDocumentationUI.lstGestorTramite)){
+            SelectOption.firstOption(driver, ReceiveDocumentationUI.lstGestorTramite);
+        }
         Click.on(driver, ReceiveDocumentationUI.btnGrabar);
         WaitUntilAlert.isPresent(driver);
         DisplayAlert.toAcept(driver);
@@ -53,5 +55,35 @@ public class ReceiveDocumentation {
             DisplayAlert.toAcept(driver);
         }
         WaitUntilElement.isInvisibleElement(driver, CommonElementsUI.imgEnProgreso);
+    }
+    public static void toTaxBasesImt(WebDriver driver){
+        Log.recordInLog("Proceso de recibir documentación...");
+        Click.on(driver, ReceiveDocumentationUI.chkNotaSolicitud);
+        Click.on(driver, ReceiveDocumentationUI.chkCrpva);
+        Click.on(driver, ReceiveDocumentationUI.chkDocumentoDeIdentidad);
+        Click.on(driver, ReceiveDocumentationUI.btnGrabar);
+        if (WaitUntilAlert.isPresent(driver)){
+            String message = DisplayAlert.getText(driver);
+            Log.recordInLog("Recibir documentación: " + message);
+            DisplayAlert.toAcept(driver);
+        }
+    }
+    public static void toCondonationMunicipalLaw(WebDriver driver){
+        Click.on(driver, ReceiveDocumentationUI.btnGrabar);
+        if (WaitUntilAlert.isPresent(driver)){
+            String message = DisplayAlert.getText(driver);
+            if (message.contains("seguro")){
+                DisplayAlert.toAcept(driver);
+            }
+        }
+    }
+    public static void toCompensaciones(WebDriver driver){
+        Click.on(driver, ReceiveDocumentationUI.chkDocumentoDeIdentidad);
+        Click.on(driver, ReceiveDocumentationUI.chkNotaSolicitud);
+        if (IsPresent.elements(driver,ReceiveDocumentationUI.lstGestorTramite)){
+            SelectOption.firstOption(driver, ReceiveDocumentationUI.lstGestorTramite);
+        }
+        Click.on(driver, ReceiveDocumentationUI.btnGrabar);
+        VerifyAlert.containsThisText(driver, "seguro");
     }
 }

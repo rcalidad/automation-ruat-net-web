@@ -1,27 +1,22 @@
-1671206994401	geckodriver	INFO	Listening on 127.0.0.1:42167
-1671206994468	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileI1S50K"
-1671206995084	Marionette	INFO	Marionette enabled
-1671206995093	Marionette	INFO	Listening on port 59531
-1671206995566	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileI1S50K\\search.json.mozlz4", (void 0)))
-JavaScript warning: https://cobrocalidad.ruat.gob.bo/BancosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cobrocalidad.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cobrocalidad.ruat.gob.bo."
-JavaScript warning: https://cobrocalidad.ruat.gob.bo/BancosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+1671661557235	geckodriver	INFO	Listening on 127.0.0.1:20863
+1671661557535	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofilelUF0XS"
+1671661558190	Marionette	INFO	Marionette enabled
+1671661558199	Marionette	INFO	Listening on port 58558
+1671661558940	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofilelUF0XS\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
 console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
 console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
-JavaScript warning: https://cobrocalidad.ruat.gob.bo/BancosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
-JavaScript warning: https://cobrocalidad.ruat.gob.bo/BancosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
-JavaScript warning: https://cobrocalidad.ruat.gob.bo/BancosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/cabecera.jsp, line 1: TypeError: document.getElementById(...) is null
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/menu.jsp, line 1: TypeError: document.getElementById(...) is null
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cobrocalidad.ruat.gob.bo."
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/menu.jsp, line 1: TypeError: document.getElementById(...) is null
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/cabecera.jsp, line 1: TypeError: document.getElementById(...) is null
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cobrocalidad.ruat.gob.bo."
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-1671207035908	Marionette	INFO	Stopped listening on port 59531
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vehiculoscalidad.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vehiculoscalidad.ruat.gob.bo."
+JavaScript warning: http://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://vehiculoscalidad.ruat.gob.bo."
+JavaScript warning: http://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+JavaScript warning: http://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+JavaScript warning: http://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://vehiculoscalidad.ruat.gob.bo."
+JavaScript error: http://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/resources/js/Comun/Precarga/precarga.js, line 2: ReferenceError: $ is not defined
+1671661591318	Marionette	INFO	Stopped listening on port 58558
 WARNING: A blocker encountered an error while we were waiting.
           Blocker:  Waiting for ping task
           Phase: TelemetryController: Waiting for pending ping activity
@@ -29,32 +24,43 @@ WARNING: A blocker encountered an error while we were waiting.
 WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
 addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
-a1671207046883	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1671207065254	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1671207066310	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-1671207095107	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1671207115560	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://vehiculoscalidad.ruat.gob.bo."
-1671207145543	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1671207146290	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-1671207148727	Marionette	INFO	Stopped listening on port 59455
-console.error: services.settings: 
-  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
-ssion.jsm:1239:9
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
 shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
 shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
 _cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35

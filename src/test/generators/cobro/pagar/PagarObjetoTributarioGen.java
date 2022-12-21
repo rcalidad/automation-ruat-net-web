@@ -5,7 +5,7 @@ import main.tasks.cobro.cobroMain.Cobro;
 import org.testng.annotations.Test;
 import test.base.BaseGenerator;
 
-public class PagarVehiculoGen extends BaseGenerator {
+public class PagarObjetoTributarioGen extends BaseGenerator {
     @Test
     public void pagar(){
         Cobro pagar;
