@@ -1,22 +1,30 @@
-1671661557235	geckodriver	INFO	Listening on 127.0.0.1:20863
-1671661557535	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofilelUF0XS"
-1671661558190	Marionette	INFO	Marionette enabled
-1671661558199	Marionette	INFO	Listening on port 58558
-1671661558940	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofilelUF0XS\\search.json.mozlz4", (void 0)))
-JavaScript warning: https://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+1671740268144	geckodriver	INFO	Listening on 127.0.0.1:16423
+1671740268470	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofile8uEt4d"
+1671740269067	Marionette	INFO	Marionette enabled
+1671740269077	Marionette	INFO	Listening on port 55455
+1671740269830	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofile8uEt4d\\search.json.mozlz4", (void 0)))
 console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
 console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vehiculoscalidad.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vehiculoscalidad.ruat.gob.bo."
-JavaScript warning: http://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://vehiculoscalidad.ruat.gob.bo."
-JavaScript warning: http://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
-JavaScript warning: http://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
-JavaScript warning: http://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://vehiculoscalidad.ruat.gob.bo."
-JavaScript error: http://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/resources/js/Comun/Precarga/precarga.js, line 2: ReferenceError: $ is not defined
-1671661591318	Marionette	INFO	Stopped listening on port 58558
+JavaScript warning: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://actecocalidad.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://actecocalidad.ruat.gob.bo."
+JavaScript warning: http://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://actecocalidad.ruat.gob.bo."
+JavaScript warning: http://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+JavaScript warning: http://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+JavaScript warning: http://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://actecocalidad.ruat.gob.bo."
+JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
+JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://actecocalidad.ruat.gob.bo."
+JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
+JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
+JavaScript warning: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://actecocalidad.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://actecocalidad.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://actecocalidad.ruat.gob.bo."
+1671740322124	Marionette	INFO	Stopped listening on port 55455
 WARNING: A blocker encountered an error while we were waiting.
           Blocker:  Waiting for ping task
           Phase: TelemetryController: Waiting for pending ping activity

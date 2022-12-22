@@ -4,7 +4,7 @@
  * @author Sol Maria Condori Ticona
  */
 
-package main.tasks.actividadesEconomicas.mainMenu;
+package main.tasks.actividadesEconomicas.menu;
 
 import main.actions.Click;
 import main.ui.actividadesEconomicasUI.commonUI.MainMenuUI;

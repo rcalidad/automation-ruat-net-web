@@ -46,6 +46,8 @@ public class ExcelData {
                             else if( isAttribute( objTask.getClass(), attributeName ) )
                             {
                                 fieldClass = objTask.getClass().getDeclaredField (attributeName);
+                            } else if (isAttribute(objTask.getClass().getSuperclass().getSuperclass(), attributeName)) {
+                                fieldClass = objTask.getClass().getSuperclass().getSuperclass().getDeclaredField(attributeName);
                             }
                             methodGetValues = objectExcel.getClass ( ).getMethod ( "getParametro", String.class );
                             valuesList    = ( ArrayList < String > ) methodGetValues.invoke ( objectExcel, fieldExcel_i );

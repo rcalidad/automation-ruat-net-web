@@ -13,4 +13,8 @@ public class LeftMenuUI {
     public static By lnkConsultaActividadEconomica = By.linkText("Consulta Actividad Económica");
     public static By lnkProforma                   = By.linkText("Proforma");
     public static By lnkMenuPrincipal              = By.linkText("Menú Principal");
+
+    public static By selectOptionByText(String text){
+        return By.linkText(text);
+    }
 }

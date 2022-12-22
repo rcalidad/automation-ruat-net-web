@@ -5,9 +5,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import main.actions.*;
 import main.helpers.dataUtility.ScreenShotHelper;
-import main.tasks.actividadesEconomicas.commonAec.Generator;
 import main.tasks.commonTasks.Login;
-import main.ui.actividadesEconomicasUI.commonUI.CommonElementsUI;
 import main.ui.actividadesEconomicasUI.commonUI.MainMenuUI;
 import main.ui.actividadesEconomicasUI.loginUI.LoginUI;
 import org.openqa.selenium.WebDriver;
@@ -29,7 +27,7 @@ public class LoginActividadesEconomicas {
         }else{
             if(IsDisplayed.element(driver, LoginUI.msgNotificacionUsuarioInexistente)){
                 loginFailed = true;
-                ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, Generator.test.get(Generator.i), Status.FAIL, "<b>No se pudo autenticar, usuario inexistente.</b>");
+                ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, test, Status.FAIL, "<b>No se pudo autenticar, usuario inexistente.</b>");
                 Log.recordInLog(" ".concat(GetText.of(driver, LoginUI.msgNotificacionUsuarioInexistente)));
             }else{
                 if (IsDisplayed.element(driver, LoginUI.msgNotificacionContrasenaIncorrecta)){
@@ -42,7 +40,7 @@ public class LoginActividadesEconomicas {
                         Login.as(driver, LoginUI.txtUsuario, user, LoginUI.txtContrasena, changePassword(user, password), LoginUI.btnIngresar);
                         if(IsDisplayed.element(driver, LoginUI.msgNotificacionContrasenaIncorrecta)){
                             loginFailed = true;
-                            ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, Generator.test.get(Generator.i), Status.FAIL, "<b>No se pudo autenticar, contraseña incorrecta</b>");
+                            ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, test, Status.FAIL, "<b>No se pudo autenticar, contraseña incorrecta</b>");
                             Log.recordInLog(" ".concat("Error al intentar autenticarse"));
                         }
                     }

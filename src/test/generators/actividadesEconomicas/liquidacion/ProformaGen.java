@@ -14,9 +14,12 @@ public class ProformaGen extends BaseGenerator {
         {
             proforma = new Proforma();
             proforma.run(this.driver,this.wait,this.extentReportBase);
+            Log.recordInLog("Proceso concluido exitosamente");
         }
-        catch ( Exception empadronamientoExcepcion ) { }
-        Log.recordInLog("Proceso concluido exitosamente");
+        catch ( Exception empadronamientoExcepcion ) {
+            Log.recordInLog("Proceso concluido sin éxito");
+        }
+
 
     }
 }
