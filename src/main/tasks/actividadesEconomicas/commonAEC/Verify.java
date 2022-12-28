@@ -40,4 +40,33 @@ public class Verify {
             }
         }
     }
+    public static void isReadySomeone(WebDriver driver, ExtentTest extentTest, By locatorPattern, By alternativeLocatoraPattern) throws Exception {
+        String message;
+        if (WaitUntilAlert.isPresent(driver, 1)){
+            message = DisplayAlert.getText(driver);
+            ScreenShotHelper.takeScreenShotOfAnAlert(driver, extentTest, Status.SKIP, message);
+            DisplayAlert.toAcept(driver);
+            Log.recordInLog(message);
+            throw new Exception(message);
+        }else {
+            if (WaitUntilElement.isElementVisible(driver, CommonElementsUI.title, 360)) {
+                if(IsDisplayed.element(driver, NotificationsUI.btnContinuar, 1)){
+                    Notification.continueNow(driver, extentTest);
+                    isReadySomeone(driver, extentTest, locatorPattern, alternativeLocatoraPattern);
+                }else if (!IsDisplayed.element(driver, locatorPattern, 1) || !IsDisplayed.element(driver, alternativeLocatoraPattern, 1)) {
+                    ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.SKIP, Messages.itemNotPresent);
+                    Log.recordInLog(Messages.itemNotPresent);
+                    throw new Exception(Messages.itemNotPresent);
+                }else if(GetText.of(driver, CommonElementsUI.title).contains("ERROR")) {
+                    ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.SKIP, Messages.itemNotPresent);
+                    Log.recordInLog(Messages.itemNotPresent);
+                    throw new Exception(Messages.itemNotPresent);
+                }
+            }else {
+                ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.FAIL, Messages.timeExceeded);
+                Log.recordInLog(Messages.timeExceeded);
+                throw new Exception(Messages.timeExceeded);
+            }
+        }
+    }
 }

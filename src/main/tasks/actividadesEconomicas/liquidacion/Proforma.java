@@ -13,11 +13,10 @@ import main.tasks.actividadesEconomicas.helpersAEC.ChangeFrame;
 import main.tasks.actividadesEconomicas.helpersAEC.GeneratorAEC;
 import main.tasks.actividadesEconomicas.menu.LeftMenu;
 import main.tasks.actividadesEconomicas.menu.MainMenu;
+import main.ui.actividadesEconomicasUI.commonUI.NotificationsUI;
 import main.ui.actividadesEconomicasUI.liquidacionUI.DeudaUI;
-import main.ui.vehiculosUI.emisionComprobantePagoEnCeroUI.NotificacionUI;
 
 public class Proforma extends GeneratorAEC {
-    public static final String MODULO_PROFORMA = "Proforma";
     public static final String DEFAULT_REPORT_NAME = "reportePDF.pdf";
     //--- These variables have the same name of columns defined on Excel file.
     protected String operacion;
@@ -56,7 +55,7 @@ public class Proforma extends GeneratorAEC {
                         DisplayAlert.cancel(this.driverApp);
                     }
                 }
-                Verify.isReady(this.driverApp, test.get(i), NotificacionUI.ttlNotificacion);
+                Verify.isReady(this.driverApp, test.get(i), NotificationsUI.ttlNotificacionesPostProforma);
                 FileBuilder.moveAndRenameFile(DEFAULT_REPORT_NAME, GiveFormat.ofReportName(this.operacion), this.detalleDeuda, this.numeroActividadEconomica, ConstantsAEC.SUBSYSTEM_ID, i + 1);
             }
 

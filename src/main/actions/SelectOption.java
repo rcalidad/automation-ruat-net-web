@@ -38,6 +38,18 @@ public class SelectOption {
         Select lstElement = new Select(element);
         lstElement.selectByIndex(1);
     }
+    public static void firstOptionDifferentOfEmpty(WebDriver driver, By locator){
+        WebDriverWait wait = new WebDriverWait(driver, 3);
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+        Select lstElement = new Select(element);
+        List<WebElement> optionList = lstElement.getOptions();
+        for (WebElement option: optionList) {
+            if(!option.getText().equals("")){
+                lstElement.selectByVisibleText(option.getText());
+                break;
+            }
+        }
+    }
 
     public static void byPartialtext(){}
 }

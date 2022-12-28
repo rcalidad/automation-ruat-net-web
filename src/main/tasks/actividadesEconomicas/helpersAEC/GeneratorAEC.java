@@ -42,7 +42,7 @@ public abstract class GeneratorAEC extends Generator {
 
     @Override
     public String setTestCaseName() {
-        return "Nro. de Actividad Económica ".concat(getIdentifier());
+        return getIdentifier();
     }
 
     @Override
