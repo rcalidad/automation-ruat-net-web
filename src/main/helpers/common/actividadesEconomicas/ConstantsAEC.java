@@ -20,6 +20,7 @@ public class ConstantsAEC {
     public static final String AUXILIARY_DATA_SHEET = "datosAuxiliares";
     public static final String EMPADRONAMIENTO_DATA_SHEET = "Empadronamiento";
     public static final String MULTA_ADMINISTRATIVA_PATENTES_DATA_SHEET = "MultaAdministrativaPatentes";
+    public static final String COMPENSACIONES_DATA_SHEET = "Compensaciones";
 
     //GROUPER
     public static final String PROFORMA_GROUPER = "Proforma";
@@ -34,4 +35,5 @@ public class ConstantsAEC {
     public static final String PROFORMA_MODULE = "Proforma";
     public static final String EMPADRONAMIENTO_MODULE = "Empadronamiento";
     public static final String MULTAS_ADMINISTRATIVAS_PATENTES_MODULE = "Multas Administrativas Patentes";
+    public static final String COMPENSACIONES_MODULE = "Compensaciones";
 }

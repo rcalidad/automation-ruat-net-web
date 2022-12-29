@@ -24,11 +24,11 @@ public class Verify {
                 if(IsDisplayed.element(driver, NotificationsUI.btnContinuar, 1)){
                     Notification.continueNow(driver, extentTest);
                     isReady(driver, extentTest, locatorPattern);
-                }else if (!IsDisplayed.element(driver, locatorPattern, 1)) {
-                    ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.SKIP, Messages.itemNotPresent);
-                    Log.recordInLog(Messages.itemNotPresent);
-                    throw new Exception(Messages.itemNotPresent);
-                }else if(GetText.of(driver, CommonElementsUI.title).contains("ERROR")) {
+                }else if (GetText.of(driver, CommonElementsUI.title).contains("ERROR")) {
+                    ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.FAIL, Messages.redError);
+                    Log.recordInLog(Messages.redError);
+                    throw new Exception(Messages.redError);
+                }else if(!IsDisplayed.element(driver, locatorPattern, 1)) {
                     ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.SKIP, Messages.itemNotPresent);
                     Log.recordInLog(Messages.itemNotPresent);
                     throw new Exception(Messages.itemNotPresent);

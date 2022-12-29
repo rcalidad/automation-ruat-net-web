@@ -33,17 +33,17 @@ public class ConfirmProcedureEmpadronamiento implements IConfirmProcedure{
     }
 
     @Override
-    public void now(String identifier, int index) {
+    public void now(String identifier, int index, String operation) {
         try {
             Verify.isReady(localDriver, localExtentTest, ConfirmProcedureUI.ttlConfirmarTramite);
             Click.on(localDriver, ConfirmProcedureUI.btnVistaPrevia); //reportePDF.pdf
-            getReport(localDriver, "reportePDF.pdf", "EMPADRONAMIENTO", identifier, index, ConfirmProcedureUI.btnVistaPrevia);
+            getReport(localDriver, "reportePDF.pdf", operation, identifier, index, ConfirmProcedureUI.btnVistaPrevia);
             WaitUntilElement.isClikeableOf(localDriver, ConfirmProcedureUI.btnGrabar);
             Click.on(localDriver, ConfirmProcedureUI.btnGrabar);
             VerifyAlert.containsThisText(localDriver, "correctamente");
             WaitUntilElement.isClikeableOf(localDriver, ConfirmProcedureUI.btnGenerarReporte);
             Click.on(localDriver, ConfirmProcedureUI.btnGenerarReporte); //reportePDF.pdf
-            getReport(localDriver, "reportePDF.pdf", "EMPADRONAMIENTO", identifier, index, ConfirmProcedureUI.btnGenerarReporte);
+            getReport(localDriver, "reportePDF.pdf", operation, identifier, index, ConfirmProcedureUI.btnGenerarReporte);
             Click.on(localDriver, ConfirmProcedureUI.btnSalir);
         }catch (Exception exception){
 

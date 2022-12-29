@@ -65,7 +65,7 @@ public class Empadronamiento extends GeneratorAEC {
             Verify.isReady(this.driverApp, test.get(i), ConfirmRecordUI.ttlConfirmarRegistro);
             ConfirmRecord.withoutObservations(this.driverApp);
             ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, test.get(i), Status.INFO, "CONFIRMAR TRAMITE");
-            ConfirmProcedureFactory.getInstance().executeConfirmProcedure(this.driverApp, test.get(i), "Empadronamiento", this.idContribuyente, i + 1);
+            ConfirmProcedureFactory.getInstance().executeConfirmProcedure(this.driverApp, test.get(i), "Empadronamiento", this.idContribuyente, i + 1, "EMPADRONAMIENTO");
             ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, test.get(i), Status.INFO, "FIN");
 
         }catch (Exception exception){

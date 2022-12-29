@@ -16,7 +16,7 @@ public class GiveFormat {
         newTitle = newTitle + title.substring(j,title.length());
         return newTitle.toUpperCase();
     }
-    public static String ofReportName(String reportName){
+    public static String ofReportName(String reportName){ //reportName: Modificar Datos -> MODIFICAR-DATOS
         String name = reportName.toUpperCase().trim();
         name.replace(" ", "-");
         return name;

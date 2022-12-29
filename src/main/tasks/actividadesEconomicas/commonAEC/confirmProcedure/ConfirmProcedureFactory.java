@@ -15,7 +15,7 @@ public class ConfirmProcedureFactory implements IConfirmProcedureFactory{
         return instance;
     }
     @Override
-    public void executeConfirmProcedure(WebDriver driver, ExtentTest extentTest, String procedure, String identifier, int index) {
+    public void executeConfirmProcedure(WebDriver driver, ExtentTest extentTest, String procedure, String identifier, int index, String operation) {
         try{
             Set<Class<? extends IConfirmProcedure>> confirmProcedureInterfaces = new Reflections(IConfirmProcedure.class).getSubTypesOf(IConfirmProcedure.class);
             for (var confirmProcedureManager : confirmProcedureInterfaces) {
@@ -24,8 +24,8 @@ public class ConfirmProcedureFactory implements IConfirmProcedureFactory{
                     Method methodSetDriver = Class.forName(confirmProcedureManager.getName()).getDeclaredMethod("setDriver", WebDriver.class, ExtentTest.class);
                     methodSetDriver.invoke(obj, driver, extentTest);
                     //Method methodNow = obj.getClass().getMethod("now");
-                    Method methodNow = obj.getClass().getDeclaredMethod("now", String.class, int.class);
-                    methodNow.invoke(obj, identifier, index);
+                    Method methodNow = obj.getClass().getDeclaredMethod("now", String.class, int.class, String.class);
+                    methodNow.invoke(obj, identifier, index, operation);
                     break;
                 }
             }
