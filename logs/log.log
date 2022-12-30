@@ -23484,3 +23484,207 @@
 29/12/2022 19:19:53.599: Proceso concluido: Módulo - COMPENSACIONES
 29/12/2022 19:19:53.600: =========================================================================
 29/12/2022 19:19:55.675: Proceso concluido con éxito...
+30/12/2022 08:53:14.692: Tiempo Inicialización (navegador): 7 seg. 199 mseg.
+30/12/2022 08:53:14.723: Abriendo aplicación...
+30/12/2022 08:53:15.009: *************************************************************************
+30/12/2022 08:53:15.010:                        EMISION-LICENCIA-FUNCIONAMIENTO
+30/12/2022 08:53:15.012: *************************************************************************
+30/12/2022 08:53:15.012: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+30/12/2022 08:53:15.013: Fecha: 30/12/2022 08:53:15.013
+30/12/2022 08:53:16.114: Proceso de Iniciar sesión: ...
+30/12/2022 08:53:16.254:  Proceso de autenticación exitoso.
+30/12/2022 08:53:16.255: -------------------------------------------------------------------------
+30/12/2022 08:53:19.202: -------------------------------------------------------------------------
+30/12/2022 08:53:19.203: Tiempo Total de Ejecución: 11 seg. 745 mseg.
+30/12/2022 08:53:19.204: Proceso concluido: Módulo - EMISION-LICENCIA-FUNCIONAMIENTO
+30/12/2022 08:53:19.204: =========================================================================
+30/12/2022 08:53:21.355: Proceso concluido con éxito...
+30/12/2022 08:54:24.273: Tiempo Inicialización (navegador): 6 seg. 934 mseg.
+30/12/2022 08:54:24.321: Abriendo aplicación...
+30/12/2022 08:54:24.611: *************************************************************************
+30/12/2022 08:54:24.612:                        EMISION-LICENCIA-FUNCIONAMIENTO
+30/12/2022 08:54:24.613: *************************************************************************
+30/12/2022 08:54:24.615: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+30/12/2022 08:54:24.615: Fecha: 30/12/2022 08:54:24.615
+30/12/2022 08:54:25.672: Proceso de Iniciar sesión: ...
+30/12/2022 08:54:25.825:  Proceso de autenticación exitoso.
+30/12/2022 08:54:25.826: -------------------------------------------------------------------------
+30/12/2022 08:54:27.950: -------------------------------------------------------------------------
+30/12/2022 08:54:27.950: Tiempo Total de Ejecución: 10 seg. 640 mseg.
+30/12/2022 08:54:27.951: Proceso concluido: Módulo - EMISION-LICENCIA-FUNCIONAMIENTO
+30/12/2022 08:54:27.952: =========================================================================
+30/12/2022 08:54:32.032: Proceso concluido con éxito...
+30/12/2022 15:29:33.808: Tiempo Inicialización (navegador): 7 seg. 403 mseg.
+30/12/2022 15:29:33.835: Abriendo aplicación...
+30/12/2022 15:29:34.168: *************************************************************************
+30/12/2022 15:29:34.169:                        COBRO
+30/12/2022 15:29:34.169: *************************************************************************
+30/12/2022 15:29:34.170: Ambiente: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/Autentificacion/index.jsp
+30/12/2022 15:29:34.171: Fecha: 30/12/2022 15:29:34.171
+30/12/2022 15:29:34.837: Proceso de Iniciar sesión: ...
+30/12/2022 15:30:15.792: Tiempo Inicialización (navegador): 7 seg. 690 mseg.
+30/12/2022 15:30:15.817: Abriendo aplicación...
+30/12/2022 15:30:16.133: *************************************************************************
+30/12/2022 15:30:16.134:                        COBRO
+30/12/2022 15:30:16.135: *************************************************************************
+30/12/2022 15:30:16.136: Ambiente: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/Autentificacion/index.jsp
+30/12/2022 15:30:16.137: Fecha: 30/12/2022 15:30:16.137
+30/12/2022 15:30:16.939: Proceso de Iniciar sesión: ...
+30/12/2022 15:30:19.231: Login process: OK
+30/12/2022 15:30:19.232: -------------------------------------------------------------------------
+30/12/2022 15:30:19.232: Cargando módulo...
+30/12/2022 15:30:20.812: Iniciando el proceso de Pagos en el rubro Actividades económicas
+30/12/2022 15:30:21.885: Sin alertas, esperando respuesta...
+30/12/2022 15:30:21.926: Cargando el siguiente paso...
+30/12/2022 15:30:22.672: Buscando deudas de la actividad economica 1120010900
+30/12/2022 15:30:23.155: Debe seleccionar gobierno municipal.
+30/12/2022 15:30:29.317: -------------------------------------------------------------------------
+30/12/2022 15:30:29.317: Cargando módulo...
+30/12/2022 15:30:30.827: Iniciando el proceso de Loteo en el rubro Actividades económicas
+30/12/2022 15:30:31.874: Sin alertas, esperando respuesta...
+30/12/2022 15:31:02.324: Existen validaciones no superadas...
+30/12/2022 15:31:07.820: -------------------------------------------------------------------------
+30/12/2022 15:31:07.821: Tiempo Total de Ejecución: 59 seg. 761 mseg.
+30/12/2022 15:31:07.822: Proceso concluido: Módulo - COBRO
+30/12/2022 15:31:07.822: =========================================================================
+30/12/2022 15:31:09.699: Proceso de pago concluido.
+30/12/2022 15:33:59.570: Tiempo Inicialización (navegador): 7 seg. 238 mseg.
+30/12/2022 15:33:59.606: Abriendo aplicación...
+30/12/2022 15:33:59.918: *************************************************************************
+30/12/2022 15:33:59.919:                        COBRO
+30/12/2022 15:33:59.920: *************************************************************************
+30/12/2022 15:33:59.921: Ambiente: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/Autentificacion/index.jsp
+30/12/2022 15:33:59.922: Fecha: 30/12/2022 15:33:59.921
+30/12/2022 15:34:00.724: Proceso de Iniciar sesión: ...
+30/12/2022 15:34:03.038: Login process: OK
+30/12/2022 15:34:03.039: -------------------------------------------------------------------------
+30/12/2022 15:34:03.039: Cargando módulo...
+30/12/2022 15:34:04.481: Iniciando el proceso de Pagos en el rubro Actividades económicas
+30/12/2022 15:34:05.524: Sin alertas, esperando respuesta...
+30/12/2022 15:34:05.559: Cargando el siguiente paso...
+30/12/2022 15:34:06.615: Buscando deudas de la actividad economica 1120010900
+30/12/2022 15:34:07.132: No existe registro de actividad económica para este número de licencia.
+30/12/2022 15:34:13.271: -------------------------------------------------------------------------
+30/12/2022 15:34:13.272: Cargando módulo...
+30/12/2022 15:34:14.674: Iniciando el proceso de Loteo en el rubro Actividades económicas
+30/12/2022 15:34:15.714: Sin alertas, esperando respuesta...
+30/12/2022 15:34:46.171: Existen validaciones no superadas...
+30/12/2022 15:34:59.927: Tiempo Inicialización (navegador): 7 seg. 453 mseg.
+30/12/2022 15:34:59.952: Abriendo aplicación...
+30/12/2022 15:35:00.246: *************************************************************************
+30/12/2022 15:35:00.246:                        COBRO
+30/12/2022 15:35:00.247: *************************************************************************
+30/12/2022 15:35:00.249: Ambiente: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/Autentificacion/index.jsp
+30/12/2022 15:35:00.250: Fecha: 30/12/2022 15:35:00.249
+30/12/2022 15:35:01.060: Proceso de Iniciar sesión: ...
+30/12/2022 15:35:03.359: Login process: OK
+30/12/2022 15:35:03.360: -------------------------------------------------------------------------
+30/12/2022 15:35:03.360: Cargando módulo...
+30/12/2022 15:35:04.717: Iniciando el proceso de Pagos en el rubro Actividades económicas
+30/12/2022 15:35:05.757: Sin alertas, esperando respuesta...
+30/12/2022 15:35:05.811: Cargando el siguiente paso...
+30/12/2022 15:35:09.005: Buscando deudas de la actividad economica 200087
+30/12/2022 15:35:10.062: Sin alertas, esperando respuesta...
+30/12/2022 15:35:10.125: Cargando el siguiente paso...
+30/12/2022 15:35:20.449: Sin alertas, esperando respuesta...
+30/12/2022 15:35:20.492: Cargando el siguiente paso...
+30/12/2022 15:35:21.851: Sin alertas, esperando respuesta...
+30/12/2022 15:35:25.763: Cargando el siguiente paso...
+
+30/12/2022 15:35:28.080: El pago se registró correctamente.El monto total pagado es: 62879 Bs.
+30/12/2022 15:35:34.411: -------------------------------------------------------------------------
+30/12/2022 15:35:34.412: Cargando módulo...
+30/12/2022 15:35:35.790: Iniciando el proceso de Loteo en el rubro Actividades económicas
+30/12/2022 15:35:36.817: Sin alertas, esperando respuesta...
+30/12/2022 15:35:36.867: Cargando el siguiente paso...
+30/12/2022 15:35:38.580: Sin alertas, esperando respuesta...
+30/12/2022 15:35:38.646: Cargando el siguiente paso...
+30/12/2022 15:35:44.232: -------------------------------------------------------------------------
+30/12/2022 15:35:44.233: Tiempo Total de Ejecución: 51 seg. 802 mseg.
+30/12/2022 15:35:44.233: Proceso concluido: Módulo - COBRO
+30/12/2022 15:35:44.234: =========================================================================
+30/12/2022 15:35:46.767: Proceso de pago concluido.
+30/12/2022 18:05:54.089: Tiempo Inicialización (navegador): 7 seg. 3 mseg.
+30/12/2022 18:05:54.206: Abriendo aplicación...
+30/12/2022 18:05:54.487: *************************************************************************
+30/12/2022 18:05:54.487:                        EMISION-LICENCIA-FUNCIONAMIENTO
+30/12/2022 18:05:54.488: *************************************************************************
+30/12/2022 18:05:54.489: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+30/12/2022 18:05:54.490: Fecha: 30/12/2022 18:05:54.489
+30/12/2022 18:05:55.545: Proceso de Iniciar sesión: ...
+30/12/2022 18:05:55.689:  Proceso de autenticación exitoso.
+30/12/2022 18:05:55.689: -------------------------------------------------------------------------
+
+30/12/2022 18:06:09.765: ObservacionesLa impresión de la Licencia de Funcionamiento se realizó de forma correcta.
+30/12/2022 18:06:09.914: -------------------------------------------------------------------------
+30/12/2022 18:06:09.915: Tiempo Total de Ejecución: 22 seg. 854 mseg.
+30/12/2022 18:06:09.916: Proceso concluido: Módulo - EMISION-LICENCIA-FUNCIONAMIENTO
+30/12/2022 18:06:09.916: =========================================================================
+30/12/2022 18:06:11.997: Proceso concluido con éxito...
+30/12/2022 18:16:52.846: Tiempo Inicialización (navegador): 7 seg. 82 mseg.
+30/12/2022 18:16:52.877: Abriendo aplicación...
+30/12/2022 18:16:53.177: *************************************************************************
+30/12/2022 18:16:53.178:                        EMPADRONAMIENTO
+30/12/2022 18:16:53.180: *************************************************************************
+30/12/2022 18:16:53.181: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+30/12/2022 18:16:53.182: Fecha: 30/12/2022 18:16:53.182
+30/12/2022 18:16:54.165: Proceso de Iniciar sesión: ...
+30/12/2022 18:16:54.295:  Proceso de autenticación exitoso.
+30/12/2022 18:16:54.296: -------------------------------------------------------------------------
+30/12/2022 18:18:30.020: -------------------------------------------------------------------------
+30/12/2022 18:19:53.255: -------------------------------------------------------------------------
+30/12/2022 18:19:53.256: Tiempo Total de Ejecución: 3 min. 7 seg. 515 mseg.
+30/12/2022 18:19:53.257: Proceso concluido: Módulo - EMPADRONAMIENTO
+30/12/2022 18:19:53.258: =========================================================================
+30/12/2022 18:19:55.438: Proceso concluido con éxito...
+30/12/2022 18:22:45.029: Tiempo Inicialización (navegador): 7 seg. 152 mseg.
+30/12/2022 18:22:45.057: Abriendo aplicación...
+30/12/2022 18:22:45.343: *************************************************************************
+30/12/2022 18:22:45.345:                        EMISION-LICENCIA-FUNCIONAMIENTO
+30/12/2022 18:22:45.345: *************************************************************************
+30/12/2022 18:22:45.346: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+30/12/2022 18:22:45.347: Fecha: 30/12/2022 18:22:45.347
+30/12/2022 18:22:46.317: Proceso de Iniciar sesión: ...
+30/12/2022 18:22:46.448:  Proceso de autenticación exitoso.
+30/12/2022 18:22:46.449: -------------------------------------------------------------------------
+
+30/12/2022 18:23:01.337: ObservacionesLa impresión de la Licencia de Funcionamiento se realizó de forma correcta.
+30/12/2022 18:23:01.498: -------------------------------------------------------------------------
+
+30/12/2022 18:23:13.605: ObservacionesLa impresión de la Licencia de Funcionamiento se realizó de forma correcta.
+30/12/2022 18:23:13.766: -------------------------------------------------------------------------
+30/12/2022 18:23:13.767: Tiempo Total de Ejecución: 35 seg. 929 mseg.
+30/12/2022 18:23:13.767: Proceso concluido: Módulo - EMISION-LICENCIA-FUNCIONAMIENTO
+30/12/2022 18:23:13.768: =========================================================================
+30/12/2022 18:23:16.074: Proceso concluido con éxito...
+30/12/2022 18:40:08.629: Proceso sin éxito...
+30/12/2022 18:42:03.678: Tiempo Inicialización (navegador): 7 seg. 409 mseg.
+30/12/2022 18:42:03.701: Abriendo aplicación...
+30/12/2022 18:42:03.984: *************************************************************************
+30/12/2022 18:42:03.985:                        CONDONACION-LEY-MUNICIPAL
+30/12/2022 18:42:03.986: *************************************************************************
+30/12/2022 18:42:03.989: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+30/12/2022 18:42:03.990: Fecha: 30/12/2022 18:42:03.990
+30/12/2022 18:42:04.961: Proceso de Iniciar sesión: ...
+30/12/2022 18:42:05.084:  Proceso de autenticación exitoso.
+30/12/2022 18:42:05.085: -------------------------------------------------------------------------
+30/12/2022 18:42:06.180: -------------------------------------------------------------------------
+30/12/2022 18:42:06.180: Tiempo Total de Ejecución: 9 seg. 935 mseg.
+30/12/2022 18:42:06.182: Proceso concluido: Módulo - CONDONACION-LEY-MUNICIPAL
+30/12/2022 18:42:06.183: =========================================================================
+30/12/2022 18:42:08.263: Proceso concluido con éxito...
+30/12/2022 18:43:23.553: Tiempo Inicialización (navegador): 6 seg. 873 mseg.
+30/12/2022 18:43:23.582: Abriendo aplicación...
+30/12/2022 18:43:23.869: *************************************************************************
+30/12/2022 18:43:23.870:                        CONDONACION-LEY-MUNICIPAL
+30/12/2022 18:43:23.876: *************************************************************************
+30/12/2022 18:43:23.878: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+30/12/2022 18:43:23.879: Fecha: 30/12/2022 18:43:23.879
+30/12/2022 18:43:24.875: Proceso de Iniciar sesión: ...
+30/12/2022 18:43:25.050:  Proceso de autenticación exitoso.
+30/12/2022 18:43:25.050: -------------------------------------------------------------------------
+30/12/2022 18:43:26.246: -------------------------------------------------------------------------
+30/12/2022 18:43:26.247: Tiempo Total de Ejecución: 9 seg. 598 mseg.
+30/12/2022 18:43:26.248: Proceso concluido: Módulo - CONDONACION-LEY-MUNICIPAL
+30/12/2022 18:43:26.248: =========================================================================
+30/12/2022 18:43:30.440: Proceso concluido con éxito...

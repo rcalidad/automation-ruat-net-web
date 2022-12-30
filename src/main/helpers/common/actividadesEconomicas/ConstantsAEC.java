@@ -21,6 +21,8 @@ public class ConstantsAEC {
     public static final String EMPADRONAMIENTO_DATA_SHEET = "Empadronamiento";
     public static final String MULTA_ADMINISTRATIVA_PATENTES_DATA_SHEET = "MultaAdministrativaPatentes";
     public static final String COMPENSACIONES_DATA_SHEET = "Compensaciones";
+    public static final String EMISION_LICENCIA_DE_FUNCIONAMIENTO_DATA_SHEET = "EmisionLicenciaFuncionamiento";
+    public static final String CONDONACION_LEY_MUNICIPAL_DATA_SHEET = "CondonacionLeyMunicipal";
 
     //GROUPER
     public static final String PROFORMA_GROUPER = "Proforma";
@@ -36,4 +38,7 @@ public class ConstantsAEC {
     public static final String EMPADRONAMIENTO_MODULE = "Empadronamiento";
     public static final String MULTAS_ADMINISTRATIVAS_PATENTES_MODULE = "Multas Administrativas Patentes";
     public static final String COMPENSACIONES_MODULE = "Compensaciones";
+    public static final String EMISION_LICENCIA_FUNCIONAMIENTO_MODULE = "Emisión Licencia Funcionamiento";
+    public static final String CONDONACION_LEY_MUNICIPAL_MODULE = "Condonación Ley Municipal";
+
 }
