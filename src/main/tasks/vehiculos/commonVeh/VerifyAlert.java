@@ -15,4 +15,15 @@ public class VerifyAlert {
         }
         return false;
     }
+
+    public static boolean containsThisText(WebDriver driver, String textMatcher, int time){
+        if (WaitUntilAlert.isPresent(driver, time)){
+            String message = DisplayAlert.getText(driver);
+            if (message.contains(textMatcher)){
+                DisplayAlert.toAcept(driver);
+                return true;
+            }
+        }
+        return false;
+    }
 }
