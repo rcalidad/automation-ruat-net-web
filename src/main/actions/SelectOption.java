@@ -14,8 +14,8 @@ public class SelectOption {
     public static void byText(WebDriver driver, By locator, String option){
         WebDriverWait wait = new WebDriverWait(driver, 1);
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
-        Select initialYear = new Select(element);
-        initialYear.selectByVisibleText(option);
+        Select list = new Select(element);
+        list.selectByVisibleText(option);
     }
     public static boolean waitUntilLoadOptions(WebDriver driver, By locator){
         WebDriverWait wait = new WebDriverWait(driver, 3);
@@ -51,5 +51,22 @@ public class SelectOption {
         }
     }
 
+    public static void nonEmptyRandomValue(WebDriver driver, By locator){
+        WebDriverWait wait = new WebDriverWait(driver, 3);
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+        Select lstElement = new Select(element);
+        List<WebElement> optionList = lstElement.getOptions();
+        int size = optionList.size();
+        int index = getRandomNumber(0, size - 1);
+        while (optionList.get(index).getText().equals("")){
+            index = getRandomNumber(0, size - 1);
+        }
+        lstElement.selectByIndex(index);
+    }
+
+    public static int getRandomNumber(int initialValue, int finalValue){
+        int randomNumber = (int)(Math.random() * ((finalValue - initialValue) + 1))  + initialValue;
+        return randomNumber;
+    }
     public static void byPartialtext(){}
 }

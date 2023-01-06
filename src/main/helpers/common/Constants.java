@@ -27,6 +27,7 @@ public class Constants
 
 	public static final String ENVIRONMENT_DATA_SHEET = "AMBIENTE";
 	public static final String AUXILIARY_DATA_SHEET = "datosAuxiliares";
+	public static final String TAXPAYER_DATA_SHEET = "ContribuyentesPMC";
 	public static final String USUARIO_PARAMETER = "USUARIO";
 	public static final String MUNICIPIO_PARAMETER = "MUNICIPIO";
 	public static final String ABREVIACION_MUNICIPIO_PARAMETER = "ABREVIACION";

@@ -11,10 +11,18 @@ public class ConstantsINM
 	public static final String INM_PROJECT_DIRECTORY = System.getProperty("user.dir").replace('\\', '/') + "/";     
 	public static final String GENERATOR_DATA_FILE = "generators/inmuebles/DataPageGenerator.xls";
 	public static final String TESTS_DATA_FILE = "testCases/inmuebles/DatosPrueba.xls";
-	public static final String EMPADRONAMIENTO_DATA_SHEET = "Empadronamiento";
-	public static final String PROFORMA_DATA_SHEET = "Proforma";
 	public static final String DISABLED_ATTRIBUTE = "disabled";
 	public static final String SUBSYSTEM_ID = "INM";
+
+	//DATA SHEET
+	public static final String EMPADRONAMIENTO_DATA_SHEET = "Empadronamiento";
+	public static final String PROFORMA_DATA_SHEET = "Proforma";
+
+	//GROUPERS
+	public static final String REGISTRO_TECNICO_GROUPER = "REGISTRO TECNICO";
+
+	//MODULES
+	public static final String EMPADRONAMIENTO_PROPIEDAD_UNICA_MODULE = "Propiedad Única";
 
 	/*public static final String  TIPO_PROPIEDAD_UNICA                                     = "PROPIEDAD ÚNICA";
 	public static final String  TIPO_PROPIEDAD_ACCIONES_DERECHOS                         = "PROPIEDAD ACCIONES DERECHOS";

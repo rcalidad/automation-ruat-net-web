@@ -109,4 +109,9 @@ public class ExcelData {
     public static String getBeforeTown(AccessExcel accessExcel, int row_i){
         return row_i > 0 ? accessExcel.getParametro(Constants.MUNICIPIO_PARAMETER).get(row_i - 1): "";
     }
+    public static ArrayList<String> getTaxpayerList(String excelFilePath, String town, String taxpayerType){
+        AccessExcel taxpayerConfigurationFile = new AccessExcel(excelFilePath, Constants.TAXPAYER_DATA_SHEET);
+        String parameter = town.toUpperCase() + " " + taxpayerType.toUpperCase();
+        return taxpayerConfigurationFile.getParametro(parameter);
+    }
 }
