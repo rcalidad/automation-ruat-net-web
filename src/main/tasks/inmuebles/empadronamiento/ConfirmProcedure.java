@@ -22,17 +22,33 @@ public class ConfirmProcedure {
         return FileBuilder.moveAndRenameFile(originalFilename, operation, GetText.ofValue(driver, locator).trim(), identifier, ConstantsINM.SUBSYSTEM_ID, index);
     }
     public static void toEmpadronamiento(WebDriver driver, ExtentTest extentTest, String originalFileName, String operation, String identificador, int index){
+        String originalWindow = driver.getWindowHandle();
         getReport(driver, originalFileName, operation, identificador, index, ConfirmarTramiteUI.btnVistaPrevia); //reportePDF.pdf
-        //CloseChildWindows.now(driver);
-        //ChangeFrame.toContentFrame(driver);
+        CloseChildWindows.now(driver, originalWindow);
+        ChangeFrame.toContentFrame(driver);
         WaitUntilElement.isClikeableOf(driver, ConfirmarTramiteUI.btnGrabar);
         Click.on(driver, ConfirmarTramiteUI.btnGrabar);
         VerifyAlert.containsThisText(driver, "correctamente");
         getReport(driver, originalFileName, operation, identificador, index, ConfirmarTramiteUI.btnGenerarReporte); //reportePDF.pdf
-        CloseChildWindows.now(driver);
+        CloseChildWindows.now(driver, originalWindow);
         ChangeFrame.toContentFrame(driver);
         WaitUntilElement.isClikeableOf(driver, ConfirmarTramiteUI.btnSalir);
         Click.on(driver, ConfirmarTramiteUI.btnSalir);
     }
+    public static void toAutoevaluo(WebDriver driver, String originalFileName, String operation, String identifier, int index){
+        String originalWindow = driver.getWindowHandle();
+        getReport(driver, originalFileName, operation, identifier, index, ConfirmarTramiteUI.btnVistaPrevia); //reportePDF.pdf
+        CloseChildWindows.now(driver, originalWindow);
+        //String window = driver.getWindowHandle();
+        //driver.switchTo().window(window);
+        ChangeFrame.toContentFrame(driver);
 
+        //originalWindow = driver.getWindowHandle();
+        getReport(driver, originalFileName, operation, identifier, index, ConfirmarTramiteUI.btnGenerarReporte); //reportePDF.pdf
+        CloseChildWindows.now(driver, originalWindow);
+        //window = driver.getWindowHandle();
+        //driver.switchTo().window(window);
+        ChangeFrame.toContentFrame(driver);
+        Click.on(driver, ConfirmarTramiteUI.btnSalir);
+    }
 }

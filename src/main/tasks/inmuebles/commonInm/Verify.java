@@ -25,7 +25,7 @@ public class Verify {
             if (IsDisplayed.element(driver, locator)){
                 Log.recordInLog(locator.toString() + " cargado.");
             }else {
-                ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.INFO, MessagesINM.problemWithAStep);
+                ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.SKIP, MessagesINM.problemWithAStep);
                 throw new Exception(MessagesINM.problemWithAStep + locator.toString());
             }
         }

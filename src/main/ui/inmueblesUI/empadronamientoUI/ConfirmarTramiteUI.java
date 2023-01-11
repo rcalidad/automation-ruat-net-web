@@ -7,5 +7,5 @@ public class ConfirmarTramiteUI {
     public static By btnVistaPrevia = By.xpath("//input[@value='Vista Previa']");
     public static By btnGrabar = By.xpath("//input[@value='Grabar']");
     public static By btnGenerarReporte = By.xpath("//input[@value='Generar Reporte']");
-    public static By btnSalir = By.xpath("Salir");
+    public static By btnSalir = By.xpath("//input[@value='Salir']");
 }

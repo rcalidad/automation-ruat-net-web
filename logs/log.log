@@ -25498,3 +25498,1025 @@
 06/01/2023 16:53:01.327: Tiempo Total de Ejecución: 9 min. 41 seg. 239 mseg.
 06/01/2023 16:53:01.327: Proceso concluido: Módulo - EMPADRONAMIENTO
 06/01/2023 16:53:01.327: =========================================================================
+09/01/2023 10:12:25.453: Proceso concluido sin éxito...
+09/01/2023 10:13:36.437: Tiempo Inicialización (navegador): 8 seg. 539 mseg.
+09/01/2023 10:13:36.461: Abriendo aplicación...
+09/01/2023 10:13:36.765: *************************************************************************
+09/01/2023 10:13:36.766:                        AUTOAVALUOS
+09/01/2023 10:13:36.767: *************************************************************************
+09/01/2023 10:13:36.768: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+09/01/2023 10:13:36.769: Fecha: 09/01/2023 10:13:36.769
+09/01/2023 10:13:38.035: Proceso de autentificación: ...
+09/01/2023 10:13:40.062:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+09/01/2023 10:13:41.006: Proceso de autentificación: ...
+09/01/2023 10:13:43.111: Proceso de autentificación: OK.
+09/01/2023 10:13:43.112: -------------------------------------------------------------------------
+09/01/2023 10:13:45.414: -------------------------------------------------------------------------
+09/01/2023 10:13:45.414: Tiempo Total de Ejecución: 17 seg. 560 mseg.
+09/01/2023 10:13:45.415: Proceso concluido: Módulo - AUTOAVALUOS
+09/01/2023 10:13:45.415: =========================================================================
+09/01/2023 10:13:47.263: Proceso concluido con exito.
+09/01/2023 10:30:48.924: Tiempo Inicialización (navegador): 7 seg. 516 mseg.
+09/01/2023 10:30:48.961: Abriendo aplicación...
+09/01/2023 10:30:49.238: *************************************************************************
+09/01/2023 10:30:49.239:                        AUTOAVALUOS
+09/01/2023 10:30:49.240: *************************************************************************
+09/01/2023 10:30:49.241: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+09/01/2023 10:30:49.242: Fecha: 09/01/2023 10:30:49.241
+09/01/2023 10:30:50.439: Proceso de autentificación: ...
+09/01/2023 10:30:52.489:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+09/01/2023 10:30:53.464: Proceso de autentificación: ...
+09/01/2023 10:30:54.869: Proceso de autentificación: OK.
+09/01/2023 10:30:54.870: -------------------------------------------------------------------------
+09/01/2023 10:31:33.848: -------------------------------------------------------------------------
+09/01/2023 10:31:33.848: Tiempo Total de Ejecución: 52 seg. 474 mseg.
+09/01/2023 10:31:33.849: Proceso concluido: Módulo - AUTOAVALUOS
+09/01/2023 10:31:33.849: =========================================================================
+09/01/2023 10:31:35.888: Proceso concluido con exito.
+09/01/2023 10:33:26.298: Tiempo Inicialización (navegador): 7 seg. 941 mseg.
+09/01/2023 10:33:26.323: Abriendo aplicación...
+09/01/2023 10:33:26.632: *************************************************************************
+09/01/2023 10:33:26.633:                        AUTOAVALUOS
+09/01/2023 10:33:26.634: *************************************************************************
+09/01/2023 10:33:26.635: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+09/01/2023 10:33:26.636: Fecha: 09/01/2023 10:33:26.636
+09/01/2023 10:33:27.817: Proceso de autentificación: ...
+09/01/2023 10:33:29.870:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+09/01/2023 10:33:30.867: Proceso de autentificación: ...
+09/01/2023 10:33:32.370: Proceso de autentificación: OK.
+09/01/2023 10:33:32.370: -------------------------------------------------------------------------
+09/01/2023 10:33:34.923: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+09/01/2023 10:33:38.308: -------------------------------------------------------------------------
+09/01/2023 10:33:38.308: Tiempo Total de Ejecución: 19 seg. 980 mseg.
+09/01/2023 10:33:38.310: Proceso concluido: Módulo - AUTOAVALUOS
+09/01/2023 10:33:38.311: =========================================================================
+09/01/2023 10:33:40.384: Proceso concluido con exito.
+09/01/2023 11:16:07.270: Tiempo Inicialización (navegador): 7 seg. 632 mseg.
+09/01/2023 11:16:07.291: Abriendo aplicación...
+09/01/2023 11:16:07.582: *************************************************************************
+09/01/2023 11:16:07.585:                        AUTOAVALUOS
+09/01/2023 11:16:07.587: *************************************************************************
+09/01/2023 11:16:07.588: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+09/01/2023 11:16:07.589: Fecha: 09/01/2023 11:16:07.589
+09/01/2023 11:16:08.744: Proceso de autentificación: ...
+09/01/2023 11:16:10.825:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+09/01/2023 11:16:11.796: Proceso de autentificación: ...
+09/01/2023 11:16:13.222: Proceso de autentificación: OK.
+09/01/2023 11:16:13.223: -------------------------------------------------------------------------
+09/01/2023 11:16:15.827: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+09/01/2023 11:16:25.214: -------------------------------------------------------------------------
+09/01/2023 11:16:25.215: Tiempo Total de Ejecución: 25 seg. 612 mseg.
+09/01/2023 11:16:25.216: Proceso concluido: Módulo - AUTOAVALUOS
+09/01/2023 11:16:25.216: =========================================================================
+09/01/2023 11:16:27.216: Proceso concluido con exito.
+09/01/2023 11:18:16.009: Tiempo Inicialización (navegador): 7 seg. 761 mseg.
+09/01/2023 11:18:16.040: Abriendo aplicación...
+09/01/2023 11:18:16.325: *************************************************************************
+09/01/2023 11:18:16.326:                        AUTOAVALUOS
+09/01/2023 11:18:16.328: *************************************************************************
+09/01/2023 11:18:16.329: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+09/01/2023 11:18:16.330: Fecha: 09/01/2023 11:18:16.329
+09/01/2023 11:18:17.468: Proceso de autentificación: ...
+09/01/2023 11:18:19.535:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+09/01/2023 11:18:20.505: Proceso de autentificación: ...
+09/01/2023 11:18:21.866: Proceso de autentificación: OK.
+09/01/2023 11:18:21.867: -------------------------------------------------------------------------
+09/01/2023 11:18:24.388: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+09/01/2023 11:18:26.450: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+09/01/2023 11:18:28.953: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+09/01/2023 11:18:30.081: -------------------------------------------------------------------------
+09/01/2023 11:18:30.081: Tiempo Total de Ejecución: 21 seg. 876 mseg.
+09/01/2023 11:18:30.082: Proceso concluido: Módulo - AUTOAVALUOS
+09/01/2023 11:18:30.083: =========================================================================
+09/01/2023 11:18:33.481: Proceso concluido con exito.
+09/01/2023 11:59:06.352: Tiempo Inicialización (navegador): 7 seg. 507 mseg.
+09/01/2023 11:59:06.377: Abriendo aplicación...
+09/01/2023 11:59:06.686: *************************************************************************
+09/01/2023 11:59:06.687:                        AUTOAVALUOS
+09/01/2023 11:59:06.688: *************************************************************************
+09/01/2023 11:59:06.688: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+09/01/2023 11:59:06.689: Fecha: 09/01/2023 11:59:06.689
+09/01/2023 11:59:07.878: Proceso de autentificación: ...
+09/01/2023 11:59:09.959:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+09/01/2023 11:59:10.930: Proceso de autentificación: ...
+09/01/2023 11:59:13.681: Proceso de autentificación: OK.
+09/01/2023 11:59:13.682: -------------------------------------------------------------------------
+09/01/2023 11:59:15.641: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+09/01/2023 11:59:18.139: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+09/01/2023 11:59:21.120: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+09/01/2023 11:59:24.160: -------------------------------------------------------------------------
+09/01/2023 11:59:24.160: Tiempo Total de Ejecución: 25 seg. 360 mseg.
+09/01/2023 11:59:24.161: Proceso concluido: Módulo - AUTOAVALUOS
+09/01/2023 11:59:24.161: =========================================================================
+09/01/2023 11:59:26.373: Proceso concluido con exito.
+10/01/2023 17:35:29.783: Proceso concluido sin éxito...
+10/01/2023 17:37:23.652: Proceso concluido sin éxito...
+10/01/2023 17:40:39.367: Proceso concluido sin éxito...
+10/01/2023 17:41:48.115: Tiempo Inicialización (navegador): 7 seg. 467 mseg.
+10/01/2023 17:41:48.166: Abriendo aplicación...
+10/01/2023 17:41:48.489: *************************************************************************
+10/01/2023 17:41:48.489:                        AUTOAVALUOS
+10/01/2023 17:41:48.489: *************************************************************************
+10/01/2023 17:41:48.489: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+10/01/2023 17:41:48.495: Fecha: 10/01/2023 17:41:48.495
+10/01/2023 17:41:49.693: Proceso de autentificación: ...
+10/01/2023 17:41:51.787:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+10/01/2023 17:41:52.746: Proceso de autentificación: ...
+10/01/2023 17:41:54.212: Proceso de autentificación: OK.
+10/01/2023 17:41:54.213: -------------------------------------------------------------------------
+10/01/2023 17:41:57.305: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+10/01/2023 17:42:36.190: -------------------------------------------------------------------------
+10/01/2023 17:42:36.191: Tiempo Total de Ejecución: 55 seg. 589 mseg.
+10/01/2023 17:42:36.192: Proceso concluido: Módulo - AUTOAVALUOS
+10/01/2023 17:42:36.193: =========================================================================
+10/01/2023 17:42:38.525: Proceso concluido con exito.
+10/01/2023 17:43:24.514: Tiempo Inicialización (navegador): 7 seg. 234 mseg.
+10/01/2023 17:43:24.541: Abriendo aplicación...
+10/01/2023 17:43:24.858: *************************************************************************
+10/01/2023 17:43:24.859:                        AUTOAVALUOS
+10/01/2023 17:43:24.860: *************************************************************************
+10/01/2023 17:43:24.861: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+10/01/2023 17:43:24.862: Fecha: 10/01/2023 17:43:24.861
+10/01/2023 17:43:26.083: Proceso de autentificación: ...
+10/01/2023 17:43:28.246:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+10/01/2023 17:43:29.209: Proceso de autentificación: ...
+10/01/2023 17:43:31.291: Proceso de autentificación: OK.
+10/01/2023 17:43:31.291: -------------------------------------------------------------------------
+10/01/2023 17:43:33.858: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+10/01/2023 17:43:36.021: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+10/01/2023 17:43:38.446: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+10/01/2023 17:43:41.530: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+10/01/2023 17:43:44.820: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+10/01/2023 17:43:51.044: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+10/01/2023 17:43:56.511: -------------------------------------------------------------------------
+10/01/2023 17:43:56.512: Tiempo Total de Ejecución: 39 seg. 254 mseg.
+10/01/2023 17:43:56.512: Proceso concluido: Módulo - AUTOAVALUOS
+10/01/2023 17:43:56.513: =========================================================================
+10/01/2023 17:43:58.638: Proceso concluido con exito.
+10/01/2023 17:46:30.168: Tiempo Inicialización (navegador): 7 seg. 497 mseg.
+10/01/2023 17:46:30.196: Abriendo aplicación...
+10/01/2023 17:46:30.504: *************************************************************************
+10/01/2023 17:46:30.505:                        AUTOAVALUOS
+10/01/2023 17:46:30.506: *************************************************************************
+10/01/2023 17:46:30.506: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+10/01/2023 17:46:30.507: Fecha: 10/01/2023 17:46:30.507
+10/01/2023 17:46:31.657: Proceso de autentificación: ...
+10/01/2023 17:46:33.725:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+10/01/2023 17:46:34.673: Proceso de autentificación: ...
+10/01/2023 17:46:36.822: Proceso de autentificación: OK.
+10/01/2023 17:46:36.822: -------------------------------------------------------------------------
+10/01/2023 17:46:38.810: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+10/01/2023 17:46:40.981: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+10/01/2023 17:46:43.479: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+10/01/2023 17:46:46.228: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+10/01/2023 17:46:49.484: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+10/01/2023 17:46:56.081: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+10/01/2023 17:47:01.901: -------------------------------------------------------------------------
+10/01/2023 17:47:01.901: Tiempo Total de Ejecución: 39 seg. 259 mseg.
+10/01/2023 17:47:01.906: Proceso concluido: Módulo - AUTOAVALUOS
+10/01/2023 17:47:01.907: =========================================================================
+10/01/2023 17:47:04.137: Proceso concluido con exito.
+10/01/2023 17:54:50.321: Tiempo Inicialización (navegador): 7 seg. 414 mseg.
+10/01/2023 17:54:50.351: Abriendo aplicación...
+10/01/2023 17:54:50.640: *************************************************************************
+10/01/2023 17:54:50.641:                        AUTOAVALUOS
+10/01/2023 17:54:50.642: *************************************************************************
+10/01/2023 17:54:50.643: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+10/01/2023 17:54:50.644: Fecha: 10/01/2023 17:54:50.644
+10/01/2023 17:54:51.797: Proceso de autentificación: ...
+10/01/2023 17:54:53.927:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+10/01/2023 17:54:54.994: Proceso de autentificación: ...
+10/01/2023 17:54:56.372: Proceso de autentificación: OK.
+10/01/2023 17:54:56.373: -------------------------------------------------------------------------
+10/01/2023 17:54:58.962: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+10/01/2023 17:55:01.141: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+10/01/2023 17:55:03.537: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+10/01/2023 17:55:06.399: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+10/01/2023 17:55:09.765: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+10/01/2023 17:55:22.933: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+10/01/2023 17:55:28.266: -------------------------------------------------------------------------
+10/01/2023 17:55:28.267: Tiempo Total de Ejecución: 45 seg. 386 mseg.
+10/01/2023 17:55:28.267: Proceso concluido: Módulo - AUTOAVALUOS
+10/01/2023 17:55:28.268: =========================================================================
+10/01/2023 17:55:30.595: Proceso concluido con exito.
+10/01/2023 17:58:38.668: Tiempo Inicialización (navegador): 7 seg. 350 mseg.
+10/01/2023 17:58:38.683: Abriendo aplicación...
+10/01/2023 17:58:38.969: *************************************************************************
+10/01/2023 17:58:38.970:                        AUTOAVALUOS
+10/01/2023 17:58:38.971: *************************************************************************
+10/01/2023 17:58:38.971: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+10/01/2023 17:58:38.972: Fecha: 10/01/2023 17:58:38.972
+10/01/2023 17:58:40.192: Proceso de autentificación: ...
+10/01/2023 17:58:42.238:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+10/01/2023 17:58:43.182: Proceso de autentificación: ...
+10/01/2023 17:58:45.156: Proceso de autentificación: OK.
+10/01/2023 17:58:45.157: -------------------------------------------------------------------------
+10/01/2023 17:58:47.302: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+10/01/2023 17:58:49.812: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+10/01/2023 17:58:52.780: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+10/01/2023 17:58:56.213: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+10/01/2023 17:58:59.593: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+10/01/2023 17:59:03.231: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+10/01/2023 17:59:06.371: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+10/01/2023 17:59:11.993: -------------------------------------------------------------------------
+10/01/2023 17:59:11.995: Tiempo Total de Ejecución: 40 seg. 709 mseg.
+10/01/2023 17:59:11.996: Proceso concluido: Módulo - AUTOAVALUOS
+10/01/2023 17:59:11.996: =========================================================================
+10/01/2023 17:59:13.875: Proceso concluido con exito.
+10/01/2023 17:59:40.498: Tiempo Inicialización (navegador): 7 seg. 247 mseg.
+10/01/2023 17:59:40.526: Abriendo aplicación...
+10/01/2023 17:59:40.838: *************************************************************************
+10/01/2023 17:59:40.839:                        AUTOAVALUOS
+10/01/2023 17:59:40.839: *************************************************************************
+10/01/2023 17:59:40.841: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+10/01/2023 17:59:40.843: Fecha: 10/01/2023 17:59:40.842
+10/01/2023 17:59:42.009: Proceso de autentificación: ...
+10/01/2023 17:59:44.092:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+10/01/2023 17:59:45.083: Proceso de autentificación: ...
+10/01/2023 17:59:46.565: Proceso de autentificación: OK.
+10/01/2023 17:59:46.567: -------------------------------------------------------------------------
+10/01/2023 17:59:49.129: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+10/01/2023 17:59:51.244: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+10/01/2023 17:59:53.700: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+10/01/2023 17:59:56.475: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+10/01/2023 17:59:59.801: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+10/01/2023 18:00:03.574: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+10/01/2023 18:00:11.908: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+10/01/2023 18:00:14.727: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+10/01/2023 18:00:20.254: -------------------------------------------------------------------------
+10/01/2023 18:00:20.255: Tiempo Total de Ejecución: 47 seg. 49 mseg.
+10/01/2023 18:00:20.256: Proceso concluido: Módulo - AUTOAVALUOS
+10/01/2023 18:00:20.256: =========================================================================
+10/01/2023 18:00:22.442: Proceso concluido con exito.
+11/01/2023 08:28:08.708: Tiempo Inicialización (navegador): 9 seg. 868 mseg.
+11/01/2023 08:28:08.743: Abriendo aplicación...
+11/01/2023 08:28:09.032: *************************************************************************
+11/01/2023 08:28:09.034:                        AUTOAVALUOS
+11/01/2023 08:28:09.037: *************************************************************************
+11/01/2023 08:28:09.037: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 08:28:09.038: Fecha: 11/01/2023 08:28:09.038
+11/01/2023 08:28:10.287: Proceso de autentificación: ...
+11/01/2023 08:28:12.368:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 08:28:13.236: Proceso de autentificación: ...
+11/01/2023 08:28:15.289: Proceso de autentificación: OK.
+11/01/2023 08:28:15.290: -------------------------------------------------------------------------
+11/01/2023 08:28:17.848: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 08:28:20.499: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 08:28:22.900: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 08:28:26.178: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 08:28:29.813: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+11/01/2023 08:28:33.456: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 08:28:36.425: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 08:28:41.740: -------------------------------------------------------------------------
+11/01/2023 08:28:41.740: Tiempo Total de Ejecución: 42 seg. 924 mseg.
+11/01/2023 08:28:41.741: Proceso concluido: Módulo - AUTOAVALUOS
+11/01/2023 08:28:41.742: =========================================================================
+11/01/2023 08:28:44.500: Proceso concluido con exito.
+11/01/2023 08:32:36.277: Tiempo Inicialización (navegador): 2 min. 11 seg. 640 mseg.
+11/01/2023 08:32:36.342: Abriendo aplicación...
+11/01/2023 08:32:36.662: *************************************************************************
+11/01/2023 08:32:36.664:                        AUTOAVALUOS
+11/01/2023 08:32:36.666: *************************************************************************
+11/01/2023 08:32:36.668: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 08:32:36.672: Fecha: 11/01/2023 08:32:36.670
+11/01/2023 08:33:11.231: Proceso de autentificación: ...
+11/01/2023 08:33:39.945:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 08:34:14.028: Proceso de autentificación: ...
+11/01/2023 08:34:19.339: Proceso de autentificación: OK.
+11/01/2023 08:34:27.545: -------------------------------------------------------------------------
+11/01/2023 08:36:02.176: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 08:36:12.570: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 08:36:22.658: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 08:36:36.584: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 08:43:24.951: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 08:44:24.713: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 08:50:09.641: Tiempo Inicialización (navegador): 7 seg. 259 mseg.
+11/01/2023 08:50:09.668: Abriendo aplicación...
+11/01/2023 08:50:09.943: *************************************************************************
+11/01/2023 08:50:09.943:                        AUTOAVALUOS
+11/01/2023 08:50:09.943: *************************************************************************
+11/01/2023 08:50:09.943: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 08:50:09.943: Fecha: 11/01/2023 08:50:09.943
+11/01/2023 08:50:11.107: Proceso de autentificación: ...
+11/01/2023 08:50:13.128:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 08:50:14.036: Proceso de autentificación: ...
+11/01/2023 08:50:15.341: Proceso de autentificación: OK.
+11/01/2023 08:50:15.343: -------------------------------------------------------------------------
+11/01/2023 08:50:17.832: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 08:50:19.978: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 08:50:22.311: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 08:50:25.093: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 08:50:28.901: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+11/01/2023 08:50:32.578: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 08:50:33.933: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 08:50:35.838: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 08:50:41.135: -------------------------------------------------------------------------
+11/01/2023 08:50:41.135: Tiempo Total de Ejecución: 38 seg. 784 mseg.
+11/01/2023 08:50:41.136: Proceso concluido: Módulo - AUTOAVALUOS
+11/01/2023 08:50:41.136: =========================================================================
+11/01/2023 08:50:42.869: Proceso concluido con exito.
+11/01/2023 08:51:10.762: Tiempo Inicialización (navegador): 6 seg. 970 mseg.
+11/01/2023 08:51:10.782: Abriendo aplicación...
+11/01/2023 08:51:11.065: *************************************************************************
+11/01/2023 08:51:11.066:                        AUTOAVALUOS
+11/01/2023 08:51:11.066: *************************************************************************
+11/01/2023 08:51:11.075: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 08:51:11.077: Fecha: 11/01/2023 08:51:11.076
+11/01/2023 08:51:12.254: Proceso de autentificación: ...
+11/01/2023 08:51:14.237:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 08:51:15.162: Proceso de autentificación: ...
+11/01/2023 08:51:16.509: Proceso de autentificación: OK.
+11/01/2023 08:51:16.509: -------------------------------------------------------------------------
+11/01/2023 08:51:19.023: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 08:51:21.139: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 08:51:23.512: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 08:51:26.202: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 08:51:29.862: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 08:51:34.201: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 08:51:35.873: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 08:51:39.621: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 08:51:41.236: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 08:51:46.449: -------------------------------------------------------------------------
+11/01/2023 08:51:46.451: Tiempo Total de Ejecución: 42 seg. 688 mseg.
+11/01/2023 08:51:46.451: Proceso concluido: Módulo - AUTOAVALUOS
+11/01/2023 08:51:46.452: =========================================================================
+11/01/2023 08:51:48.629: Proceso concluido con exito.
+11/01/2023 09:04:35.296: Tiempo Inicialización (navegador): 7 seg. 127 mseg.
+11/01/2023 09:04:35.322: Abriendo aplicación...
+11/01/2023 09:04:35.635: *************************************************************************
+11/01/2023 09:04:35.636:                        AUTOAVALUOS
+11/01/2023 09:04:35.636: *************************************************************************
+11/01/2023 09:04:35.637: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 09:04:35.638: Fecha: 11/01/2023 09:04:35.637
+11/01/2023 09:04:36.811: Proceso de autentificación: ...
+11/01/2023 09:04:38.850:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 09:04:39.748: Proceso de autentificación: ...
+11/01/2023 09:04:41.071: Proceso de autentificación: OK.
+11/01/2023 09:04:41.072: -------------------------------------------------------------------------
+11/01/2023 09:04:44.119: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 09:04:46.255: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 09:04:48.753: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 09:04:51.545: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:04:55.180: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:04:56.563: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:04:58.025: Debe realizar por lo menos una operación para Aceptar.
+11/01/2023 09:04:58.689: -------------------------------------------------------------------------
+11/01/2023 09:05:01.126: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 09:05:03.051: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 09:05:05.334: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 09:05:07.629: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:05:10.204: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 09:05:11.385: El dato Fecha Autoavalúo no es válido.
+11/01/2023 09:05:12.055: -------------------------------------------------------------------------
+11/01/2023 09:05:12.055: Tiempo Total de Ejecución: 43 seg. 906 mseg.
+11/01/2023 09:05:12.056: Proceso concluido: Módulo - AUTOAVALUOS
+11/01/2023 09:05:12.057: =========================================================================
+11/01/2023 09:05:14.107: Proceso concluido con exito.
+11/01/2023 09:07:28.065: Tiempo Inicialización (navegador): 24 seg. 162 mseg.
+11/01/2023 09:07:28.092: Abriendo aplicación...
+11/01/2023 09:07:29.563: *************************************************************************
+11/01/2023 09:07:29.565:                        AUTOAVALUOS
+11/01/2023 09:07:29.566: *************************************************************************
+11/01/2023 09:07:29.568: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 09:07:29.570: Fecha: 11/01/2023 09:07:29.569
+11/01/2023 09:07:31.218: Proceso de autentificación: ...
+11/01/2023 09:07:35.379:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 09:07:36.730: Proceso de autentificación: ...
+11/01/2023 09:07:40.302: Proceso de autentificación: OK.
+11/01/2023 09:07:56.833: -------------------------------------------------------------------------
+11/01/2023 09:08:09.336: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 09:08:19.428: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 09:08:29.517: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 09:08:44.562: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:11:04.508: Tiempo Inicialización (navegador): 7 seg. 64 mseg.
+11/01/2023 09:11:04.539: Abriendo aplicación...
+11/01/2023 09:11:04.822: *************************************************************************
+11/01/2023 09:11:04.823:                        AUTOAVALUOS
+11/01/2023 09:11:04.824: *************************************************************************
+11/01/2023 09:11:04.824: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 09:11:04.825: Fecha: 11/01/2023 09:11:04.824
+11/01/2023 09:11:06.026: Proceso de autentificación: ...
+11/01/2023 09:11:08.043:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 09:11:08.978: Proceso de autentificación: ...
+11/01/2023 09:11:10.276: Proceso de autentificación: OK.
+11/01/2023 09:11:10.277: -------------------------------------------------------------------------
+11/01/2023 09:11:12.795: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 09:11:15.023: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 09:11:17.360: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 09:11:20.573: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:11:24.071: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 09:11:33.784: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 09:11:42.757: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 09:11:47.958: -------------------------------------------------------------------------
+11/01/2023 09:11:50.373: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 09:11:52.283: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 09:11:54.590: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 09:11:57.164: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:11:59.795: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 09:12:03.115: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:12:05.107: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 09:12:10.301: -------------------------------------------------------------------------
+11/01/2023 09:12:10.302: Tiempo Total de Ejecución: 1 min. 12 seg. 879 mseg.
+11/01/2023 09:12:10.302: Proceso concluido: Módulo - AUTOAVALUOS
+11/01/2023 09:12:10.303: =========================================================================
+11/01/2023 09:12:12.208: Proceso concluido con exito.
+11/01/2023 09:18:15.716: Tiempo Inicialización (navegador): 6 seg. 953 mseg.
+11/01/2023 09:18:15.747: Abriendo aplicación...
+11/01/2023 09:18:16.043: *************************************************************************
+11/01/2023 09:18:16.043:                        AUTOAVALUOS
+11/01/2023 09:18:16.043: *************************************************************************
+11/01/2023 09:18:16.048: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 09:18:16.049: Fecha: 11/01/2023 09:18:16.049
+11/01/2023 09:18:17.202: Proceso de autentificación: ...
+11/01/2023 09:18:19.176:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 09:18:20.101: Proceso de autentificación: ...
+11/01/2023 09:18:21.433: Proceso de autentificación: OK.
+11/01/2023 09:18:21.434: -------------------------------------------------------------------------
+11/01/2023 09:18:23.960: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 09:18:26.316: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 09:18:28.686: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 09:18:31.461: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:18:33.062: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:18:34.369: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:18:35.688: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:18:37.059: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:18:38.405: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:18:40.468: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:18:41.743: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:18:43.098: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:18:44.575: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 09:18:48.816: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:18:50.302: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 09:18:55.189: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:18:57.382: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:18:58.703: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:19:00.004: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:19:01.615: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 09:19:06.904: -------------------------------------------------------------------------
+11/01/2023 09:19:09.348: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 09:19:11.413: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 09:19:13.690: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 09:19:16.090: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:19:19.111: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:19:20.533: Debe realizar por lo menos una operación para Aceptar.
+11/01/2023 09:19:21.323: -------------------------------------------------------------------------
+11/01/2023 09:19:21.324: Tiempo Total de Ejecución: 1 min. 12 seg. 585 mseg.
+11/01/2023 09:19:21.325: Proceso concluido: Módulo - AUTOAVALUOS
+11/01/2023 09:19:21.325: =========================================================================
+11/01/2023 09:19:23.448: Proceso concluido con exito.
+11/01/2023 09:24:27.018: Tiempo Inicialización (navegador): 7 seg. 731 mseg.
+11/01/2023 09:24:27.041: Abriendo aplicación...
+11/01/2023 09:24:27.325: *************************************************************************
+11/01/2023 09:24:27.326:                        AUTOAVALUOS
+11/01/2023 09:24:27.327: *************************************************************************
+11/01/2023 09:24:27.328: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 09:24:27.329: Fecha: 11/01/2023 09:24:27.328
+11/01/2023 09:24:28.474: Proceso de autentificación: ...
+11/01/2023 09:24:30.503:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 09:24:31.400: Proceso de autentificación: ...
+11/01/2023 09:24:32.900: Proceso de autentificación: OK.
+11/01/2023 09:24:32.901: -------------------------------------------------------------------------
+11/01/2023 09:24:35.503: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 09:24:37.975: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 09:24:40.381: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 09:24:43.358: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:24:45.626: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+11/01/2023 09:24:51.936: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:24:53.279: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:24:54.590: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:24:55.902: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:24:57.234: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:24:59.428: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:25:00.696: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:25:02.004: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:25:03.385: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:25:04.712: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:25:07.072: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+11/01/2023 09:25:11.742: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:25:13.192: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+11/01/2023 09:25:17.370: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:25:18.993: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 09:25:24.551: -------------------------------------------------------------------------
+11/01/2023 09:25:27.038: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 09:25:29.043: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 09:25:31.376: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 09:25:33.712: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:25:36.230: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:25:37.606: Debe realizar por lo menos una operación para Aceptar.
+11/01/2023 09:25:38.393: -------------------------------------------------------------------------
+11/01/2023 09:25:38.395: Tiempo Total de Ejecución: 1 min. 19 seg. 144 mseg.
+11/01/2023 09:25:38.395: Proceso concluido: Módulo - AUTOAVALUOS
+11/01/2023 09:25:38.396: =========================================================================
+11/01/2023 09:25:40.595: Proceso concluido con exito.
+11/01/2023 09:54:30.871: Tiempo Inicialización (navegador): 7 seg. 20 mseg.
+11/01/2023 09:54:30.895: Abriendo aplicación...
+11/01/2023 09:54:31.167: *************************************************************************
+11/01/2023 09:54:31.168:                        AUTOAVALUOS
+11/01/2023 09:54:31.168: *************************************************************************
+11/01/2023 09:54:31.169: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 09:54:31.173: Fecha: 11/01/2023 09:54:31.169
+11/01/2023 09:54:32.321: Proceso de autentificación: ...
+11/01/2023 09:54:34.299:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 09:54:35.202: Proceso de autentificación: ...
+11/01/2023 09:54:37.105: Proceso de autentificación: OK.
+11/01/2023 09:54:37.107: -------------------------------------------------------------------------
+11/01/2023 09:54:39.635: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 09:54:42.157: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 09:54:44.559: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 09:54:47.940: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:54:52.702: Debe realizar por lo menos una operación para Aceptar.
+11/01/2023 09:54:53.420: -------------------------------------------------------------------------
+11/01/2023 09:54:55.961: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 09:54:58.057: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 09:55:00.404: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 09:55:02.850: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:55:05.393: Debe realizar por lo menos una operación para Aceptar.
+11/01/2023 09:55:06.129: -------------------------------------------------------------------------
+11/01/2023 09:55:06.130: Tiempo Total de Ejecución: 42 seg. 307 mseg.
+11/01/2023 09:55:06.130: Proceso concluido: Módulo - AUTOAVALUOS
+11/01/2023 09:55:06.132: =========================================================================
+11/01/2023 09:55:08.161: Proceso concluido con exito.
+11/01/2023 09:55:42.887: Tiempo Inicialización (navegador): 7 seg. 340 mseg.
+11/01/2023 09:55:42.906: Abriendo aplicación...
+11/01/2023 09:55:43.176: *************************************************************************
+11/01/2023 09:55:43.179:                        AUTOAVALUOS
+11/01/2023 09:55:43.179: *************************************************************************
+11/01/2023 09:55:43.180: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 09:55:43.185: Fecha: 11/01/2023 09:55:43.182
+11/01/2023 09:55:44.328: Proceso de autentificación: ...
+11/01/2023 09:55:46.335:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 09:55:47.241: Proceso de autentificación: ...
+11/01/2023 09:55:49.171: Proceso de autentificación: OK.
+11/01/2023 09:55:49.172: -------------------------------------------------------------------------
+11/01/2023 09:55:51.779: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 09:55:54.472: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 09:55:56.877: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 09:55:59.760: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:56:04.374: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 09:56:09.160: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:56:10.700: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 09:56:17.238: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:56:19.141: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 09:56:51.178: -------------------------------------------------------------------------
+11/01/2023 09:56:53.701: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 09:56:55.639: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 09:56:57.977: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 09:57:00.299: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:57:03.659: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 09:57:06.773: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 09:57:08.507: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 09:57:40.490: -------------------------------------------------------------------------
+11/01/2023 09:57:40.491: Tiempo Total de Ejecución: 2 min. 4 seg. 975 mseg.
+11/01/2023 09:57:40.491: Proceso concluido: Módulo - AUTOAVALUOS
+11/01/2023 09:57:40.493: =========================================================================
+11/01/2023 09:57:42.320: Proceso concluido con exito.
+11/01/2023 10:26:14.935: Tiempo Inicialización (navegador): 38 seg. 710 mseg.
+11/01/2023 10:26:14.963: Abriendo aplicación...
+11/01/2023 10:26:15.268: *************************************************************************
+11/01/2023 10:26:15.269:                        AUTOAVALUOS
+11/01/2023 10:26:15.270: *************************************************************************
+11/01/2023 10:26:15.271: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 10:26:15.272: Fecha: 11/01/2023 10:26:15.271
+11/01/2023 10:26:16.525: Proceso de autentificación: ...
+11/01/2023 10:26:18.507:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 10:26:19.419: Proceso de autentificación: ...
+11/01/2023 10:26:21.502: Proceso de autentificación: OK.
+11/01/2023 10:26:26.094: -------------------------------------------------------------------------
+11/01/2023 10:26:31.553: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 10:26:34.010: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 10:26:36.367: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 10:26:39.260: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 10:27:43.628: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+11/01/2023 10:29:15.182: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+11/01/2023 10:29:34.649: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 10:30:00.588: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 10:37:29.792: Tiempo Inicialización (navegador): 20 seg. 86 mseg.
+11/01/2023 10:37:29.830: Abriendo aplicación...
+11/01/2023 10:37:30.141: *************************************************************************
+11/01/2023 10:37:30.142:                        AUTOAVALUOS
+11/01/2023 10:37:30.142: *************************************************************************
+11/01/2023 10:37:30.143: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 10:37:30.144: Fecha: 11/01/2023 10:37:30.143
+11/01/2023 10:37:31.315: Proceso de autentificación: ...
+11/01/2023 10:37:33.325:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 10:37:34.251: Proceso de autentificación: ...
+11/01/2023 10:37:35.573: Proceso de autentificación: OK.
+11/01/2023 10:37:38.239: -------------------------------------------------------------------------
+11/01/2023 10:37:46.680: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 10:37:49.047: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 10:37:51.422: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 10:37:54.298: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 10:38:51.511: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 10:38:56.918: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 10:39:04.735: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 10:39:09.549: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 10:39:11.305: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 10:48:13.655: Tiempo Inicialización (navegador): 20 seg. 276 mseg.
+11/01/2023 10:48:13.688: Abriendo aplicación...
+11/01/2023 10:48:13.975: *************************************************************************
+11/01/2023 10:48:13.976:                        AUTOAVALUOS
+11/01/2023 10:48:13.977: *************************************************************************
+11/01/2023 10:48:13.978: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 10:48:13.979: Fecha: 11/01/2023 10:48:13.979
+11/01/2023 10:48:15.227: Proceso de autentificación: ...
+11/01/2023 10:48:17.241:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 10:48:18.168: Proceso de autentificación: ...
+11/01/2023 10:48:19.477: Proceso de autentificación: OK.
+11/01/2023 10:48:22.631: -------------------------------------------------------------------------
+11/01/2023 10:48:27.478: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 10:48:29.924: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 10:48:32.345: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 10:48:35.222: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 10:49:12.093: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+11/01/2023 10:50:18.833: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+11/01/2023 10:50:29.108: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 10:50:30.800: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 10:56:01.548: Tiempo Inicialización (navegador): 7 seg. 129 mseg.
+11/01/2023 10:56:01.581: Abriendo aplicación...
+11/01/2023 10:56:01.897: *************************************************************************
+11/01/2023 10:56:01.898:                        AUTOAVALUOS
+11/01/2023 10:56:01.899: *************************************************************************
+11/01/2023 10:56:01.899: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 10:56:01.900: Fecha: 11/01/2023 10:56:01.900
+11/01/2023 10:56:02.985: Proceso de autentificación: ...
+11/01/2023 10:56:04.909:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 10:56:05.854: Proceso de autentificación: ...
+11/01/2023 10:56:07.205: Proceso de autentificación: OK.
+11/01/2023 10:56:07.206: -------------------------------------------------------------------------
+11/01/2023 10:56:09.756: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 10:56:12.107: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 10:56:14.480: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 10:56:17.400: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 10:56:22.063: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 10:56:26.863: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 10:56:28.442: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 10:56:33.265: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 10:56:34.991: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 10:56:41.043: -------------------------------------------------------------------------
+11/01/2023 10:56:43.547: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 10:56:45.564: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 10:56:47.894: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 10:56:50.701: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 10:56:53.408: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+11/01/2023 10:56:56.482: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 10:56:58.277: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+11/01/2023 10:57:00.839: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 10:57:02.611: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 10:57:08.314: -------------------------------------------------------------------------
+11/01/2023 10:57:08.316: Tiempo Total de Ejecución: 1 min. 13 seg. 933 mseg.
+11/01/2023 10:57:08.316: Proceso concluido: Módulo - AUTOAVALUOS
+11/01/2023 10:57:08.316: =========================================================================
+11/01/2023 10:57:10.204: Proceso concluido con exito.
+11/01/2023 11:04:31.181: Tiempo Inicialización (navegador): 7 seg. 61 mseg.
+11/01/2023 11:04:31.199: Abriendo aplicación...
+11/01/2023 11:04:31.494: *************************************************************************
+11/01/2023 11:04:31.494:                        AUTOAVALUOS
+11/01/2023 11:04:31.495: *************************************************************************
+11/01/2023 11:04:31.496: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 11:04:31.497: Fecha: 11/01/2023 11:04:31.496
+11/01/2023 11:04:32.623: Proceso de autentificación: ...
+11/01/2023 11:04:34.635:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 11:04:35.580: Proceso de autentificación: ...
+11/01/2023 11:04:36.949: Proceso de autentificación: OK.
+11/01/2023 11:04:36.949: -------------------------------------------------------------------------
+11/01/2023 11:04:39.495: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 11:04:41.962: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:04:44.350: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 11:04:47.435: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:04:52.156: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+11/01/2023 11:04:56.390: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:04:57.850: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+11/01/2023 11:05:02.049: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:05:03.804: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 11:05:10.367: -------------------------------------------------------------------------
+11/01/2023 11:05:12.839: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 11:05:14.800: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:05:17.106: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 11:05:19.441: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:05:22.220: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 11:05:25.490: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:05:27.387: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 11:05:30.542: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:05:32.175: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 11:05:37.970: -------------------------------------------------------------------------
+11/01/2023 11:05:37.973: Tiempo Total de Ejecución: 1 min. 13 seg. 883 mseg.
+11/01/2023 11:05:37.973: Proceso concluido: Módulo - AUTOAVALUOS
+11/01/2023 11:05:37.973: =========================================================================
+11/01/2023 11:05:40.018: Proceso concluido con exito.
+11/01/2023 11:08:47.019: Tiempo Inicialización (navegador): 6 seg. 996 mseg.
+11/01/2023 11:08:47.043: Abriendo aplicación...
+11/01/2023 11:08:47.344: *************************************************************************
+11/01/2023 11:08:47.345:                        AUTOAVALUOS
+11/01/2023 11:08:47.345: *************************************************************************
+11/01/2023 11:08:47.346: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 11:08:47.346: Fecha: 11/01/2023 11:08:47.346
+11/01/2023 11:08:48.534: Proceso de autentificación: ...
+11/01/2023 11:08:50.557:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 11:08:51.487: Proceso de autentificación: ...
+11/01/2023 11:08:52.860: Proceso de autentificación: OK.
+11/01/2023 11:08:52.861: -------------------------------------------------------------------------
+11/01/2023 11:08:55.392: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 11:08:57.775: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:09:00.128: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 11:09:02.963: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:09:07.545: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 11:09:12.374: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:09:13.915: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 11:09:18.218: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:09:19.776: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 11:09:26.335: -------------------------------------------------------------------------
+11/01/2023 11:09:28.879: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 11:09:30.856: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:09:33.149: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 11:09:35.540: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:09:38.302: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+11/01/2023 11:09:41.387: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:09:43.270: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+11/01/2023 11:09:45.860: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:09:47.622: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 11:09:53.400: -------------------------------------------------------------------------
+11/01/2023 11:09:53.401: Tiempo Total de Ejecución: 1 min. 13 seg. 407 mseg.
+11/01/2023 11:09:53.401: Proceso concluido: Módulo - AUTOAVALUOS
+11/01/2023 11:09:53.401: =========================================================================
+11/01/2023 11:09:55.146: Proceso concluido con exito.
+11/01/2023 11:13:00.318: Tiempo Inicialización (navegador): 39 seg. 28 mseg.
+11/01/2023 11:13:00.346: Abriendo aplicación...
+11/01/2023 11:13:00.647: *************************************************************************
+11/01/2023 11:13:00.647:                        AUTOAVALUOS
+11/01/2023 11:13:00.648: *************************************************************************
+11/01/2023 11:13:00.649: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 11:13:00.651: Fecha: 11/01/2023 11:13:00.650
+11/01/2023 11:13:01.851: Proceso de autentificación: ...
+11/01/2023 11:13:03.869:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 11:13:04.786: Proceso de autentificación: ...
+11/01/2023 11:13:06.104: Proceso de autentificación: OK.
+11/01/2023 11:13:09.102: -------------------------------------------------------------------------
+11/01/2023 11:13:23.117: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 11:13:33.430: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:13:43.471: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 11:13:57.681: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:15:45.943: Debe realizar por lo menos una operación para Aceptar.
+11/01/2023 11:16:46.726: Tiempo Inicialización (navegador): 16 seg. 46 mseg.
+11/01/2023 11:16:46.760: Abriendo aplicación...
+11/01/2023 11:16:47.038: *************************************************************************
+11/01/2023 11:16:47.039:                        AUTOAVALUOS
+11/01/2023 11:16:47.040: *************************************************************************
+11/01/2023 11:16:47.040: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 11:16:47.041: Fecha: 11/01/2023 11:16:47.041
+11/01/2023 11:16:48.256: Proceso de autentificación: ...
+11/01/2023 11:16:50.270:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 11:16:51.248: Proceso de autentificación: ...
+11/01/2023 11:16:52.585: Proceso de autentificación: OK.
+11/01/2023 11:16:53.889: -------------------------------------------------------------------------
+11/01/2023 11:16:58.777: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 11:17:01.233: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:17:03.650: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 11:17:06.530: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:18:00.786: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+11/01/2023 11:18:30.289: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+11/01/2023 11:19:13.215: -------------------------------------------------------------------------
+11/01/2023 11:19:18.141: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 11:19:20.050: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:19:22.294: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 11:19:24.532: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:20:47.126: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 11:21:01.127: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:21:51.150: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 11:22:05.307: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:22:33.040: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 11:28:32.829: Tiempo Inicialización (navegador): 7 seg. 204 mseg.
+11/01/2023 11:28:32.872: Abriendo aplicación...
+11/01/2023 11:28:33.153: *************************************************************************
+11/01/2023 11:28:33.153:                        AUTOAVALUOS
+11/01/2023 11:28:33.154: *************************************************************************
+11/01/2023 11:28:33.155: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 11:28:33.155: Fecha: 11/01/2023 11:28:33.155
+11/01/2023 11:28:34.283: Proceso de autentificación: ...
+11/01/2023 11:28:36.249:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 11:28:37.255: Proceso de autentificación: ...
+11/01/2023 11:28:39.387: Proceso de autentificación: OK.
+11/01/2023 11:28:39.388: -------------------------------------------------------------------------
+11/01/2023 11:28:41.398: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 11:28:43.890: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:28:46.230: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 11:28:49.278: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:28:54.490: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 11:28:59.290: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:29:01.038: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 11:29:03.507: Proceso concluido.
+11/01/2023 11:29:04.153: -------------------------------------------------------------------------
+11/01/2023 11:29:06.658: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 11:29:08.655: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:29:10.896: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 11:29:13.766: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:29:16.609: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+11/01/2023 11:29:19.719: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:29:21.473: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+11/01/2023 11:29:24.014: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:29:25.614: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 11:29:28.042: Proceso concluido.
+11/01/2023 11:29:28.702: -------------------------------------------------------------------------
+11/01/2023 11:29:28.702: Tiempo Total de Ejecución: 1 min. 3 seg. 111 mseg.
+11/01/2023 11:29:28.703: Proceso concluido: Módulo - AUTOAVALUOS
+11/01/2023 11:29:28.704: =========================================================================
+11/01/2023 11:29:30.774: Proceso concluido con exito.
+11/01/2023 11:32:19.346: Tiempo Inicialización (navegador): 7 seg. 83 mseg.
+11/01/2023 11:32:19.364: Abriendo aplicación...
+11/01/2023 11:32:19.668: *************************************************************************
+11/01/2023 11:32:19.669:                        AUTOAVALUOS
+11/01/2023 11:32:19.670: *************************************************************************
+11/01/2023 11:32:19.672: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 11:32:19.673: Fecha: 11/01/2023 11:32:19.673
+11/01/2023 11:32:20.865: Proceso de autentificación: ...
+11/01/2023 11:32:22.875:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 11:32:23.783: Proceso de autentificación: ...
+11/01/2023 11:32:25.261: Proceso de autentificación: OK.
+11/01/2023 11:32:25.262: -------------------------------------------------------------------------
+11/01/2023 11:32:27.814: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 11:32:30.501: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:32:32.933: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 11:32:35.947: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:32:40.713: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+11/01/2023 11:32:45.429: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:32:46.888: By.xpath: //h2[text()='ANULAR AUTOAVALUO'] cargado.
+11/01/2023 11:32:51.067: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:32:52.648: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 11:32:55.265: Proceso concluido.
+11/01/2023 11:32:55.889: -------------------------------------------------------------------------
+11/01/2023 11:32:58.398: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+11/01/2023 11:33:00.808: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:33:03.176: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+11/01/2023 11:33:05.469: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:33:08.242: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 11:33:11.364: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:33:13.219: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+11/01/2023 11:33:16.394: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+11/01/2023 11:33:18.043: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 11:33:20.386: Proceso concluido.
+11/01/2023 11:33:21.019: -------------------------------------------------------------------------
+11/01/2023 11:33:21.025: Tiempo Total de Ejecución: 1 min. 8 seg. 784 mseg.
+11/01/2023 11:33:21.025: Proceso concluido: Módulo - AUTOAVALUOS
+11/01/2023 11:33:21.026: =========================================================================
+11/01/2023 11:33:22.972: Proceso concluido con exito.
+11/01/2023 11:36:35.061: Tiempo Inicialización (navegador): 7 seg. 274 mseg.
+11/01/2023 11:36:35.089: Abriendo aplicación...
+11/01/2023 11:36:35.385: *************************************************************************
+11/01/2023 11:36:35.386:                        EMPADRONAMIENTO
+11/01/2023 11:36:35.386: *************************************************************************
+11/01/2023 11:36:35.387: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+11/01/2023 11:36:35.388: Fecha: 11/01/2023 11:36:35.387
+11/01/2023 11:36:36.517: Proceso de autentificación: ...
+11/01/2023 11:36:38.520:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+11/01/2023 11:36:39.525: Proceso de autentificación: ...
+11/01/2023 11:36:41.027: Proceso de autentificación: OK.
+11/01/2023 11:36:41.028: -------------------------------------------------------------------------
+11/01/2023 11:36:43.425: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:36:45.362: By.xpath: //h2[normalize-space()='BUSQUEDA GESTOR TRAMITE'] cargado.
+11/01/2023 11:36:49.313: By.linkText: Asociar cargado.
+11/01/2023 11:36:50.722: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:36:53.144: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+11/01/2023 11:36:55.945: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+11/01/2023 11:36:59.055: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+11/01/2023 11:37:08.088: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+11/01/2023 11:37:10.590: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+11/01/2023 11:37:13.762: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:37:15.363: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:37:18.389: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:37:19.793: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:37:21.206: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:37:23.515: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:37:24.858: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:37:26.653: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+11/01/2023 11:37:28.456: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 11:37:33.607: -------------------------------------------------------------------------
+11/01/2023 11:37:36.308: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:37:38.107: By.xpath: //h2[normalize-space()='BUSQUEDA GESTOR TRAMITE'] cargado.
+11/01/2023 11:37:40.969: By.linkText: Asociar cargado.
+11/01/2023 11:37:42.360: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:37:44.731: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+11/01/2023 11:37:47.357: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+11/01/2023 11:37:50.197: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+11/01/2023 11:38:07.810: By.xpath: //h2[normalize-space()='DATOS TERRENO'] cargado.
+11/01/2023 11:38:18.363: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:38:19.897: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:38:22.227: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:38:23.606: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:38:25.045: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:38:27.308: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:38:28.680: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:38:30.152: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:38:32.397: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:38:33.733: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:38:35.508: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+11/01/2023 11:38:36.972: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 11:38:41.057: -------------------------------------------------------------------------
+11/01/2023 11:38:43.765: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:38:45.549: By.xpath: //h2[normalize-space()='BUSQUEDA GESTOR TRAMITE'] cargado.
+11/01/2023 11:38:48.480: By.linkText: Asociar cargado.
+11/01/2023 11:38:49.864: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:38:52.257: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+11/01/2023 11:38:54.884: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+11/01/2023 11:38:57.701: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+11/01/2023 11:39:10.575: By.xpath: //h2[normalize-space()='DATOS TERRENO'] cargado.
+11/01/2023 11:39:21.287: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+11/01/2023 11:39:22.720: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+11/01/2023 11:39:30.250: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+11/01/2023 11:39:37.970: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:39:39.465: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:39:41.725: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:39:43.078: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:39:44.490: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:39:46.731: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:39:48.136: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:39:49.844: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+11/01/2023 11:39:51.313: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 11:39:55.260: -------------------------------------------------------------------------
+11/01/2023 11:39:58.002: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:39:59.823: By.xpath: //h2[normalize-space()='BUSQUEDA GESTOR TRAMITE'] cargado.
+11/01/2023 11:40:02.785: By.linkText: Asociar cargado.
+11/01/2023 11:40:04.155: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:40:06.518: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+11/01/2023 11:40:09.156: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+11/01/2023 11:40:12.102: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+11/01/2023 11:40:30.207: By.xpath: //h2[normalize-space()='DATOS TERRENO'] cargado.
+11/01/2023 11:40:34.979: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+11/01/2023 11:40:36.410: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+11/01/2023 11:40:44.146: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:40:45.657: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:40:47.947: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:40:49.342: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:40:50.778: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:40:53.051: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:40:54.424: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:40:55.850: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:40:58.057: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:40:59.403: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:41:00.881: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:41:03.118: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:41:04.499: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:41:06.845: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+11/01/2023 11:41:08.337: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 11:41:12.330: -------------------------------------------------------------------------
+11/01/2023 11:41:15.668: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:41:17.475: By.xpath: //h2[normalize-space()='BUSQUEDA GESTOR TRAMITE'] cargado.
+11/01/2023 11:41:20.368: By.linkText: Asociar cargado.
+11/01/2023 11:41:21.811: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:41:24.265: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+11/01/2023 11:41:26.891: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+11/01/2023 11:41:29.717: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+11/01/2023 11:41:42.511: By.xpath: //h2[normalize-space()='DATOS TERRENO'] cargado.
+11/01/2023 11:41:47.669: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+11/01/2023 11:41:49.115: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+11/01/2023 11:41:56.711: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:41:58.224: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:42:00.516: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:42:01.840: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:42:03.288: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:42:05.600: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:42:06.935: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:42:08.585: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+11/01/2023 11:42:09.985: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 11:42:13.665: -------------------------------------------------------------------------
+11/01/2023 11:42:16.428: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:42:18.217: By.xpath: //h2[normalize-space()='BUSQUEDA GESTOR TRAMITE'] cargado.
+11/01/2023 11:42:21.785: By.linkText: Asociar cargado.
+11/01/2023 11:42:23.196: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:42:25.565: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+11/01/2023 11:42:28.235: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+11/01/2023 11:42:31.228: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+11/01/2023 11:42:39.851: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+11/01/2023 11:42:41.343: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+11/01/2023 11:42:49.043: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:42:50.577: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:42:52.875: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:42:54.247: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:42:55.698: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:42:57.901: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:42:59.258: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:43:00.737: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:43:02.973: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:43:04.320: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:43:06.083: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+11/01/2023 11:43:07.556: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 11:43:11.817: -------------------------------------------------------------------------
+11/01/2023 11:43:14.538: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:43:16.318: By.xpath: //h2[normalize-space()='BUSQUEDA GESTOR TRAMITE'] cargado.
+11/01/2023 11:43:19.502: By.linkText: Asociar cargado.
+11/01/2023 11:43:20.891: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+11/01/2023 11:43:23.279: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+11/01/2023 11:43:25.926: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+11/01/2023 11:43:28.714: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+11/01/2023 11:43:47.181: By.xpath: //h2[normalize-space()='DATOS TERRENO'] cargado.
+11/01/2023 11:43:52.361: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:43:53.906: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:43:56.131: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:43:57.506: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:43:58.978: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:44:01.181: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+11/01/2023 11:44:02.550: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+11/01/2023 11:44:04.320: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+11/01/2023 11:44:05.787: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+11/01/2023 11:44:09.735: -------------------------------------------------------------------------
+11/01/2023 11:44:09.735: Tiempo Total de Ejecución: 7 min. 41 seg. 988 mseg.
+11/01/2023 11:44:09.736: Proceso concluido: Módulo - EMPADRONAMIENTO
+11/01/2023 11:44:09.736: =========================================================================

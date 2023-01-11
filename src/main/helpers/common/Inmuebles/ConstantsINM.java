@@ -6,6 +6,8 @@
 
 package main.helpers.common.Inmuebles;
 
+import java.security.PublicKey;
+
 public class ConstantsINM
 {
 	public static final String INM_PROJECT_DIRECTORY = System.getProperty("user.dir").replace('\\', '/') + "/";     
@@ -17,12 +19,18 @@ public class ConstantsINM
 	//DATA SHEET
 	public static final String EMPADRONAMIENTO_DATA_SHEET = "Empadronamiento";
 	public static final String PROFORMA_DATA_SHEET = "Proforma";
+	public static final String CONDONACION_LEY_MUNICIPAL_DATA_SHEET = "CondonacionLeyMunicipal";
+	public static final String AUTOAVALUO_DATA_SHEET = "Autoavaluo";
 
 	//GROUPERS
 	public static final String REGISTRO_TECNICO_GROUPER = "REGISTRO TECNICO";
+	public static final String REGISTRO_TRIBUTARIO_GROUPER = "REGISTRO TRIBUTARIO";
+
 
 	//MODULES
 	public static final String EMPADRONAMIENTO_PROPIEDAD_UNICA_MODULE = "Propiedad Única";
+	public static final String CONDONACION_LEY_MUNICIPAL_MODULE = "Condonaciones Ley Municipal";
+	public static final String AUTOAVALUO_MODULE = "Autoavalúos";
 
 	/*public static final String  TIPO_PROPIEDAD_UNICA                                     = "PROPIEDAD ÚNICA";
 	public static final String  TIPO_PROPIEDAD_ACCIONES_DERECHOS                         = "PROPIEDAD ACCIONES DERECHOS";

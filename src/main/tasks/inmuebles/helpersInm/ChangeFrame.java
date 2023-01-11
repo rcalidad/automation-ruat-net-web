@@ -8,6 +8,7 @@ public class ChangeFrame {
         driver.switchTo().parentFrame();
     }
     public static void toContentFrame(WebDriver driver){
+        driver.switchTo().defaultContent();
         driver.switchTo().frame(FramesINM.contentFrame);
     }
 }

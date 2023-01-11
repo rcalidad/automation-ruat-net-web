@@ -6,17 +6,17 @@ import java.util.Iterator;
 import java.util.Set;
 
 public class CloseChildWindows {
-    public static void now(WebDriver driver){
-        String mainWindowHandle = driver.getWindowHandle();
+    public static void now(WebDriver driver, String originalWindow){
+        //String mainWindowHandle = driver.getWindowHandle();
         Set<String> allWindowHandles = driver.getWindowHandles();
         Iterator<String> iterator = allWindowHandles.iterator();
         while(iterator.hasNext()){
             String ChildWindow = iterator.next();
-            if(!mainWindowHandle.equalsIgnoreCase(ChildWindow)){
+            if(!originalWindow.equalsIgnoreCase(ChildWindow)){
                 driver.switchTo().window(ChildWindow);
                 driver.close();
             }
         }
-        driver.switchTo().window(mainWindowHandle);
+        driver.switchTo().window(originalWindow);
     }
 }
