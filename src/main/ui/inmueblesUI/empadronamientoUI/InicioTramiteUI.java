@@ -4,7 +4,9 @@ import main.ui.inmueblesUI.commonUI.interfacesUI.IInicioTramiteUI;
 import org.openqa.selenium.By;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class InicioTramiteUI implements IInicioTramiteUI {
     public static By ttlInicioTramite = By.xpath("//h2[text()='Inicio Tramite']");
@@ -25,8 +27,8 @@ public class InicioTramiteUI implements IInicioTramiteUI {
     }
 
     @Override
-    public List<By> getLinksDocumentRequired() {
-        List<By> lnkDocuments = new ArrayList<>();
+    public Map<String, By> getLinksDocumentRequired() {
+        Map<String, By> lnkDocuments = new HashMap<>();
         return lnkDocuments;
     }
 

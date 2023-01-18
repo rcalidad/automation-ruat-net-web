@@ -8,6 +8,7 @@ public class MainMenuUI {
     public static By groupers = By.xpath(xpathGroupers);
     public static By btnMiCuenta = By.xpath("//div[@id='opciones-fijas-cabecera']/ul/li[1]");
     public static By lnkCerrarSesion = By.linkText("Cerrar Sesión");
+    public static By txtBuscarOpcion = By.id("txt-buscar-modulo");
 
     public static By getSubElements(String xpathElement, int index){
         String newXpath = xpathElement + "["+ index + "]/ul/li";
@@ -15,6 +16,6 @@ public class MainMenuUI {
     }
     public static By getLink(String xpathElement){
         String xpathLink = xpathElement + "/a";
-        return By.xpath(xpathLink);
+        return By.linkText(xpathElement);
     }
 }

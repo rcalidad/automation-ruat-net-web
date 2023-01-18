@@ -1,4 +1,4 @@
-package main.ui.inmueblesUI.autoavaluosUI;
+package main.ui.inmueblesUI.compensacionesUI;
 
 import main.ui.inmueblesUI.commonUI.interfacesUI.IInicioTramiteUI;
 import org.openqa.selenium.By;
@@ -11,6 +11,7 @@ import java.util.Map;
 public class InicioTramiteUI implements IInicioTramiteUI {
     public static By ttlInicioTramite = By.xpath("//h2[text()='Inicio Tramite']");
     public static By chkDocumentoDeIdentidad = By.xpath("//td[text()='DOCUMENTO DE IDENTIDAD']/following-sibling::td/input");
+    public static By chkNotaDeSolicitud = By.xpath("//td[text()='NOTA DE SOLICITUD']/following-sibling::td/input");
     public static By btnGrabar = By.id("btnSubmit");
 
     public static IInicioTramiteUI getInstance() {
@@ -19,14 +20,14 @@ public class InicioTramiteUI implements IInicioTramiteUI {
     }
     @Override
     public List<By> getCheckBoxDocumentsRequired() {
-        List<By> chkDocuments = List.of(chkDocumentoDeIdentidad);
+        List<By> chkDocuments = List.of(chkDocumentoDeIdentidad, chkNotaDeSolicitud);
         return chkDocuments;
     }
 
     @Override
     public Map<String, By> getLinksDocumentRequired() {
-        Map<String, By> lnkDocuments = new HashMap<>();
-        return lnkDocuments;
+        Map<String, By> linkDocuments = new HashMap<>();
+        return linkDocuments;
     }
 
     @Override

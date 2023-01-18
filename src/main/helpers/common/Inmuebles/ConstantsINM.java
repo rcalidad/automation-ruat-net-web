@@ -15,12 +15,18 @@ public class ConstantsINM
 	public static final String TESTS_DATA_FILE = "testCases/inmuebles/DatosPrueba.xls";
 	public static final String DISABLED_ATTRIBUTE = "disabled";
 	public static final String SUBSYSTEM_ID = "INM";
+	public static final String RUBRO = "Inmuebles";
+	public static String systemDate = "";
 
 	//DATA SHEET
 	public static final String EMPADRONAMIENTO_DATA_SHEET = "Empadronamiento";
 	public static final String PROFORMA_DATA_SHEET = "Proforma";
 	public static final String CONDONACION_LEY_MUNICIPAL_DATA_SHEET = "CondonacionLeyMunicipal";
 	public static final String AUTOAVALUO_DATA_SHEET = "Autoavaluo";
+	public static final String COMPENSACIONES_DATA_SHEET = "Compensaciones";
+	public static final String BASES_IMPONIBLES_IP_DATA_SHEET = "BasesImponiblesIP";
+	public static final String BASES_IMPONIBLES_IMT_DATA_SHEET = "BasesImponiblesIMT";
+	public static final String PRESCRIPCION_NORMAL_DATA_SHEET = "PrescripcionNormal";
 
 	//GROUPERS
 	public static final String REGISTRO_TECNICO_GROUPER = "REGISTRO TECNICO";
@@ -31,6 +37,10 @@ public class ConstantsINM
 	public static final String EMPADRONAMIENTO_PROPIEDAD_UNICA_MODULE = "Propiedad Única";
 	public static final String CONDONACION_LEY_MUNICIPAL_MODULE = "Condonaciones Ley Municipal";
 	public static final String AUTOAVALUO_MODULE = "Autoavalúos";
+	public static final String COMPENSACIONES_MODULE = "Registro Compensaciones";
+	public static final String BASES_IMPONIBLES_IP_MODULE = "Bases Imponibles IP";
+	public static final String BASES_IMPONIBLES_IMT_MODULE = "Bases Imponibles IMT";
+	public static final String PRESCRIPCIONES_MODULE = "Prescripciones";
 
 	/*public static final String  TIPO_PROPIEDAD_UNICA                                     = "PROPIEDAD ÚNICA";
 	public static final String  TIPO_PROPIEDAD_ACCIONES_DERECHOS                         = "PROPIEDAD ACCIONES DERECHOS";

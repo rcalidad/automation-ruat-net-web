@@ -57,4 +57,15 @@ public class Verify {
 
         }
     }
+
+    public static void partialObservations(WebDriver driver, ExtentTest extentTest){
+        String message;
+        verifyIfIsDisplayedProgressBar(driver);
+        while (WaitUntilAlert.isPresent(driver,1)){
+            message = DisplayAlert.getText(driver);
+            ScreenShotHelper.takeScreenShotOfAnAlert(driver, extentTest, Status.INFO, message);
+            DisplayAlert.toAcept(driver);
+            Log.recordInLog(message);
+        }
+    }
 }

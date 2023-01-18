@@ -2,8 +2,7 @@ package main.tasks.inmuebles.empadronamiento;
 
 import com.aventstack.extentreports.ExtentTest;
 import main.actions.Scroll;
-import main.tasks.inmuebles.commonInm.SearchTaxpayer;
-import main.tasks.inmuebles.commonInm.StartProcedure;
+import main.tasks.inmuebles.commonInm.inicioTramite.StartProcedure;
 import main.tasks.inmuebles.commonInm.Verify;
 import main.ui.inmueblesUI.commonUI.interfacesUI.IBuscarPersonaUI;
 import main.ui.inmueblesUI.commonUI.interfacesUI.IInicioTramiteUI;

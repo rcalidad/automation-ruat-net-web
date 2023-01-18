@@ -5,12 +5,10 @@ import main.actions.Click;
 import main.actions.GetText;
 import main.actions.WaitUntilElement;
 import main.helpers.common.Inmuebles.ConstantsINM;
-import main.helpers.common.vehiculos.ConstantsVEH;
 import main.helpers.fileUtility.FileBuilder;
 import main.tasks.commonTasks.CloseChildWindows;
 import main.tasks.inmuebles.helpersInm.ChangeFrame;
 import main.tasks.vehiculos.commonVeh.VerifyAlert;
-import main.ui.inmueblesUI.empadronamientoUI.ConfirmarRegistroUI;
 import main.ui.inmueblesUI.empadronamientoUI.ConfirmarTramiteUI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -50,5 +48,11 @@ public class ConfirmProcedure {
         //driver.switchTo().window(window);
         ChangeFrame.toContentFrame(driver);
         Click.on(driver, ConfirmarTramiteUI.btnSalir);
+    }
+    public static void toCompensacion(WebDriver driver, String originalFileName, String operation, String identifier, int index){
+        toAutoevaluo(driver, originalFileName, operation, identifier, index);
+    }
+    public static void toBasesImponibles(WebDriver driver, String originalFileName, String operation, String identifier, int index){
+        toAutoevaluo(driver, originalFileName, operation, identifier, index);
     }
 }

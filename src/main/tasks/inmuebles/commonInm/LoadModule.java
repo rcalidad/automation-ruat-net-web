@@ -1,7 +1,6 @@
 package main.tasks.inmuebles.commonInm;
 
-import main.actions.Find;
-import main.actions.WaitUntilElement;
+import main.actions.*;
 import main.ui.inmueblesUI.commonUI.MainMenuUI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -18,11 +17,11 @@ public class LoadModule {
             WebElement element = groupers.get(index);
             element.click();
             List<WebElement> subElements = element.findElements(By.xpath("ul/li"));
-            searchModule(subElements, module);
+            searchModule(driver, subElements, module);
         }
     }
 
-    public static boolean searchModule(List<WebElement> elements, String name){
+    public static boolean searchModule(WebDriver driver, List<WebElement> elements, String name){
         int index = verifyNames(elements, name);
         boolean flag;
         if (index == -1){
@@ -33,8 +32,9 @@ public class LoadModule {
                 //element.click();
                 List<WebElement> childElements = element.findElements(By.xpath("ul/li"));
                 if(!childElements.isEmpty()){
+                    Scroll.toElementOnTheMiddle(driver, element);
                     element.click();
-                    flag = searchModule(childElements, name);
+                    flag = searchModule(driver, childElements, name);
                 }
                 i++;
             }
@@ -55,5 +55,14 @@ public class LoadModule {
             }
         }
         return -1;
+    }
+
+    public static void fromSearcherOfMainMenu(WebDriver driver, String module){
+        WaitUntilElement.isElementVisible(driver, MainMenuUI.groupers);
+        Enter.text(driver, MainMenuUI.txtBuscarOpcion, module);
+        PressEnterKey.now(driver, MainMenuUI.txtBuscarOpcion);
+        if (IsDisplayed.element(driver, MainMenuUI.getLink(module))){
+            Click.on(driver, MainMenuUI.getLink(module));
+        }
     }
 }

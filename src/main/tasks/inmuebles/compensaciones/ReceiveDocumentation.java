@@ -1,4 +1,4 @@
-package main.tasks.inmuebles.autoavaluos;
+package main.tasks.inmuebles.compensaciones;
 
 import main.tasks.inmuebles.commonInm.inicioTramite.StartProcedure;
 import main.ui.inmueblesUI.commonUI.interfacesUI.IInicioTramiteUI;

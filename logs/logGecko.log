@@ -1,9 +1,9 @@
-1673451388362	geckodriver	INFO	Listening on 127.0.0.1:44613
-1673451388657	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofile0j7Yun"
-1673451389223	Marionette	INFO	Marionette enabled
-1673451389231	Marionette	INFO	Listening on port 64928
-1673451389976	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofile0j7Yun\\search.json.mozlz4", (void 0)))
+1674064193292	geckodriver	INFO	Listening on 127.0.0.1:7623
+1674064193630	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileOPhqRT"
+1674064194490	Marionette	INFO	Marionette enabled
+1674064194499	Marionette	INFO	Listening on port 60668
+1674064194937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileOPhqRT\\search.json.mozlz4", (void 0)))
 console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
 console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
 JavaScript error: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp, line 1: ReferenceError: actualizar_captcha is not defined
@@ -13,26 +13,17 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://i
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-1673451411370	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
+1674064214566	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
+1674064221241	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
@@ -40,41 +31,8 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://i
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-1673451462941	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-1673451530497	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-1673451604743	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1673451633221	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-1673451682440	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-1673451743809	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-1673451801515	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-1673451850769	Marionette	INFO	Stopped listening on port 64928
+1674064253126	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1674064263419	Marionette	INFO	Stopped listening on port 60668

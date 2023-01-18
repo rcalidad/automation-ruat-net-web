@@ -4,6 +4,7 @@ import main.ui.inmueblesUI.commonUI.interfacesUI.IInicioTramiteUI;
 import org.openqa.selenium.By;
 
 import java.util.List;
+import java.util.Map;
 
 public class InicioTramiteUI implements IInicioTramiteUI {
     public static By ttlInicioTramite = By.xpath("//h2[text()='Inicio Tramite']");
@@ -21,7 +22,7 @@ public class InicioTramiteUI implements IInicioTramiteUI {
     }
 
     @Override
-    public List<By> getLinksDocumentRequired() {
+    public Map<String, By> getLinksDocumentRequired() {
         return null;
     }
 

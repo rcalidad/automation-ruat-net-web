@@ -15,6 +15,11 @@ public class Scroll {
         WebElement element = driver.findElement(locator);
         toElement(driver, element);
     }
+    public static void toElementOnTheMiddle(WebDriver driver, WebElement element){
+        JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
+        String script = "arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});";
+        javascriptExecutor.executeScript(script, element);
+    }
     public static void toEndPage(WebDriver driver){
         JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
         String script = "window.scrollTo(0, document.body.scrollHeight)";
