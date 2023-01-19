@@ -61,8 +61,11 @@ public class LoadModule {
         WaitUntilElement.isElementVisible(driver, MainMenuUI.groupers);
         Enter.text(driver, MainMenuUI.txtBuscarOpcion, module);
         PressEnterKey.now(driver, MainMenuUI.txtBuscarOpcion);
-        if (IsDisplayed.element(driver, MainMenuUI.getLink(module))){
+        /*if (IsDisplayed.element(driver, MainMenuUI.getLink(module))){
             Click.on(driver, MainMenuUI.getLink(module));
+        }*/
+        if (IsDisplayed.element(driver, MainMenuUI.getModule(module))){
+            Click.on(driver, MainMenuUI.getModule(module));
         }
     }
 }

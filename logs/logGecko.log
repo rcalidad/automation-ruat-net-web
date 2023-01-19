@@ -1,12 +1,11 @@
-1674064193292	geckodriver	INFO	Listening on 127.0.0.1:7623
-1674064193630	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileOPhqRT"
-1674064194490	Marionette	INFO	Marionette enabled
-1674064194499	Marionette	INFO	Listening on port 60668
-1674064194937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileOPhqRT\\search.json.mozlz4", (void 0)))
+1674140672416	geckodriver	INFO	Listening on 127.0.0.1:25015
+1674140672748	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofilexul4j2"
+1674140673341	Marionette	INFO	Marionette enabled
+1674140673350	Marionette	INFO	Listening on port 55212
+1674140674073	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofilexul4j2\\search.json.mozlz4", (void 0)))
 console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
 console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
-JavaScript error: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp, line 1: ReferenceError: actualizar_captcha is not defined
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://inmueblescalidad.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
@@ -14,12 +13,39 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://i
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-1674064214566	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1674140711639	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
+1674140717540	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1674140718378	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
+1674140719297	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1674140728562	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp, line 1: ReferenceError: actualizar_captcha is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://inmueblescalidad.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-1674064221241	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1674140751220	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
+1674140759382	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
@@ -28,11 +54,5 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://i
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblescalidad.ruat.gob.bo."
-1674064253126	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1674064263419	Marionette	INFO	Stopped listening on port 60668
+1674140768226	Marionette	INFO	Stopped listening on port 55212
+[Parent 9968, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746

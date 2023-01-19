@@ -1,9 +1,9 @@
 package main.ui.cobroUI.pagarTasasOtrosIngresos;
 
-import main.ui.commonElementsUI.DebtTable;
+import main.ui.commonElementsUI.IDebtTable;
 import org.openqa.selenium.By;
 
-public class DebtDetailToiUI implements DebtTable {
+public class DebtDetailToiUI implements IDebtTable {
     public static By ttlDetalleDeudas = By.xpath("//h2[text()='Detalle Deudas']");
     public static String xpathDebtTable = "//h3[text()='Datos Deuda (Bs.)']/following-sibling::table//table";
     public static By debtTable = By.xpath(xpathDebtTable);

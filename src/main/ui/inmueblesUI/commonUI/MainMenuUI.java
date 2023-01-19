@@ -18,4 +18,8 @@ public class MainMenuUI {
         String xpathLink = xpathElement + "/a";
         return By.linkText(xpathElement);
     }
+    public static By getModule(String nameModule){
+        return By.xpath("(//a[. = '" + nameModule +"'])[last()]");
+    }
+    //  (//a[. = 'Prescripciones'])[last()]
 }

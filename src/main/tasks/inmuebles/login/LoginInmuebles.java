@@ -21,7 +21,7 @@ public class LoginInmuebles {
         if(IsDisplayed.element(driver,LoginUI.mensajeModal,5))
         {
             mensajeAlerta = GetText.of(driver,LoginUI.mensajeModal,5);
-            if ( mensajeAlerta.contains ( "versión del Aplicativo no es válida" ) )
+            if ( mensajeAlerta.contains ( "versión del Aplicativo no es válida" ) || mensajeAlerta.contains ( "no autentificado" ) )
             {
                 GeneratorExcel.takeScreenShotAndAdToHTMLReportGenerator(driver,extendApp, Status.INFO, "version app no valida");
                 Log.recordInLog( " ".concat ( mensajeAlerta ) );

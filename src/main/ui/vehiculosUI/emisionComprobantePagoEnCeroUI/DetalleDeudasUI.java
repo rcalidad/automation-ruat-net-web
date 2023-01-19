@@ -1,9 +1,9 @@
 package main.ui.vehiculosUI.emisionComprobantePagoEnCeroUI;
 
-import main.ui.commonElementsUI.DebtTable;
+import main.ui.commonElementsUI.IDebtTable;
 import org.openqa.selenium.By;
 
-public class DetalleDeudasUI implements DebtTable {
+public class DetalleDeudasUI implements IDebtTable {
     public static By ttlDetallDeudas = By.xpath("//h2[text()='DETALLE DE DEUDAS']");
     public static String xpathDebtTable = "//h3[text()='Detalle Deudas con Monto Cero']/following-sibling::table";
     public static By debtTable = By.xpath(xpathDebtTable);

@@ -1,9 +1,9 @@
 package main.ui.actividadesEconomicasUI.compensacionesUI;
 
-import main.ui.commonElementsUI.DebtTable;
+import main.ui.commonElementsUI.IDebtTable;
 import org.openqa.selenium.By;
 
-public class DebtDetailTableUI implements DebtTable {
+public class DebtDetailTableUI implements IDebtTable {
     public static String xpathTable = "//h3[text()='Detalle Deudas Sujetas a Compensación(Bs)']/following-sibling::table";
     public static String xpathRows = xpathTable + "/tbody/tr";
     @Override

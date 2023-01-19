@@ -10,7 +10,7 @@ import main.ui.cobroUI.pagarActividadesEconomicasUI.DebtDetailAecUI;
 import main.ui.cobroUI.pagarInmuebleUI.DebtDetailInmUI;
 import main.ui.cobroUI.pagarTasasOtrosIngresos.DebtDetailToiUI;
 import main.ui.cobroUI.pagosVehiculosUI.DebtDetailUI;
-import main.ui.commonElementsUI.DebtTable;
+import main.ui.commonElementsUI.IDebtTable;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -61,7 +61,7 @@ public class SelectDebts {
         }
     }
 
-    public static void selectDebts(WebDriver driver, String startYear, String endYear, String debtType, DebtTable debtTable, String rubro){
+    public static void selectDebts(WebDriver driver, String startYear, String endYear, String debtType, IDebtTable debtTable, String rubro){
         List<WebElement> rows = driver.findElements(debtTable.getRowsOfTable());
         for (int r = 2; r <= rows.size(); r++){
             List<WebElement> columns = driver.findElements(debtTable.getColumnsOfARow(r));
@@ -84,7 +84,7 @@ public class SelectDebts {
             }
         }
     }
-    public static int selectDebtsNoMoreThanTen(WebDriver driver, String debtType, DebtTable debtTable, String rubro, int debtsChecked){
+    public static int selectDebtsNoMoreThanTen(WebDriver driver, String debtType, IDebtTable debtTable, String rubro, int debtsChecked){
         int debts = debtsChecked;
         List<WebElement> rows = driver.findElements(debtTable.getRowsOfTable());
         for (int r = 2; r <= rows.size(); r++){

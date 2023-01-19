@@ -6,10 +6,10 @@
 
 package main.ui.actividadesEconomicasUI.liquidacionUI;
 
-import main.ui.commonElementsUI.DebtTable;
+import main.ui.commonElementsUI.IDebtTable;
 import org.openqa.selenium.By;
 
-public class DeudaUI implements DebtTable {
+public class DeudaUI implements IDebtTable {
     public static By ttlDetalleDeudas = By.xpath("//h2[text()='Detalle Deudas']");
     public static String xpathTablaDeudas   = "//form[@id='frmProforma']//h3[contains(.,'Deudas (Bs)')]/following-sibling::table";
     public static String xpathFila          = xpathTablaDeudas.concat("//tr");

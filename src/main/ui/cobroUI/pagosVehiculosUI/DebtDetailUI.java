@@ -1,9 +1,9 @@
 package main.ui.cobroUI.pagosVehiculosUI;
 
-import main.ui.commonElementsUI.DebtTable;
+import main.ui.commonElementsUI.IDebtTable;
 import org.openqa.selenium.By;
 
-public class DebtDetailUI implements DebtTable {
+public class DebtDetailUI implements IDebtTable {
     public static By ttlDetalleDeDeudas = By.xpath("//h2[text()=' DETALLE DE DEUDAS']");
     public static By btnPagar = By.name("pagar");
     public static String xpathDebtTable = "//h3[text()='Deudas (en Bs.)']/following-sibling::table";

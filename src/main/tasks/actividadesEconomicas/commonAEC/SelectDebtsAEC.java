@@ -7,7 +7,7 @@ import main.helpers.dataUtility.ScreenShotHelper;
 import main.tasks.actividadesEconomicas.helpersAEC.Messages;
 import main.tasks.cobro.common.SelectDebts;
 import main.ui.actividadesEconomicasUI.liquidacionUI.DeudaUI;
-import main.ui.commonElementsUI.DebtTable;
+import main.ui.commonElementsUI.IDebtTable;
 import org.openqa.selenium.WebDriver;
 
 public class SelectDebtsAEC {
@@ -17,7 +17,7 @@ public class SelectDebtsAEC {
         ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.INFO, Messages.selectedItems);
         Log.recordInLog(Messages.selectedItems);
     }
-    public static void ofActivity(WebDriver driver, ExtentTest extentTest, String startYear, String endYear, String debtType, String rubro, DebtTable debtTable){
+    public static void ofActivity(WebDriver driver, ExtentTest extentTest, String startYear, String endYear, String debtType, String rubro, IDebtTable debtTable){
         SelectDebts.selectDebts(driver, startYear, endYear, debtType, debtTable, rubro);
         ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.INFO, Messages.selectedItems);
         Log.recordInLog(Messages.selectedItems);
