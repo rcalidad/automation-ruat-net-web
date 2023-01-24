@@ -68,4 +68,13 @@ public class LoadModule {
             Click.on(driver, MainMenuUI.getModule(module));
         }
     }
+
+    public static void fromSearcherOfMainMenuAndSubGrouper(WebDriver driver, String subGrouper, String module){
+        WaitUntilElement.isElementVisible(driver, MainMenuUI.groupers);
+        Enter.text(driver, MainMenuUI.txtBuscarOpcion, module);
+        PressEnterKey.now(driver, MainMenuUI.txtBuscarOpcion);
+        if (IsDisplayed.element(driver, MainMenuUI.getModuleFromSubGrouper(subGrouper, module))){
+            Click.on(driver, MainMenuUI.getModuleFromSubGrouper(subGrouper, module));
+        }
+    }
 }

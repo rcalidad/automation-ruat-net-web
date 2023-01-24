@@ -27854,3 +27854,419 @@
 19/01/2023 11:06:07.384: Proceso concluido: Módulo - PRESCRIPCION-NORMAL
 19/01/2023 11:06:07.384: =========================================================================
 19/01/2023 11:06:09.614: Proceso concluido con exito.
+19/01/2023 11:59:58.715: Tiempo Inicialización (navegador): 6 seg. 967 mseg.
+19/01/2023 11:59:58.746: Abriendo aplicación...
+19/01/2023 11:59:59.034: *************************************************************************
+19/01/2023 11:59:59.035:                        CONDONACION-LEY-MUNICIPAL
+19/01/2023 11:59:59.035: *************************************************************************
+19/01/2023 11:59:59.036: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+19/01/2023 11:59:59.037: Fecha: 19/01/2023 11:59:59.036
+19/01/2023 12:00:00.190: Proceso de autentificación: ...
+19/01/2023 12:00:02.166: Proceso de autentificación: OK.
+19/01/2023 12:00:02.167: -------------------------------------------------------------------------
+19/01/2023 12:00:04.611: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+19/01/2023 12:00:06.034: -------------------------------------------------------------------------
+19/01/2023 12:00:06.034: Tiempo Total de Ejecución: 14 seg. 327 mseg.
+19/01/2023 12:00:06.035: Proceso concluido: Módulo - CONDONACION-LEY-MUNICIPAL
+19/01/2023 12:00:06.035: =========================================================================
+19/01/2023 12:00:08.178: Proceso concluido con exito.
+19/01/2023 12:28:08.513: Tiempo Inicialización (navegador): 6 seg. 950 mseg.
+19/01/2023 12:28:08.539: Abriendo aplicación...
+19/01/2023 12:28:08.814: *************************************************************************
+19/01/2023 12:28:08.814:                        MODIFICACION-DATOS-TECNICOS
+19/01/2023 12:28:08.815: *************************************************************************
+19/01/2023 12:28:08.815: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+19/01/2023 12:28:08.816: Fecha: 19/01/2023 12:28:08.816
+19/01/2023 12:28:09.984: Proceso de autentificación: ...
+19/01/2023 12:28:11.337: Proceso de autentificación: OK.
+19/01/2023 12:28:11.338: -------------------------------------------------------------------------
+19/01/2023 12:28:13.911: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+19/01/2023 12:28:14.941: -------------------------------------------------------------------------
+19/01/2023 12:28:14.942: Tiempo Total de Ejecución: 13 seg. 412 mseg.
+19/01/2023 12:28:14.943: Proceso concluido: Módulo - MODIFICACION-DATOS-TECNICOS
+19/01/2023 12:28:14.944: =========================================================================
+19/01/2023 12:28:16.903: Proceso concluido con exito.
+19/01/2023 15:03:40.484: Tiempo Inicialización (navegador): 8 seg. 38 mseg.
+19/01/2023 15:03:40.538: Abriendo aplicación...
+19/01/2023 15:03:40.851: *************************************************************************
+19/01/2023 15:03:40.852:                        TRANSFERENCIA-NORMAL-TOTAL-PU
+19/01/2023 15:03:40.853: *************************************************************************
+19/01/2023 15:03:40.854: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+19/01/2023 15:03:40.855: Fecha: 19/01/2023 15:03:40.854
+19/01/2023 15:03:41.522:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+19/01/2023 15:03:43.313: Proceso de autentificación: ...
+19/01/2023 15:03:45.857: Proceso de autentificación: OK.
+19/01/2023 15:03:45.859: -------------------------------------------------------------------------
+19/01/2023 15:03:48.949: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+19/01/2023 15:03:49.877: -------------------------------------------------------------------------
+19/01/2023 15:03:49.878: Tiempo Total de Ejecución: 17 seg. 463 mseg.
+19/01/2023 15:03:49.879: Proceso concluido: Módulo - TRANSFERENCIA-NORMAL-TOTAL-PU
+19/01/2023 15:03:49.879: =========================================================================
+19/01/2023 15:03:51.653: Proceso concluido con exito.
+19/01/2023 15:19:25.113: Tiempo Inicialización (navegador): 7 seg. 8 mseg.
+19/01/2023 15:19:25.133: Abriendo aplicación...
+19/01/2023 15:19:25.462: *************************************************************************
+19/01/2023 15:19:25.463:                        TRANSFERENCIA-NORMAL-TOTAL-PU
+19/01/2023 15:19:25.464: *************************************************************************
+19/01/2023 15:19:25.465: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+19/01/2023 15:19:25.467: Fecha: 19/01/2023 15:19:25.467
+19/01/2023 15:19:26.179:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+19/01/2023 15:19:27.983: Proceso de autentificación: ...
+19/01/2023 15:19:29.352: Proceso de autentificación: OK.
+19/01/2023 15:19:29.353: -------------------------------------------------------------------------
+19/01/2023 15:19:31.855: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+19/01/2023 15:19:32.794: -------------------------------------------------------------------------
+19/01/2023 15:19:32.794: Tiempo Total de Ejecución: 14 seg. 727 mseg.
+19/01/2023 15:19:32.795: Proceso concluido: Módulo - TRANSFERENCIA-NORMAL-TOTAL-PU
+19/01/2023 15:19:32.796: =========================================================================
+19/01/2023 15:19:34.601: Proceso concluido con exito.
+19/01/2023 15:23:03.290: Tiempo Inicialización (navegador): 7 seg. 755 mseg.
+19/01/2023 15:23:03.319: Abriendo aplicación...
+19/01/2023 15:23:03.699: *************************************************************************
+19/01/2023 15:23:03.700:                        TRANSFERENCIA-NORMAL-PARCIAL-PU
+19/01/2023 15:23:03.701: *************************************************************************
+19/01/2023 15:23:03.702: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+19/01/2023 15:23:03.705: Fecha: 19/01/2023 15:23:03.705
+19/01/2023 15:23:04.323:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+19/01/2023 15:23:06.059: Proceso de autentificación: ...
+19/01/2023 15:23:08.109: Proceso de autentificación: OK.
+19/01/2023 15:23:08.110: -------------------------------------------------------------------------
+19/01/2023 15:23:11.093: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+19/01/2023 15:23:12.115: -------------------------------------------------------------------------
+19/01/2023 15:23:12.116: Tiempo Total de Ejecución: 16 seg. 612 mseg.
+19/01/2023 15:23:12.117: Proceso concluido: Módulo - TRANSFERENCIA-NORMAL-PARCIAL-PU
+19/01/2023 15:23:12.117: =========================================================================
+19/01/2023 15:23:14.066: Proceso concluido con exito.
+19/01/2023 16:10:41.548: Tiempo Inicialización (navegador): 7 seg. 304 mseg.
+19/01/2023 16:10:41.570: Abriendo aplicación...
+19/01/2023 16:10:41.879: *************************************************************************
+19/01/2023 16:10:41.881:                        CONDONACION-LEY-MUNICIPAL
+19/01/2023 16:10:41.882: *************************************************************************
+19/01/2023 16:10:41.882: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+19/01/2023 16:10:41.884: Fecha: 19/01/2023 16:10:41.883
+19/01/2023 16:10:42.595:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+19/01/2023 16:10:44.414: Proceso de autentificación: ...
+19/01/2023 16:10:45.826: Proceso de autentificación: OK.
+19/01/2023 16:10:45.827: -------------------------------------------------------------------------
+19/01/2023 16:10:48.383: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+19/01/2023 16:10:53.691: Inmueble Observado.
+19/01/2023 16:10:53.715: Proceso concluido sin éxito...
+19/01/2023 16:12:07.415: Tiempo Inicialización (navegador): 7 seg. 268 mseg.
+19/01/2023 16:12:07.444: Abriendo aplicación...
+19/01/2023 16:12:07.762: *************************************************************************
+19/01/2023 16:12:07.763:                        CONDONACION-LEY-MUNICIPAL
+19/01/2023 16:12:07.764: *************************************************************************
+19/01/2023 16:12:07.765: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+19/01/2023 16:12:07.767: Fecha: 19/01/2023 16:12:07.767
+19/01/2023 16:12:08.421:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+19/01/2023 16:12:10.264: Proceso de autentificación: ...
+19/01/2023 16:12:11.662: Proceso de autentificación: OK.
+19/01/2023 16:12:11.663: -------------------------------------------------------------------------
+19/01/2023 16:12:14.298: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+19/01/2023 16:12:18.437: Inmueble Observado.
+19/01/2023 16:12:19.678: Inmueble Observado, por proceso de liquidación por determinación mixta. N° 4651/2021.  La(s) gestión(es) 2016, 2017, 2018.
+19/01/2023 16:12:20.076: Inmueble Observado, por proceso de liquidación por determinación mixta. N° 16130/2017. N° 16130.  La(s) gestión(es) 2015.
+19/01/2023 16:12:22.299: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+19/01/2023 16:12:23.329: -------------------------------------------------------------------------
+19/01/2023 16:12:23.329: Tiempo Total de Ejecución: 23 seg. 215 mseg.
+19/01/2023 16:12:23.330: Proceso concluido: Módulo - CONDONACION-LEY-MUNICIPAL
+19/01/2023 16:12:23.331: =========================================================================
+19/01/2023 16:12:25.419: Proceso concluido con exito.
+19/01/2023 16:17:04.313: Tiempo Inicialización (navegador): 7 seg. 467 mseg.
+19/01/2023 16:17:04.336: Abriendo aplicación...
+19/01/2023 16:17:04.635: *************************************************************************
+19/01/2023 16:17:04.636:                        CONDONACION-LEY-MUNICIPAL
+19/01/2023 16:17:04.636: *************************************************************************
+19/01/2023 16:17:04.637: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+19/01/2023 16:17:04.638: Fecha: 19/01/2023 16:17:04.638
+19/01/2023 16:17:05.348:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+19/01/2023 16:17:07.174: Proceso de autentificación: ...
+19/01/2023 16:17:08.560: Proceso de autentificación: OK.
+19/01/2023 16:17:08.560: -------------------------------------------------------------------------
+19/01/2023 16:17:11.039: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+19/01/2023 16:17:50.425: -------------------------------------------------------------------------
+19/01/2023 16:17:50.426: Tiempo Total de Ejecución: 53 seg. 603 mseg.
+19/01/2023 16:17:50.427: Proceso concluido: Módulo - CONDONACION-LEY-MUNICIPAL
+19/01/2023 16:17:50.428: =========================================================================
+19/01/2023 16:17:52.490: Proceso concluido con exito.
+19/01/2023 16:25:36.456: Tiempo Inicialización (navegador): 7 seg. 344 mseg.
+19/01/2023 16:25:36.506: Abriendo aplicación...
+19/01/2023 16:25:36.807: *************************************************************************
+19/01/2023 16:25:36.808:                        CONDONACION-LEY-MUNICIPAL
+19/01/2023 16:25:36.809: *************************************************************************
+19/01/2023 16:25:36.810: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+19/01/2023 16:25:36.811: Fecha: 19/01/2023 16:25:36.811
+19/01/2023 16:25:37.424:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+19/01/2023 16:25:39.174: Proceso de autentificación: ...
+19/01/2023 16:25:40.584: Proceso de autentificación: OK.
+19/01/2023 16:25:40.585: -------------------------------------------------------------------------
+19/01/2023 16:25:43.089: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+19/01/2023 16:25:46.924: Inmueble Observado.
+19/01/2023 16:25:47.765: Inmueble Observado, por proceso de liquidación por determinación mixta. N° 4651/2021.  La(s) gestión(es) 2016, 2017, 2018.
+19/01/2023 16:25:48.574: Inmueble Observado, por proceso de liquidación por determinación mixta. N° 16130/2017. N° 16130.  La(s) gestión(es) 2015.
+19/01/2023 16:25:50.895: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+19/01/2023 16:25:53.311: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+19/01/2023 16:25:56.202: -------------------------------------------------------------------------
+19/01/2023 16:25:56.203: Tiempo Total de Ejecución: 27 seg. 124 mseg.
+19/01/2023 16:25:56.203: Proceso concluido: Módulo - CONDONACION-LEY-MUNICIPAL
+19/01/2023 16:25:56.204: =========================================================================
+19/01/2023 16:25:58.452: Proceso concluido con exito.
+24/01/2023 13:27:50.913: Tiempo Inicialización (navegador): 11 seg. 421 mseg.
+24/01/2023 13:27:50.960: Abriendo aplicación...
+24/01/2023 13:27:51.244: *************************************************************************
+24/01/2023 13:27:51.246:                        CONDONACION-LEY-MUNICIPAL
+24/01/2023 13:27:51.246: *************************************************************************
+24/01/2023 13:27:51.247: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+24/01/2023 13:27:51.248: Fecha: 24/01/2023 13:27:51.248
+24/01/2023 13:27:51.923:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+24/01/2023 13:27:53.634: Proceso de autentificación: ...
+24/01/2023 13:27:55.661: Proceso de autentificación: OK.
+24/01/2023 13:27:55.662: -------------------------------------------------------------------------
+24/01/2023 13:27:58.174: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 13:28:02.631: Inmueble Observado.
+24/01/2023 13:28:03.459: Inmueble Observado, por proceso de liquidación por determinación mixta. N° 4651/2021.  La(s) gestión(es) 2016, 2017, 2018.
+24/01/2023 13:28:03.767: Inmueble Observado, por proceso de liquidación por determinación mixta. N° 16130/2017. N° 16130.  La(s) gestión(es) 2015.
+24/01/2023 13:28:06.092: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 13:28:08.491: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 13:28:11.070: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 13:28:29.850: -------------------------------------------------------------------------
+24/01/2023 13:28:32.613: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 13:28:38.011: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 13:28:40.374: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 13:28:43.271: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 13:28:59.968: -------------------------------------------------------------------------
+24/01/2023 13:29:02.696: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 13:29:06.548: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 13:29:08.918: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 13:29:11.098: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 13:29:38.452: -------------------------------------------------------------------------
+24/01/2023 13:29:41.180: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 13:29:46.580: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 13:29:48.899: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 13:29:51.131: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 13:29:57.334: -------------------------------------------------------------------------
+24/01/2023 13:29:57.335: Tiempo Total de Ejecución: 2 min. 17 seg. 872 mseg.
+24/01/2023 13:29:57.335: Proceso concluido: Módulo - CONDONACION-LEY-MUNICIPAL
+24/01/2023 13:29:57.336: =========================================================================
+24/01/2023 13:30:00.034: Proceso concluido con exito.
+24/01/2023 13:51:35.693: Tiempo Inicialización (navegador): 8 seg. 162 mseg.
+24/01/2023 13:51:35.731: Abriendo aplicación...
+24/01/2023 13:51:36.052: *************************************************************************
+24/01/2023 13:51:36.053:                        CONDONACION-LEY-MUNICIPAL
+24/01/2023 13:51:36.053: *************************************************************************
+24/01/2023 13:51:36.054: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+24/01/2023 13:51:36.055: Fecha: 24/01/2023 13:51:36.054
+24/01/2023 13:51:36.715:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+24/01/2023 13:51:38.438: Proceso de autentificación: ...
+24/01/2023 13:51:39.956: Proceso de autentificación: OK.
+24/01/2023 13:51:39.958: -------------------------------------------------------------------------
+24/01/2023 13:51:42.525: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 13:51:46.485: Inmueble Observado.
+24/01/2023 13:51:47.362: Inmueble Observado, por proceso de liquidación por determinación mixta. N° 4651/2021.  La(s) gestión(es) 2016, 2017, 2018.
+24/01/2023 13:51:47.674: Inmueble Observado, por proceso de liquidación por determinación mixta. N° 16130/2017. N° 16130.  La(s) gestión(es) 2015.
+24/01/2023 13:51:49.986: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 13:51:52.344: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 13:51:54.651: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 13:52:05.955: By.xpath: //h2[text()='ANULAR REGISTRO CONDONACION'] cargado.
+24/01/2023 13:52:10.438: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+24/01/2023 13:52:13.962: -------------------------------------------------------------------------
+24/01/2023 13:52:16.797: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 13:52:22.151: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 13:52:24.549: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 13:52:26.703: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 13:52:46.733: By.xpath: //h2[text()='ANULAR REGISTRO CONDONACION'] cargado.
+24/01/2023 13:52:50.005: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+24/01/2023 13:52:53.252: -------------------------------------------------------------------------
+24/01/2023 13:52:55.979: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 13:52:59.862: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 13:53:02.184: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 13:53:04.350: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 13:53:24.328: By.xpath: //h2[text()='ANULAR REGISTRO CONDONACION'] cargado.
+24/01/2023 13:53:27.339: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+24/01/2023 13:53:30.323: -------------------------------------------------------------------------
+24/01/2023 13:53:33.041: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 13:53:38.221: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 13:53:41.118: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 13:53:43.291: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 13:53:55.828: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+24/01/2023 13:53:58.856: -------------------------------------------------------------------------
+24/01/2023 13:53:58.857: Tiempo Total de Ejecución: 2 min. 31 seg. 352 mseg.
+24/01/2023 13:53:58.857: Proceso concluido: Módulo - CONDONACION-LEY-MUNICIPAL
+24/01/2023 13:53:58.858: =========================================================================
+24/01/2023 13:54:01.321: Proceso concluido con exito.
+24/01/2023 14:02:02.073: Tiempo Inicialización (navegador): 7 seg. 314 mseg.
+24/01/2023 14:02:02.100: Abriendo aplicación...
+24/01/2023 14:02:02.394: *************************************************************************
+24/01/2023 14:02:02.395:                        CONDONACION-LEY-MUNICIPAL
+24/01/2023 14:02:02.396: *************************************************************************
+24/01/2023 14:02:02.396: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+24/01/2023 14:02:02.399: Fecha: 24/01/2023 14:02:02.398
+24/01/2023 14:02:03.036:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+24/01/2023 14:02:04.728: Proceso de autentificación: ...
+24/01/2023 14:02:06.105: Proceso de autentificación: OK.
+24/01/2023 14:02:06.106: -------------------------------------------------------------------------
+24/01/2023 14:02:08.612: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 14:02:12.624: Inmueble Observado.
+24/01/2023 14:02:13.476: Inmueble Observado, por proceso de liquidación por determinación mixta. N° 4651/2021.  La(s) gestión(es) 2016, 2017, 2018.
+24/01/2023 14:02:14.307: Inmueble Observado, por proceso de liquidación por determinación mixta. N° 16130/2017. N° 16130.  La(s) gestión(es) 2015.
+24/01/2023 14:02:16.580: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 14:02:19.037: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 14:02:21.487: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 14:02:34.483: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+24/01/2023 14:02:37.760: -------------------------------------------------------------------------
+24/01/2023 14:02:40.548: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 14:02:47.679: -------------------------------------------------------------------------
+24/01/2023 14:02:50.499: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 14:02:54.132: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 14:02:57.129: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 14:02:59.377: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 14:03:11.639: Debe realizar por lo menos una operación para Aceptar.
+24/01/2023 14:03:12.300: -------------------------------------------------------------------------
+24/01/2023 14:03:15.048: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 14:03:19.933: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 14:03:22.278: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 14:03:24.490: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 14:03:32.312: Debe seleccionar al menos un registro para continuar.
+24/01/2023 14:03:45.201: -------------------------------------------------------------------------
+24/01/2023 14:03:45.202: Tiempo Total de Ejecución: 1 min. 50 seg. 478 mseg.
+24/01/2023 14:03:45.203: Proceso concluido: Módulo - CONDONACION-LEY-MUNICIPAL
+24/01/2023 14:03:45.203: =========================================================================
+24/01/2023 14:03:47.580: Proceso concluido con exito.
+24/01/2023 14:15:16.235: Tiempo Inicialización (navegador): 7 seg. 464 mseg.
+24/01/2023 14:15:16.271: Abriendo aplicación...
+24/01/2023 14:15:16.573: *************************************************************************
+24/01/2023 14:15:16.573:                        CONDONACION-LEY-MUNICIPAL
+24/01/2023 14:15:16.574: *************************************************************************
+24/01/2023 14:15:16.575: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+24/01/2023 14:15:16.578: Fecha: 24/01/2023 14:15:16.577
+24/01/2023 14:15:17.190:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+24/01/2023 14:15:18.873: Proceso de autentificación: ...
+24/01/2023 14:15:20.313: Proceso de autentificación: OK.
+24/01/2023 14:15:20.314: -------------------------------------------------------------------------
+24/01/2023 14:15:22.899: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 14:15:26.391: Inmueble Observado.
+24/01/2023 14:15:27.207: Inmueble Observado, por proceso de liquidación por determinación mixta. N° 4651/2021.  La(s) gestión(es) 2016, 2017, 2018.
+24/01/2023 14:15:28.076: Inmueble Observado, por proceso de liquidación por determinación mixta. N° 16130/2017. N° 16130.  La(s) gestión(es) 2015.
+24/01/2023 14:15:35.708: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 14:15:38.101: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 14:15:40.742: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 14:15:50.294: Debe seleccionar al menos un registro para continuar.
+24/01/2023 14:16:03.037: -------------------------------------------------------------------------
+24/01/2023 14:16:05.761: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 14:16:18.581: -------------------------------------------------------------------------
+24/01/2023 14:16:21.306: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 14:16:30.374: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 14:16:32.789: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 14:16:35.026: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 14:16:47.181: Debe realizar por lo menos una operación para Aceptar.
+24/01/2023 14:16:47.870: -------------------------------------------------------------------------
+24/01/2023 14:16:50.662: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 14:17:00.916: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 14:17:03.272: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 14:17:05.478: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 14:17:13.387: Debe seleccionar al menos un registro para continuar.
+24/01/2023 14:17:26.311: -------------------------------------------------------------------------
+24/01/2023 14:17:29.064: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 14:17:33.500: El Inmueble corresponde a una propiedad de Acciones y Derechos. Verifique el propietario.
+24/01/2023 14:17:35.839: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 14:17:38.200: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 14:17:40.471: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 14:17:59.682: By.xpath: //h2[text()='ANULAR REGISTRO CONDONACION'] cargado.
+24/01/2023 14:18:14.401: -------------------------------------------------------------------------
+24/01/2023 14:18:14.402: Tiempo Total de Ejecución: 3 min. 5 seg. 670 mseg.
+24/01/2023 14:18:14.402: Proceso concluido: Módulo - CONDONACION-LEY-MUNICIPAL
+24/01/2023 14:18:14.403: =========================================================================
+24/01/2023 14:18:16.398: Proceso concluido con exito.
+24/01/2023 14:20:26.865: Tiempo Inicialización (navegador): 8 seg. 104 mseg.
+24/01/2023 14:20:26.892: Abriendo aplicación...
+24/01/2023 14:20:27.186: *************************************************************************
+24/01/2023 14:20:27.187:                        CONDONACION-LEY-MUNICIPAL
+24/01/2023 14:20:27.187: *************************************************************************
+24/01/2023 14:20:27.189: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+24/01/2023 14:20:27.190: Fecha: 24/01/2023 14:20:27.189
+24/01/2023 14:20:27.826:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+24/01/2023 14:20:29.573: Proceso de autentificación: ...
+24/01/2023 14:20:30.921: Proceso de autentificación: OK.
+24/01/2023 14:20:30.922: -------------------------------------------------------------------------
+24/01/2023 14:20:33.469: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 14:20:37.675: Inmueble Observado.
+24/01/2023 14:20:38.020: Inmueble Observado, por proceso de liquidación por determinación mixta. N° 4651/2021.  La(s) gestión(es) 2016, 2017, 2018.
+24/01/2023 14:20:38.329: Inmueble Observado, por proceso de liquidación por determinación mixta. N° 16130/2017. N° 16130.  La(s) gestión(es) 2015.
+24/01/2023 14:20:46.031: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 14:20:48.387: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 14:20:50.984: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 14:21:00.537: Debe seleccionar al menos un registro para continuar.
+24/01/2023 14:21:13.374: -------------------------------------------------------------------------
+24/01/2023 14:21:16.194: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 14:21:28.448: -------------------------------------------------------------------------
+24/01/2023 14:21:31.309: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 14:21:40.260: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 14:21:42.733: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 14:21:44.946: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 14:21:57.130: Debe realizar por lo menos una operación para Aceptar.
+24/01/2023 14:21:57.802: -------------------------------------------------------------------------
+24/01/2023 14:22:00.575: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 14:22:10.775: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 14:22:13.100: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 14:22:15.389: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 14:22:23.380: Debe seleccionar al menos un registro para continuar.
+24/01/2023 14:22:36.280: -------------------------------------------------------------------------
+24/01/2023 14:22:39.032: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 14:22:43.396: El Inmueble corresponde a una propiedad de Acciones y Derechos. Verifique el propietario.
+24/01/2023 14:22:45.727: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 14:22:48.040: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 14:22:50.166: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 14:23:09.192: By.xpath: //h2[text()='ANULAR REGISTRO CONDONACION'] cargado.
+24/01/2023 14:23:23.892: -------------------------------------------------------------------------
+24/01/2023 14:23:23.893: Tiempo Total de Ejecución: 3 min. 5 seg. 163 mseg.
+24/01/2023 14:23:23.893: Proceso concluido: Módulo - CONDONACION-LEY-MUNICIPAL
+24/01/2023 14:23:23.893: =========================================================================
+24/01/2023 14:23:25.758: Proceso concluido con exito.
+24/01/2023 14:28:15.043: Tiempo Inicialización (navegador): 7 seg. 451 mseg.
+24/01/2023 14:28:15.080: Abriendo aplicación...
+24/01/2023 14:28:15.397: *************************************************************************
+24/01/2023 14:28:15.398:                        CONDONACION-LEY-MUNICIPAL
+24/01/2023 14:28:15.399: *************************************************************************
+24/01/2023 14:28:15.399: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+24/01/2023 14:28:15.400: Fecha: 24/01/2023 14:28:15.400
+24/01/2023 14:28:16.022:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+24/01/2023 14:28:17.836: Proceso de autentificación: ...
+24/01/2023 14:28:19.209: Proceso de autentificación: OK.
+24/01/2023 14:28:19.210: -------------------------------------------------------------------------
+24/01/2023 14:28:21.739: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 14:28:25.128: Inmueble Observado.
+24/01/2023 14:28:25.433: Inmueble Observado, por proceso de liquidación por determinación mixta. N° 4651/2021.  La(s) gestión(es) 2016, 2017, 2018.
+24/01/2023 14:28:26.266: Inmueble Observado, por proceso de liquidación por determinación mixta. N° 16130/2017. N° 16130.  La(s) gestión(es) 2015.
+24/01/2023 14:28:33.931: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 14:28:36.369: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 14:28:38.837: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 14:28:49.865: By.xpath: //h2[text()='ANULAR REGISTRO CONDONACION'] cargado.
+24/01/2023 14:28:54.120: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+24/01/2023 14:28:57.460: -------------------------------------------------------------------------
+24/01/2023 14:29:00.372: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 14:29:12.462: -------------------------------------------------------------------------
+24/01/2023 14:29:15.796: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 14:29:25.157: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 14:29:27.564: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 14:29:29.785: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 14:29:47.949: Debe seleccionar al menos un registro para continuar.
+24/01/2023 14:30:00.849: -------------------------------------------------------------------------
+24/01/2023 14:30:03.597: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 14:30:13.846: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 14:30:16.211: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 14:30:18.426: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 14:30:27.767: By.xpath: //h2[text()='ANULAR REGISTRO CONDONACION'] cargado.
+24/01/2023 14:30:32.158: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+24/01/2023 14:30:35.285: -------------------------------------------------------------------------
+24/01/2023 14:30:38.139: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 14:30:42.554: El Inmueble corresponde a una propiedad de Acciones y Derechos. Verifique el propietario.
+24/01/2023 14:30:44.884: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 14:30:47.236: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+24/01/2023 14:30:49.489: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+24/01/2023 14:31:08.622: By.xpath: //h2[text()='ANULAR REGISTRO CONDONACION'] cargado.
+24/01/2023 14:31:14.413: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+24/01/2023 14:31:17.467: -------------------------------------------------------------------------
+24/01/2023 14:31:17.468: Tiempo Total de Ejecución: 3 min. 9 seg. 910 mseg.
+24/01/2023 14:31:17.468: Proceso concluido: Módulo - CONDONACION-LEY-MUNICIPAL
+24/01/2023 14:31:17.468: =========================================================================
+24/01/2023 14:31:19.579: Proceso concluido con exito.

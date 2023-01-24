@@ -55,7 +55,7 @@ public class Compensaciones extends GeneratorINM {
             SearchEstate.byNumeroInmueble(this.driverApp, this.numeroInmueble);
             Verify.partialObservations(this.driverApp, test.get(i));
             if (IsDisplayed.element(this.driverApp, PropietarioAccionesDerechosUI.tablaPropietarios)){
-                SelectShareholder.firstWithFiscalCredit(this.driverApp, test.get(i));
+                SelectShareholder.firstWhoCanContinue(this.driverApp, test.get(i));
             }
             Verify.elementIsReady(this.driverApp, test.get(i), InicioTramiteUI.ttlInicioTramite);
             ReceiveDocumentation.now(this.driverApp, InicioTramiteUI.getInstance());

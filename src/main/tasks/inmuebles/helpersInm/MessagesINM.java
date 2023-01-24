@@ -9,6 +9,7 @@ public class MessagesINM {
     public static String failTest = "Proceso concluido sin éxito...";
     public static String successfulTest = "Proceso concluido con exito.";
     public static String selectedItems = "Items seleccionados...";
+    public static String operationUnavailable = "Operación no disponible...";
 
     //DATA TO TESTS
     public static String testText = "LoremIpsum";

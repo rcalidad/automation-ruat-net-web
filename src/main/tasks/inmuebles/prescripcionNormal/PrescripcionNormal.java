@@ -56,7 +56,7 @@ public class PrescripcionNormal extends GeneratorINM {
             Verify.elementIsReady(this.driverApp, test.get(i), BusquedaInmuebleUI.ttlBusquedaInmueble);
             SearchEstate.byNumeroInmueble(this.driverApp, this.numeroInmueble);
             if (IsDisplayed.element(this.driverApp, PropietarioAccionesDerechosUI.tablaPropietarios)){
-                SelectShareholder.firstWithFiscalCredit(this.driverApp, test.get(i));
+                SelectShareholder.firstWhoCanContinue(this.driverApp, test.get(i));
             }
             Verify.elementIsReady(this.driverApp, test.get(i), InicioTramiteUI.ttlInicioTramite);
             ReceiveDocumentation.now(this.driverApp);

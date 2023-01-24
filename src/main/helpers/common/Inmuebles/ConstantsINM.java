@@ -27,10 +27,16 @@ public class ConstantsINM
 	public static final String BASES_IMPONIBLES_IP_DATA_SHEET = "BasesImponiblesIP";
 	public static final String BASES_IMPONIBLES_IMT_DATA_SHEET = "BasesImponiblesIMT";
 	public static final String PRESCRIPCION_NORMAL_DATA_SHEET = "PrescripcionNormal";
+	public static final String MODIFICACION_DATOS_TECNICOS_DATA_SHEET = "ModificacionDatosTecnicos";
+	public static final String TRANSFERENCIA_NORMAL_TOTAL_PU_DATA_SHEET = "TransferenciaNormalTotalPU";
+	public static final String TRANSFERENCIA_NORMAL_PARCIAL_PU_DATA_SHEET = "TransferenciaNormalParcialPU";
 
 	//GROUPERS
 	public static final String REGISTRO_TECNICO_GROUPER = "REGISTRO TECNICO";
 	public static final String REGISTRO_TRIBUTARIO_GROUPER = "REGISTRO TRIBUTARIO";
+
+	//SUB GROUPER
+	public static final String TRANSFERENCIA_NORMAL_PROPIEDAD_UNICA_TN_SUBGROUPER = "transferencias propiedad unica";
 
 
 	//MODULES
@@ -41,6 +47,9 @@ public class ConstantsINM
 	public static final String BASES_IMPONIBLES_IP_MODULE = "Bases Imponibles IP";
 	public static final String BASES_IMPONIBLES_IMT_MODULE = "Bases Imponibles IMT";
 	public static final String PRESCRIPCIONES_MODULE = "Prescripciones";
+	public static final String MODIFICACION_DATOS_TECNICOS_MODULE = "Modificación Datos Técnicos";
+	public static final String TRANSFERENCIA_NORMAL_TOTAL_MODULE = "Transferencia Normal Total";
+	public static final String TRANSFERENCIA_NORMAL_PARCIAL_MODULE = "Transferencia Normal Parcial";
 
 	/*public static final String  TIPO_PROPIEDAD_UNICA                                     = "PROPIEDAD ÚNICA";
 	public static final String  TIPO_PROPIEDAD_ACCIONES_DERECHOS                         = "PROPIEDAD ACCIONES DERECHOS";

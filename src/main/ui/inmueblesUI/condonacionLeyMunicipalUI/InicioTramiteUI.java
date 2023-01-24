@@ -1,4 +1,4 @@
-package main.ui.inmueblesUI.condonacionLeyMunicipal;
+package main.ui.inmueblesUI.condonacionLeyMunicipalUI;
 
 import main.ui.inmueblesUI.commonUI.interfacesUI.IInicioTramiteUI;
 import org.openqa.selenium.By;

@@ -22,7 +22,10 @@ public class Verify {
             throw new Exception(message);
         }else {
             WaitUntilElement.isElementVisible(driver, CommonElemntsUI.ttlTituloPrincipal);
-            if (IsDisplayed.element(driver, locator)){
+            if (GetText.of(driver, CommonElemntsUI.ttlTituloPrincipal).trim().equalsIgnoreCase("HUBO UN ERROR")){
+                ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.FAIL, MessagesINM.failTest);
+                throw new Exception(MessagesINM.failTest + locator.toString());
+            }else if (IsDisplayed.element(driver, locator, 1)){
                 Log.recordInLog(locator.toString() + " cargado.");
             }else {
                 ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.SKIP, MessagesINM.problemWithAStep);

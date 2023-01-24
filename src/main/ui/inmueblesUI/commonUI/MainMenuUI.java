@@ -22,4 +22,7 @@ public class MainMenuUI {
         return By.xpath("(//a[. = '" + nameModule +"'])[last()]");
     }
     //  (//a[. = 'Prescripciones'])[last()]
+    public static By getModuleFromSubGrouper(String subGrouper, String module){
+        return By.xpath("//li[@tn='" + subGrouper + "']//a[.='" + module + "']");
+    }
 }
