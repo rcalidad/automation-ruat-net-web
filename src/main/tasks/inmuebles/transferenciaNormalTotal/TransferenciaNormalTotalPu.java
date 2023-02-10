@@ -11,15 +11,22 @@ import main.helpers.dataUtility.ScreenShotHelper;
 import main.helpers.fileUtility.FileBuilder;
 import main.tasks.inmuebles.commonInm.GetDate;
 import main.tasks.inmuebles.commonInm.LoadModule;
+import main.tasks.inmuebles.commonInm.SearchEstate;
 import main.tasks.inmuebles.commonInm.Verify;
 import main.tasks.inmuebles.helpersInm.ChangeFrame;
 import main.tasks.inmuebles.helpersInm.GeneratorINM;
 import main.tasks.inmuebles.helpersInm.MessagesINM;
 import main.ui.inmueblesUI.commonUI.BusquedaInmuebleUI;
+import main.ui.inmueblesUI.transferenciaTotalPU.InicioTramiteUI;
+import main.ui.inmueblesUI.transferenciaTotalPU.RegistrarMinutaUI;
 
 public class TransferenciaNormalTotalPu extends GeneratorINM {
     protected String operacion;
     protected String numeroInmueble;
+    protected String tipoTransferencia;
+    protected String fechaMinuta;
+    protected String montoMinuta;
+    protected String tipoMoneda;
 
     public TransferenciaNormalTotalPu(){
         super();
@@ -40,6 +47,12 @@ public class TransferenciaNormalTotalPu extends GeneratorINM {
             LoadModule.fromSearcherOfMainMenuAndSubGrouper(this.driverApp, ConstantsINM.TRANSFERENCIA_NORMAL_PROPIEDAD_UNICA_TN_SUBGROUPER, ConstantsINM.TRANSFERENCIA_NORMAL_TOTAL_MODULE);
             ChangeFrame.toContentFrame(this.driverApp);
             Verify.elementIsReady(this.driverApp, test.get(i), BusquedaInmuebleUI.ttlBusquedaInmueble);
+            SearchEstate.byNumeroInmueble(this.driverApp, this.numeroInmueble);
+            Verify.elementIsReady(this.driverApp, test.get(i), InicioTramiteUI.ttlInicioTramite);
+            ReceiveDocumentation.now(this.driverApp, InicioTramiteUI.getInstance());
+            Verify.partialObservations(this.driverApp, test.get(i));
+            Verify.elementIsReady(this.driverApp, test.get(i), RegistrarMinutaUI.ttlRegistrarMinuta);
+            RecordMinute.fillFormWithDefaultData(this.driverApp, this.tipoTransferencia, this.montoMinuta, this.tipoMoneda, this.fechaMinuta);
             ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, test.get(i), Status.INFO, "INFO");
         }catch (Exception exception){
 

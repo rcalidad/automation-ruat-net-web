@@ -28270,3 +28270,135 @@
 24/01/2023 14:31:17.468: Proceso concluido: Módulo - CONDONACION-LEY-MUNICIPAL
 24/01/2023 14:31:17.468: =========================================================================
 24/01/2023 14:31:19.579: Proceso concluido con exito.
+24/01/2023 16:50:02.858: Tiempo Inicialización (navegador): 8 seg. 521 mseg.
+24/01/2023 16:50:02.924: Abriendo aplicación...
+24/01/2023 16:50:03.234: *************************************************************************
+24/01/2023 16:50:03.239:                        TRANSFERENCIA-NORMAL-TOTAL-PU
+24/01/2023 16:50:03.240: *************************************************************************
+24/01/2023 16:50:03.242: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+24/01/2023 16:50:03.242: Fecha: 24/01/2023 16:50:03.242
+24/01/2023 16:50:03.937:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+24/01/2023 16:50:05.680: Proceso de autentificación: ...
+24/01/2023 16:50:07.612: Proceso de autentificación: OK.
+24/01/2023 16:50:07.612: -------------------------------------------------------------------------
+24/01/2023 16:50:10.176: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 16:50:12.551: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 16:50:14.261: Proceso concluido sin éxito...
+24/01/2023 16:51:24.939: Tiempo Inicialización (navegador): 7 seg. 359 mseg.
+24/01/2023 16:51:24.965: Abriendo aplicación...
+24/01/2023 16:51:25.311: *************************************************************************
+24/01/2023 16:51:25.312:                        TRANSFERENCIA-NORMAL-TOTAL-PU
+24/01/2023 16:51:25.312: *************************************************************************
+24/01/2023 16:51:25.313: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+24/01/2023 16:51:25.314: Fecha: 24/01/2023 16:51:25.313
+24/01/2023 16:51:26.160:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+24/01/2023 16:51:28.105: Proceso de autentificación: ...
+24/01/2023 16:51:29.505: Proceso de autentificación: OK.
+24/01/2023 16:51:29.506: -------------------------------------------------------------------------
+24/01/2023 16:51:32.069: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+24/01/2023 16:51:34.368: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+24/01/2023 16:51:36.941: El inmueble tiene copropietarios. Verifique.
+24/01/2023 16:51:39.159: -------------------------------------------------------------------------
+24/01/2023 16:51:39.160: Tiempo Total de Ejecución: 21 seg. 621 mseg.
+24/01/2023 16:51:39.160: Proceso concluido: Módulo - TRANSFERENCIA-NORMAL-TOTAL-PU
+24/01/2023 16:51:39.161: =========================================================================
+24/01/2023 16:51:41.611: Proceso concluido con exito.
+25/01/2023 14:23:12.194: Tiempo Inicialización (navegador): 7 seg. 772 mseg.
+25/01/2023 14:23:12.218: Abriendo aplicación...
+25/01/2023 14:23:12.496: *************************************************************************
+25/01/2023 14:23:12.497:                        PROFORMA
+25/01/2023 14:23:12.497: *************************************************************************
+25/01/2023 14:23:12.498: Ambiente: https://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/Administracion/Autentificacion/begin.do
+25/01/2023 14:23:12.499: Fecha: 25/01/2023 14:23:12.499
+25/01/2023 14:23:13.663: Proceso de Iniciar sesión: ...
+25/01/2023 14:23:13.913: Ha expirado el plazo para el cambio de su contraseña o no ingresó al sistema en un tiempo determinado. Por favor actualice su contraseña.
+25/01/2023 14:23:15.577: =========================================================================
+25/01/2023 14:23:16.829: Identificador de Vehículo: 149ZDU
+25/01/2023 14:23:38.471: -------------------------------------------------------------------------
+25/01/2023 14:23:38.472: Tiempo Total de Ejecución: 34 seg. 86 mseg.
+25/01/2023 14:23:38.473: Proceso concluido: Módulo - PROFORMA
+25/01/2023 14:23:38.474: =========================================================================
+25/01/2023 14:23:40.662: Proceso concluido exitosamente
+25/01/2023 14:25:24.808: Tiempo Inicialización (navegador): 6 seg. 907 mseg.
+25/01/2023 14:25:24.837: Abriendo aplicación...
+25/01/2023 14:25:25.121: *************************************************************************
+25/01/2023 14:25:25.122:                        CONDONACION-LEY-MUNICIPAL
+25/01/2023 14:25:25.122: *************************************************************************
+25/01/2023 14:25:25.124: Ambiente: https://vehiculoscalidad.ruat.gob.bo/VehiculosWeb/Administracion/Autentificacion/begin.do
+25/01/2023 14:25:25.125: Fecha: 25/01/2023 14:25:25.124
+25/01/2023 14:25:25.764: Proceso de Iniciar sesión: ...
+25/01/2023 14:25:28.097: Error al intentar autentificarse
+25/01/2023 14:25:28.098: Wrong password, trying again...
+25/01/2023 14:25:28.943: Proceso de Iniciar sesión: ...
+25/01/2023 14:25:31.164: Error al intentar autentificarse
+25/01/2023 14:25:31.164: Wrong password, trying again...
+25/01/2023 14:25:32.565: Proceso de Iniciar sesión: ...
+25/01/2023 14:25:37.002: Login process: OK
+25/01/2023 14:25:37.003: =========================================================================
+25/01/2023 14:25:40.547: Searching vehicle: 149ZDU
+25/01/2023 14:25:52.317: El vehículo no pasó las validaciones necesarias.
+25/01/2023 14:25:52.516: -------------------------------------------------------------------------
+25/01/2023 14:25:52.517: Tiempo Total de Ejecución: 34 seg. 644 mseg.
+25/01/2023 14:25:52.517: Proceso concluido: Módulo - CONDONACION-LEY-MUNICIPAL
+25/01/2023 14:25:52.518: =========================================================================
+06/02/2023 09:45:44.258: Tiempo Inicialización (navegador): 14 seg. 597 mseg.
+06/02/2023 09:45:44.325: Abriendo aplicación...
+06/02/2023 09:45:44.618: *************************************************************************
+06/02/2023 09:45:44.619:                        TRANSFERENCIA-NORMAL-TOTAL-PU
+06/02/2023 09:45:44.620: *************************************************************************
+06/02/2023 09:45:44.621: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+06/02/2023 09:45:44.622: Fecha: 06/02/2023 09:45:44.622
+06/02/2023 09:45:45.673:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+06/02/2023 09:45:47.640: Proceso de autentificación: ...
+06/02/2023 09:45:49.733:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+06/02/2023 09:45:50.859: Proceso de autentificación: ...
+06/02/2023 09:45:52.434: Proceso de autentificación: OK.
+06/02/2023 09:45:52.435: -------------------------------------------------------------------------
+06/02/2023 09:45:55.769: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+06/02/2023 09:46:06.605: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+06/02/2023 09:46:09.733: El inmueble tiene copropietarios. Verifique.
+06/02/2023 09:46:11.993: -------------------------------------------------------------------------
+06/02/2023 09:46:11.994: Tiempo Total de Ejecución: 42 seg. 529 mseg.
+06/02/2023 09:46:11.995: Proceso concluido: Módulo - TRANSFERENCIA-NORMAL-TOTAL-PU
+06/02/2023 09:46:11.995: =========================================================================
+06/02/2023 09:46:16.100: Proceso concluido con exito.
+06/02/2023 10:23:29.500: Tiempo Inicialización (navegador): 8 seg. 757 mseg.
+06/02/2023 10:23:29.532: Abriendo aplicación...
+06/02/2023 10:23:29.859: *************************************************************************
+06/02/2023 10:23:29.860:                        TRANSFERENCIA-NORMAL-TOTAL-PU
+06/02/2023 10:23:29.860: *************************************************************************
+06/02/2023 10:23:29.861: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+06/02/2023 10:23:29.862: Fecha: 06/02/2023 10:23:29.862
+06/02/2023 10:23:30.565:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+06/02/2023 10:23:32.329: Proceso de autentificación: ...
+06/02/2023 10:23:34.393:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+06/02/2023 10:23:35.425: Proceso de autentificación: ...
+06/02/2023 10:23:36.845: Proceso de autentificación: OK.
+06/02/2023 10:23:36.846: -------------------------------------------------------------------------
+06/02/2023 10:23:39.597: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+06/02/2023 10:23:42.153: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+06/02/2023 10:23:44.587: El inmueble tiene copropietarios. Verifique.
+06/02/2023 10:23:46.878: By.xpath: //h2[text()='REGISTRAR MINUTA'] cargado.
+06/02/2023 10:23:50.190: -------------------------------------------------------------------------
+06/02/2023 10:23:50.190: Tiempo Total de Ejecución: 29 seg. 483 mseg.
+06/02/2023 10:23:50.191: Proceso concluido: Módulo - TRANSFERENCIA-NORMAL-TOTAL-PU
+06/02/2023 10:23:50.192: =========================================================================
+06/02/2023 10:23:52.411: Proceso concluido con exito.
+06/02/2023 10:25:48.615: Tiempo Inicialización (navegador): 8 seg. 23 mseg.
+06/02/2023 10:25:48.640: Abriendo aplicación...
+06/02/2023 10:25:48.946: *************************************************************************
+06/02/2023 10:25:48.946:                        TRANSFERENCIA-NORMAL-TOTAL-PU
+06/02/2023 10:25:48.946: *************************************************************************
+06/02/2023 10:25:48.946: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+06/02/2023 10:25:48.958: Fecha: 06/02/2023 10:25:48.957
+06/02/2023 10:25:49.649:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+06/02/2023 10:25:51.466: Proceso de autentificación: ...
+06/02/2023 10:25:53.545:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+06/02/2023 10:25:54.552: Proceso de autentificación: ...
+06/02/2023 10:25:56.605: Proceso de autentificación: OK.
+06/02/2023 10:25:56.605: -------------------------------------------------------------------------
+06/02/2023 10:25:59.146: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+06/02/2023 10:26:01.395: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+06/02/2023 10:26:03.808: El inmueble tiene copropietarios. Verifique.
+06/02/2023 10:26:06.133: By.xpath: //h2[text()='REGISTRAR MINUTA'] cargado.
+06/02/2023 10:26:07.824: Proceso concluido sin éxito...
