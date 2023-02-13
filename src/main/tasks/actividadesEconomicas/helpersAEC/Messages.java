@@ -10,4 +10,7 @@ public class Messages {
     public static String successfulTest = "Proceso concluido con éxito...";
     public static String failedValidation = "No pasó las validaciones necesarias...";
     public static String testTitleNumEAC = "Numero AEC: ";
+
+    //Test default data
+    public static String description = "Esto es una descripcion";
 }

@@ -14,7 +14,9 @@ import main.tasks.actividadesEconomicas.commonAEC.Verify;
 import main.tasks.actividadesEconomicas.commonAEC.confirmProcedure.ConfirmProcedureFactory;
 import main.tasks.actividadesEconomicas.empadronamiento.receiveDocumentation.LocalReceiveDocumentationFactory;
 import main.tasks.actividadesEconomicas.helpersAEC.GeneratorAEC;
+import main.tasks.commonTasks.GetDate;
 import main.tasks.vehiculos.commonVeh.VerifyAlert;
+import main.ui.actividadesEconomicasUI.commonUI.CabeceraUI;
 import main.ui.actividadesEconomicasUI.empadronamientoUI.*;
 
 public class Empadronamiento extends GeneratorAEC {
@@ -44,6 +46,7 @@ public class Empadronamiento extends GeneratorAEC {
     @Override
     public void execute() {
         try{
+            String dateOfSystem = GetDate.ofSystem(this.driverApp, CabeceraUI.fecha);
             Log.recordInLog(Constants.DELIMITER_MARK);
             LoadModule.fromMainMenu(this.driverApp, ConstantsAEC.EMPADRONAMIENTO_GROUPER, ConstantsAEC.EMPADRONAMIENTO_MODULE);
             String town = getTown(this.usuario);
@@ -58,8 +61,10 @@ public class Empadronamiento extends GeneratorAEC {
             AssignContributor.assign(this.driverApp, test.get(i), this.idContribuyente, this.tipoDocumento);
             Verify.isReady(this.driverApp, test.get(i), LocationActividadEconomicaUI.ttlUbicacionActividadEconomica);
             LocationActividadEconomica.register(this.driverApp, this.areaMunicipio);
-            Verify.isReady(this.driverApp, test.get(i), AuthorizationUI.ttlAutorizacion);
-            Authorization.by(this.driverApp, this.autorizadoPor);
+            if (this.municipio.equals("SANTA CRUZ DE LA SIERRA") || this.municipio.equals("SUCRE")){
+                Verify.isReady(this.driverApp, test.get(i), AuthorizationUI.ttlAutorizacion);
+                Authorization.by(this.driverApp, this.autorizadoPor, dateOfSystem);
+            }
             Verify.isReady(this.driverApp, test.get(i), AdditionalInformationUI.ttlInformacionAdicional);
             AdditionalInformation.emptyRecord(this.driverApp);
             Verify.isReady(this.driverApp, test.get(i), ConfirmRecordUI.ttlConfirmarRegistro);

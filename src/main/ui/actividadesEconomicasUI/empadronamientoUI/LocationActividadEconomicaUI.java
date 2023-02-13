@@ -18,5 +18,6 @@ public class LocationActividadEconomicaUI {
     public static By chkSinNumeroPuerta = By.id("chksinNumero");
     public static By btnAceptar = By.id("btnSubmit");
 
+    public static By lstDatosUbicacionActividad = By.xpath("//th[contains(.,'*')]/following-sibling::td/select");
     public static Map<String, By> municipalArea = Map.of("URBANO", rbtUrbano, "RURAL", rbtRural);
 }

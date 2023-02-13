@@ -9,5 +9,7 @@ public class TechnicalDataUI {
     public static By lstRubro = By.xpath("//th[text()='Rubro']/following-sibling::td/select");
     public static By lstSubRubro = By.xpath("//th[text()='Sub Rubro']/following-sibling::td/select");
     public static By lstTipoActividad = By.xpath("//th[text()='Tipo Actividad']/following-sibling::td/select");
+    public static By lstCuenta = By.xpath("//th[text()='Cuenta']/following-sibling::td/select");
+    public static By txtDescripcionActividad = By.id("txtDescripcion");
     public static By btnAceptar = By.id("btnSubmit");
 }

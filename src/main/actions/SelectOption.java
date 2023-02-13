@@ -32,6 +32,21 @@ public class SelectOption {
         }
         return !options.isEmpty();
     }
+    public static boolean waitUntilLoadOptions(WebDriver driver, WebElement locator){
+        WebDriverWait wait = new WebDriverWait(driver, 3);
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+        Select lstElement = new Select(element);
+        List<WebElement> options = new ArrayList<>();
+        int time = 0;
+        while(options.isEmpty() && time < 4){
+            options = lstElement.getOptions();
+            try{
+                Thread.sleep(500);
+                time ++;
+            }catch (Exception exception){}
+        }
+        return !options.isEmpty();
+    }
     public static void firstOption(WebDriver driver, By locator){
         WebDriverWait wait = new WebDriverWait(driver, 3);
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
@@ -52,6 +67,18 @@ public class SelectOption {
     }
 
     public static void nonEmptyRandomValue(WebDriver driver, By locator){
+        WebDriverWait wait = new WebDriverWait(driver, 3);
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+        Select lstElement = new Select(element);
+        List<WebElement> optionList = lstElement.getOptions();
+        int size = optionList.size();
+        int index = getRandomNumber(0, size - 1);
+        while (optionList.get(index).getText().equals("")){
+            index = getRandomNumber(0, size - 1);
+        }
+        lstElement.selectByIndex(index);
+    }
+    public static void nonEmptyRandomValue(WebDriver driver, WebElement locator){
         WebDriverWait wait = new WebDriverWait(driver, 3);
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
         Select lstElement = new Select(element);

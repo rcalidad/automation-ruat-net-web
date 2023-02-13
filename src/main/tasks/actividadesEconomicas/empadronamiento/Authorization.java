@@ -9,11 +9,12 @@ import main.ui.actividadesEconomicasUI.empadronamientoUI.AuthorizationUI;
 import org.openqa.selenium.WebDriver;
 
 public class Authorization {
-    public static void by(WebDriver driver, String name){
+    public static void by(WebDriver driver, String name, String date){
         Clear.on(driver, AuthorizationUI.txtAutorizadoPor, 1);
         Enter.text(driver, AuthorizationUI.txtAutorizadoPor, name);
         SelectOption.firstOption(driver, AuthorizationUI.lstCargo);
-        Enter.dateByElementId(driver, AuthorizationUI.txtFecha, DateUtility.getCurrentDate());
+        //Enter.dateByElementId(driver, AuthorizationUI.txtFecha, DateUtility.getCurrentDate());
+        Enter.dateByElementId(driver, AuthorizationUI.txtFecha, date);
         Click.on(driver, AuthorizationUI.btnAceptar);
     }
 }

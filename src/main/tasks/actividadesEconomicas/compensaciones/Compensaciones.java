@@ -52,7 +52,7 @@ public class Compensaciones extends GeneratorAEC {
             LoadModule.fromMainMenu(this.driverApp, ConstantsAEC.COMPENSACIONES_GROUPER, ConstantsAEC.COMPENSACIONES_MODULE);
             SearchActivity.byActivityNumber(this.driverApp, this.numeroActividadEconomica);
             Verify.isReady(this.driverApp, test.get(i), AuthorizationUI.ttlAutorizacion);
-            Authorization.by(this.driverApp, this.autorizadoPor);
+            Authorization.by(this.driverApp, this.autorizadoPor, this.fechaDocumento);
             ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, test.get(i), Status.INFO, "INFO");
             Verify.isReady(this.driverApp, test.get(i), DebtDetailUI.ttlDetalleDeudas);
             DebtDetail.process(this.driverApp, test.get(i), this.gestionInicio, this.gestionFin, this.tipoDeuda, ConstantsAEC.RUBRO);

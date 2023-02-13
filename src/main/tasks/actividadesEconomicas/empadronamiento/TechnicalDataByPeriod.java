@@ -16,7 +16,8 @@ public class TechnicalDataByPeriod {
             Enter.text(driver, TechnicalDataByPeriodUI.txtFechaInicioTributario, date);
             Click.on(driver, TechnicalDataByPeriodUI.lnkAdicionar);
             Verify.isReady(driver, extentTest, TechnicalDataUI.ttlDatosTecnicos);
-            TechnicalData.load(driver, taxZone, superficie, rubro, subRubro, tipoActividad);
+            TechnicalData.loadWithDefaultData(driver, superficie);
+            //TechnicalData.load(driver, taxZone, superficie, rubro, subRubro, tipoActividad);
             Verify.isReady(driver, extentTest, TechnicalDataByPeriodUI.ttlDatosTecnicosPorPeriodo);
             Click.on(driver, TechnicalDataByPeriodUI.btnAceptar);
         }catch (Exception exception){

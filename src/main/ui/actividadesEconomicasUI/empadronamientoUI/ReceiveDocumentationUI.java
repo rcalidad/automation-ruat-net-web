@@ -2,6 +2,8 @@ package main.ui.actividadesEconomicasUI.empadronamientoUI;
 
 import org.openqa.selenium.By;
 
+import java.util.List;
+
 public class ReceiveDocumentationUI {
     public static By ttlRecepcionarDocumentacion = By.xpath("//h2[text()='RECEPCIONAR DOCUMENTACION']");
     public static By btnGrabar = By.id("btnSubmit");
@@ -16,6 +18,9 @@ public class ReceiveDocumentationUI {
     public static By chkFotocopiaCedulaDeIdentidadPersonaNaturalRepresentanteLegal = By.xpath("//td[normalize-space() = '*FOTOCOPIA CEDULA DE IDENTIDAD (PERSONA NATURAL/PERSONA JURIDICA - REPRESENTANTE LEGAL)']/following-sibling::td/input");
     public static By chkOriginalFormularioDeDeclaracionJuradaPersonaNaturalPersonaJuridica = By.xpath("//td[normalize-space() = '*ORIGINAL FORMULARIO DE DECLARACION JURADA (PERSONA NATURAL/PERSONA JURIDICA)']/following-sibling::td/input");
     public static By chkOriginalFormularioUnicoDeRecaudaciones = By.xpath("//td[normalize-space() = '*ORIGINAL FORMULARIO UNICO DE RECAUDACIONES']/following-sibling::td/input");
+    public static List<By> chkDocumentsCBA = List.of(chkFotocopiaCedulaDeIdentidadPersonaNaturalRepresentanteLegal,
+                                                  chkOriginalFormularioDeDeclaracionJuradaPersonaNaturalPersonaJuridica,
+                                                  chkOriginalFormularioUnicoDeRecaudaciones);
 
     //SCZ
     public static By chkDocumentoDeIdentidad = By.xpath("//td[normalize-space() = '*DOCUMENTO DE IDENTIDAD']/following-sibling::td/input"); //EAL
@@ -25,4 +30,5 @@ public class ReceiveDocumentationUI {
     public static By chkCarpetaAzul = By.xpath("//td[normalize-space() = '*CARPETA AZUL']/following-sibling::td/input");
     public static By chkNumeroIdentificacionTributaria = By.xpath("//td[normalize-space() = '*NUMERO DE IDENTIFICACION TRIBUTARIA']/following-sibling::td/input");
     public static By chkEscrituraDeConstitucion = By.xpath("//td[normalize-space() = '*ESCRITURA DE CONSTITUCION']/following-sibling::td/input");
+
 }
