@@ -29321,3 +29321,130 @@
 14/02/2023 12:39:21.496: Tiempo Total de Ejecución: 19 min. 26 seg. 466 mseg.
 14/02/2023 12:39:21.497: Proceso concluido: Módulo - EMPADRONAMIENTO
 14/02/2023 12:39:21.499: =========================================================================
+14/02/2023 14:01:38.928: Tiempo Inicialización (navegador): 8 seg. 640 mseg.
+14/02/2023 14:01:38.968: Abriendo aplicación...
+14/02/2023 14:01:39.292: *************************************************************************
+14/02/2023 14:01:39.292:                        EMPADRONAMIENTO
+14/02/2023 14:01:39.293: *************************************************************************
+14/02/2023 14:01:39.294: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 14:01:39.295: Fecha: 14/02/2023 14:01:39.294
+14/02/2023 14:01:39.989:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 14:01:41.766: Proceso de autentificación: ...
+14/02/2023 14:01:43.974: Proceso de autentificación: OK.
+14/02/2023 14:01:43.975: -------------------------------------------------------------------------
+14/02/2023 14:01:46.325: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 14:01:49.270: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 14:01:52.653: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 14:01:55.586: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 14:02:24.110: By.xpath: //h2[normalize-space()='DATOS TERRENO'] cargado.
+14/02/2023 14:02:37.685: -------------------------------------------------------------------------
+14/02/2023 14:02:37.685: Tiempo Total de Ejecución: 1 min. 7 seg. 436 mseg.
+14/02/2023 14:02:37.686: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 14:02:37.686: =========================================================================
+14/02/2023 14:05:19.131: Tiempo Inicialización (navegador): 9 seg. 894 mseg.
+14/02/2023 14:05:19.203: Abriendo aplicación...
+14/02/2023 14:05:19.553: *************************************************************************
+14/02/2023 14:05:19.555:                        EMPADRONAMIENTO
+14/02/2023 14:05:19.556: *************************************************************************
+14/02/2023 14:05:19.558: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 14:05:19.572: Fecha: 14/02/2023 14:05:19.571
+14/02/2023 14:05:20.263:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 14:05:22.367: Proceso de autentificación: ...
+14/02/2023 14:05:23.971: Proceso de autentificación: OK.
+14/02/2023 14:05:23.972: -------------------------------------------------------------------------
+14/02/2023 14:05:26.611: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 14:05:29.770: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 14:05:33.229: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 14:05:36.346: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 14:06:05.224: By.xpath: //h2[normalize-space()='DATOS TERRENO'] cargado.
+14/02/2023 14:06:20.439: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+14/02/2023 14:06:21.968: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+14/02/2023 14:06:30.725: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 14:06:32.415: By.xpath: //h2[normalize-space()='BUSCAR CONTRIBUYENTE'] cargado.
+14/02/2023 14:06:34.446: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 14:06:35.948: By.xpath: //h2[normalize-space()='BUSCAR CONTRIBUYENTE'] cargado.
+14/02/2023 14:06:38.065: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 14:06:39.794: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+14/02/2023 14:06:41.613: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+14/02/2023 14:06:47.925: -------------------------------------------------------------------------
+14/02/2023 14:06:50.798: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 14:06:53.843: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 14:06:57.394: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 14:07:00.325: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 14:07:29.366: By.xpath: //h2[normalize-space()='DATOS TERRENO'] cargado.
+14/02/2023 14:07:44.868: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+14/02/2023 14:07:46.489: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+14/02/2023 14:07:54.850: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 14:07:56.596: By.xpath: //h2[normalize-space()='BUSCAR CONTRIBUYENTE'] cargado.
+14/02/2023 14:07:58.522: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 14:07:59.992: By.xpath: //h2[normalize-space()='BUSCAR CONTRIBUYENTE'] cargado.
+14/02/2023 14:08:01.991: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 14:08:03.667: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+14/02/2023 14:08:05.145: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+14/02/2023 14:08:10.484: -------------------------------------------------------------------------
+14/02/2023 14:08:10.485: Tiempo Total de Ejecución: 3 min. 1 seg. 273 mseg.
+14/02/2023 14:08:10.486: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 14:08:10.486: =========================================================================
+14/02/2023 14:08:28.732: Tiempo Inicialización (navegador): 8 seg. 235 mseg.
+14/02/2023 14:08:28.761: Abriendo aplicación...
+14/02/2023 14:08:29.065: *************************************************************************
+14/02/2023 14:08:29.068:                        EMPADRONAMIENTO
+14/02/2023 14:08:29.068: *************************************************************************
+14/02/2023 14:08:29.069: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 14:08:29.071: Fecha: 14/02/2023 14:08:29.069
+14/02/2023 14:08:29.739:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 14:08:31.600: Proceso de autentificación: ...
+14/02/2023 14:08:33.079: Proceso de autentificación: OK.
+14/02/2023 14:08:33.079: -------------------------------------------------------------------------
+14/02/2023 14:08:35.461: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 14:08:38.432: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 14:08:41.852: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 14:08:44.745: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 14:09:13.152: By.xpath: //h2[normalize-space()='DATOS TERRENO'] cargado.
+14/02/2023 14:09:28.455: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 14:09:30.127: By.xpath: //h2[normalize-space()='BUSCAR CONTRIBUYENTE'] cargado.
+14/02/2023 14:09:32.170: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 14:09:33.845: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+14/02/2023 14:09:35.285: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+14/02/2023 14:09:39.988: -------------------------------------------------------------------------
+14/02/2023 14:09:42.748: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 14:09:45.651: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 14:09:48.932: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 14:09:51.764: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 14:10:20.366: By.xpath: //h2[normalize-space()='DATOS TERRENO'] cargado.
+14/02/2023 14:10:35.985: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 14:10:37.671: By.xpath: //h2[normalize-space()='BUSCAR CONTRIBUYENTE'] cargado.
+14/02/2023 14:10:39.874: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 14:10:41.720: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+14/02/2023 14:10:43.167: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+14/02/2023 14:10:48.689: -------------------------------------------------------------------------
+14/02/2023 14:10:48.691: Tiempo Total de Ejecución: 2 min. 28 seg. 244 mseg.
+14/02/2023 14:10:48.692: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 14:10:48.692: =========================================================================
+14/02/2023 14:11:06.049: Tiempo Inicialización (navegador): 8 seg. 386 mseg.
+14/02/2023 14:11:06.082: Abriendo aplicación...
+14/02/2023 14:11:06.373: *************************************************************************
+14/02/2023 14:11:06.374:                        EMPADRONAMIENTO
+14/02/2023 14:11:06.375: *************************************************************************
+14/02/2023 14:11:06.376: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 14:11:06.377: Fecha: 14/02/2023 14:11:06.376
+14/02/2023 14:11:07.060:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 14:11:08.839: Proceso de autentificación: ...
+14/02/2023 14:11:10.265: Proceso de autentificación: OK.
+14/02/2023 14:11:10.265: -------------------------------------------------------------------------
+14/02/2023 14:11:13.080: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 14:11:16.054: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 14:11:19.503: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 14:11:22.444: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 14:11:50.876: By.xpath: //h2[normalize-space()='DATOS TERRENO'] cargado.
+14/02/2023 14:12:00.450: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+14/02/2023 14:12:02.048: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+14/02/2023 14:12:10.702: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 14:12:12.464: By.xpath: //h2[normalize-space()='BUSCAR CONTRIBUYENTE'] cargado.
+14/02/2023 14:12:14.497: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 14:12:16.140: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+14/02/2023 14:12:18.822: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+14/02/2023 14:12:24.251: -------------------------------------------------------------------------
+14/02/2023 14:12:24.253: Tiempo Total de Ejecución: 1 min. 26 seg. 617 mseg.
+14/02/2023 14:12:24.254: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 14:12:24.256: =========================================================================

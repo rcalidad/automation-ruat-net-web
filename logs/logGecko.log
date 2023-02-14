@@ -1,10 +1,10 @@
-1676391595927	geckodriver	INFO	Listening on 127.0.0.1:8557
-1676391596540	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileocnbzL"
-1676391597724	Marionette	INFO	Marionette enabled
+1676398258323	geckodriver	INFO	Listening on 127.0.0.1:30526
+1676398258629	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileKcRaCu"
+1676398259412	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1676391597732	Marionette	INFO	Listening on port 55409
-1676391597972	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileocnbzL\\search.json.mozlz4", (void 0)))
+1676398259423	Marionette	INFO	Listening on port 58235
+1676398259993	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileKcRaCu\\search.json.mozlz4", (void 0)))
 console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
 console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://inmueblesimpl.ruat.gob.bo."
@@ -12,17 +12,16 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://i
 console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-1676391627180	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1676398274235	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+1676398318673	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-1676392127878	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
@@ -33,25 +32,6 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://i
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-1676392310564	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-1676392763957	Marionette	INFO	Stopped listening on port 55409
+1676398345355	Marionette	INFO	Stopped listening on port 58235
 Dynamically enable window occlusion 1
-console.error: services.settings: 
-  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
-  Stack:
-    APIError@resource://services-settings/RemoteSettingsClient.jsm:116:1
-NetworkError@resource://services-settings/RemoteSettingsClient.jsm:120:5
-_adjustedError@resource://services-settings/RemoteSettingsClient.jsm:883:14
-maybeSync@resource://services-settings/RemoteSettingsClient.jsm:788:38
-
-console.error: (new AbortError("IndexedDB: main/quicksuggest getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 230))

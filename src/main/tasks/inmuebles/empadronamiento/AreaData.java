@@ -17,7 +17,9 @@ public class AreaData {
         SelectOption.waitUntilLoadOptions(driver, DatosTerrenoUI.lstInclinacion);
         SelectOption.nonEmptyRandomValue(driver, DatosTerrenoUI.lstInclinacion);
         SelectOption.nonEmptyRandomValue(driver, DatosTerrenoUI.lstMaterialVia);
-        SelectOption.nonEmptyRandomValue(driver, DatosTerrenoUI.lstInclinacionTerreno);
+        if (IsDisplayed.element(driver, DatosTerrenoUI.lstInclinacionTerreno)){
+            SelectOption.nonEmptyRandomValue(driver, DatosTerrenoUI.lstInclinacionTerreno);
+        }
     }
     public static void selectAllServices(WebDriver driver){
         Click.on(driver, DatosTerrenoUI.chkTodosLosServicios);
