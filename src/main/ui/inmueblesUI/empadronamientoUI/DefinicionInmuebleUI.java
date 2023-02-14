@@ -11,6 +11,8 @@ public class DefinicionInmuebleUI {
     public static By rbtCoordenadas = By.id("rdoCoordenadas"); //scz
     public static By rbtUrbano = By.id("rbtUrbano");
     public static By rbtRural = By.id("rbtRural");
+    //desaguadero
+    public static By lstArea = By.xpath("//th[text()='Area']/following-sibling::td/select");
     public static By lstClaseInmueble = By.xpath("//div[@id='divClases']/select");
     public static By rbtSi = By.id("rbtCondominioSi"); //scz
     public static By rbtNo = By.id("rbtCondominioNo"); //scz

@@ -11,7 +11,7 @@ import main.ui.actividadesEconomicasUI.empadronamientoUI.TechnicalDataByPeriodUI
 import org.openqa.selenium.WebDriver;
 
 public class TechnicalDataByPeriod {
-    public static void load(WebDriver driver, ExtentTest extentTest, String date, String taxZone, String superficie, String rubro, String subRubro, String tipoActividad){
+    public static void load(WebDriver driver, ExtentTest extentTest, String date, String superficie){
         try {
             Enter.text(driver, TechnicalDataByPeriodUI.txtFechaInicioTributario, date);
             Click.on(driver, TechnicalDataByPeriodUI.lnkAdicionar);

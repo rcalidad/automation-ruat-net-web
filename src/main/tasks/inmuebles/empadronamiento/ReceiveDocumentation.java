@@ -28,4 +28,13 @@ public class ReceiveDocumentation {
 
         }
     }
+    public static void now(WebDriver driver, IInicioTramiteUI objElements){
+        try {
+            StartProcedure.setElementsProcess(objElements);
+            StartProcedure.checkDocumentsRequired(driver);
+            StartProcedure.recordDocumentsOfProcess(driver);
+        }catch (Exception exception){
+
+        }
+    }
 }

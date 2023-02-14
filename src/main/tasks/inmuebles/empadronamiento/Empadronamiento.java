@@ -17,6 +17,7 @@ import main.tasks.inmuebles.helpersInm.GeneratorINM;
 import main.tasks.inmuebles.helpersInm.MessagesINM;
 import main.ui.inmueblesUI.empadronamientoUI.*;
 import main.ui.inmueblesUI.commonUI.interfacesUI.IInicioTramiteUI;
+import main.ui.inmueblesUI.empadronamientoUI.inicioTramite.InicioTramiteDesUI;
 
 import java.lang.reflect.Method;
 import java.util.Map;
@@ -37,6 +38,7 @@ public class Empadronamiento extends GeneratorINM {
     protected String cantidadContribuyentesNaturales;
     protected String cantidadContribuyentesJuridicos;
     protected String numeroAcciones;
+    protected String cantidadRegistros;
     protected Map<String, String> buildClass = Map.of("PROPIEDAD HORIZONTAL", "registerPropiedadHorizontal",
                                                       "VIVIENDA UNIFAMILIAR", "registerViviendaUnifamiliar",
                                                       "TERRENO", "registerTerreno",
@@ -56,33 +58,44 @@ public class Empadronamiento extends GeneratorINM {
     @Override
     public void execute() {
         try {
-            Log.recordInLog(Constants.DELIMITER_MARK);
-            //LoadModule.fromMainMenu(this.driverApp, ConstantsINM.REGISTRO_TECNICO_GROUPER, ConstantsINM.EMPADRONAMIENTO_PROPIEDAD_UNICA_MODULE);
-            LoadModule.fromMainMenu(this.driverApp, ConstantsINM.REGISTRO_TECNICO_GROUPER, this.operacion);
-            ChangeFrame.toContentFrame(this.driverApp);
-            Verify.elementIsReady(this.driverApp, test.get(i), InicioTramiteUI.ttlInicioTramite);
-            IInicioTramiteUI objElements = InicioTramiteUI.getInstance();
-            ReceiveDocumentation.now(this.driverApp, test.get(i), objElements, this.numeroDocumento, this.tipoDocumento, this.condicionGestorTramite);
-            Verify.elementIsReady(this.driverApp, test.get(i), DefinicionInmuebleUI.ttlDefinicionInmueble);
-            EstateDefinition.as(this.driverApp, this.area, this.claseInmueble);
-            Verify.elementIsReady(this.driverApp, test.get(i), DatosAdicionalesUI.ttlDatosAdicionales);
-            AdditionalData.fillDefaultData(this.driverApp, test.get(i));
-            Verify.elementIsReady(this.driverApp, test.get(i), UbicacionInmuebleUI.ttlUbicacinInmueble);
-            EstateLocation.defineRandomLocation(this.driverApp, test.get(i));
-            Method registerBuild = this.getClass().getMethod(this.buildClass.get(this.claseInmueble));
-            registerBuild.invoke(this);
-            if (this.operacion.equalsIgnoreCase("Propiedad Única")){
-                Verify.elementIsReady(this.driverApp, test.get(i), AsignarContribuyenteUI.ttlAsignarContribuyente);
-                RegisterTaxPayer.now(this.driverApp, test.get(i), GetTaxpayers.ofTwoTypes(convertStringToInt(cantidadContribuyentesNaturales), convertStringToInt(cantidadContribuyentesJuridicos), this.municipio));
-            }else {
-                Verify.elementIsReady(this.driverApp, test.get(i), DatosAccionistasUI.ttlDatosAccionistas);
-                RegisterShareholders.withSamePercentage(this.driverApp, test.get(i), GetTaxpayers.ofTwoTypes(convertStringToInt(numeroAcciones), convertStringToInt(cantidadContribuyentesJuridicos), this.municipio));
+            int cantidad = convertStringToInt(this.cantidadRegistros);
+            for (int cant = 1; cant <= cantidad; cant++){
+                Log.recordInLog(Constants.DELIMITER_MARK);
+                //LoadModule.fromMainMenu(this.driverApp, ConstantsINM.REGISTRO_TECNICO_GROUPER, ConstantsINM.EMPADRONAMIENTO_PROPIEDAD_UNICA_MODULE);
+                LoadModule.fromMainMenu(this.driverApp, ConstantsINM.REGISTRO_TECNICO_GROUPER, this.operacion);
+                ChangeFrame.toContentFrame(this.driverApp);
+                Verify.elementIsReady(this.driverApp, test.get(i), InicioTramiteUI.ttlInicioTramite);
+                if (this.municipio.equals("DESAGUADERO")){
+                    IInicioTramiteUI objElements = InicioTramiteDesUI.getInstance();
+                    ReceiveDocumentation.now(this.driverApp, objElements);
+                    Verify.elementIsReady(this.driverApp, test.get(i), DefinicionInmuebleUI.ttlDefinicionInmueble);
+                    EstateDefinition.asDes(this.driverApp, this.area, this.claseInmueble);
+                }else{
+                    IInicioTramiteUI objElements = InicioTramiteUI.getInstance();
+                    ReceiveDocumentation.now(this.driverApp, test.get(i), objElements, this.numeroDocumento, this.tipoDocumento, this.condicionGestorTramite);
+                    Verify.elementIsReady(this.driverApp, test.get(i), DefinicionInmuebleUI.ttlDefinicionInmueble);
+                    EstateDefinition.as(this.driverApp, this.area, this.claseInmueble);
+                }
+                Verify.elementIsReady(this.driverApp, test.get(i), DatosAdicionalesUI.ttlDatosAdicionales);
+                AdditionalData.fillDefaultData(this.driverApp, test.get(i));
+                Verify.elementIsReady(this.driverApp, test.get(i), UbicacionInmuebleUI.ttlUbicacinInmueble);
+                EstateLocation.defineRandomLocation(this.driverApp, test.get(i));
+                Method registerBuild = this.getClass().getMethod(this.buildClass.get(this.claseInmueble));
+                registerBuild.invoke(this);
+                if (this.operacion.equalsIgnoreCase("Propiedad Única")){
+                    Verify.elementIsReady(this.driverApp, test.get(i), AsignarContribuyenteUI.ttlAsignarContribuyente);
+                    RegisterTaxPayer.now(this.driverApp, test.get(i), GetTaxpayers.ofTwoTypes(convertStringToInt(cantidadContribuyentesNaturales), convertStringToInt(cantidadContribuyentesJuridicos), this.municipio));
+                }else {
+                    Verify.elementIsReady(this.driverApp, test.get(i), DatosAccionistasUI.ttlDatosAccionistas);
+                    RegisterShareholders.withSamePercentage(this.driverApp, test.get(i), GetTaxpayers.ofTwoTypes(convertStringToInt(numeroAcciones), convertStringToInt(cantidadContribuyentesJuridicos), this.municipio));
+                }
+                Verify.elementIsReady(this.driverApp, test.get(i), ConfirmarRegistroUI.ttlConfirmarRegistro);
+                ConfirmRecord.now(this.driverApp);
+                Verify.elementIsReady(this.driverApp, test.get(i), ConfirmarTramiteUI.ttlConfirmarTramite);
+                ConfirmProcedure.toEmpadronamiento(this.driverApp, test.get(i), "reportePDF.pdf", "Empadronamiento", this.claseInmueble, i + 1);
+                ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, test.get(i), Status.INFO, "INFO");
+                returnMainMenu();
             }
-            Verify.elementIsReady(this.driverApp, test.get(i), ConfirmarRegistroUI.ttlConfirmarRegistro);
-            ConfirmRecord.now(this.driverApp);
-            Verify.elementIsReady(this.driverApp, test.get(i), ConfirmarTramiteUI.ttlConfirmarTramite);
-            ConfirmProcedure.toEmpadronamiento(this.driverApp, test.get(i), "reportePDF.pdf", "Empadronamiento", this.claseInmueble, i + 1);
-            ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, test.get(i), Status.INFO, "INFO");
         }catch (Exception exception){
 
         }

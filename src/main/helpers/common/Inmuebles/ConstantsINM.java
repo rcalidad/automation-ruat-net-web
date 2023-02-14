@@ -11,7 +11,7 @@ import java.security.PublicKey;
 public class ConstantsINM
 {
 	public static final String INM_PROJECT_DIRECTORY = System.getProperty("user.dir").replace('\\', '/') + "/";     
-	public static final String GENERATOR_DATA_FILE = "generators/inmuebles/DataPageGenerator.xls";
+	public static final String GENERATOR_DATA_FILE = "generators/inmuebles/DataPageGeneratorINM.xls";
 	public static final String TESTS_DATA_FILE = "testCases/inmuebles/DatosPrueba.xls";
 	public static final String DISABLED_ATTRIBUTE = "disabled";
 	public static final String SUBSYSTEM_ID = "INM";

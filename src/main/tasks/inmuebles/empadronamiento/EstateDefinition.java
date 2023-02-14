@@ -12,4 +12,11 @@ public class EstateDefinition {
         SelectOption.byText(driver, DefinicionInmuebleUI.lstClaseInmueble, estateType);
         Click.on(driver, DefinicionInmuebleUI.btnAceptar);
     }
+    public static void asDes(WebDriver driver, String area, String estateType){
+        SelectOption.waitUntilLoadOptions(driver, DefinicionInmuebleUI.lstArea);
+        SelectOption.byText(driver, DefinicionInmuebleUI.lstArea, area);
+        SelectOption.waitUntilLoadOptions(driver, DefinicionInmuebleUI.lstClaseInmueble);
+        SelectOption.byText(driver, DefinicionInmuebleUI.lstClaseInmueble, estateType);
+        Click.on(driver, DefinicionInmuebleUI.btnAceptar);
+    }
 }

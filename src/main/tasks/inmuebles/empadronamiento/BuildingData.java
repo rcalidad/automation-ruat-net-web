@@ -13,9 +13,12 @@ public class BuildingData {
         Enter.text(driver, DatosConstruccionUI.txtGestion, year);
         Enter.text(driver, DatosConstruccionUI.txtAnioConstruccion, buildYear);
         Enter.text(driver, DatosConstruccionUI.txtSuperficie, area);
-        SelectOption.byText(driver, DatosConstruccionUI.lstTipoConstruccion, buildType);
+        SelectOption.waitUntilLoadOptions(driver, DatosConstruccionUI.lstTipoConstruccion);
+        //SelectOption.byText(driver, DatosConstruccionUI.lstTipoConstruccion, buildType);
+        SelectOption.nonEmptyRandomValue(driver, DatosConstruccionUI.lstTipoConstruccion);
         if (IsDisplayed.element(driver, DatosConstruccionUI.lstZonaTributaria)){
-            SelectOption.byText(driver, DatosConstruccionUI.lstZonaTributaria, taxArea);
+            //SelectOption.byText(driver, DatosConstruccionUI.lstZonaTributaria, taxArea);
+            SelectOption.nonEmptyRandomValue(driver, DatosConstruccionUI.lstZonaTributaria);
         }
 
     }

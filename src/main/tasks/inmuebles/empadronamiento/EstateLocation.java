@@ -11,9 +11,16 @@ import org.openqa.selenium.WebDriver;
 
 public class EstateLocation {
     public static void defineRandomLocation(WebDriver driver, ExtentTest extentTest){
-        SelectOption.nonEmptyRandomValue(driver, UbicacionInmuebleUI.lstMacroDistrito);
+        if (IsDisplayed.element(driver, UbicacionInmuebleUI.lstMacroDistrito)){
+            SelectOption.nonEmptyRandomValue(driver, UbicacionInmuebleUI.lstMacroDistrito);
+        }
         selectRandomOption(driver, UbicacionInmuebleUI.lstDistrito);
-        selectRandomOption(driver, UbicacionInmuebleUI.lstZonaBarrio);
+        if (IsPresent.elements(driver, UbicacionInmuebleUI.lstZonaBarrio)){
+            selectRandomOption(driver, UbicacionInmuebleUI.lstZonaBarrio);
+        }
+        if (IsPresent.elements(driver, UbicacionInmuebleUI.lstZonaComunidad)){
+            selectRandomOption(driver, UbicacionInmuebleUI.lstZonaComunidad);
+        }
         selectRandomOption(driver, UbicacionInmuebleUI.lstTipoLugar);
         selectRandomOption(driver, UbicacionInmuebleUI.lstNombreLugar);
         Click.on(driver, UbicacionInmuebleUI.chkSinNumero);
@@ -30,7 +37,9 @@ public class EstateLocation {
         if (IsDisplayed.element(driver, UbicacionInmuebleUI.chkSinDato)){
             Click.on(driver, UbicacionInmuebleUI.chkSinDato);
         }
-        Click.on(driver, UbicacionInmuebleUI.domicilioGeoreferenciado.get("NO"));
+        if (IsPresent.elements(driver, UbicacionInmuebleUI.rbtSi)){
+            Click.on(driver, UbicacionInmuebleUI.domicilioGeoreferenciado.get("NO"));
+        }
         ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.INFO, "Datos de ubicación.");
         Click.on(driver, UbicacionInmuebleUI.btnAceptar);
     }

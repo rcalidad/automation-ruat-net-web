@@ -1,5 +1,6 @@
 package main.tasks.actividadesEconomicas.empadronamiento;
 
+import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import main.actions.Click;
 import main.actions.Log;
@@ -11,13 +12,17 @@ import main.helpers.dataUtility.ScreenShotHelper;
 import main.helpers.fileUtility.FileBuilder;
 import main.tasks.actividadesEconomicas.commonAEC.LoadModule;
 import main.tasks.actividadesEconomicas.commonAEC.Verify;
+import main.tasks.actividadesEconomicas.commonAEC.confirmProcedure.ConfirmProcedureEmpadronamiento;
 import main.tasks.actividadesEconomicas.commonAEC.confirmProcedure.ConfirmProcedureFactory;
 import main.tasks.actividadesEconomicas.empadronamiento.receiveDocumentation.LocalReceiveDocumentationFactory;
 import main.tasks.actividadesEconomicas.helpersAEC.GeneratorAEC;
 import main.tasks.commonTasks.GetDate;
+import main.tasks.commonTasks.GetExtension;
+import main.tasks.commonTasks.GetNumActivity;
 import main.tasks.vehiculos.commonVeh.VerifyAlert;
 import main.ui.actividadesEconomicasUI.commonUI.CabeceraUI;
 import main.ui.actividadesEconomicasUI.empadronamientoUI.*;
+import org.openqa.selenium.WebDriver;
 
 public class Empadronamiento extends GeneratorAEC {
     protected String razonSocial;
@@ -45,40 +50,48 @@ public class Empadronamiento extends GeneratorAEC {
 
     @Override
     public void execute() {
+        String numActivity;
+        numActivity = empadronamientoSimple(this.driverApp, test.get(i), this.usuario, this.municipio, this.razonSocial, this.fechaInicioTributario, this.superficie, this.idContribuyente,
+                              this.tipoDocumento, this.areaMunicipio, this.autorizadoPor, i);
+        Log.recordInLog("Número de actividad económica asignado: " + numActivity);
+    }
+    public static String empadronamientoSimple(WebDriver driver, ExtentTest extentTest, String usuario, String municipio, String razonSocial, String fechaInicioTributario,
+                                        String superficie, String idContribuyente, String tipoDocumento, String areaMunicipio, String autorizadoPor, int index){
+        String numActivity = "";
         try{
-            String dateOfSystem = GetDate.ofSystem(this.driverApp, CabeceraUI.fecha);
+            String dateOfSystem = GetDate.ofSystem(driver, CabeceraUI.fecha);
             Log.recordInLog(Constants.DELIMITER_MARK);
-            LoadModule.fromMainMenu(this.driverApp, ConstantsAEC.EMPADRONAMIENTO_GROUPER, ConstantsAEC.EMPADRONAMIENTO_MODULE);
-            String town = getTown(this.usuario);
-            LocalReceiveDocumentationFactory.getInstance().executeReceiveDocumentation(this.driverApp, town, test.get(i));
-            Click.on(this.driverApp, ReceiveDocumentationUI.btnGrabar);
-            VerifyAlert.containsThisText(this.driverApp, "seguro");
-            Verify.isReady(this.driverApp, test.get(i), DataActividadEconomicaUI.ttlDatosActividadEconomica);
-            DataActividadEconomica.load(this.driverApp, this.razonSocial);
-            Verify.isReady(this.driverApp, test.get(i), TechnicalDataByPeriodUI.ttlDatosTecnicosPorPeriodo);
-            TechnicalDataByPeriod.load(this.driverApp, test.get(i), this.fechaInicioTributario, this.zonaTributaria, this.superficie, this.rubro, this.subRubro, this.tipoActividad);
-            Verify.isReady(this.driverApp, test.get(i), AssignContributorUI.ttlAsignarContribuyente);
-            AssignContributor.assign(this.driverApp, test.get(i), this.idContribuyente, this.tipoDocumento);
-            Verify.isReady(this.driverApp, test.get(i), LocationActividadEconomicaUI.ttlUbicacionActividadEconomica);
-            LocationActividadEconomica.register(this.driverApp, this.areaMunicipio);
-            if (this.municipio.equals("SANTA CRUZ DE LA SIERRA") || this.municipio.equals("SUCRE")){
-                Verify.isReady(this.driverApp, test.get(i), AuthorizationUI.ttlAutorizacion);
-                Authorization.by(this.driverApp, this.autorizadoPor, dateOfSystem);
+            LoadModule.fromMainMenu(driver, ConstantsAEC.EMPADRONAMIENTO_GROUPER, ConstantsAEC.EMPADRONAMIENTO_MODULE);
+            String town = GetExtension.ofUsername(usuario);
+            LocalReceiveDocumentationFactory.getInstance().executeReceiveDocumentation(driver, town, extentTest);
+            Click.on(driver, ReceiveDocumentationUI.btnGrabar);
+            VerifyAlert.containsThisText(driver, "seguro");
+            Verify.isReady(driver, extentTest, DataActividadEconomicaUI.ttlDatosActividadEconomica);
+            DataActividadEconomica.load(driver, razonSocial);
+            Verify.isReady(driver, extentTest, TechnicalDataByPeriodUI.ttlDatosTecnicosPorPeriodo);
+            TechnicalDataByPeriod.load(driver, extentTest, fechaInicioTributario, superficie);
+            Verify.isReady(driver, extentTest, AssignContributorUI.ttlAsignarContribuyente);
+            AssignContributor.assign(driver, extentTest, idContribuyente, tipoDocumento);
+            Verify.isReady(driver, extentTest, LocationActividadEconomicaUI.ttlUbicacionActividadEconomica);
+            LocationActividadEconomica.register(driver, areaMunicipio);
+            if (municipio.equals("SANTA CRUZ DE LA SIERRA") || municipio.equals("SUCRE")){
+                Verify.isReady(driver, extentTest, AuthorizationUI.ttlAutorizacion);
+                Authorization.by(driver, autorizadoPor, dateOfSystem);
             }
-            Verify.isReady(this.driverApp, test.get(i), AdditionalInformationUI.ttlInformacionAdicional);
-            AdditionalInformation.emptyRecord(this.driverApp);
-            Verify.isReady(this.driverApp, test.get(i), ConfirmRecordUI.ttlConfirmarRegistro);
-            ConfirmRecord.withoutObservations(this.driverApp);
-            ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, test.get(i), Status.INFO, "CONFIRMAR TRAMITE");
-            ConfirmProcedureFactory.getInstance().executeConfirmProcedure(this.driverApp, test.get(i), "Empadronamiento", this.idContribuyente, i + 1, "EMPADRONAMIENTO");
-            ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, test.get(i), Status.INFO, "FIN");
+            Verify.isReady(driver, extentTest, AdditionalInformationUI.ttlInformacionAdicional);
+            AdditionalInformation.emptyRecord(driver);
+            Verify.isReady(driver, extentTest, ConfirmRecordUI.ttlConfirmarRegistro);
+            ConfirmRecord.withoutObservations(driver);
+            ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.INFO, "CONFIRMAR TRAMITE");
+            String text = ConfirmProcedureEmpadronamiento.now(driver, extentTest, idContribuyente, index + 1, "EMPADRONAMIENTO");
+            numActivity = GetNumActivity.ofAText(text);
+            //ConfirmProcedureFactory.getInstance().executeConfirmProcedure(driver, extentTest, "Empadronamiento", idContribuyente, i + 1, "EMPADRONAMIENTO");
+            //ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.INFO, "FIN");
 
         }catch (Exception exception){
 
+        }finally {
+            return numActivity;
         }
-    }
-    public String getTown(String username){
-        String town = username.split("\\.")[1];
-        return town;
     }
 }

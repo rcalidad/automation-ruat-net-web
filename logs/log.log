@@ -28637,3 +28637,687 @@
 13/02/2023 13:15:54.677: Proceso concluido: Módulo - EMPADRONAMIENTO
 13/02/2023 13:15:54.678: =========================================================================
 13/02/2023 13:15:57.738: Proceso concluido con éxito...
+13/02/2023 14:11:06.724: Tiempo Inicialización (navegador): 9 seg. 437 mseg.
+13/02/2023 14:11:06.751: Abriendo aplicación...
+13/02/2023 14:11:07.052: *************************************************************************
+13/02/2023 14:11:07.053:                        EMPADRONAMIENTO
+13/02/2023 14:11:07.054: *************************************************************************
+13/02/2023 14:11:07.055: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+13/02/2023 14:11:07.057: Fecha: 13/02/2023 14:11:07.056
+13/02/2023 14:11:08.448: Proceso de Iniciar sesión: ...
+13/02/2023 14:11:08.691:  Proceso de autenticación exitoso.
+13/02/2023 14:11:08.835: -------------------------------------------------------------------------
+13/02/2023 14:12:19.407: Número de actividad económica asignado: 1122593472
+13/02/2023 14:12:21.226: Tiempo Inicialización (navegador): 1 min. 23 seg. 975 mseg.
+13/02/2023 14:12:21.245: Abriendo aplicación...
+13/02/2023 14:12:21.257: *************************************************************************
+13/02/2023 14:12:21.258:                        EMPADRONAMIENTO
+13/02/2023 14:12:21.258: *************************************************************************
+13/02/2023 14:12:21.260: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+13/02/2023 14:12:21.260: Fecha: 13/02/2023 14:12:21.260
+13/02/2023 14:12:22.251: Proceso de Iniciar sesión: ...
+13/02/2023 14:12:22.396:  Proceso de autenticación exitoso.
+13/02/2023 14:12:22.473: -------------------------------------------------------------------------
+13/02/2023 14:13:25.045: Número de actividad económica asignado: 140397
+13/02/2023 14:13:26.886: Tiempo Inicialización (navegador): 2 min. 29 seg. 636 mseg.
+13/02/2023 14:13:26.899: Abriendo aplicación...
+13/02/2023 14:13:26.915: *************************************************************************
+13/02/2023 14:13:26.916:                        EMPADRONAMIENTO
+13/02/2023 14:13:26.917: *************************************************************************
+13/02/2023 14:13:26.917: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+13/02/2023 14:13:26.918: Fecha: 13/02/2023 14:13:26.918
+13/02/2023 14:13:28.061: Proceso de Iniciar sesión: ...
+13/02/2023 14:13:28.200:  Proceso de autenticación exitoso.
+13/02/2023 14:13:28.328: -------------------------------------------------------------------------
+13/02/2023 14:14:28.150: Número de actividad económica asignado: 
+13/02/2023 14:14:28.320: Proceso sin éxito...
+13/02/2023 14:21:27.621: Tiempo Inicialización (navegador): 44 seg. 228 mseg.
+13/02/2023 14:21:27.703: Abriendo aplicación...
+13/02/2023 14:21:28.025: *************************************************************************
+13/02/2023 14:21:28.028:                        EMPADRONAMIENTO
+13/02/2023 14:21:28.032: *************************************************************************
+13/02/2023 14:21:28.035: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+13/02/2023 14:21:28.041: Fecha: 13/02/2023 14:21:28.038
+13/02/2023 14:21:37.223: Proceso de Iniciar sesión: ...
+13/02/2023 14:21:39.129:  Proceso de autenticación exitoso.
+13/02/2023 14:21:45.641: -------------------------------------------------------------------------
+13/02/2023 14:33:16.645: Tiempo Inicialización (navegador): 9 seg. 594 mseg.
+13/02/2023 14:33:16.677: Abriendo aplicación...
+13/02/2023 14:33:16.959: *************************************************************************
+13/02/2023 14:33:16.960:                        EMPADRONAMIENTO
+13/02/2023 14:33:16.961: *************************************************************************
+13/02/2023 14:33:16.962: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+13/02/2023 14:33:16.963: Fecha: 13/02/2023 14:33:16.963
+13/02/2023 14:33:18.131: Proceso de Iniciar sesión: ...
+13/02/2023 14:33:18.358:  Proceso de autenticación exitoso.
+13/02/2023 14:33:18.593: -------------------------------------------------------------------------
+13/02/2023 14:33:22.129: By.xpath: //h2[text()='RECEPCIONAR DOCUMENTACION']cargado.
+13/02/2023 14:33:24.922: By.xpath: //h2[text()='DATOS ACTIVIDAD ECONOMICA']cargado.
+13/02/2023 14:33:27.714: By.xpath: //h2[text()='DATOS TECNICOS POR PERIODO']cargado.
+13/02/2023 14:33:30.861: By.xpath: //h2[text()='DATOS TECNICOS']cargado.
+13/02/2023 14:33:38.720: By.xpath: //h2[text()='DATOS TECNICOS POR PERIODO']cargado.
+13/02/2023 14:33:41.143: By.xpath: //h2[text()='ASIGNAR CONTRIBUYENTE']cargado.
+13/02/2023 14:33:43.587: By.xpath: //h2[text()='BUSQUEDA CONTRIBUYENTE']cargado.
+13/02/2023 14:33:53.203: By.linkText: Asociarcargado.
+13/02/2023 14:33:55.984: By.xpath: //h2[text()='ASIGNAR CONTRIBUYENTE']cargado.
+13/02/2023 14:33:58.851: By.xpath: //h2[text()='UBICACION ACTIVIDAD ECONOMICA']cargado.
+13/02/2023 14:34:10.712: By.xpath: //h2[text()='AUTORIZACION']cargado.
+13/02/2023 14:34:13.638: By.xpath: //h2[text()='INFORMACION ADICIONAL']cargado.
+13/02/2023 14:34:18.140: By.xpath: //h2[text()='CONFIRMAR REGISTRO']cargado.
+13/02/2023 14:34:20.662: By.xpath: //h2[text()='CONFIRMAR TRAMITE']cargado.
+13/02/2023 14:34:28.095: Número de actividad económica asignado: 1122593494
+13/02/2023 14:34:29.923: Tiempo Inicialización (navegador): 1 min. 22 seg. 923 mseg.
+13/02/2023 14:34:29.944: Abriendo aplicación...
+13/02/2023 14:34:29.954: *************************************************************************
+13/02/2023 14:34:29.955:                        EMPADRONAMIENTO
+13/02/2023 14:34:29.956: *************************************************************************
+13/02/2023 14:34:29.957: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+13/02/2023 14:34:29.958: Fecha: 13/02/2023 14:34:29.958
+13/02/2023 14:34:31.514: Proceso de Iniciar sesión: ...
+13/02/2023 14:34:31.666:  Proceso de autenticación exitoso.
+13/02/2023 14:34:31.773: -------------------------------------------------------------------------
+13/02/2023 14:34:35.019: By.xpath: //h2[text()='SELECCION CRITERIOS DOCUMENTOS REQUERIDOS']cargado.
+13/02/2023 14:34:37.375: By.xpath: //h2[text()='RECEPCIONAR DOCUMENTACION']cargado.
+13/02/2023 14:34:40.668: By.xpath: //h2[text()='DATOS ACTIVIDAD ECONOMICA']cargado.
+13/02/2023 14:34:43.242: By.xpath: //h2[text()='DATOS TECNICOS POR PERIODO']cargado.
+13/02/2023 14:34:46.181: By.xpath: //h2[text()='DATOS TECNICOS']cargado.
+13/02/2023 14:34:53.891: By.xpath: //h2[text()='DATOS TECNICOS POR PERIODO']cargado.
+13/02/2023 14:34:56.252: By.xpath: //h2[text()='ASIGNAR CONTRIBUYENTE']cargado.
+13/02/2023 14:34:58.926: By.xpath: //h2[text()='BUSQUEDA CONTRIBUYENTE']cargado.
+13/02/2023 14:35:08.522: By.linkText: Asociarcargado.
+13/02/2023 14:35:11.287: By.xpath: //h2[text()='ASIGNAR CONTRIBUYENTE']cargado.
+13/02/2023 14:35:13.990: By.xpath: //h2[text()='UBICACION ACTIVIDAD ECONOMICA']cargado.
+13/02/2023 14:35:22.114: By.xpath: //h2[text()='INFORMACION ADICIONAL']cargado.
+13/02/2023 14:35:24.829: By.xpath: //h2[text()='CONFIRMAR REGISTRO']cargado.
+13/02/2023 14:35:27.361: By.xpath: //h2[text()='CONFIRMAR TRAMITE']cargado.
+13/02/2023 14:35:34.111: Número de actividad económica asignado: 140398
+13/02/2023 14:35:36.316: Tiempo Inicialización (navegador): 2 min. 29 seg. 316 mseg.
+13/02/2023 14:35:36.332: Abriendo aplicación...
+13/02/2023 14:35:36.344: *************************************************************************
+13/02/2023 14:35:36.345:                        EMPADRONAMIENTO
+13/02/2023 14:35:36.347: *************************************************************************
+13/02/2023 14:35:36.360: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+13/02/2023 14:35:36.361: Fecha: 13/02/2023 14:35:36.360
+13/02/2023 14:35:37.704: Proceso de Iniciar sesión: ...
+13/02/2023 14:35:37.830:  Proceso de autenticación exitoso.
+13/02/2023 14:35:37.922: -------------------------------------------------------------------------
+13/02/2023 14:35:41.265: By.xpath: //h2[text()='RECEPCIONAR DOCUMENTACION']cargado.
+13/02/2023 14:35:44.617: By.xpath: //h2[text()='DATOS ACTIVIDAD ECONOMICA']cargado.
+13/02/2023 14:35:47.223: By.xpath: //h2[text()='DATOS TECNICOS POR PERIODO']cargado.
+13/02/2023 14:35:50.148: By.xpath: //h2[text()='DATOS TECNICOS']cargado.
+13/02/2023 14:35:56.113: By.xpath: //h2[text()='DATOS TECNICOS POR PERIODO']cargado.
+13/02/2023 14:35:58.505: By.xpath: //h2[text()='ASIGNAR CONTRIBUYENTE']cargado.
+13/02/2023 14:36:00.910: By.xpath: //h2[text()='BUSQUEDA CONTRIBUYENTE']cargado.
+13/02/2023 14:36:08.914: By.linkText: Asociarcargado.
+13/02/2023 14:36:11.743: By.xpath: //h2[text()='ASIGNAR CONTRIBUYENTE']cargado.
+13/02/2023 14:36:14.327: By.xpath: //h2[text()='UBICACION ACTIVIDAD ECONOMICA']cargado.
+13/02/2023 14:36:21.644: By.xpath: //h2[text()='AUTORIZACION']cargado.
+13/02/2023 14:36:24.585: By.xpath: //h2[text()='INFORMACION ADICIONAL']cargado.
+13/02/2023 14:36:27.233: By.xpath: //h2[text()='CONFIRMAR REGISTRO']cargado.
+13/02/2023 14:36:29.850: By.xpath: //h2[text()='CONFIRMAR TRAMITE']cargado.
+13/02/2023 14:36:36.971: Número de actividad económica asignado: 
+13/02/2023 14:36:38.818: Tiempo Inicialización (navegador): 3 min. 31 seg. 817 mseg.
+13/02/2023 14:36:38.833: Abriendo aplicación...
+13/02/2023 14:36:38.845: *************************************************************************
+13/02/2023 14:36:38.847:                        EMPADRONAMIENTO
+13/02/2023 14:36:38.848: *************************************************************************
+13/02/2023 14:36:38.848: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+13/02/2023 14:36:38.849: Fecha: 13/02/2023 14:36:38.848
+13/02/2023 14:36:40.129: Proceso de Iniciar sesión: ...
+13/02/2023 14:36:40.296:  Proceso de autenticación exitoso.
+13/02/2023 14:36:40.390: -------------------------------------------------------------------------
+13/02/2023 14:36:43.624: By.xpath: //h2[text()='SELECCION CRITERIOS DOCUMENTOS REQUERIDOS']cargado.
+13/02/2023 14:36:45.980: By.xpath: //h2[text()='RECEPCIONAR DOCUMENTACION']cargado.
+13/02/2023 14:36:49.635: By.xpath: //h2[text()='DATOS ACTIVIDAD ECONOMICA']cargado.
+13/02/2023 14:36:52.265: By.xpath: //h2[text()='DATOS TECNICOS POR PERIODO']cargado.
+13/02/2023 14:36:55.185: By.xpath: //h2[text()='DATOS TECNICOS']cargado.
+13/02/2023 14:37:03.364: By.xpath: //h2[text()='DATOS TECNICOS POR PERIODO']cargado.
+13/02/2023 14:37:05.741: By.xpath: //h2[text()='ASIGNAR CONTRIBUYENTE']cargado.
+13/02/2023 14:37:08.157: By.xpath: //h2[text()='BUSQUEDA CONTRIBUYENTE']cargado.
+13/02/2023 14:37:17.721: By.linkText: Asociarcargado.
+13/02/2023 14:37:20.640: By.xpath: //h2[text()='ASIGNAR CONTRIBUYENTE']cargado.
+13/02/2023 14:37:23.155: By.xpath: //h2[text()='UBICACION ACTIVIDAD ECONOMICA']cargado.
+13/02/2023 14:37:31.285: By.xpath: //h2[text()='INFORMACION ADICIONAL']cargado.
+13/02/2023 14:37:34.037: By.xpath: //h2[text()='CONFIRMAR REGISTRO']cargado.
+13/02/2023 14:37:36.529: By.xpath: //h2[text()='CONFIRMAR TRAMITE']cargado.
+13/02/2023 14:37:43.845: Número de actividad económica asignado: 1511928515
+13/02/2023 14:37:44.021: -------------------------------------------------------------------------
+13/02/2023 14:37:44.022: Tiempo Total de Ejecución: 4 min. 37 seg. 21 mseg.
+13/02/2023 14:37:44.022: Proceso concluido: Módulo - EMPADRONAMIENTO
+13/02/2023 14:37:44.023: =========================================================================
+13/02/2023 14:37:46.333: Proceso concluido con éxito...
+13/02/2023 15:20:37.883: Tiempo Inicialización (navegador): 8 seg. 267 mseg.
+13/02/2023 15:20:37.915: Abriendo aplicación...
+13/02/2023 15:20:38.214: *************************************************************************
+13/02/2023 15:20:38.215:                        EMISION-LICENCIA-FUNCIONAMIENTO
+13/02/2023 15:20:38.216: *************************************************************************
+13/02/2023 15:20:38.216: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+13/02/2023 15:20:38.217: Fecha: 13/02/2023 15:20:38.217
+13/02/2023 15:20:39.283: Proceso de Iniciar sesión: ...
+13/02/2023 15:20:39.582:  Proceso de autenticación exitoso.
+13/02/2023 15:20:39.583: -------------------------------------------------------------------------
+13/02/2023 15:20:44.796: By.xpath: //h2[text()='IMPRIMIR DOCUMENTO']cargado.
+13/02/2023 15:20:54.656: By.xpath: //h2[text()='NOTIFICACION']cargado.
+
+13/02/2023 15:20:54.924: ObservacionesLa impresión de la Licencia de Funcionamiento se realizó de forma correcta.
+13/02/2023 15:20:56.550: Tiempo Inicialización (navegador): 26 seg. 968 mseg.
+13/02/2023 15:20:56.571: Abriendo aplicación...
+13/02/2023 15:20:56.595: *************************************************************************
+13/02/2023 15:20:56.595:                        EMISION-LICENCIA-FUNCIONAMIENTO
+13/02/2023 15:20:56.596: *************************************************************************
+13/02/2023 15:20:56.597: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+13/02/2023 15:20:56.599: Fecha: 13/02/2023 15:20:56.597
+13/02/2023 15:20:58.111: Proceso de Iniciar sesión: ...
+13/02/2023 15:20:58.250:  Proceso de autenticación exitoso.
+13/02/2023 15:20:58.251: -------------------------------------------------------------------------
+13/02/2023 15:21:02.490: By.xpath: //h2[text()='IMPRIMIR DOCUMENTO']cargado.
+13/02/2023 15:21:10.333: By.xpath: //h2[text()='NOTIFICACION']cargado.
+
+13/02/2023 15:21:10.577: ObservacionesLa impresión de la Licencia de Funcionamiento se realizó de forma correcta.
+13/02/2023 15:21:10.726: -------------------------------------------------------------------------
+13/02/2023 15:21:10.727: Tiempo Total de Ejecución: 41 seg. 145 mseg.
+13/02/2023 15:21:10.727: Proceso concluido: Módulo - EMISION-LICENCIA-FUNCIONAMIENTO
+13/02/2023 15:21:10.728: =========================================================================
+13/02/2023 15:21:13.548: Proceso concluido con éxito...
+13/02/2023 16:16:17.359: Tiempo Inicialización (navegador): 8 seg. 924 mseg.
+13/02/2023 16:16:17.396: Abriendo aplicación...
+13/02/2023 16:16:17.690: *************************************************************************
+13/02/2023 16:16:17.691:                        COMPENSACIONES
+13/02/2023 16:16:17.693: *************************************************************************
+13/02/2023 16:16:17.693: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+13/02/2023 16:16:17.694: Fecha: 13/02/2023 16:16:17.694
+13/02/2023 16:16:18.774: Proceso de Iniciar sesión: ...
+13/02/2023 16:16:18.937:  Proceso de autenticación exitoso.
+13/02/2023 16:16:18.938: -------------------------------------------------------------------------
+13/02/2023 16:16:25.015: El elemento esperado no se encuentra visible...
+13/02/2023 16:16:26.637: Tiempo Inicialización (navegador): 18 seg. 230 mseg.
+13/02/2023 16:16:26.663: Abriendo aplicación...
+13/02/2023 16:16:26.684: *************************************************************************
+13/02/2023 16:16:26.685:                        COMPENSACIONES
+13/02/2023 16:16:26.685: *************************************************************************
+13/02/2023 16:16:26.686: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+13/02/2023 16:16:26.687: Fecha: 13/02/2023 16:16:26.687
+13/02/2023 16:16:27.692: Proceso de Iniciar sesión: ...
+13/02/2023 16:16:27.848:  Proceso de autenticación exitoso.
+13/02/2023 16:16:27.849: -------------------------------------------------------------------------
+13/02/2023 16:16:32.593: By.xpath: //h2[text()='AUTORIZACION']cargado.
+13/02/2023 16:16:37.105: By.xpath: //h2[text()='DETALLE DE DEUDAS']cargado.
+13/02/2023 16:16:40.949: Items seleccionados...
+13/02/2023 16:16:43.420: By.xpath: //h2[text()='VERIFICACION COMPENSACION']cargado.
+13/02/2023 16:16:46.198: By.xpath: //h2[text()='NOTIFICACION']cargado.
+
+13/02/2023 16:16:46.239: La compensación se registró correctamente.El monto total compensado es: 286 Bs.El saldo del contribuyente es: 1726 Bs.Si la impresión no salió correctamente, proceda con la reimpresión.
+13/02/2023 16:16:46.529: -------------------------------------------------------------------------
+13/02/2023 16:16:46.530: Tiempo Total de Ejecución: 38 seg. 123 mseg.
+13/02/2023 16:16:46.531: Proceso concluido: Módulo - COMPENSACIONES
+13/02/2023 16:16:46.531: =========================================================================
+13/02/2023 16:16:50.517: Proceso concluido con éxito...
+14/02/2023 08:16:08.738: Tiempo Inicialización (navegador): 9 seg. 478 mseg.
+14/02/2023 08:16:08.789: Abriendo aplicación...
+14/02/2023 08:16:09.125: *************************************************************************
+14/02/2023 08:16:09.126:                        EMPADRONAMIENTO
+14/02/2023 08:16:09.127: *************************************************************************
+14/02/2023 08:16:09.128: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 08:16:09.129: Fecha: 14/02/2023 08:16:09.128
+14/02/2023 08:16:09.779:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 08:16:11.671: Proceso de autentificación: ...
+14/02/2023 08:16:13.839:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+14/02/2023 08:16:14.911: Proceso de autentificación: ...
+14/02/2023 08:16:19.162: Proceso de autentificación: OK.
+14/02/2023 08:16:19.162: -------------------------------------------------------------------------
+14/02/2023 08:16:22.018: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:16:24.147: By.xpath: //h2[normalize-space()='BUSQUEDA GESTOR TRAMITE'] cargado.
+14/02/2023 08:16:34.173: By.linkText: Asociar cargado.
+14/02/2023 08:16:40.291: -------------------------------------------------------------------------
+14/02/2023 08:16:43.143: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:16:44.917: By.xpath: //h2[normalize-space()='BUSQUEDA GESTOR TRAMITE'] cargado.
+14/02/2023 08:16:54.980: By.linkText: Asociar cargado.
+14/02/2023 08:17:01.649: -------------------------------------------------------------------------
+14/02/2023 08:17:01.650: Tiempo Total de Ejecución: 1 min. 2 seg. 435 mseg.
+14/02/2023 08:17:01.651: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 08:17:01.651: =========================================================================
+14/02/2023 08:19:05.542: Tiempo Inicialización (navegador): 7 seg. 906 mseg.
+14/02/2023 08:19:05.572: Abriendo aplicación...
+14/02/2023 08:19:05.889: *************************************************************************
+14/02/2023 08:19:05.890:                        EMPADRONAMIENTO
+14/02/2023 08:19:05.891: *************************************************************************
+14/02/2023 08:19:05.891: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 08:19:05.892: Fecha: 14/02/2023 08:19:05.892
+14/02/2023 08:19:06.592:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 08:19:08.462: Proceso de autentificación: ...
+14/02/2023 08:19:10.542:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+14/02/2023 08:19:11.552: Proceso de autentificación: ...
+14/02/2023 08:19:13.043: Proceso de autentificación: OK.
+14/02/2023 08:19:13.044: -------------------------------------------------------------------------
+14/02/2023 08:19:15.422: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:19:17.304: By.xpath: //h2[normalize-space()='BUSQUEDA GESTOR TRAMITE'] cargado.
+14/02/2023 08:19:25.119: By.linkText: Asociar cargado.
+14/02/2023 08:19:31.090: -------------------------------------------------------------------------
+14/02/2023 08:19:33.946: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:19:35.836: By.xpath: //h2[normalize-space()='BUSQUEDA GESTOR TRAMITE'] cargado.
+14/02/2023 08:19:43.113: By.linkText: Asociar cargado.
+14/02/2023 08:19:49.105: -------------------------------------------------------------------------
+14/02/2023 08:19:49.106: Tiempo Total de Ejecución: 51 seg. 500 mseg.
+14/02/2023 08:19:49.106: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 08:19:49.107: =========================================================================
+14/02/2023 08:20:43.625: Tiempo Inicialización (navegador): 8 seg. 474 mseg.
+14/02/2023 08:20:43.646: Abriendo aplicación...
+14/02/2023 08:20:43.985: *************************************************************************
+14/02/2023 08:20:43.985:                        EMPADRONAMIENTO
+14/02/2023 08:20:43.986: *************************************************************************
+14/02/2023 08:20:43.987: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 08:20:43.988: Fecha: 14/02/2023 08:20:43.987
+14/02/2023 08:20:44.709:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 08:20:46.467: Proceso de autentificación: ...
+14/02/2023 08:20:49.198:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+14/02/2023 08:20:50.267: Proceso de autentificación: ...
+14/02/2023 08:20:51.788: Proceso de autentificación: OK.
+14/02/2023 08:20:51.789: -------------------------------------------------------------------------
+14/02/2023 08:20:54.321: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:20:56.276: By.xpath: //h2[normalize-space()='BUSQUEDA GESTOR TRAMITE'] cargado.
+14/02/2023 08:20:59.719: By.linkText: Asociar cargado.
+14/02/2023 08:21:01.167: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:21:03.695: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 08:21:06.760: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 08:21:10.094: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 08:21:20.421: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+14/02/2023 08:21:22.562: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+14/02/2023 08:21:25.733: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 08:21:29.003: By.xpath: //h2[normalize-space()='BUSCAR CONTRIBUYENTE'] cargado.
+14/02/2023 08:21:31.875: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 08:21:33.387: By.xpath: //h2[normalize-space()='BUSCAR CONTRIBUYENTE'] cargado.
+14/02/2023 08:21:35.397: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 08:21:37.179: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+14/02/2023 08:21:39.639: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+14/02/2023 08:21:48.648: -------------------------------------------------------------------------
+14/02/2023 08:21:51.458: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:21:53.380: By.xpath: //h2[normalize-space()='BUSQUEDA GESTOR TRAMITE'] cargado.
+14/02/2023 08:21:56.305: By.linkText: Asociar cargado.
+14/02/2023 08:21:57.959: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:22:00.411: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 08:22:03.050: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 08:22:05.951: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 08:22:14.708: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+14/02/2023 08:22:16.420: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+14/02/2023 08:22:20.091: -------------------------------------------------------------------------
+14/02/2023 08:22:20.092: Tiempo Total de Ejecución: 1 min. 44 seg. 994 mseg.
+14/02/2023 08:22:20.092: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 08:22:20.093: =========================================================================
+14/02/2023 08:24:23.664: Tiempo Inicialización (navegador): 8 seg. 514 mseg.
+14/02/2023 08:24:23.698: Abriendo aplicación...
+14/02/2023 08:24:24.048: *************************************************************************
+14/02/2023 08:24:24.055:                        EMPADRONAMIENTO
+14/02/2023 08:24:24.056: *************************************************************************
+14/02/2023 08:24:24.057: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 08:24:24.069: Fecha: 14/02/2023 08:24:24.067
+14/02/2023 08:24:24.796:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 08:24:26.595: Proceso de autentificación: ...
+14/02/2023 08:24:28.729:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+14/02/2023 08:24:29.719: Proceso de autentificación: ...
+14/02/2023 08:24:31.134: Proceso de autentificación: OK.
+14/02/2023 08:24:31.135: -------------------------------------------------------------------------
+14/02/2023 08:24:34.101: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:24:35.965: By.xpath: //h2[normalize-space()='BUSQUEDA GESTOR TRAMITE'] cargado.
+14/02/2023 08:24:38.893: By.linkText: Asociar cargado.
+14/02/2023 08:24:40.375: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:24:43.541: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 08:24:46.282: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 08:24:49.311: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 08:24:57.831: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+14/02/2023 08:24:59.624: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+14/02/2023 08:25:02.736: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+14/02/2023 08:25:03.452: Debe ingresar al menos dos accionistas.
+14/02/2023 08:25:04.273: -------------------------------------------------------------------------
+14/02/2023 08:25:07.052: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:25:08.916: By.xpath: //h2[normalize-space()='BUSQUEDA GESTOR TRAMITE'] cargado.
+14/02/2023 08:25:11.937: By.linkText: Asociar cargado.
+14/02/2023 08:25:13.372: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:25:15.826: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 08:25:18.628: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 08:25:21.547: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 08:25:29.969: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+14/02/2023 08:25:31.704: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+14/02/2023 08:25:34.667: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 08:25:36.390: By.xpath: //h2[normalize-space()='BUSCAR CONTRIBUYENTE'] cargado.
+14/02/2023 08:25:39.247: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 08:25:40.894: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+14/02/2023 08:25:42.371: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+14/02/2023 08:25:46.767: -------------------------------------------------------------------------
+14/02/2023 08:25:46.768: Tiempo Total de Ejecución: 1 min. 31 seg. 671 mseg.
+14/02/2023 08:25:46.769: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 08:25:46.769: =========================================================================
+14/02/2023 08:26:26.948: Tiempo Inicialización (navegador): 8 seg. 786 mseg.
+14/02/2023 08:26:26.979: Abriendo aplicación...
+14/02/2023 08:26:27.305: *************************************************************************
+14/02/2023 08:26:27.305:                        EMPADRONAMIENTO
+14/02/2023 08:26:27.306: *************************************************************************
+14/02/2023 08:26:27.307: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 08:26:27.308: Fecha: 14/02/2023 08:26:27.307
+14/02/2023 08:26:28.041:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 08:26:29.944: Proceso de autentificación: ...
+14/02/2023 08:26:32.101:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+14/02/2023 08:26:33.076: Proceso de autentificación: ...
+14/02/2023 08:26:34.509: Proceso de autentificación: OK.
+14/02/2023 08:26:34.510: -------------------------------------------------------------------------
+14/02/2023 08:26:37.384: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:26:39.262: By.xpath: //h2[normalize-space()='BUSQUEDA GESTOR TRAMITE'] cargado.
+14/02/2023 08:26:42.166: By.linkText: Asociar cargado.
+14/02/2023 08:26:43.561: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:26:46.120: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 08:26:48.873: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 08:26:52.536: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 08:27:01.102: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+14/02/2023 08:27:02.892: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+14/02/2023 08:27:05.970: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+14/02/2023 08:27:06.648: Debe ingresar al menos dos accionistas.
+14/02/2023 08:27:07.587: -------------------------------------------------------------------------
+14/02/2023 08:27:10.423: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:27:12.324: By.xpath: //h2[normalize-space()='BUSQUEDA GESTOR TRAMITE'] cargado.
+14/02/2023 08:27:15.413: By.linkText: Asociar cargado.
+14/02/2023 08:27:16.883: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:27:19.366: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 08:27:22.038: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 08:27:24.990: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 08:27:33.100: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+14/02/2023 08:27:34.803: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+14/02/2023 08:27:37.667: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 08:27:39.261: By.xpath: //h2[normalize-space()='BUSCAR CONTRIBUYENTE'] cargado.
+14/02/2023 08:27:41.283: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 08:27:42.958: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+14/02/2023 08:27:44.391: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+14/02/2023 08:27:49.092: -------------------------------------------------------------------------
+14/02/2023 08:27:49.093: Tiempo Total de Ejecución: 1 min. 30 seg. 981 mseg.
+14/02/2023 08:27:49.093: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 08:27:49.093: =========================================================================
+14/02/2023 08:28:14.688: Tiempo Inicialización (navegador): 8 seg. 454 mseg.
+14/02/2023 08:28:14.724: Abriendo aplicación...
+14/02/2023 08:28:15.138: *************************************************************************
+14/02/2023 08:28:15.139:                        EMPADRONAMIENTO
+14/02/2023 08:28:15.140: *************************************************************************
+14/02/2023 08:28:15.141: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 08:28:15.144: Fecha: 14/02/2023 08:28:15.143
+14/02/2023 08:28:15.776:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 08:28:17.571: Proceso de autentificación: ...
+14/02/2023 08:28:19.607:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+14/02/2023 08:28:20.593: Proceso de autentificación: ...
+14/02/2023 08:28:22.001: Proceso de autentificación: OK.
+14/02/2023 08:28:22.002: -------------------------------------------------------------------------
+14/02/2023 08:28:24.516: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:28:26.467: By.xpath: //h2[normalize-space()='BUSQUEDA GESTOR TRAMITE'] cargado.
+14/02/2023 08:28:29.503: By.linkText: Asociar cargado.
+14/02/2023 08:28:30.952: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:28:33.457: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 08:28:36.162: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 08:28:39.130: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 08:28:48.450: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+14/02/2023 08:28:50.193: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+14/02/2023 08:28:53.330: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+14/02/2023 08:28:53.936: Debe ingresar al menos dos accionistas.
+14/02/2023 08:28:54.727: -------------------------------------------------------------------------
+14/02/2023 08:28:57.533: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:28:59.374: By.xpath: //h2[normalize-space()='BUSQUEDA GESTOR TRAMITE'] cargado.
+14/02/2023 08:29:02.382: By.linkText: Asociar cargado.
+14/02/2023 08:29:03.865: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:29:06.388: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 08:29:09.102: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 08:29:12.040: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 08:29:20.364: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+14/02/2023 08:29:22.065: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+14/02/2023 08:29:24.927: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 08:29:26.547: By.xpath: //h2[normalize-space()='BUSCAR CONTRIBUYENTE'] cargado.
+14/02/2023 08:29:28.753: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 08:29:30.417: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+14/02/2023 08:29:31.848: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+14/02/2023 08:29:37.049: -------------------------------------------------------------------------
+14/02/2023 08:29:37.049: Tiempo Total de Ejecución: 1 min. 30 seg. 862 mseg.
+14/02/2023 08:29:37.050: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 08:29:37.050: =========================================================================
+14/02/2023 08:30:43.635: Tiempo Inicialización (navegador): 48 seg. 207 mseg.
+14/02/2023 08:30:43.696: Abriendo aplicación...
+14/02/2023 08:30:44.011: *************************************************************************
+14/02/2023 08:30:44.011:                        EMPADRONAMIENTO
+14/02/2023 08:30:44.015: *************************************************************************
+14/02/2023 08:30:44.019: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 08:30:44.023: Fecha: 14/02/2023 08:30:44.022
+14/02/2023 08:31:11.865:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 08:31:49.045: Proceso de autentificación: ...
+14/02/2023 08:32:23.193:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+14/02/2023 08:33:00.718: Proceso de autentificación: ...
+14/02/2023 08:33:06.640: Proceso de autentificación: OK.
+14/02/2023 08:33:11.189: -------------------------------------------------------------------------
+14/02/2023 08:33:29.375: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:33:54.922: By.xpath: //h2[normalize-space()='BUSQUEDA GESTOR TRAMITE'] cargado.
+14/02/2023 08:34:09.255: By.linkText: Asociar cargado.
+14/02/2023 08:34:19.645: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 08:34:34.954: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 08:34:54.886: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 08:35:17.517: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 09:00:39.195: Tiempo Inicialización (navegador): 8 seg. 566 mseg.
+14/02/2023 09:00:39.232: Abriendo aplicación...
+14/02/2023 09:00:39.529: *************************************************************************
+14/02/2023 09:00:39.530:                        EMPADRONAMIENTO
+14/02/2023 09:00:39.530: *************************************************************************
+14/02/2023 09:00:39.535: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 09:00:39.536: Fecha: 14/02/2023 09:00:39.536
+14/02/2023 09:00:40.261:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 09:00:42.127: Proceso de autentificación: ...
+14/02/2023 09:00:44.182:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+14/02/2023 09:00:45.277: Proceso de autentificación: ...
+14/02/2023 09:00:47.559: Proceso de autentificación: OK.
+14/02/2023 09:00:47.560: -------------------------------------------------------------------------
+14/02/2023 09:00:50.170: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 09:00:52.248: By.xpath: //h2[normalize-space()='BUSQUEDA GESTOR TRAMITE'] cargado.
+14/02/2023 11:05:13.581: Tiempo Inicialización (navegador): 8 seg. 54 mseg.
+14/02/2023 11:05:13.620: Abriendo aplicación...
+14/02/2023 11:05:13.903: *************************************************************************
+14/02/2023 11:05:13.904:                        EMPADRONAMIENTO
+14/02/2023 11:05:13.905: *************************************************************************
+14/02/2023 11:05:13.906: Ambiente: https://inmueblescalidad.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 11:05:13.907: Fecha: 14/02/2023 11:05:13.907
+14/02/2023 11:05:14.548:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 11:05:16.358: Proceso de autentificación: ...
+14/02/2023 11:05:18.379:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+14/02/2023 11:05:19.398: Proceso de autentificación: ...
+14/02/2023 11:05:21.502:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+14/02/2023 11:05:22.575: Proceso de autentificación: ...
+14/02/2023 11:05:24.571:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+14/02/2023 11:05:25.496: Proceso de autentificación: ...
+14/02/2023 11:05:27.477:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+14/02/2023 11:05:28.563: Proceso de autentificación: ...
+14/02/2023 11:05:30.900:  Se intentará la autentificación nuevamente con la contraseña alternativa...
+14/02/2023 11:05:33.154: Proceso de autentificación: ...
+14/02/2023 11:05:35.471: -------------------------------------------------------------------------
+14/02/2023 11:05:35.471: Tiempo Total de Ejecución: 29 seg. 985 mseg.
+14/02/2023 11:05:35.472: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 11:05:35.472: =========================================================================
+14/02/2023 11:06:25.517: Tiempo Inicialización (navegador): 8 seg. 695 mseg.
+14/02/2023 11:06:25.543: Abriendo aplicación...
+14/02/2023 11:06:25.851: *************************************************************************
+14/02/2023 11:06:25.852:                        EMPADRONAMIENTO
+14/02/2023 11:06:25.853: *************************************************************************
+14/02/2023 11:06:25.854: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 11:06:25.855: Fecha: 14/02/2023 11:06:25.854
+14/02/2023 11:06:26.539:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 11:06:28.339: Proceso de autentificación: ...
+14/02/2023 11:06:29.834: Proceso de autentificación: OK.
+14/02/2023 11:06:30.450: -------------------------------------------------------------------------
+14/02/2023 11:06:30.451: Tiempo Total de Ejecución: 13 seg. 667 mseg.
+14/02/2023 11:06:30.451: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 11:06:30.452: =========================================================================
+14/02/2023 11:08:38.370: Tiempo Inicialización (navegador): 8 seg. 496 mseg.
+14/02/2023 11:08:38.391: Abriendo aplicación...
+14/02/2023 11:08:38.714: *************************************************************************
+14/02/2023 11:08:38.715:                        EMPADRONAMIENTO
+14/02/2023 11:08:38.715: *************************************************************************
+14/02/2023 11:08:38.716: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 11:08:38.717: Fecha: 14/02/2023 11:08:38.717
+14/02/2023 11:08:39.398:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 11:08:41.187: Proceso de autentificación: ...
+14/02/2023 11:08:42.682: Proceso de autentificación: OK.
+14/02/2023 11:08:42.683: -------------------------------------------------------------------------
+14/02/2023 11:08:45.040: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 11:08:48.000: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 11:08:51.837: -------------------------------------------------------------------------
+14/02/2023 11:08:51.838: Tiempo Total de Ejecución: 21 seg. 986 mseg.
+14/02/2023 11:08:51.838: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 11:08:51.839: =========================================================================
+14/02/2023 11:15:05.673: Tiempo Inicialización (navegador): 8 seg. 232 mseg.
+14/02/2023 11:15:05.699: Abriendo aplicación...
+14/02/2023 11:15:06.028: *************************************************************************
+14/02/2023 11:15:06.029:                        EMPADRONAMIENTO
+14/02/2023 11:15:06.030: *************************************************************************
+14/02/2023 11:15:06.031: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 11:15:06.032: Fecha: 14/02/2023 11:15:06.031
+14/02/2023 11:15:06.785:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 11:15:08.598: Proceso de autentificación: ...
+14/02/2023 11:15:10.096: Proceso de autentificación: OK.
+14/02/2023 11:15:10.097: -------------------------------------------------------------------------
+14/02/2023 11:15:12.517: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 11:15:15.486: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 11:15:18.816: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 11:15:21.762: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 11:15:25.448: -------------------------------------------------------------------------
+14/02/2023 11:15:25.448: Tiempo Total de Ejecución: 28 seg. 53 mseg.
+14/02/2023 11:15:25.449: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 11:15:25.449: =========================================================================
+14/02/2023 11:20:17.433: Tiempo Inicialización (navegador): 8 seg. 934 mseg.
+14/02/2023 11:20:17.450: Abriendo aplicación...
+14/02/2023 11:20:17.809: *************************************************************************
+14/02/2023 11:20:17.810:                        EMPADRONAMIENTO
+14/02/2023 11:20:17.812: *************************************************************************
+14/02/2023 11:20:17.812: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 11:20:17.822: Fecha: 14/02/2023 11:20:17.821
+14/02/2023 11:20:18.460:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 11:20:20.228: Proceso de autentificación: ...
+14/02/2023 11:20:21.564: Proceso de autentificación: OK.
+14/02/2023 11:20:21.566: -------------------------------------------------------------------------
+14/02/2023 11:20:24.439: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 11:20:27.418: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 11:20:30.773: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 11:20:33.696: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 11:20:57.095: -------------------------------------------------------------------------
+14/02/2023 11:20:57.096: Tiempo Total de Ejecución: 48 seg. 642 mseg.
+14/02/2023 11:20:57.097: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 11:20:57.097: =========================================================================
+14/02/2023 11:26:37.427: Tiempo Inicialización (navegador): 8 seg. 728 mseg.
+14/02/2023 11:26:37.459: Abriendo aplicación...
+14/02/2023 11:26:37.760: *************************************************************************
+14/02/2023 11:26:37.761:                        EMPADRONAMIENTO
+14/02/2023 11:26:37.761: *************************************************************************
+14/02/2023 11:26:37.762: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 11:26:37.762: Fecha: 14/02/2023 11:26:37.762
+14/02/2023 11:26:38.407:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 11:26:40.165: Proceso de autentificación: ...
+14/02/2023 11:26:41.591: Proceso de autentificación: OK.
+14/02/2023 11:26:41.592: -------------------------------------------------------------------------
+14/02/2023 11:26:44.002: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 11:26:46.957: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 11:26:50.310: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 11:26:53.262: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 11:27:17.777: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+14/02/2023 11:27:19.532: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+14/02/2023 11:27:22.991: -------------------------------------------------------------------------
+14/02/2023 11:27:22.991: Tiempo Total de Ejecución: 54 seg. 326 mseg.
+14/02/2023 11:27:22.992: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 11:27:22.993: =========================================================================
+14/02/2023 11:31:30.157: Tiempo Inicialización (navegador): 8 seg. 523 mseg.
+14/02/2023 11:31:30.184: Abriendo aplicación...
+14/02/2023 11:31:30.465: *************************************************************************
+14/02/2023 11:31:30.471:                        EMPADRONAMIENTO
+14/02/2023 11:31:30.472: *************************************************************************
+14/02/2023 11:31:30.473: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 11:31:30.474: Fecha: 14/02/2023 11:31:30.474
+14/02/2023 11:31:31.181:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 11:31:32.950: Proceso de autentificación: ...
+14/02/2023 11:31:34.478: Proceso de autentificación: OK.
+14/02/2023 11:31:34.479: -------------------------------------------------------------------------
+14/02/2023 11:31:36.912: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 11:31:39.870: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 11:31:43.279: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 11:31:46.176: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 11:32:10.170: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+14/02/2023 11:32:11.863: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+14/02/2023 11:32:15.858: -------------------------------------------------------------------------
+14/02/2023 11:32:15.859: Tiempo Total de Ejecución: 54 seg. 262 mseg.
+14/02/2023 11:32:15.860: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 11:32:15.860: =========================================================================
+14/02/2023 11:33:15.398: Tiempo Inicialización (navegador): 22 seg. 129 mseg.
+14/02/2023 11:33:15.423: Abriendo aplicación...
+14/02/2023 11:33:15.725: *************************************************************************
+14/02/2023 11:33:15.726:                        EMPADRONAMIENTO
+14/02/2023 11:33:15.726: *************************************************************************
+14/02/2023 11:33:15.727: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 11:33:15.728: Fecha: 14/02/2023 11:33:15.728
+14/02/2023 11:33:16.500:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 11:33:18.297: Proceso de autentificación: ...
+14/02/2023 11:33:19.744: Proceso de autentificación: OK.
+14/02/2023 11:33:30.763: -------------------------------------------------------------------------
+14/02/2023 11:33:57.406: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 11:34:14.923: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 11:34:35.713: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 11:34:57.894: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 11:36:58.631: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+14/02/2023 11:37:32.245: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+14/02/2023 11:41:25.604: Tiempo Inicialización (navegador): 10 seg. 53 mseg.
+14/02/2023 11:41:25.629: Abriendo aplicación...
+14/02/2023 11:41:26.033: *************************************************************************
+14/02/2023 11:41:26.035:                        EMPADRONAMIENTO
+14/02/2023 11:41:26.035: *************************************************************************
+14/02/2023 11:41:26.036: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 11:41:26.037: Fecha: 14/02/2023 11:41:26.036
+14/02/2023 11:41:26.765:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 11:41:28.635: Proceso de autentificación: ...
+14/02/2023 11:41:30.762: Proceso de autentificación: OK.
+14/02/2023 11:41:30.763: -------------------------------------------------------------------------
+14/02/2023 11:41:33.278: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 11:41:36.608: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 11:41:40.432: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 11:41:43.597: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 11:42:08.398: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+14/02/2023 11:42:10.510: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+14/02/2023 11:42:14.088: -------------------------------------------------------------------------
+14/02/2023 11:42:14.089: Tiempo Total de Ejecución: 58 seg. 580 mseg.
+14/02/2023 11:42:14.090: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 11:42:14.090: =========================================================================
+14/02/2023 12:20:11.035: Tiempo Inicialización (navegador): 15 seg. 877 mseg.
+14/02/2023 12:20:11.077: Abriendo aplicación...
+14/02/2023 12:20:11.375: *************************************************************************
+14/02/2023 12:20:11.376:                        EMPADRONAMIENTO
+14/02/2023 12:20:11.376: *************************************************************************
+14/02/2023 12:20:11.377: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 12:20:11.378: Fecha: 14/02/2023 12:20:11.377
+14/02/2023 12:20:12.137:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 12:20:13.860: Proceso de autentificación: ...
+14/02/2023 12:20:15.278: Proceso de autentificación: OK.
+14/02/2023 12:20:19.853: -------------------------------------------------------------------------
+14/02/2023 12:20:25.618: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 12:20:29.033: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 12:20:32.398: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 12:20:35.336: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 12:21:32.179: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+14/02/2023 12:22:01.947: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+14/02/2023 12:25:18.622: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 12:26:46.541: By.xpath: //h2[normalize-space()='BUSCAR CONTRIBUYENTE'] cargado.
+14/02/2023 12:28:26.465: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 12:28:41.913: By.xpath: //h2[normalize-space()='BUSCAR CONTRIBUYENTE'] cargado.
+14/02/2023 12:28:56.916: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 12:29:28.223: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+14/02/2023 12:29:40.086: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+14/02/2023 12:31:24.077: -------------------------------------------------------------------------
+14/02/2023 12:31:42.818: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 12:31:59.012: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 12:32:18.736: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 12:32:40.467: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 12:36:09.243: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+14/02/2023 12:36:25.205: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+14/02/2023 12:36:56.180: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 12:37:18.739: By.xpath: //h2[normalize-space()='BUSCAR CONTRIBUYENTE'] cargado.
+14/02/2023 12:37:31.189: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 12:37:42.569: By.xpath: //h2[normalize-space()='BUSCAR CONTRIBUYENTE'] cargado.
+14/02/2023 12:37:54.866: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+14/02/2023 12:38:11.650: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+14/02/2023 12:38:21.686: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+14/02/2023 12:39:21.495: -------------------------------------------------------------------------
+14/02/2023 12:39:21.496: Tiempo Total de Ejecución: 19 min. 26 seg. 466 mseg.
+14/02/2023 12:39:21.497: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 12:39:21.499: =========================================================================

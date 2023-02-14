@@ -11,6 +11,7 @@ public class UbicacionInmuebleUI {
     public static By lstMacroDistrito = By.xpath("//th[text()='Macro Distrito']/following-sibling::td/select");
     public static By lstDistrito = By.xpath("//th[text()='Distrito']/following-sibling::td/select");
     public static By lstZonaBarrio = By.xpath("//th[text()='Zona/Barrio']/following-sibling::td/select");
+    public static By lstZonaComunidad = By.xpath("//th[text()='Zona/Comunidad']/following-sibling::td/select");
     public static By lstTipoLugar = By.xpath("//th[text()='Tipo Lugar']/following-sibling::td/select");
     public static By lstNombreLugar = By.xpath("//th[text()='Nombre Lugar']/following-sibling::td/select");
     public static By txtNumeroPuerta = By.id("txtNroPuerta");

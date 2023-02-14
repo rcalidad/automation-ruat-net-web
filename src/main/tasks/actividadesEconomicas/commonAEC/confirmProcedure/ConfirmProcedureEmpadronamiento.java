@@ -1,9 +1,7 @@
 package main.tasks.actividadesEconomicas.commonAEC.confirmProcedure;
 
 import com.aventstack.extentreports.ExtentTest;
-import main.actions.Click;
-import main.actions.GetText;
-import main.actions.WaitUntilElement;
+import main.actions.*;
 import main.helpers.common.actividadesEconomicas.ConstantsAEC;
 import main.helpers.common.vehiculos.ConstantsVEH;
 import main.helpers.fileUtility.FileBuilder;
@@ -47,6 +45,25 @@ public class ConfirmProcedureEmpadronamiento implements IConfirmProcedure{
             Click.on(localDriver, ConfirmProcedureUI.btnSalir);
         }catch (Exception exception){
 
+        }
+    }
+    public static String now(WebDriver driver, ExtentTest extentTest, String identifier, int index, String operation){
+        try {
+            Verify.isReady(driver, extentTest, ConfirmProcedureUI.ttlConfirmarTramite);
+            Click.on(driver, ConfirmProcedureUI.btnVistaPrevia); //reportePDF.pdf
+            getReport(driver, "reportePDF.pdf", operation, identifier, index, ConfirmProcedureUI.btnVistaPrevia);
+            WaitUntilElement.isClikeableOf(driver, ConfirmProcedureUI.btnGrabar);
+            Click.on(driver, ConfirmProcedureUI.btnGrabar);
+            WaitUntilAlert.isPresent(driver);
+            String text = DisplayAlert.getText(driver);
+            VerifyAlert.containsThisText(driver, "correctamente");
+            WaitUntilElement.isClikeableOf(driver, ConfirmProcedureUI.btnGenerarReporte);
+            Click.on(driver, ConfirmProcedureUI.btnGenerarReporte); //reportePDF.pdf
+            getReport(driver, "reportePDF.pdf", operation, identifier, index, ConfirmProcedureUI.btnGenerarReporte);
+            Click.on(driver, ConfirmProcedureUI.btnSalir);
+            return text;
+        }catch (Exception exception){
+            return "";
         }
     }
 }
