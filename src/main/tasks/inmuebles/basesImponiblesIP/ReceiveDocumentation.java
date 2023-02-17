@@ -14,5 +14,12 @@ public class ReceiveDocumentation {
         StartProcedure.fillFormsOfDocumentsRequired(driver, extentTest);
         StartProcedure.recordDocumentsOfProcess(driver);
     }
+    public static void now(WebDriver driver, ExtentTest extentTest, IInicioTramiteUI elements){
+        StartProcedure.setElementsProcess(elements);
+        StartProcedure.checkAllDocuments(driver);
+        //StartProcedure.checkDocumentsRequired(driver);
+        //StartProcedure.fillFormsOfDocumentsRequired(driver, extentTest);
+        StartProcedure.recordDocumentsOfProcess(driver);
+    }
 
 }

@@ -14,10 +14,15 @@ public class ExecuteOperation implements IProcedure {
     }
 
     @Override
-    public void register(WebDriver driver, ExtentTest extentTest, Map<String, String> data) {
+    public void register(WebDriver driver, ExtentTest extentTest, Map<String, String> data, String year) {
         String taxBase = data.get("baseImponible");
-        String year = data.get("initialYear");
-        RegisterTaxBase.withSpecificValue(driver, extentTest, taxBase, year);
+        //String year = data.get("initialYear");
+        String tableValue = data.get("valorTablas");
+        if (tableValue.equalsIgnoreCase("SI")){
+            RegisterTaxBase.withTableValues(driver, extentTest);
+        }else {
+            RegisterTaxBase.withSpecificValue(driver, extentTest, taxBase, year);
+        }
     }
 
     @Override

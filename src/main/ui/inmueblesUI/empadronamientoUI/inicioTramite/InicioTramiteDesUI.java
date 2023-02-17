@@ -10,6 +10,7 @@ import java.util.Map;
 
 public class InicioTramiteDesUI implements IInicioTramiteUI {
     public static By ttlInicioTramite = By.xpath("//h2[text()='Inicio Tramite']");
+    public static By chkAllDocumentsRequired = By.xpath("//td[contains(.,'*')]/following-sibling::td/input");
     public static By chkDocumentoDeIdentidad = By.xpath("//td[text()='DOCUMENTO DE IDENTIDAD']/following-sibling::td/input");
     public static By chkTestimonio = By.xpath("//td[text()='TESTIMONIO']/following-sibling::td/input");
     public static By chkPlanoUbicacion = By.xpath("//td[text()='PLANO DE UBICACION']/following-sibling::td/input");

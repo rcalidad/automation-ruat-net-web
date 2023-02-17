@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class DatosAccionistasUI {
     public static By ttlDatosAccionistas = By.xpath("//h2[normalize-space()='DATOS ACCIONISTAS']");
     public static By lnkAdicionarAccionista = By.linkText("Adicionar");
+    public static By txtPorcentajes = By.xpath("//input[@id='txtPorcentaje']");
     public static By btnAceptar = By.id("btnAceptar");
 
     public static String xpathTable = "//h3[text()='Datos Contribuyente (Acciones y Derechos)']/following-sibling::table";

@@ -29448,3 +29448,559 @@
 14/02/2023 14:12:24.253: Tiempo Total de Ejecución: 1 min. 26 seg. 617 mseg.
 14/02/2023 14:12:24.254: Proceso concluido: Módulo - EMPADRONAMIENTO
 14/02/2023 14:12:24.256: =========================================================================
+14/02/2023 15:15:41.751: Tiempo Inicialización (navegador): 9 seg. 29 mseg.
+14/02/2023 15:15:41.786: Abriendo aplicación...
+14/02/2023 15:15:42.145: *************************************************************************
+14/02/2023 15:15:42.146:                        EMPADRONAMIENTO
+14/02/2023 15:15:42.147: *************************************************************************
+14/02/2023 15:15:42.147: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 15:15:42.148: Fecha: 14/02/2023 15:15:42.148
+14/02/2023 15:15:42.819:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 15:15:44.654: Proceso de autentificación: ...
+14/02/2023 15:15:47.256: Proceso de autentificación: OK.
+14/02/2023 15:15:47.257: -------------------------------------------------------------------------
+14/02/2023 15:15:49.657: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 15:15:56.269: -------------------------------------------------------------------------
+14/02/2023 15:15:56.270: Tiempo Total de Ejecución: 23 seg. 592 mseg.
+14/02/2023 15:15:56.271: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 15:15:56.272: =========================================================================
+14/02/2023 16:05:53.939: Tiempo Inicialización (navegador): 14 seg. 59 mseg.
+14/02/2023 16:05:54.006: Abriendo aplicación...
+14/02/2023 16:05:54.359: *************************************************************************
+14/02/2023 16:05:54.361:                        EMPADRONAMIENTO
+14/02/2023 16:05:54.363: *************************************************************************
+14/02/2023 16:05:54.364: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 16:05:54.367: Fecha: 14/02/2023 16:05:54.366
+14/02/2023 16:05:55.176:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 16:05:56.977: Proceso de autentificación: ...
+14/02/2023 16:05:59.651: Proceso de autentificación: OK.
+14/02/2023 16:05:59.653: -------------------------------------------------------------------------
+14/02/2023 16:06:02.178: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 16:06:08.975: -------------------------------------------------------------------------
+14/02/2023 16:06:08.976: Tiempo Total de Ejecución: 29 seg. 144 mseg.
+14/02/2023 16:06:08.977: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 16:06:08.978: =========================================================================
+14/02/2023 16:07:38.479: Tiempo Inicialización (navegador): 29 seg. 726 mseg.
+14/02/2023 16:07:38.502: Abriendo aplicación...
+14/02/2023 16:07:38.799: *************************************************************************
+14/02/2023 16:07:38.800:                        EMPADRONAMIENTO
+14/02/2023 16:07:38.801: *************************************************************************
+14/02/2023 16:07:38.801: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 16:07:38.802: Fecha: 14/02/2023 16:07:38.802
+14/02/2023 16:07:39.559:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 16:07:41.371: Proceso de autentificación: ...
+14/02/2023 16:07:42.815: Proceso de autentificación: OK.
+14/02/2023 16:07:52.613: -------------------------------------------------------------------------
+14/02/2023 16:08:08.900: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 16:09:29.570: Tiempo Inicialización (navegador): 23 seg. 41 mseg.
+14/02/2023 16:09:29.609: Abriendo aplicación...
+14/02/2023 16:09:29.925: *************************************************************************
+14/02/2023 16:09:29.926:                        EMPADRONAMIENTO
+14/02/2023 16:09:29.927: *************************************************************************
+14/02/2023 16:09:29.927: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 16:09:29.928: Fecha: 14/02/2023 16:09:29.928
+14/02/2023 16:09:30.653:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 16:09:32.407: Proceso de autentificación: ...
+14/02/2023 16:09:33.861: Proceso de autentificación: OK.
+14/02/2023 16:09:36.416: -------------------------------------------------------------------------
+14/02/2023 16:09:42.523: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 16:14:06.044: Tiempo Inicialización (navegador): 20 seg. 796 mseg.
+14/02/2023 16:14:06.077: Abriendo aplicación...
+14/02/2023 16:14:06.363: *************************************************************************
+14/02/2023 16:14:06.364:                        EMPADRONAMIENTO
+14/02/2023 16:14:06.365: *************************************************************************
+14/02/2023 16:14:06.365: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 16:14:06.367: Fecha: 14/02/2023 16:14:06.366
+14/02/2023 16:14:07.207:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 16:14:09.009: Proceso de autentificación: ...
+14/02/2023 16:14:10.475: Proceso de autentificación: OK.
+14/02/2023 16:14:14.833: -------------------------------------------------------------------------
+14/02/2023 16:14:20.303: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 16:19:12.183: Tiempo Inicialización (navegador): 8 seg. 708 mseg.
+14/02/2023 16:19:12.208: Abriendo aplicación...
+14/02/2023 16:19:12.545: *************************************************************************
+14/02/2023 16:19:12.548:                        EMPADRONAMIENTO
+14/02/2023 16:19:12.549: *************************************************************************
+14/02/2023 16:19:12.550: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+14/02/2023 16:19:12.552: Fecha: 14/02/2023 16:19:12.551
+14/02/2023 16:19:13.272:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+14/02/2023 16:19:15.294: Proceso de autentificación: ...
+14/02/2023 16:19:16.782: Proceso de autentificación: OK.
+14/02/2023 16:19:16.783: -------------------------------------------------------------------------
+14/02/2023 16:19:19.746: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+14/02/2023 16:19:22.310: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+14/02/2023 16:19:25.888: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+14/02/2023 16:19:28.861: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+14/02/2023 16:19:57.504: By.xpath: //h2[normalize-space()='DATOS TERRENO'] cargado.
+14/02/2023 16:20:07.063: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCIONES'] cargado.
+14/02/2023 16:20:08.638: By.xpath: //h2[normalize-space()='DATOS CONSTRUCCION'] cargado.
+14/02/2023 16:20:17.799: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+14/02/2023 16:20:19.583: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+14/02/2023 16:20:22.174: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+14/02/2023 16:20:23.582: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+14/02/2023 16:20:25.036: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+14/02/2023 16:20:27.379: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+14/02/2023 16:20:28.810: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+14/02/2023 16:20:30.323: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+14/02/2023 16:20:32.625: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+14/02/2023 16:20:34.037: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+14/02/2023 16:20:35.991: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+14/02/2023 16:20:37.484: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+14/02/2023 16:20:42.884: -------------------------------------------------------------------------
+14/02/2023 16:20:42.885: Tiempo Total de Ejecución: 1 min. 39 seg. 478 mseg.
+14/02/2023 16:20:42.885: Proceso concluido: Módulo - EMPADRONAMIENTO
+14/02/2023 16:20:42.886: =========================================================================
+15/02/2023 10:15:13.834: Tiempo Inicialización (navegador): 8 seg. 245 mseg.
+15/02/2023 10:15:13.867: Abriendo aplicación...
+15/02/2023 10:15:14.207: *************************************************************************
+15/02/2023 10:15:14.207:                        EMPADRONAMIENTO
+15/02/2023 10:15:14.208: *************************************************************************
+15/02/2023 10:15:14.209: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+15/02/2023 10:15:14.210: Fecha: 15/02/2023 10:15:14.210
+15/02/2023 10:15:14.835:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+15/02/2023 10:15:16.566: Proceso de autentificación: ...
+15/02/2023 10:15:19.281: Proceso de autentificación: OK.
+15/02/2023 10:15:19.283: -------------------------------------------------------------------------
+15/02/2023 10:15:21.623: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+15/02/2023 10:15:24.063: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+15/02/2023 10:15:28.272: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+15/02/2023 10:15:31.276: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+15/02/2023 10:16:00.398: By.xpath: //h2[normalize-space()='DATOS TERRENO'] cargado.
+15/02/2023 10:16:10.674: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+15/02/2023 10:16:12.179: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 10:16:14.787: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 10:16:17.230: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 10:16:18.704: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+15/02/2023 10:16:20.203: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 10:16:22.652: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 10:16:24.957: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 10:16:26.414: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+15/02/2023 10:16:29.039: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+15/02/2023 10:16:30.548: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+15/02/2023 10:16:35.761: -------------------------------------------------------------------------
+15/02/2023 10:16:35.762: Tiempo Total de Ejecución: 1 min. 30 seg. 213 mseg.
+15/02/2023 10:16:35.762: Proceso concluido: Módulo - EMPADRONAMIENTO
+15/02/2023 10:16:35.763: =========================================================================
+15/02/2023 11:38:26.554: Tiempo Inicialización (navegador): 8 seg. 204 mseg.
+15/02/2023 11:38:26.589: Abriendo aplicación...
+15/02/2023 11:38:26.911: *************************************************************************
+15/02/2023 11:38:26.911:                        EMPADRONAMIENTO
+15/02/2023 11:38:26.912: *************************************************************************
+15/02/2023 11:38:26.913: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+15/02/2023 11:38:26.914: Fecha: 15/02/2023 11:38:26.914
+15/02/2023 11:38:27.666:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+15/02/2023 11:38:29.776: Proceso de autentificación: ...
+15/02/2023 11:38:32.102: -------------------------------------------------------------------------
+15/02/2023 11:38:32.103: Tiempo Total de Ejecución: 13 seg. 782 mseg.
+15/02/2023 11:38:32.104: Proceso concluido: Módulo - EMPADRONAMIENTO
+15/02/2023 11:38:32.105: =========================================================================
+15/02/2023 11:53:18.171: Tiempo Inicialización (navegador): 8 seg. 584 mseg.
+15/02/2023 11:53:18.203: Abriendo aplicación...
+15/02/2023 11:53:18.569: *************************************************************************
+15/02/2023 11:53:18.570:                        EMPADRONAMIENTO
+15/02/2023 11:53:18.570: *************************************************************************
+15/02/2023 11:53:18.571: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+15/02/2023 11:53:18.571: Fecha: 15/02/2023 11:53:18.571
+15/02/2023 11:53:19.210:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+15/02/2023 11:53:21.105: Proceso de autentificación: ...
+15/02/2023 11:53:22.659: Proceso de autentificación: OK.
+15/02/2023 11:53:22.660: -------------------------------------------------------------------------
+15/02/2023 11:53:25.307: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+15/02/2023 11:53:27.828: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+15/02/2023 11:53:31.336: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+15/02/2023 11:53:34.316: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+15/02/2023 11:54:03.053: By.xpath: //h2[normalize-space()='DATOS TERRENO'] cargado.
+15/02/2023 11:54:13.119: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+15/02/2023 11:54:14.775: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 11:54:17.631: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 11:54:20.217: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 11:54:21.637: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+15/02/2023 11:54:23.171: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 11:54:25.891: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 11:54:28.450: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 11:54:29.913: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+15/02/2023 11:54:31.530: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+15/02/2023 11:54:33.069: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+15/02/2023 11:54:39.150: -------------------------------------------------------------------------
+15/02/2023 11:54:39.151: Tiempo Total de Ejecución: 1 min. 29 seg. 594 mseg.
+15/02/2023 11:54:39.151: Proceso concluido: Módulo - EMPADRONAMIENTO
+15/02/2023 11:54:39.152: =========================================================================
+15/02/2023 11:59:01.458: Tiempo Inicialización (navegador): 8 seg. 210 mseg.
+15/02/2023 11:59:01.482: Abriendo aplicación...
+15/02/2023 11:59:01.774: *************************************************************************
+15/02/2023 11:59:01.774:                        EMPADRONAMIENTO
+15/02/2023 11:59:01.774: *************************************************************************
+15/02/2023 11:59:01.774: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+15/02/2023 11:59:01.774: Fecha: 15/02/2023 11:59:01.774
+15/02/2023 11:59:02.513:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+15/02/2023 11:59:04.346: Proceso de autentificación: ...
+15/02/2023 11:59:06.078: Proceso de autentificación: OK.
+15/02/2023 11:59:06.079: -------------------------------------------------------------------------
+15/02/2023 11:59:08.599: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+15/02/2023 11:59:11.197: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+15/02/2023 11:59:14.771: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+15/02/2023 11:59:18.957: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+15/02/2023 11:59:48.534: By.xpath: //h2[normalize-space()='DATOS TERRENO'] cargado.
+15/02/2023 12:00:00.174: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+15/02/2023 12:00:01.826: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 12:00:04.556: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 12:00:06.979: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 12:00:08.701: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+15/02/2023 12:00:10.282: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 12:00:13.137: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 12:00:15.544: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 12:00:18.373: El contribuyente CARLOS SERGIO - LIJERON ANDRADE ya esta asociado a una acción.
+15/02/2023 12:00:22.663: -------------------------------------------------------------------------
+15/02/2023 12:00:22.664: Tiempo Total de Ejecución: 1 min. 29 seg. 443 mseg.
+15/02/2023 12:00:22.665: Proceso concluido: Módulo - EMPADRONAMIENTO
+15/02/2023 12:00:22.665: =========================================================================
+15/02/2023 12:15:57.712: Tiempo Inicialización (navegador): 8 seg. 988 mseg.
+15/02/2023 12:15:57.738: Abriendo aplicación...
+15/02/2023 12:15:58.028: *************************************************************************
+15/02/2023 12:15:58.029:                        EMPADRONAMIENTO
+15/02/2023 12:15:58.029: *************************************************************************
+15/02/2023 12:15:58.031: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+15/02/2023 12:15:58.032: Fecha: 15/02/2023 12:15:58.032
+15/02/2023 12:15:58.692:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+15/02/2023 12:16:00.536: Proceso de autentificación: ...
+15/02/2023 12:16:02.028: Proceso de autentificación: OK.
+15/02/2023 12:16:02.037: -------------------------------------------------------------------------
+15/02/2023 12:16:04.812: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+15/02/2023 12:16:07.427: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+15/02/2023 12:16:11.154: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+15/02/2023 12:16:14.851: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+15/02/2023 12:16:44.417: By.xpath: //h2[normalize-space()='DATOS TERRENO'] cargado.
+15/02/2023 12:16:54.483: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+15/02/2023 12:16:56.162: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 12:16:58.661: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 12:17:01.562: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 12:17:03.088: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+15/02/2023 12:17:04.640: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 12:17:07.753: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 12:17:09.987: By.xpath: //h2[normalize-space()='ASIGNAR ACCIONISTAS'] cargado.
+15/02/2023 12:17:11.445: By.xpath: //h2[normalize-space()='DATOS ACCIONISTAS'] cargado.
+15/02/2023 12:17:13.061: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+15/02/2023 12:17:14.547: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+15/02/2023 12:17:19.549: -------------------------------------------------------------------------
+15/02/2023 12:17:19.551: Tiempo Total de Ejecución: 1 min. 30 seg. 860 mseg.
+15/02/2023 12:17:19.551: Proceso concluido: Módulo - EMPADRONAMIENTO
+15/02/2023 12:17:19.552: =========================================================================
+15/02/2023 12:26:04.872: Tiempo Inicialización (navegador): 7 seg. 723 mseg.
+15/02/2023 12:26:04.901: Abriendo aplicación...
+15/02/2023 12:26:05.221: *************************************************************************
+15/02/2023 12:26:05.222:                        BASES-IMPONIBLES-IP
+15/02/2023 12:26:05.223: *************************************************************************
+15/02/2023 12:26:05.223: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+15/02/2023 12:26:05.224: Fecha: 15/02/2023 12:26:05.224
+15/02/2023 12:26:05.821:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+15/02/2023 12:26:07.782: Proceso de autentificación: ...
+15/02/2023 12:26:09.399: Proceso de autentificación: OK.
+15/02/2023 12:26:09.400: -------------------------------------------------------------------------
+15/02/2023 12:26:11.789: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+15/02/2023 12:26:14.842: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+15/02/2023 12:26:18.666: -------------------------------------------------------------------------
+15/02/2023 12:26:18.667: Tiempo Total de Ejecución: 21 seg. 568 mseg.
+15/02/2023 12:26:18.668: Proceso concluido: Módulo - BASES-IMPONIBLES-IP
+15/02/2023 12:26:18.668: =========================================================================
+15/02/2023 12:26:20.754: Proceso concluido con exito.
+15/02/2023 13:01:57.623: Tiempo Inicialización (navegador): 7 seg. 996 mseg.
+15/02/2023 13:01:57.649: Abriendo aplicación...
+15/02/2023 13:01:57.946: *************************************************************************
+15/02/2023 13:01:57.947:                        BASES-IMPONIBLES-IP
+15/02/2023 13:01:57.950: *************************************************************************
+15/02/2023 13:01:57.950: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+15/02/2023 13:01:57.950: Fecha: 15/02/2023 13:01:57.950
+15/02/2023 13:01:58.582:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+15/02/2023 13:02:00.395: Proceso de autentificación: ...
+15/02/2023 13:02:01.868: Proceso de autentificación: OK.
+15/02/2023 13:02:01.870: -------------------------------------------------------------------------
+15/02/2023 13:02:04.247: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+15/02/2023 13:02:07.346: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+15/02/2023 13:02:11.594: -------------------------------------------------------------------------
+15/02/2023 13:02:11.595: Tiempo Total de Ejecución: 21 seg. 997 mseg.
+15/02/2023 13:02:11.595: Proceso concluido: Módulo - BASES-IMPONIBLES-IP
+15/02/2023 13:02:11.596: =========================================================================
+15/02/2023 13:02:13.964: Proceso concluido con exito.
+15/02/2023 13:10:49.996: Tiempo Inicialización (navegador): 8 seg. 337 mseg.
+15/02/2023 13:10:50.038: Abriendo aplicación...
+15/02/2023 13:10:50.330: *************************************************************************
+15/02/2023 13:10:50.331:                        BASES-IMPONIBLES-IP
+15/02/2023 13:10:50.331: *************************************************************************
+15/02/2023 13:10:50.331: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+15/02/2023 13:10:50.337: Fecha: 15/02/2023 13:10:50.336
+15/02/2023 13:10:51.082:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+15/02/2023 13:10:52.900: Proceso de autentificación: ...
+15/02/2023 13:10:54.371: Proceso de autentificación: OK.
+15/02/2023 13:10:54.372: -------------------------------------------------------------------------
+15/02/2023 13:10:56.815: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+15/02/2023 13:11:00.720: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+15/02/2023 13:11:03.130: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+15/02/2023 13:11:05.909: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 13:11:10.722: By.xpath: //h2[text()='Registrar Base Imponible'] cargado.
+15/02/2023 13:11:16.867: -------------------------------------------------------------------------
+15/02/2023 13:11:16.868: Tiempo Total de Ejecución: 35 seg. 256 mseg.
+15/02/2023 13:11:16.869: Proceso concluido: Módulo - BASES-IMPONIBLES-IP
+15/02/2023 13:11:16.869: =========================================================================
+15/02/2023 13:11:18.644: Proceso concluido con exito.
+15/02/2023 13:21:44.343: Tiempo Inicialización (navegador): 22 seg. 838 mseg.
+15/02/2023 13:21:44.379: Abriendo aplicación...
+15/02/2023 13:21:44.657: *************************************************************************
+15/02/2023 13:21:44.662:                        BASES-IMPONIBLES-IP
+15/02/2023 13:21:44.667: *************************************************************************
+15/02/2023 13:21:44.668: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+15/02/2023 13:21:44.669: Fecha: 15/02/2023 13:21:44.669
+15/02/2023 13:21:45.425:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+15/02/2023 13:21:47.182: Proceso de autentificación: ...
+15/02/2023 13:21:48.612: Proceso de autentificación: OK.
+15/02/2023 13:22:08.847: -------------------------------------------------------------------------
+15/02/2023 13:22:19.358: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+15/02/2023 13:22:22.536: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+15/02/2023 13:22:25.036: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+15/02/2023 13:22:28.269: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 13:27:44.551: By.xpath: //h2[text()='Registrar Base Imponible'] cargado.
+15/02/2023 14:00:38.470: Tiempo Inicialización (navegador): 7 seg. 295 mseg.
+15/02/2023 14:00:38.493: Abriendo aplicación...
+15/02/2023 14:00:38.797: *************************************************************************
+15/02/2023 14:00:38.798:                        BASES-IMPONIBLES-IP
+15/02/2023 14:00:38.798: *************************************************************************
+15/02/2023 14:00:38.798: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+15/02/2023 14:00:38.800: Fecha: 15/02/2023 14:00:38.798
+15/02/2023 14:00:39.459:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+15/02/2023 14:00:41.187: Proceso de autentificación: ...
+15/02/2023 14:00:42.610: Proceso de autentificación: OK.
+15/02/2023 14:00:42.611: -------------------------------------------------------------------------
+15/02/2023 14:00:44.996: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+15/02/2023 14:00:48.204: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+15/02/2023 14:00:50.721: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+15/02/2023 14:00:53.432: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 14:00:56.077: By.xpath: //h2[text()='Registrar Base Imponible'] cargado.
+15/02/2023 14:01:02.284: -------------------------------------------------------------------------
+15/02/2023 14:01:02.284: Tiempo Total de Ejecución: 31 seg. 146 mseg.
+15/02/2023 14:01:02.285: Proceso concluido: Módulo - BASES-IMPONIBLES-IP
+15/02/2023 14:01:02.285: =========================================================================
+15/02/2023 14:01:04.168: Proceso concluido con exito.
+15/02/2023 14:03:24.681: Tiempo Inicialización (navegador): 7 seg. 499 mseg.
+15/02/2023 14:03:24.712: Abriendo aplicación...
+15/02/2023 14:03:25.028: *************************************************************************
+15/02/2023 14:03:25.029:                        BASES-IMPONIBLES-IP
+15/02/2023 14:03:25.029: *************************************************************************
+15/02/2023 14:03:25.030: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+15/02/2023 14:03:25.031: Fecha: 15/02/2023 14:03:25.031
+15/02/2023 14:03:25.657:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+15/02/2023 14:03:27.375: Proceso de autentificación: ...
+15/02/2023 14:03:28.730: Proceso de autentificación: OK.
+15/02/2023 14:03:28.731: -------------------------------------------------------------------------
+15/02/2023 14:03:31.162: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+15/02/2023 14:03:34.285: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+15/02/2023 14:03:36.734: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+15/02/2023 14:03:39.440: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 14:03:42.133: By.xpath: //h2[text()='Registrar Base Imponible'] cargado.
+15/02/2023 14:03:46.172: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 14:03:50.986: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+15/02/2023 14:03:54.262: -------------------------------------------------------------------------
+15/02/2023 14:03:54.263: Tiempo Total de Ejecución: 37 seg. 119 mseg.
+15/02/2023 14:03:54.264: Proceso concluido: Módulo - BASES-IMPONIBLES-IP
+15/02/2023 14:03:54.264: =========================================================================
+15/02/2023 14:03:56.484: Proceso concluido con exito.
+15/02/2023 14:05:30.064: Tiempo Inicialización (navegador): 7 seg. 920 mseg.
+15/02/2023 14:05:30.095: Abriendo aplicación...
+15/02/2023 14:05:30.376: *************************************************************************
+15/02/2023 14:05:30.376:                        BASES-IMPONIBLES-IP
+15/02/2023 14:05:30.376: *************************************************************************
+15/02/2023 14:05:30.376: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+15/02/2023 14:05:30.381: Fecha: 15/02/2023 14:05:30.381
+15/02/2023 14:05:31.003:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+15/02/2023 14:05:32.776: Proceso de autentificación: ...
+15/02/2023 14:05:34.172: Proceso de autentificación: OK.
+15/02/2023 14:05:34.173: -------------------------------------------------------------------------
+15/02/2023 14:05:36.494: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+15/02/2023 14:05:40.459: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+15/02/2023 14:05:42.902: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+15/02/2023 14:05:45.513: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 14:05:47.594: By.xpath: //h2[text()='Anular Base Imponible'] cargado.
+15/02/2023 14:05:50.798: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 14:05:52.430: By.xpath: //h2[text()='Anular Base Imponible'] cargado.
+15/02/2023 14:05:55.528: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 14:05:57.101: By.xpath: //h2[text()='Anular Base Imponible'] cargado.
+15/02/2023 14:06:00.201: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 14:06:04.159: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+15/02/2023 14:06:07.562: -------------------------------------------------------------------------
+15/02/2023 14:06:07.563: Tiempo Total de Ejecución: 45 seg. 457 mseg.
+15/02/2023 14:06:07.563: Proceso concluido: Módulo - BASES-IMPONIBLES-IP
+15/02/2023 14:06:07.564: =========================================================================
+15/02/2023 14:06:09.772: Proceso concluido con exito.
+15/02/2023 14:08:16.322: Tiempo Inicialización (navegador): 7 seg. 670 mseg.
+15/02/2023 14:08:16.349: Abriendo aplicación...
+15/02/2023 14:08:16.633: *************************************************************************
+15/02/2023 14:08:16.634:                        BASES-IMPONIBLES-IP
+15/02/2023 14:08:16.635: *************************************************************************
+15/02/2023 14:08:16.636: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+15/02/2023 14:08:16.641: Fecha: 15/02/2023 14:08:16.640
+15/02/2023 14:08:17.293:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+15/02/2023 14:08:19.110: Proceso de autentificación: ...
+15/02/2023 14:08:20.558: Proceso de autentificación: OK.
+15/02/2023 14:08:20.560: -------------------------------------------------------------------------
+15/02/2023 14:08:22.972: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+15/02/2023 14:08:26.178: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+15/02/2023 14:08:29.228: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+15/02/2023 14:08:31.936: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 14:08:36.539: Debe realizar por lo menos una operación para Aceptar.
+15/02/2023 14:08:37.240: -------------------------------------------------------------------------
+15/02/2023 14:08:40.009: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+15/02/2023 14:08:43.044: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+15/02/2023 14:08:45.383: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+15/02/2023 14:08:47.699: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 14:08:49.302: Debe realizar por lo menos una operación para Aceptar.
+15/02/2023 14:08:49.857: -------------------------------------------------------------------------
+15/02/2023 14:08:49.858: Tiempo Total de Ejecución: 41 seg. 241 mseg.
+15/02/2023 14:08:49.859: Proceso concluido: Módulo - BASES-IMPONIBLES-IP
+15/02/2023 14:08:49.859: =========================================================================
+15/02/2023 14:08:51.759: Proceso concluido con exito.
+15/02/2023 14:15:37.448: Tiempo Inicialización (navegador): 8 seg. 132 mseg.
+15/02/2023 14:15:37.490: Abriendo aplicación...
+15/02/2023 14:15:37.768: *************************************************************************
+15/02/2023 14:15:37.769:                        BASES-IMPONIBLES-IP
+15/02/2023 14:15:37.770: *************************************************************************
+15/02/2023 14:15:37.770: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+15/02/2023 14:15:37.771: Fecha: 15/02/2023 14:15:37.771
+15/02/2023 14:15:38.420:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+15/02/2023 14:15:40.170: Proceso de autentificación: ...
+15/02/2023 14:15:41.612: Proceso de autentificación: OK.
+15/02/2023 14:15:41.613: -------------------------------------------------------------------------
+15/02/2023 14:15:44.058: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+15/02/2023 14:15:47.114: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+15/02/2023 14:15:49.600: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+15/02/2023 14:15:52.290: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 14:15:57.183: Debe realizar por lo menos una operación para Aceptar.
+15/02/2023 14:15:58.121: -------------------------------------------------------------------------
+15/02/2023 14:16:00.848: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+15/02/2023 14:16:03.885: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+15/02/2023 14:16:06.236: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+15/02/2023 14:16:08.906: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 14:16:10.477: Debe realizar por lo menos una operación para Aceptar.
+15/02/2023 14:16:11.069: -------------------------------------------------------------------------
+15/02/2023 14:16:11.070: Tiempo Total de Ejecución: 41 seg. 800 mseg.
+15/02/2023 14:16:11.071: Proceso concluido: Módulo - BASES-IMPONIBLES-IP
+15/02/2023 14:16:11.071: =========================================================================
+15/02/2023 14:16:13.129: Proceso concluido con exito.
+15/02/2023 14:18:18.925: Tiempo Inicialización (navegador): 7 seg. 740 mseg.
+15/02/2023 14:18:18.949: Abriendo aplicación...
+15/02/2023 14:18:19.237: *************************************************************************
+15/02/2023 14:18:19.238:                        BASES-IMPONIBLES-IP
+15/02/2023 14:18:19.238: *************************************************************************
+15/02/2023 14:18:19.239: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+15/02/2023 14:18:19.239: Fecha: 15/02/2023 14:18:19.239
+15/02/2023 14:18:19.872:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+15/02/2023 14:18:21.655: Proceso de autentificación: ...
+15/02/2023 14:18:23.125: Proceso de autentificación: OK.
+15/02/2023 14:18:23.126: -------------------------------------------------------------------------
+15/02/2023 14:18:25.382: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+15/02/2023 14:18:28.515: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+15/02/2023 14:18:31.462: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+15/02/2023 14:18:34.076: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 14:18:38.645: Debe realizar por lo menos una operación para Aceptar.
+15/02/2023 14:18:39.375: -------------------------------------------------------------------------
+15/02/2023 14:18:42.091: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+15/02/2023 14:18:45.122: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+15/02/2023 14:18:47.532: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+15/02/2023 14:18:49.842: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 14:18:51.873: By.xpath: //h2[text()='Registrar Base Imponible'] cargado.
+15/02/2023 14:18:54.817: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 14:18:57.083: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+15/02/2023 14:19:00.330: -------------------------------------------------------------------------
+15/02/2023 14:19:00.336: Tiempo Total de Ejecución: 49 seg. 178 mseg.
+15/02/2023 14:19:00.337: Proceso concluido: Módulo - BASES-IMPONIBLES-IP
+15/02/2023 14:19:00.337: =========================================================================
+15/02/2023 14:19:02.475: Proceso concluido con exito.
+15/02/2023 14:21:03.749: Tiempo Inicialización (navegador): 7 seg. 422 mseg.
+15/02/2023 14:21:03.779: Abriendo aplicación...
+15/02/2023 14:21:04.084: *************************************************************************
+15/02/2023 14:21:04.084:                        BASES-IMPONIBLES-IP
+15/02/2023 14:21:04.086: *************************************************************************
+15/02/2023 14:21:04.086: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+15/02/2023 14:21:04.087: Fecha: 15/02/2023 14:21:04.087
+15/02/2023 14:21:04.727:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+15/02/2023 14:21:06.380: Proceso de autentificación: ...
+15/02/2023 14:21:08.345: Proceso de autentificación: OK.
+15/02/2023 14:21:08.348: -------------------------------------------------------------------------
+15/02/2023 14:21:10.855: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+15/02/2023 14:21:13.965: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+15/02/2023 14:21:16.443: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+15/02/2023 14:21:19.278: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 14:21:21.141: By.xpath: //h2[text()='Registrar Base Imponible'] cargado.
+15/02/2023 14:21:24.689: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 14:21:26.268: By.xpath: //h2[text()='Registrar Base Imponible'] cargado.
+15/02/2023 14:21:30.824: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 14:21:32.415: By.xpath: //h2[text()='Registrar Base Imponible'] cargado.
+15/02/2023 14:21:36.008: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 14:21:40.438: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+15/02/2023 14:21:43.775: -------------------------------------------------------------------------
+15/02/2023 14:21:46.588: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+15/02/2023 14:21:50.347: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+15/02/2023 14:21:52.679: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+15/02/2023 14:21:54.993: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 14:21:56.830: By.xpath: //h2[text()='Anular Base Imponible'] cargado.
+15/02/2023 14:21:59.498: By.xpath: //h2[text()='Detalle Bases Imponibles'] cargado.
+15/02/2023 14:22:01.845: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+15/02/2023 14:22:05.264: -------------------------------------------------------------------------
+15/02/2023 14:22:05.265: Tiempo Total de Ejecución: 1 min. 8 seg. 973 mseg.
+15/02/2023 14:22:05.265: Proceso concluido: Módulo - BASES-IMPONIBLES-IP
+15/02/2023 14:22:05.266: =========================================================================
+15/02/2023 14:22:07.390: Proceso concluido con exito.
+16/02/2023 10:53:56.241: Tiempo Inicialización (navegador): 7 seg. 760 mseg.
+16/02/2023 10:53:56.290: Abriendo aplicación...
+16/02/2023 10:53:56.586: *************************************************************************
+16/02/2023 10:53:56.587:                        COMPENSACIONES
+16/02/2023 10:53:56.588: *************************************************************************
+16/02/2023 10:53:56.591: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+16/02/2023 10:53:56.592: Fecha: 16/02/2023 10:53:56.592
+16/02/2023 10:53:58.278: Proceso de Iniciar sesión: ...
+16/02/2023 10:53:58.428:  Proceso de autenticación exitoso.
+16/02/2023 10:53:58.428: -------------------------------------------------------------------------
+16/02/2023 10:54:05.325: El elemento esperado no se encuentra visible...
+16/02/2023 10:54:06.877: Tiempo Inicialización (navegador): 18 seg. 425 mseg.
+16/02/2023 10:54:06.905: Abriendo aplicación...
+16/02/2023 10:54:06.918: *************************************************************************
+16/02/2023 10:54:06.920:                        COMPENSACIONES
+16/02/2023 10:54:06.920: *************************************************************************
+16/02/2023 10:54:06.921: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+16/02/2023 10:54:06.922: Fecha: 16/02/2023 10:54:06.921
+16/02/2023 10:54:07.860: Proceso de Iniciar sesión: ...
+16/02/2023 10:54:07.980:  Proceso de autenticación exitoso.
+16/02/2023 10:54:07.981: -------------------------------------------------------------------------
+16/02/2023 10:54:13.893: By.xpath: //h2[text()='AUTORIZACION']cargado.
+16/02/2023 10:54:19.074: By.xpath: //h2[text()='DETALLE DE DEUDAS']cargado.
+16/02/2023 10:54:22.283: Items seleccionados...
+16/02/2023 10:54:23.122: Debe seleccionar por lo menos una deuda para ser compensada.
+16/02/2023 10:54:23.268: -------------------------------------------------------------------------
+16/02/2023 10:54:23.269: Tiempo Total de Ejecución: 34 seg. 817 mseg.
+16/02/2023 10:54:23.270: Proceso concluido: Módulo - COMPENSACIONES
+16/02/2023 10:54:23.270: =========================================================================
+16/02/2023 10:54:26.002: Proceso concluido con éxito...
+16/02/2023 12:01:04.614: Tiempo Inicialización (navegador): 7 seg. 437 mseg.
+16/02/2023 12:01:04.640: Abriendo aplicación...
+16/02/2023 12:01:04.951: *************************************************************************
+16/02/2023 12:01:04.952:                        EMPADRONAMIENTO
+16/02/2023 12:01:04.952: *************************************************************************
+16/02/2023 12:01:04.953: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+16/02/2023 12:01:04.954: Fecha: 16/02/2023 12:01:04.953
+16/02/2023 12:01:05.588:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+16/02/2023 12:01:07.494: Proceso de autentificación: ...
+16/02/2023 12:01:08.991: Proceso de autentificación: OK.
+16/02/2023 12:01:08.992: -------------------------------------------------------------------------
+16/02/2023 12:01:11.854: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+16/02/2023 12:01:14.912: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+16/02/2023 12:01:18.319: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+16/02/2023 12:01:21.297: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+16/02/2023 12:01:50.107: By.xpath: //h2[normalize-space()='DATOS TERRENO'] cargado.
+16/02/2023 12:02:01.264: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+16/02/2023 12:02:03.080: By.xpath: //h2[normalize-space()='BUSCAR CONTRIBUYENTE'] cargado.
+16/02/2023 12:02:05.113: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+16/02/2023 12:02:06.680: By.xpath: //h2[normalize-space()='BUSCAR CONTRIBUYENTE'] cargado.
+16/02/2023 12:02:08.789: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+16/02/2023 12:02:10.472: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+16/02/2023 12:02:11.989: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+16/02/2023 12:02:16.608: -------------------------------------------------------------------------
+16/02/2023 12:02:16.609: Tiempo Total de Ejecución: 1 min. 19 seg. 475 mseg.
+16/02/2023 12:02:16.610: Proceso concluido: Módulo - EMPADRONAMIENTO
+16/02/2023 12:02:16.610: =========================================================================

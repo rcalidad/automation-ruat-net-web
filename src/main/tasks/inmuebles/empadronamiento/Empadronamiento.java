@@ -17,6 +17,7 @@ import main.tasks.inmuebles.helpersInm.GeneratorINM;
 import main.tasks.inmuebles.helpersInm.MessagesINM;
 import main.ui.inmueblesUI.empadronamientoUI.*;
 import main.ui.inmueblesUI.commonUI.interfacesUI.IInicioTramiteUI;
+import main.ui.inmueblesUI.empadronamientoUI.inicioTramite.InicioTramiteAccionesDerechosDesaguaderoUI;
 import main.ui.inmueblesUI.empadronamientoUI.inicioTramite.InicioTramiteDesUI;
 
 import java.lang.reflect.Method;
@@ -66,7 +67,12 @@ public class Empadronamiento extends GeneratorINM {
                 ChangeFrame.toContentFrame(this.driverApp);
                 Verify.elementIsReady(this.driverApp, test.get(i), InicioTramiteUI.ttlInicioTramite);
                 if (this.municipio.equals("DESAGUADERO")){
-                    IInicioTramiteUI objElements = InicioTramiteDesUI.getInstance();
+                    IInicioTramiteUI objElements;
+                    if (this.operacion.equals("Propiedad Acciones Derechos")){
+                        objElements = InicioTramiteAccionesDerechosDesaguaderoUI.getInstance();
+                    }else {
+                        objElements = InicioTramiteDesUI.getInstance();
+                    }
                     ReceiveDocumentation.now(this.driverApp, objElements);
                     Verify.elementIsReady(this.driverApp, test.get(i), DefinicionInmuebleUI.ttlDefinicionInmueble);
                     EstateDefinition.asDes(this.driverApp, this.area, this.claseInmueble);
@@ -87,7 +93,9 @@ public class Empadronamiento extends GeneratorINM {
                     RegisterTaxPayer.now(this.driverApp, test.get(i), GetTaxpayers.ofTwoTypes(convertStringToInt(cantidadContribuyentesNaturales), convertStringToInt(cantidadContribuyentesJuridicos), this.municipio));
                 }else {
                     Verify.elementIsReady(this.driverApp, test.get(i), DatosAccionistasUI.ttlDatosAccionistas);
-                    RegisterShareholders.withSamePercentage(this.driverApp, test.get(i), GetTaxpayers.ofTwoTypes(convertStringToInt(numeroAcciones), convertStringToInt(cantidadContribuyentesJuridicos), this.municipio));
+                    //RegisterShareholders.withSamePercentage(this.driverApp, test.get(i), GetTaxpayers.ofTwoTypes(convertStringToInt(numeroAcciones), convertStringToInt(cantidadContribuyentesJuridicos), this.municipio));
+                    //RegisterShareholders.withSamePercentage(this.driverApp, test.get(i), GetTaxpayers.ofTwoTypes(convertStringToInt(cantidadContribuyentesNaturales), convertStringToInt(cantidadContribuyentesJuridicos), this.municipio), convertStringToInt(this.numeroAcciones));
+                    RegisterShareholders.withSamePercentageAndTaxpayers(this.driverApp, test.get(i), convertStringToInt(cantidadContribuyentesNaturales), convertStringToInt(cantidadContribuyentesJuridicos), convertStringToInt(numeroAcciones), this.municipio);
                 }
                 Verify.elementIsReady(this.driverApp, test.get(i), ConfirmarRegistroUI.ttlConfirmarRegistro);
                 ConfirmRecord.now(this.driverApp);

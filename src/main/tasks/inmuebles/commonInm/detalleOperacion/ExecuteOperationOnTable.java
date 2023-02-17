@@ -36,24 +36,25 @@ public class ExecuteOperationOnTable {
     }
     public static void exploreTable(WebDriver driver, ExtentTest extentTest, IPeriodTable table, IProcedure procedure, Map<String, String> data){
         int numRows = WorkWithABasicTable.getNumOfRows(driver, table);
+        String year = "";
         for (int row = 2; row <= numRows; row++){
             if (!data.get("detailOfPeriod").equalsIgnoreCase("TODOS")){
-                String year = GetText.of(driver, table.getCell(row, 1));
+                year = GetText.of(driver, table.getCell(row, 1));
                 if (VerifyYear.isIntoYearsRange(year, data.get("initialYear"), data.get("finalYear"))){
-                    executeOperation(driver, extentTest, table, procedure,  row, data);
+                    executeOperation(driver, extentTest, table, procedure,  row, data, year);
                 }
             }else {
-                executeOperation(driver, extentTest, table, procedure,  row, data);
+                executeOperation(driver, extentTest, table, procedure,  row, data, year);
             }
         }
 
     }
-    public static void executeOperation(WebDriver driver, ExtentTest extentTest, IPeriodTable table, IProcedure procedure, int row, Map<String, String> data){
+    public static void executeOperation(WebDriver driver, ExtentTest extentTest, IPeriodTable table, IProcedure procedure, int row, Map<String, String> data, String year){
         String operation = data.get("operation").toUpperCase();
         if (getIntoOperation(driver, table, operation, row)){
             switch (operation){
                 case "REGISTRAR":
-                    procedure.register(driver, extentTest, data);
+                    procedure.register(driver, extentTest, data, year);
                     break;
                 case "MODIFICAR":
                     procedure.modify(driver, extentTest, data);

@@ -13,6 +13,7 @@ import org.testng.annotations.BeforeSuite;
 import main.helpers.factoryBrowser.FactoryBrowser;
 
 public class BaseGenerator {
+
     protected WebDriver driver;
     protected WebDriverWait wait;
     protected Actions acciones;

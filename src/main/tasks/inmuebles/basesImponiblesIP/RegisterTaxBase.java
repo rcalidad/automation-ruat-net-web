@@ -3,11 +3,13 @@ package main.tasks.inmuebles.basesImponiblesIP;
 import com.aventstack.extentreports.ExtentTest;
 import main.actions.Click;
 import main.actions.Enter;
+import main.actions.IsDisplayed;
 import main.actions.Scroll;
 import main.tasks.inmuebles.commonInm.Verify;
 import main.tasks.inmuebles.helpersInm.MessagesINM;
 import main.tasks.vehiculos.commonVeh.VerifyAlert;
 import main.ui.inmueblesUI.basesImponiblesIpUI.DetalleBasesImponiblesUI;
+import main.ui.inmueblesUI.basesImponiblesIpUI.RegistrarBaseImponibleDesaguaderoUI;
 import main.ui.inmueblesUI.basesImponiblesIpUI.RegistrarBaseImponibleUI;
 import org.openqa.selenium.WebDriver;
 
@@ -19,8 +21,33 @@ public class RegisterTaxBase {
             Verify.elementIsReady(driver, extentTest, RegistrarBaseImponibleUI.ttlRegistrarBaseImponible);
             Enter.text(driver, RegistrarBaseImponibleUI.txtFechaInicial, "01/01/".concat(year));
             Enter.text(driver, RegistrarBaseImponibleUI.txtFechaBalance, "31/12/".concat(year));
-            Enter.text(driver, RegistrarBaseImponibleUI.txtBaseImponible, taxBase);
-            Enter.text(driver, RegistrarBaseImponibleUI.txtVerificacionBaseImponible, taxBase);
+            if (IsDisplayed.element(driver, RegistrarBaseImponibleDesaguaderoUI.txtBaseImponibleTerreno, 1)){
+                Enter.text(driver, RegistrarBaseImponibleDesaguaderoUI.txtBaseImponibleTerreno, taxBase);
+                Enter.text(driver, RegistrarBaseImponibleDesaguaderoUI.txtVerificarBaseImponibleTerreno, taxBase);
+                if (IsDisplayed.element(driver, RegistrarBaseImponibleDesaguaderoUI.txtBaseImponibleConstruccion, 1)){
+                    Enter.text(driver, RegistrarBaseImponibleDesaguaderoUI.txtBaseImponibleConstruccion, taxBase);
+                    Enter.text(driver, RegistrarBaseImponibleDesaguaderoUI.txtVerificacionBaseImponibleConstruccion, taxBase);
+                }
+            }else {
+                Enter.text(driver, RegistrarBaseImponibleUI.txtBaseImponible, taxBase);
+                Enter.text(driver, RegistrarBaseImponibleUI.txtVerificacionBaseImponible, taxBase);
+            }
+
+            Enter.text(driver, RegistrarBaseImponibleUI.txtNumeroFormulario, MessagesINM.defaultNumSerieAlfanumerico);
+            Scroll.toEndPage(driver);
+            Click.on(driver, RegistrarBaseImponibleUI.btnGrabar);
+            if (VerifyAlert.containsThisText(driver, "seguro")){
+                VerifyAlert.containsThisText(driver, "correctamente");
+            }
+            Verify.elementIsReady(driver, extentTest, DetalleBasesImponiblesUI.ttlDetalleBasesImponibles);
+        }catch (Exception exception){
+
+        }
+    }
+    public static void withTableValues(WebDriver driver, ExtentTest extentTest){
+        try{
+            Verify.elementIsReady(driver, extentTest, RegistrarBaseImponibleUI.ttlRegistrarBaseImponible);
+            Click.on(driver, RegistrarBaseImponibleUI.chkLiquidarEnBaseATablas);
             Enter.text(driver, RegistrarBaseImponibleUI.txtNumeroFormulario, MessagesINM.defaultNumSerieAlfanumerico);
             Scroll.toEndPage(driver);
             Click.on(driver, RegistrarBaseImponibleUI.btnGrabar);

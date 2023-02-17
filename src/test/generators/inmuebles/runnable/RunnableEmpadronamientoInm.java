@@ -11,10 +11,10 @@ import java.util.List;
 public class RunnableEmpadronamientoInm {
     public static void main(String[] args){
         XmlSuite suite = new XmlSuite();
-        suite.setName("AECEmpadronamiento");
+        suite.setName("INM:Empadronamiento");
 
         XmlTest test = new XmlTest(suite);
-        test.setName("AECTest");
+        test.setName("INM:Test");
 
         List<XmlClass> classes = new ArrayList<XmlClass>();
         classes.add(new XmlClass("test.generators.inmuebles.empadronamiento.EmpadronamientoGen"));

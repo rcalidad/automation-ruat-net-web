@@ -21,7 +21,12 @@ public class GetTaxpayers {
             int max = auxiliaryTaxpayersList.size() - 1;
             for (int i = 0; i < numTaxpayers; i++){
                 int index = (int) (Math.random() * ((max) + 1));
-                taxpayerList.add(auxiliaryTaxpayersList.get(index));
+                String taxpayer = auxiliaryTaxpayersList.get(index);
+                while (taxpayerList.contains(taxpayer)){
+                    index = (int) (Math.random() * ((max) + 1));
+                    taxpayer = auxiliaryTaxpayersList.get(index);
+                }
+                taxpayerList.add(taxpayer);
             }
         }
         return taxpayerList;

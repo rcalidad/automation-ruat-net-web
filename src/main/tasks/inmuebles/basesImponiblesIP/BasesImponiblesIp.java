@@ -11,7 +11,6 @@ import main.helpers.dataUtility.ScreenShotHelper;
 import main.helpers.fileUtility.FileBuilder;
 import main.tasks.inmuebles.autoavaluos.RegisterRequest;
 import main.tasks.inmuebles.commonInm.*;
-import main.tasks.inmuebles.commonInm.detalleOperacion.DetailsOfProcedure;
 import main.tasks.inmuebles.empadronamiento.ConfirmProcedure;
 import main.tasks.inmuebles.helpersInm.ChangeFrame;
 import main.tasks.inmuebles.helpersInm.GeneratorINM;
@@ -20,7 +19,9 @@ import main.ui.inmueblesUI.autoavaluosUI.RegistrarSolicitudUI;
 import main.ui.inmueblesUI.basesImponiblesIpUI.DetalleBasesImponiblesUI;
 import main.ui.inmueblesUI.basesImponiblesIpUI.InicioTramiteUI;
 import main.ui.inmueblesUI.commonUI.BusquedaInmuebleUI;
+import main.ui.inmueblesUI.commonUI.interfacesUI.IInicioTramiteUI;
 import main.ui.inmueblesUI.empadronamientoUI.ConfirmarTramiteUI;
+import main.ui.inmueblesUI.empadronamientoUI.inicioTramite.InicioTramiteDesUI;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -29,7 +30,9 @@ public class BasesImponiblesIp extends GeneratorINM {
     protected String operacion;
     protected String numeroInmueble;
     protected String baseImponible;
-    protected String gestion;
+    protected String gestionInicio;
+    protected String gestionFin;
+    protected String valorTablas;
 
     public BasesImponiblesIp(){
         super();
@@ -53,18 +56,24 @@ public class BasesImponiblesIp extends GeneratorINM {
             SearchEstate.byNumeroInmueble(this.driverApp, this.numeroInmueble);
             Verify.partialObservations(this.driverApp, test.get(i));
             Verify.elementIsReady(this.driverApp, test.get(i), InicioTramiteUI.ttlInicioTramite);
-            ReceiveDocumentation.now(this.driverApp, test.get(i));
+            if (this.municipio.equals("DESAGUADERO")){
+                IInicioTramiteUI objElements = InicioTramiteDesUI.getInstance();
+                ReceiveDocumentation.now(this.driverApp, test.get(i), objElements);
+            }else {
+                ReceiveDocumentation.now(this.driverApp, test.get(i));
+            }
             Verify.elementIsReady(this.driverApp, test.get(i), RegistrarSolicitudUI.ttlRegistrarSolicitud);
             RegisterRequest.withDefaultData(this.driverApp, ConstantsINM.systemDate);
             Verify.elementIsReady(this.driverApp, test.get(i), DetalleBasesImponiblesUI.ttlDetalleBasesImponibles);
             Map<String, String> data = new HashMap<>();
             //DATOS REQUERIDOS OBLIGATORIOS
             data.put("detailOfPeriod", "POR RANGO");
-            data.put("initialYear", this.gestion);
-            data.put("finalYear", this.gestion);
+            data.put("initialYear", this.gestionInicio);
+            data.put("finalYear", this.gestionFin);
             data.put("operation", this.operacion);
             //DATOS QUE CAMBIAN DE ACUERDO A REQUERIMIENTO
             data.put("baseImponible", this.baseImponible);
+            data.put("valorTablas", this.valorTablas);
             RegisterOperation.now(this.driverApp, test.get(i), data);
             Verify.elementIsReady(this.driverApp, test.get(i), ConfirmarTramiteUI.ttlConfirmarTramite);
             ConfirmProcedure.toBasesImponibles(this.driverApp, "reportePDF.pdf", this.operacion, this.numeroInmueble, i + 1);

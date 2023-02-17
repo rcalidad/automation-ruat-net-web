@@ -11,7 +11,7 @@ import org.openqa.selenium.By;
 public class MainMenuUI {
 
     //---------- MI CUENTA ------------------------
-    public static By lnkCambiarContrasenia       = By.linkText("Cambiar Contraseña");
+    public static By lnkCambiarContraseña       = By.linkText("Cambiar Contraseña");
     public static By lnkCerrarSesion            = By.linkText("Cerrar Sesión");
     public static By lnkHistorialNotificaciones = By.linkText("Historial Notificaciones");
     public static By lnkAtencionPersonalizada   = By.linkText("Atención Personalizada");

@@ -35,6 +35,17 @@ public class ShareholdersData {
             }
         }
     }
+    public static void assignPercentage(WebDriver driver, int numShareholders){
+        if (numShareholders > 0){
+            int totalPercentage = 100;
+            List<WebElement> inputsPercentages = Find.elements(driver, DatosAccionistasUI.txtPorcentajes);
+            for (int index = inputsPercentages.size(); index >= 1; index--){
+                int percentage = totalPercentage / index;
+                inputsPercentages.get(index - 1).sendKeys(String.valueOf(percentage));
+                totalPercentage = totalPercentage - percentage;
+            }
+        }
+    }
     public static int getNumColumnOf(WebDriver driver, String columnName){
         List<WebElement> header = Find.elements(driver, DatosAccionistasUI.getTableHeader());
         for (int i = 0; i < header.size(); i++){
