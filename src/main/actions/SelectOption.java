@@ -32,6 +32,22 @@ public class SelectOption {
         }
         return !options.isEmpty();
     }
+    public static boolean waitUntilLoadOptions(WebDriver driver, By locator, int waitTime){
+        WebDriverWait wait = new WebDriverWait(driver, waitTime);
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+        Select lstElement = new Select(element);
+        List<WebElement> options = new ArrayList<>();
+        options = lstElement.getOptions();
+        int time = 0;
+        while(options.isEmpty() && time < 3){
+            options = lstElement.getOptions();
+            try{
+                Thread.sleep(500);
+                time ++;
+            }catch (Exception exception){}
+        }
+        return !options.isEmpty();
+    }
     public static boolean waitUntilLoadOptions(WebDriver driver, WebElement locator){
         WebDriverWait wait = new WebDriverWait(driver, 3);
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));

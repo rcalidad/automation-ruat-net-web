@@ -15,6 +15,7 @@ import main.tasks.actividadesEconomicas.commonAEC.Verify;
 import main.tasks.actividadesEconomicas.empadronamiento.Authorization;
 import main.tasks.actividadesEconomicas.helpersAEC.GeneratorAEC;
 import main.tasks.actividadesEconomicas.helpersAEC.Messages;
+import main.ui.actividadesEconomicasUI.commonUI.MainMenuUI;
 import main.ui.actividadesEconomicasUI.compensacionesUI.DebtDetailUI;
 import main.ui.actividadesEconomicasUI.compensacionesUI.NotificationUI;
 import main.ui.actividadesEconomicasUI.compensacionesUI.VerifyCompensationUI;
@@ -49,6 +50,7 @@ public class Compensaciones extends GeneratorAEC {
     public void execute() {
         try {
             Log.recordInLog(Constants.DELIMITER_MARK);
+            //Verify.isReady(this.driverApp, test.get(i), MainMenuUI.lnkCerrarSesion);
             LoadModule.fromMainMenu(this.driverApp, ConstantsAEC.COMPENSACIONES_GROUPER, ConstantsAEC.COMPENSACIONES_MODULE);
             SearchActivity.byActivityNumber(this.driverApp, this.numeroActividadEconomica);
             Verify.isReady(this.driverApp, test.get(i), AuthorizationUI.ttlAutorizacion);

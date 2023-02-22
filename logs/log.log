@@ -30004,3 +30004,283 @@
 16/02/2023 12:02:16.609: Tiempo Total de Ejecución: 1 min. 19 seg. 475 mseg.
 16/02/2023 12:02:16.610: Proceso concluido: Módulo - EMPADRONAMIENTO
 16/02/2023 12:02:16.610: =========================================================================
+17/02/2023 08:55:35.786: Tiempo Inicialización (navegador): 13 seg. 643 mseg.
+17/02/2023 08:55:35.804: Abriendo aplicación...
+17/02/2023 08:55:36.126: *************************************************************************
+17/02/2023 08:55:36.127:                        EMPADRONAMIENTO
+17/02/2023 08:55:36.137: *************************************************************************
+17/02/2023 08:55:36.138: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+17/02/2023 08:55:36.138: Fecha: 17/02/2023 08:55:36.138
+17/02/2023 08:55:36.854:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+17/02/2023 08:55:38.624: Proceso de autentificación: ...
+17/02/2023 08:55:40.068: Proceso de autentificación: OK.
+17/02/2023 08:55:40.069: -------------------------------------------------------------------------
+17/02/2023 08:55:42.556: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+17/02/2023 08:55:45.568: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+17/02/2023 08:55:50.206: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+17/02/2023 08:55:54.529: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+17/02/2023 08:56:23.205: By.xpath: //h2[normalize-space()='DATOS TERRENO'] cargado.
+17/02/2023 08:56:27.966: -------------------------------------------------------------------------
+17/02/2023 08:56:27.966: Tiempo Total de Ejecución: 1 min. 5 seg. 891 mseg.
+17/02/2023 08:56:27.967: Proceso concluido: Módulo - EMPADRONAMIENTO
+17/02/2023 08:56:27.968: =========================================================================
+17/02/2023 09:23:32.243: Tiempo Inicialización (navegador): 10 seg. 800 mseg.
+17/02/2023 09:23:32.277: Abriendo aplicación...
+17/02/2023 09:23:32.559: *************************************************************************
+17/02/2023 09:23:32.569:                        EMPADRONAMIENTO
+17/02/2023 09:23:32.571: *************************************************************************
+17/02/2023 09:23:32.572: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+17/02/2023 09:23:32.573: Fecha: 17/02/2023 09:23:32.572
+17/02/2023 09:23:33.187:  La versión del Aplicativo no es válida, contactarse con Soporte RUAT.
+17/02/2023 09:23:34.975: Proceso de autentificación: ...
+17/02/2023 09:23:36.973: Proceso de autentificación: OK.
+17/02/2023 09:23:36.975: -------------------------------------------------------------------------
+17/02/2023 09:23:39.413: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+17/02/2023 09:23:43.137: By.xpath: //h2[normalize-space()='DEFINICION INMUEBLE'] cargado.
+17/02/2023 09:23:45.576: By.xpath: //h2[normalize-space()='DATOS ADICIONALES'] cargado.
+17/02/2023 09:23:48.667: By.xpath: //h2[normalize-space()='UBICACION INMUEBLE'] cargado.
+17/02/2023 09:23:58.944: By.xpath: //h2[normalize-space()='DATOS TERRENO'] cargado.
+17/02/2023 09:24:04.156: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+17/02/2023 09:24:05.931: By.xpath: //h2[normalize-space()='BUSCAR CONTRIBUYENTE'] cargado.
+17/02/2023 09:24:13.992: By.xpath: //h2[normalize-space()='ASIGNAR CONTRIBUYENTE'] cargado.
+17/02/2023 09:24:16.232: By.xpath: //h2[normalize-space()='CONFIRMAR REGISTRO'] cargado.
+17/02/2023 09:24:18.985: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+17/02/2023 09:24:26.126: -------------------------------------------------------------------------
+17/02/2023 09:24:26.127: Tiempo Total de Ejecución: 1 min. 4 seg. 723 mseg.
+17/02/2023 09:24:26.128: Proceso concluido: Módulo - EMPADRONAMIENTO
+17/02/2023 09:24:26.129: =========================================================================
+22/02/2023 13:28:58.020: Tiempo Inicialización (navegador): 8 seg. 985 mseg.
+22/02/2023 13:28:58.065: Abriendo aplicación...
+22/02/2023 13:28:58.358: *************************************************************************
+22/02/2023 13:28:58.371:                        COMPENSACIONES
+22/02/2023 13:28:58.372: *************************************************************************
+22/02/2023 13:28:58.378: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 13:28:58.382: Fecha: 22/02/2023 13:28:58.379
+22/02/2023 13:28:59.563: Proceso de Iniciar sesión: ...
+22/02/2023 13:28:59.709:  Proceso de autenticación exitoso.
+22/02/2023 13:28:59.710: -------------------------------------------------------------------------
+22/02/2023 13:29:03.865: By.xpath: //h2[text()='AUTORIZACION']cargado.
+22/02/2023 13:29:07.130: By.xpath: //h2[text()='DETALLE DE DEUDAS']cargado.
+22/02/2023 13:29:07.563: Items seleccionados...
+22/02/2023 13:29:09.977: By.xpath: //h2[text()='VERIFICACION COMPENSACION']cargado.
+22/02/2023 13:29:13.619: By.xpath: //h2[text()='NOTIFICACION']cargado.
+
+22/02/2023 13:29:13.835: La compensación se registró correctamente.El monto total compensado es: 31 Bs.El saldo del contribuyente es: 0 Bs.Si la impresión no salió correctamente, proceda con la reimpresión.
+22/02/2023 13:29:15.593: Tiempo Inicialización (navegador): 26 seg. 593 mseg.
+22/02/2023 13:29:15.620: Abriendo aplicación...
+22/02/2023 13:29:15.633: *************************************************************************
+22/02/2023 13:29:15.634:                        COMPENSACIONES
+22/02/2023 13:29:15.634: *************************************************************************
+22/02/2023 13:29:15.635: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 13:29:15.635: Fecha: 22/02/2023 13:29:15.635
+22/02/2023 13:29:16.266: Proceso de Iniciar sesión: ...
+22/02/2023 13:29:27.942: Proceso de Iniciar sesión: ...
+22/02/2023 13:29:29.201: Proceso de Iniciar sesión: ...
+22/02/2023 13:29:34.713: -------------------------------------------------------------------------
+22/02/2023 13:29:34.713: Tiempo Total de Ejecución: 45 seg. 714 mseg.
+22/02/2023 13:29:34.713: Proceso concluido: Módulo - COMPENSACIONES
+22/02/2023 13:29:34.713: =========================================================================
+22/02/2023 13:29:36.725: Proceso concluido con éxito...
+22/02/2023 13:31:16.602: Tiempo Inicialización (navegador): 8 seg. 64 mseg.
+22/02/2023 13:31:16.634: Abriendo aplicación...
+22/02/2023 13:31:16.968: *************************************************************************
+22/02/2023 13:31:16.969:                        COMPENSACIONES
+22/02/2023 13:31:16.969: *************************************************************************
+22/02/2023 13:31:16.970: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 13:31:16.971: Fecha: 22/02/2023 13:31:16.971
+22/02/2023 13:31:18.393: Proceso de Iniciar sesión: ...
+22/02/2023 13:31:18.554:  Proceso de autenticación exitoso.
+22/02/2023 13:31:18.554: -------------------------------------------------------------------------
+22/02/2023 13:31:24.697: El elemento esperado no se encuentra visible...
+22/02/2023 13:31:26.229: Tiempo Inicialización (navegador): 17 seg. 727 mseg.
+22/02/2023 13:31:26.253: Abriendo aplicación...
+22/02/2023 13:31:26.270: *************************************************************************
+22/02/2023 13:31:26.271:                        COMPENSACIONES
+22/02/2023 13:31:26.272: *************************************************************************
+22/02/2023 13:31:26.272: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 13:31:26.273: Fecha: 22/02/2023 13:31:26.273
+22/02/2023 13:31:26.850: Proceso de Iniciar sesión: ...
+22/02/2023 13:31:38.571: Proceso de Iniciar sesión: ...
+22/02/2023 13:31:39.744: Proceso de Iniciar sesión: ...
+22/02/2023 13:31:45.263: -------------------------------------------------------------------------
+22/02/2023 13:31:45.264: Tiempo Total de Ejecución: 36 seg. 761 mseg.
+22/02/2023 13:31:45.264: Proceso concluido: Módulo - COMPENSACIONES
+22/02/2023 13:31:45.265: =========================================================================
+22/02/2023 13:31:46.871: Proceso concluido con éxito...
+22/02/2023 13:34:08.452: Tiempo Inicialización (navegador): 8 seg. 75 mseg.
+22/02/2023 13:34:08.511: Abriendo aplicación...
+22/02/2023 13:34:08.801: *************************************************************************
+22/02/2023 13:34:08.802:                        COMPENSACIONES
+22/02/2023 13:34:08.803: *************************************************************************
+22/02/2023 13:34:08.803: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 13:34:08.805: Fecha: 22/02/2023 13:34:08.804
+22/02/2023 13:34:09.888: Proceso de Iniciar sesión: ...
+22/02/2023 13:34:10.058:  Proceso de autenticación exitoso.
+22/02/2023 13:34:10.059: -------------------------------------------------------------------------
+22/02/2023 13:34:16.202: El elemento esperado no se encuentra visible...
+22/02/2023 13:34:17.630: Tiempo Inicialización (navegador): 17 seg. 287 mseg.
+22/02/2023 13:34:17.650: Abriendo aplicación...
+22/02/2023 13:34:17.655: *************************************************************************
+22/02/2023 13:34:17.665:                        COMPENSACIONES
+22/02/2023 13:34:17.667: *************************************************************************
+22/02/2023 13:34:17.668: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 13:34:17.669: Fecha: 22/02/2023 13:34:17.669
+22/02/2023 13:34:18.394: Proceso de Iniciar sesión: ...
+22/02/2023 13:34:30.006: Proceso de Iniciar sesión: ...
+22/02/2023 13:34:31.330: Proceso de Iniciar sesión: ...
+22/02/2023 13:34:36.782: -------------------------------------------------------------------------
+22/02/2023 13:34:36.783: Tiempo Total de Ejecución: 36 seg. 440 mseg.
+22/02/2023 13:34:36.783: Proceso concluido: Módulo - COMPENSACIONES
+22/02/2023 13:34:36.783: =========================================================================
+22/02/2023 13:34:38.811: Proceso concluido con éxito...
+22/02/2023 13:40:30.261: Tiempo Inicialización (navegador): 7 seg. 817 mseg.
+22/02/2023 13:40:30.284: Abriendo aplicación...
+22/02/2023 13:40:30.580: *************************************************************************
+22/02/2023 13:40:30.581:                        COMPENSACIONES
+22/02/2023 13:40:30.582: *************************************************************************
+22/02/2023 13:40:30.582: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 13:40:30.584: Fecha: 22/02/2023 13:40:30.583
+22/02/2023 13:40:31.577: Proceso de Iniciar sesión: ...
+22/02/2023 13:40:31.731:  Proceso de autenticación exitoso.
+22/02/2023 13:40:31.731: -------------------------------------------------------------------------
+22/02/2023 13:44:20.018: Tiempo Inicialización (navegador): 7 seg. 794 mseg.
+22/02/2023 13:44:20.050: Abriendo aplicación...
+22/02/2023 13:44:20.381: *************************************************************************
+22/02/2023 13:44:20.381:                        COMPENSACIONES
+22/02/2023 13:44:20.382: *************************************************************************
+22/02/2023 13:44:20.383: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 13:44:20.384: Fecha: 22/02/2023 13:44:20.384
+22/02/2023 13:44:21.359: Proceso de Iniciar sesión: ...
+22/02/2023 13:44:21.517:  Proceso de autenticación exitoso.
+22/02/2023 13:44:21.518: -------------------------------------------------------------------------
+22/02/2023 13:44:27.571: El elemento esperado no se encuentra visible...
+22/02/2023 13:44:29.123: Tiempo Inicialización (navegador): 16 seg. 952 mseg.
+22/02/2023 13:44:29.139: Abriendo aplicación...
+22/02/2023 13:44:29.156: *************************************************************************
+22/02/2023 13:44:29.158:                        COMPENSACIONES
+22/02/2023 13:44:29.159: *************************************************************************
+22/02/2023 13:44:29.160: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 13:44:29.161: Fecha: 22/02/2023 13:44:29.160
+22/02/2023 13:44:29.870: Proceso de Iniciar sesión: ...
+22/02/2023 13:44:41.347: Proceso de Iniciar sesión: ...
+22/02/2023 13:44:42.663: Proceso de Iniciar sesión: ...
+22/02/2023 13:44:48.096: -------------------------------------------------------------------------
+22/02/2023 13:44:48.097: Tiempo Total de Ejecución: 35 seg. 925 mseg.
+22/02/2023 13:44:48.097: Proceso concluido: Módulo - COMPENSACIONES
+22/02/2023 13:44:48.098: =========================================================================
+22/02/2023 13:44:50.040: Proceso concluido con éxito...
+22/02/2023 13:48:16.921: Tiempo Inicialización (navegador): 8 seg. 70 mseg.
+22/02/2023 13:48:16.946: Abriendo aplicación...
+22/02/2023 13:48:17.249: *************************************************************************
+22/02/2023 13:48:17.249:                        COMPENSACIONES
+22/02/2023 13:48:17.254: *************************************************************************
+22/02/2023 13:48:17.254: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 13:48:17.256: Fecha: 22/02/2023 13:48:17.255
+22/02/2023 13:48:18.310: Proceso de Iniciar sesión: ...
+22/02/2023 13:48:18.500:  Proceso de autenticación exitoso.
+22/02/2023 13:48:18.501: -------------------------------------------------------------------------
+22/02/2023 13:48:24.630: El elemento esperado no se encuentra visible...
+22/02/2023 13:48:26.140: Tiempo Inicialización (navegador): 17 seg. 335 mseg.
+22/02/2023 13:48:26.176: Abriendo aplicación...
+22/02/2023 13:48:26.196: *************************************************************************
+22/02/2023 13:48:26.196:                        COMPENSACIONES
+22/02/2023 13:48:26.197: *************************************************************************
+22/02/2023 13:48:26.197: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 13:48:26.198: Fecha: 22/02/2023 13:48:26.198
+22/02/2023 13:48:26.830: Proceso de Iniciar sesión: ...
+22/02/2023 13:48:34.316: Proceso de Iniciar sesión: ...
+22/02/2023 13:48:35.477: Proceso de Iniciar sesión: ...
+22/02/2023 13:48:36.679: -------------------------------------------------------------------------
+22/02/2023 13:48:36.680: Tiempo Total de Ejecución: 27 seg. 875 mseg.
+22/02/2023 13:48:36.680: Proceso concluido: Módulo - COMPENSACIONES
+22/02/2023 13:48:36.681: =========================================================================
+22/02/2023 13:48:38.454: Proceso concluido con éxito...
+22/02/2023 13:50:04.759: Tiempo Inicialización (navegador): 49 seg. 805 mseg.
+22/02/2023 13:50:07.721: Abriendo aplicación...
+22/02/2023 13:50:10.347: *************************************************************************
+22/02/2023 13:50:10.351:                        COMPENSACIONES
+22/02/2023 13:50:10.355: *************************************************************************
+22/02/2023 13:50:10.363: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 13:50:10.369: Fecha: 22/02/2023 13:50:10.366
+22/02/2023 13:50:18.952: Proceso de Iniciar sesión: ...
+22/02/2023 13:50:27.550:  Proceso de autenticación exitoso.
+22/02/2023 13:50:37.146: -------------------------------------------------------------------------
+22/02/2023 13:51:02.529: El elemento esperado no se encuentra visible...
+22/02/2023 13:51:53.580: Tiempo Inicialización (navegador): 2 min. 39 seg. 104 mseg.
+22/02/2023 13:52:00.223: Abriendo aplicación...
+22/02/2023 13:52:03.958: *************************************************************************
+22/02/2023 13:52:03.963:                        COMPENSACIONES
+22/02/2023 13:52:03.966: *************************************************************************
+22/02/2023 13:52:03.969: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 13:52:03.975: Fecha: 22/02/2023 13:52:03.972
+22/02/2023 13:52:16.006: Proceso de Iniciar sesión: ...
+22/02/2023 13:52:52.871: Proceso de Iniciar sesión: ...
+22/02/2023 13:53:14.966: Proceso de Iniciar sesión: ...
+22/02/2023 13:58:58.395: Tiempo Inicialización (navegador): 8 seg. 946 mseg.
+22/02/2023 13:58:58.420: Abriendo aplicación...
+22/02/2023 13:58:58.722: *************************************************************************
+22/02/2023 13:58:58.723:                        COMPENSACIONES
+22/02/2023 13:58:58.723: *************************************************************************
+22/02/2023 13:58:58.724: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 13:58:58.725: Fecha: 22/02/2023 13:58:58.724
+22/02/2023 13:58:59.599: Proceso de Iniciar sesión: ...
+22/02/2023 13:58:59.739:  Proceso de autenticación exitoso.
+22/02/2023 13:58:59.740: -------------------------------------------------------------------------
+22/02/2023 13:59:05.604: El elemento esperado no se encuentra visible...
+22/02/2023 13:59:07.018: Tiempo Inicialización (navegador): 17 seg. 601 mseg.
+22/02/2023 13:59:07.045: Abriendo aplicación...
+22/02/2023 13:59:07.055: *************************************************************************
+22/02/2023 13:59:07.056:                        COMPENSACIONES
+22/02/2023 13:59:07.057: *************************************************************************
+22/02/2023 13:59:07.058: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 13:59:07.059: Fecha: 22/02/2023 13:59:07.059
+22/02/2023 13:59:07.683: Proceso de Iniciar sesión: ...
+22/02/2023 13:59:15.482: Proceso de Iniciar sesión: ...
+22/02/2023 13:59:16.829: Proceso de Iniciar sesión: ...
+22/02/2023 13:59:18.998: -------------------------------------------------------------------------
+22/02/2023 13:59:23.836: By.xpath: //h2[text()='AUTORIZACION']cargado.
+22/02/2023 13:59:28.602: By.xpath: //h2[text()='DETALLE DE DEUDAS']cargado.
+22/02/2023 13:59:32.669: Items seleccionados...
+22/02/2023 13:59:35.217: By.xpath: //h2[text()='VERIFICACION COMPENSACION']cargado.
+22/02/2023 13:59:38.320: By.xpath: //h2[text()='NOTIFICACION']cargado.
+
+22/02/2023 13:59:38.382: La compensación se registró correctamente.El monto total compensado es: 286 Bs.El saldo del contribuyente es: 714 Bs.Si la impresión no salió correctamente, proceda con la reimpresión.
+22/02/2023 13:59:38.682: -------------------------------------------------------------------------
+22/02/2023 13:59:38.682: Tiempo Total de Ejecución: 49 seg. 265 mseg.
+22/02/2023 13:59:38.683: Proceso concluido: Módulo - COMPENSACIONES
+22/02/2023 13:59:38.683: =========================================================================
+22/02/2023 13:59:40.978: Proceso concluido con éxito...
+22/02/2023 14:07:59.103: Tiempo Inicialización (navegador): 7 seg. 759 mseg.
+22/02/2023 14:07:59.140: Abriendo aplicación...
+22/02/2023 14:07:59.451: *************************************************************************
+22/02/2023 14:07:59.452:                        COMPENSACIONES
+22/02/2023 14:07:59.453: *************************************************************************
+22/02/2023 14:07:59.454: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 14:07:59.455: Fecha: 22/02/2023 14:07:59.454
+22/02/2023 14:08:00.544: Proceso de Iniciar sesión: ...
+22/02/2023 14:08:00.684:  Proceso de autenticación exitoso.
+22/02/2023 14:08:00.684: -------------------------------------------------------------------------
+22/02/2023 14:08:06.771: El elemento esperado no se encuentra visible...
+22/02/2023 14:08:08.336: Tiempo Inicialización (navegador): 17 seg. 30 mseg.
+22/02/2023 14:08:08.368: Abriendo aplicación...
+22/02/2023 14:08:08.383: *************************************************************************
+22/02/2023 14:08:08.384:                        COMPENSACIONES
+22/02/2023 14:08:08.385: *************************************************************************
+22/02/2023 14:08:08.386: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 14:08:08.387: Fecha: 22/02/2023 14:08:08.387
+22/02/2023 14:08:09.062: Proceso de Iniciar sesión: ...
+22/02/2023 14:08:16.466: Proceso de Iniciar sesión: ...
+22/02/2023 14:08:17.834: Proceso de Iniciar sesión: ...
+22/02/2023 14:08:19.984: -------------------------------------------------------------------------
+22/02/2023 14:08:24.765: By.xpath: //h2[text()='AUTORIZACION']cargado.
+22/02/2023 14:08:29.757: By.xpath: //h2[text()='DETALLE DE DEUDAS']cargado.
+22/02/2023 14:08:32.774: Items seleccionados...
+22/02/2023 14:08:35.273: By.xpath: //h2[text()='VERIFICACION COMPENSACION']cargado.
+22/02/2023 14:08:37.971: By.xpath: //h2[text()='NOTIFICACION']cargado.
+
+22/02/2023 14:08:38.029: La compensación se registró correctamente.El monto total compensado es: 121 Bs.El saldo del contribuyente es: 593 Bs.Si la impresión no salió correctamente, proceda con la reimpresión.
+22/02/2023 14:08:38.340: -------------------------------------------------------------------------
+22/02/2023 14:08:38.341: Tiempo Total de Ejecución: 47 seg. 34 mseg.
+22/02/2023 14:08:38.341: Proceso concluido: Módulo - COMPENSACIONES
+22/02/2023 14:08:38.342: =========================================================================
+22/02/2023 14:08:40.960: Proceso concluido con éxito...

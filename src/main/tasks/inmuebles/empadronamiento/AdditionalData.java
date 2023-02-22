@@ -12,9 +12,9 @@ import org.openqa.selenium.WebDriver;
 
 public class AdditionalData {
     public static void fillDefaultData(WebDriver driver, ExtentTest extentTest){
-        Clear.on(driver, DatosAdicionalesUI.txtNumeroDocumento, 1);
+        //Clear.on(driver, DatosAdicionalesUI.txtNumeroDocumento, 1);
         Enter.text(driver, DatosAdicionalesUI.txtNumeroDocumento, "12345");
-        SelectOption.waitUntilLoadOptions(driver, DatosAdicionalesUI.lstInstrumento);
+        SelectOption.waitUntilLoadOptions(driver, DatosAdicionalesUI.lstInstrumento, 1);
         SelectOption.firstOptionDifferentOfEmpty(driver, DatosAdicionalesUI.lstInstrumento);
         ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, extentTest, Status.INFO, "Datos adicionales");
         Click.on(driver, DatosAdicionalesUI.btnAceptar);

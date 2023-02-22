@@ -25,7 +25,7 @@ public class LoginActividadesEconomicas {
             loginFailed = false;
             Log.recordInLog(" Proceso de autenticación exitoso.");
         }else{
-            if(IsDisplayed.element(driver, LoginUI.msgNotificacionUsuarioInexistente)){
+            if(IsDisplayed.element(driver, LoginUI.msgNotificacionUsuarioInexistente, 1)){
                 loginFailed = true;
                 ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, test, Status.FAIL, "<b>No se pudo autenticar, usuario inexistente.</b>");
                 Log.recordInLog(" ".concat(GetText.of(driver, LoginUI.msgNotificacionUsuarioInexistente)));
@@ -38,40 +38,42 @@ public class LoginActividadesEconomicas {
                         Click.on(driver, LoginUI.lnkAnterior);
                         //login(driver, user, changePassword(user, password));
                         Login.as(driver, LoginUI.txtUsuario, user, LoginUI.txtContrasena, changePassword(user, password), LoginUI.btnIngresar);
-                        if(IsDisplayed.element(driver, LoginUI.msgNotificacionContrasenaIncorrecta)){
+                        if(IsDisplayed.element(driver, LoginUI.msgNotificacionContrasenaIncorrecta, 1)){
                             loginFailed = true;
                             ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(driver, test, Status.FAIL, "<b>No se pudo autenticar, contraseña incorrecta</b>");
                             Log.recordInLog(" ".concat("Error al intentar autenticarse"));
                         }
                     }
                 }
-                if(DisplayAlert.getText(driver).contains("actualice su contraseña")){
-                    DisplayAlert.toAcept(driver);
-                    String newPassword = changePassword(user, password);
-                    Login.updatePassword(driver, LoginUI.txtContrasenaActual, password, LoginUI.txtNuevaContrasena, newPassword, LoginUI.txtConfirmaNuevaContrasena, LoginUI.btnGrabar);
-                    if(DisplayAlert.getText(driver).contains("no debe ser igual")){
+                if (WaitUntilAlert.isPresent(driver, 1)){
+                    if(DisplayAlert.getText(driver).contains("actualice su contraseña")){
                         DisplayAlert.toAcept(driver);
-                        Enter.text(driver, LoginUI.txtContrasenaActual, newPassword);
-                        newPassword = changePassword(user, newPassword);
-                        Enter.text(driver, LoginUI.txtNuevaContrasena, newPassword);
-                        Enter.text(driver, LoginUI.txtConfirmaNuevaContrasena, newPassword);
-                        Click.on(driver, LoginUI.btnGrabar);
-                    }else{
-                        if (DisplayAlert.getText(driver).contains("contraseña es incorrecta")){
+                        String newPassword = changePassword(user, password);
+                        Login.updatePassword(driver, LoginUI.txtContrasenaActual, password, LoginUI.txtNuevaContrasena, newPassword, LoginUI.txtConfirmaNuevaContrasena, LoginUI.btnGrabar);
+                        if(DisplayAlert.getText(driver).contains("no debe ser igual")){
                             DisplayAlert.toAcept(driver);
                             Enter.text(driver, LoginUI.txtContrasenaActual, newPassword);
                             newPassword = changePassword(user, newPassword);
                             Enter.text(driver, LoginUI.txtNuevaContrasena, newPassword);
                             Enter.text(driver, LoginUI.txtConfirmaNuevaContrasena, newPassword);
                             Click.on(driver, LoginUI.btnGrabar);
+                        }else{
+                            if (DisplayAlert.getText(driver).contains("contraseña es incorrecta")){
+                                DisplayAlert.toAcept(driver);
+                                Enter.text(driver, LoginUI.txtContrasenaActual, newPassword);
+                                newPassword = changePassword(user, newPassword);
+                                Enter.text(driver, LoginUI.txtNuevaContrasena, newPassword);
+                                Enter.text(driver, LoginUI.txtConfirmaNuevaContrasena, newPassword);
+                                Click.on(driver, LoginUI.btnGrabar);
+                            }
                         }
-                    }
-                    if(IsDisplayed.element(driver, LoginUI.msgCambioContrasenia, 3)){
-                        Click.on(driver, LoginUI.lnkAceptar);
-                        Click.on(driver, LoginUI.btnIngreso);
-                        if (IsDisplayed.element(driver, MainMenuUI.lnkCerrarSesion)){
-                            loginFailed = false;
-                            Log.recordInLog(" Proceso de autenticación exitoso.");
+                        if(IsDisplayed.element(driver, LoginUI.msgCambioContrasenia, 3)){
+                            Click.on(driver, LoginUI.lnkAceptar);
+                            Click.on(driver, LoginUI.btnIngreso);
+                            if (IsDisplayed.element(driver, MainMenuUI.lnkCerrarSesion)){
+                                loginFailed = false;
+                                Log.recordInLog(" Proceso de autenticación exitoso.");
+                            }
                         }
                     }
                 }

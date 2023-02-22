@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-16T16:01:01Z" name="INM:Empadronamiento" finished-at="2023-02-16T16:02:19Z" duration-ms="77768">
+  <suite started-at="2023-02-22T18:07:56Z" name="AECCompensaciones" finished-at="2023-02-22T18:08:40Z" duration-ms="44944">
     <groups>
     </groups>
-    <test started-at="2023-02-16T16:01:01Z" name="INM:Test" finished-at="2023-02-16T16:02:19Z" duration-ms="77768">
-      <class name="test.generators.inmuebles.empadronamiento.EmpadronamientoGen">
-        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:test.generators.inmuebles.empadronamiento.EmpadronamientoGen@57d5872c]" started-at="2023-02-16T16:00:57Z" name="setUpSuite" finished-at="2023-02-16T16:01:01Z" duration-ms="4189" status="PASS">
+    <test started-at="2023-02-22T18:07:56Z" name="AECTest" finished-at="2023-02-22T18:08:40Z" duration-ms="44944">
+      <class name="test.generators.actividadesEconomicas.compensaciones.CompensacionesGen">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:test.generators.actividadesEconomicas.compensaciones.CompensacionesGen@667a738]" started-at="2023-02-22T18:07:51Z" name="setUpSuite" finished-at="2023-02-22T18:07:56Z" duration-ms="4754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method signature="empadronamiento()[pri:0, instance:test.generators.inmuebles.empadronamiento.EmpadronamientoGen@57d5872c]" started-at="2023-02-16T16:01:01Z" name="empadronamiento" finished-at="2023-02-16T16:02:19Z" duration-ms="77753" status="PASS">
+        <test-method signature="compensaciones()[pri:0, instance:test.generators.actividadesEconomicas.compensaciones.CompensacionesGen@667a738]" started-at="2023-02-22T18:07:56Z" name="compensaciones" finished-at="2023-02-22T18:08:40Z" duration-ms="44929" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- empadronamiento -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:test.generators.inmuebles.empadronamiento.EmpadronamientoGen@57d5872c]" started-at="2023-02-16T16:02:19Z" name="tearDownSuite" finished-at="2023-02-16T16:02:19Z" duration-ms="130" status="PASS">
+        </test-method> <!-- compensaciones -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:test.generators.actividadesEconomicas.compensaciones.CompensacionesGen@667a738]" started-at="2023-02-22T18:08:40Z" name="tearDownSuite" finished-at="2023-02-22T18:08:41Z" duration-ms="111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->
-      </class> <!-- test.generators.inmuebles.empadronamiento.EmpadronamientoGen -->
-    </test> <!-- INM:Test -->
-  </suite> <!-- INM:Empadronamiento -->
+      </class> <!-- test.generators.actividadesEconomicas.compensaciones.CompensacionesGen -->
+    </test> <!-- AECTest -->
+  </suite> <!-- AECCompensaciones -->
 </testng-results>

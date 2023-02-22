@@ -8,16 +8,16 @@ public class AreaData {
     public static void fillAreaData(WebDriver driver, String year, String area){
         Enter.text(driver, DatosTerrenoUI.txtGestion, year);
         Enter.text(driver, DatosTerrenoUI.txtSuperficie, area);
-        if (IsDisplayed.element(driver, DatosTerrenoUI.rbtM2)){
+        if (IsDisplayed.element(driver, DatosTerrenoUI.rbtM2, 1)){
             Click.on(driver, DatosTerrenoUI.rbtM2);
         }
-        if (IsDisplayed.element(driver, DatosTerrenoUI.lstTaxArea)){
+        if (IsDisplayed.element(driver, DatosTerrenoUI.lstTaxArea, 1)){
             SelectOption.nonEmptyRandomValue(driver, DatosTerrenoUI.lstTaxArea);
         }
-        SelectOption.waitUntilLoadOptions(driver, DatosTerrenoUI.lstInclinacion);
+        SelectOption.waitUntilLoadOptions(driver, DatosTerrenoUI.lstInclinacion, 1);
         SelectOption.nonEmptyRandomValue(driver, DatosTerrenoUI.lstInclinacion);
         SelectOption.nonEmptyRandomValue(driver, DatosTerrenoUI.lstMaterialVia);
-        if (IsDisplayed.element(driver, DatosTerrenoUI.lstInclinacionTerreno)){
+        if (IsDisplayed.element(driver, DatosTerrenoUI.lstInclinacionTerreno, 1)){
             SelectOption.nonEmptyRandomValue(driver, DatosTerrenoUI.lstInclinacionTerreno);
         }
     }
