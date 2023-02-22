@@ -11,13 +11,13 @@ import java.util.List;
 public class RunnableProformaAEC {
     public static void main(String[] args){
         XmlSuite suite = new XmlSuite();
-        suite.setName("AECMultasAdministrativasPatentes");
+        suite.setName("AECProforma");
 
         XmlTest test = new XmlTest(suite);
         test.setName("AECTest");
 
         List<XmlClass> classes = new ArrayList<XmlClass>();
-        classes.add(new XmlClass("test.generators.actividadesEconomicas.multasAdministrativasPatentes.MultasAdministrativasPatentesGen"));
+        classes.add(new XmlClass("test.generators.actividadesEconomicas.liquidacion.ProformaGen"));
         test.setXmlClasses(classes);
 
         List<XmlSuite> suites = new ArrayList<XmlSuite>();

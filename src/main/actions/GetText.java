@@ -14,9 +14,14 @@ public class GetText {
         return element.getText();
     }
     public static String of(WebDriver webDriver, By locator) {
-        WebDriverWait wait = new WebDriverWait(webDriver,TIME_SECOND);
-        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
-        return element.getText();
+        try{
+            WebDriverWait wait = new WebDriverWait(webDriver,TIME_SECOND);
+            WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+            return element.getText();
+        }catch (Exception exception){
+            return "";
+        }
+
     }
     public static String ofValue(WebDriver driver, By locator){
         WebDriverWait wait = new WebDriverWait(driver, TIME_SECOND);

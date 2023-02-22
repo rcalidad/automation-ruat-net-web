@@ -30576,3 +30576,336 @@
 22/02/2023 17:14:10.850: Proceso concluido: Módulo - MULTAS-ADMINISTRATIVAS-PATENTES
 22/02/2023 17:14:10.851: =========================================================================
 22/02/2023 17:14:13.053: Proceso concluido con éxito...
+22/02/2023 17:50:18.581: Tiempo Inicialización (navegador): 7 seg. 310 mseg.
+22/02/2023 17:50:18.598: Abriendo aplicación...
+22/02/2023 17:50:18.884: *************************************************************************
+22/02/2023 17:50:18.885:                        PROFORMA
+22/02/2023 17:50:18.886: *************************************************************************
+22/02/2023 17:50:18.887: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 17:50:18.888: Fecha: 22/02/2023 17:50:18.887
+22/02/2023 17:50:19.928: Proceso de Iniciar sesión: ...
+22/02/2023 17:50:20.075:  Proceso de autenticación exitoso.
+22/02/2023 17:50:20.076: -------------------------------------------------------------------------
+22/02/2023 17:50:34.143: Existen notificaciones.
+22/02/2023 17:50:37.030: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 17:50:38.708: Items seleccionados...
+22/02/2023 17:50:46.611: By.xpath: //h2[text()='Notificacion']cargado.
+22/02/2023 17:50:46.958: -------------------------------------------------------------------------
+22/02/2023 17:50:55.840: Existen notificaciones.
+22/02/2023 17:50:58.818: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 17:51:03.251: Items seleccionados...
+22/02/2023 17:51:11.257: By.xpath: //h2[text()='Notificacion']cargado.
+22/02/2023 17:51:13.031: Tiempo Inicialización (navegador): 1 min. 1 seg. 799 mseg.
+22/02/2023 17:51:13.052: Abriendo aplicación...
+22/02/2023 17:51:13.067: *************************************************************************
+22/02/2023 17:51:13.068:                        PROFORMA
+22/02/2023 17:51:13.069: *************************************************************************
+22/02/2023 17:51:13.070: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 17:51:13.071: Fecha: 22/02/2023 17:51:13.071
+22/02/2023 17:51:14.318: Proceso de Iniciar sesión: ...
+22/02/2023 17:51:14.499:  Proceso de autenticación exitoso.
+22/02/2023 17:51:14.500: -------------------------------------------------------------------------
+22/02/2023 17:51:18.368: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 17:51:20.006: Items seleccionados...
+22/02/2023 17:51:27.964: By.xpath: //h2[text()='Notificacion']cargado.
+22/02/2023 17:51:28.249: -------------------------------------------------------------------------
+22/02/2023 17:51:28.250: Tiempo Total de Ejecución: 1 min. 17 seg. 17 mseg.
+22/02/2023 17:51:28.250: Proceso concluido: Módulo - PROFORMA
+22/02/2023 17:51:28.251: =========================================================================
+22/02/2023 17:51:30.823: Proceso concluido exitosamente
+22/02/2023 17:55:03.178: Tiempo Inicialización (navegador): 7 seg. 549 mseg.
+22/02/2023 17:55:03.216: Abriendo aplicación...
+22/02/2023 17:55:03.514: *************************************************************************
+22/02/2023 17:55:03.515:                        PROFORMA
+22/02/2023 17:55:03.515: *************************************************************************
+22/02/2023 17:55:03.520: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 17:55:03.521: Fecha: 22/02/2023 17:55:03.521
+22/02/2023 17:55:04.955: Proceso de Iniciar sesión: ...
+22/02/2023 17:55:05.096:  Proceso de autenticación exitoso.
+22/02/2023 17:55:05.096: -------------------------------------------------------------------------
+22/02/2023 17:55:08.332: Existen notificaciones.
+22/02/2023 17:55:11.288: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 17:55:11.450: -------------------------------------------------------------------------
+22/02/2023 17:55:15.125: Existen notificaciones.
+22/02/2023 17:55:18.114: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 17:55:19.617: Tiempo Inicialización (navegador): 24 seg. 25 mseg.
+22/02/2023 17:55:19.643: Abriendo aplicación...
+22/02/2023 17:55:19.653: *************************************************************************
+22/02/2023 17:55:19.653:                        PROFORMA
+22/02/2023 17:55:19.654: *************************************************************************
+22/02/2023 17:55:19.655: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 17:55:19.655: Fecha: 22/02/2023 17:55:19.655
+22/02/2023 17:55:20.556: Proceso de Iniciar sesión: ...
+22/02/2023 17:55:20.683:  Proceso de autenticación exitoso.
+22/02/2023 17:55:20.683: -------------------------------------------------------------------------
+22/02/2023 17:55:24.653: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 17:55:24.817: -------------------------------------------------------------------------
+22/02/2023 17:55:24.817: Tiempo Total de Ejecución: 29 seg. 225 mseg.
+22/02/2023 17:55:24.818: Proceso concluido: Módulo - PROFORMA
+22/02/2023 17:55:24.818: =========================================================================
+22/02/2023 17:55:26.860: Proceso concluido exitosamente
+22/02/2023 17:56:34.586: Tiempo Inicialización (navegador): 7 seg. 479 mseg.
+22/02/2023 17:56:34.625: Abriendo aplicación...
+22/02/2023 17:56:34.913: *************************************************************************
+22/02/2023 17:56:34.914:                        PROFORMA
+22/02/2023 17:56:34.915: *************************************************************************
+22/02/2023 17:56:34.917: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 17:56:34.918: Fecha: 22/02/2023 17:56:34.917
+22/02/2023 17:56:36.119: Proceso de Iniciar sesión: ...
+22/02/2023 17:56:36.330:  Proceso de autenticación exitoso.
+22/02/2023 17:56:36.330: -------------------------------------------------------------------------
+22/02/2023 17:56:39.554: Existen notificaciones.
+22/02/2023 17:56:42.439: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 17:56:48.361: Items seleccionados...
+22/02/2023 17:56:56.499: By.xpath: //h2[text()='Notificacion']cargado.
+22/02/2023 17:56:56.780: -------------------------------------------------------------------------
+22/02/2023 17:57:00.474: Existen notificaciones.
+22/02/2023 17:57:03.414: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 17:57:06.980: Items seleccionados...
+22/02/2023 17:57:14.844: By.xpath: //h2[text()='Notificacion']cargado.
+22/02/2023 17:57:16.510: Tiempo Inicialización (navegador): 49 seg. 456 mseg.
+22/02/2023 17:57:16.534: Abriendo aplicación...
+22/02/2023 17:57:16.548: *************************************************************************
+22/02/2023 17:57:16.549:                        PROFORMA
+22/02/2023 17:57:16.549: *************************************************************************
+22/02/2023 17:57:16.550: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 17:57:16.551: Fecha: 22/02/2023 17:57:16.550
+22/02/2023 17:57:17.505: Proceso de Iniciar sesión: ...
+22/02/2023 17:57:17.623:  Proceso de autenticación exitoso.
+22/02/2023 17:57:17.624: -------------------------------------------------------------------------
+22/02/2023 17:57:21.586: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 17:57:27.658: -------------------------------------------------------------------------
+22/02/2023 17:57:27.658: Tiempo Total de Ejecución: 1 min. 60 seg. 604 mseg.
+22/02/2023 17:57:27.659: Proceso concluido: Módulo - PROFORMA
+22/02/2023 17:57:27.660: =========================================================================
+22/02/2023 17:57:29.300: Proceso concluido exitosamente
+22/02/2023 17:59:01.765: Tiempo Inicialización (navegador): 8 seg. 300 mseg.
+22/02/2023 17:59:01.798: Abriendo aplicación...
+22/02/2023 17:59:02.078: *************************************************************************
+22/02/2023 17:59:02.079:                        PROFORMA
+22/02/2023 17:59:02.080: *************************************************************************
+22/02/2023 17:59:02.081: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 17:59:02.082: Fecha: 22/02/2023 17:59:02.081
+22/02/2023 17:59:03.111: Proceso de Iniciar sesión: ...
+22/02/2023 17:59:03.244:  Proceso de autenticación exitoso.
+22/02/2023 17:59:03.244: -------------------------------------------------------------------------
+22/02/2023 17:59:06.419: Existen notificaciones.
+22/02/2023 17:59:09.283: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 17:59:15.220: Items seleccionados...
+22/02/2023 17:59:23.233: By.xpath: //h2[text()='Notificacion']cargado.
+22/02/2023 17:59:23.549: -------------------------------------------------------------------------
+22/02/2023 17:59:27.268: Existen notificaciones.
+22/02/2023 17:59:30.242: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 17:59:33.755: Items seleccionados...
+22/02/2023 17:59:41.630: By.xpath: //h2[text()='Notificacion']cargado.
+22/02/2023 17:59:43.313: Tiempo Inicialización (navegador): 49 seg. 890 mseg.
+22/02/2023 17:59:43.331: Abriendo aplicación...
+22/02/2023 17:59:43.341: *************************************************************************
+22/02/2023 17:59:43.342:                        PROFORMA
+22/02/2023 17:59:43.343: *************************************************************************
+22/02/2023 17:59:43.344: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 17:59:43.344: Fecha: 22/02/2023 17:59:43.344
+22/02/2023 17:59:44.462: Proceso de Iniciar sesión: ...
+22/02/2023 17:59:44.586:  Proceso de autenticación exitoso.
+22/02/2023 17:59:44.586: -------------------------------------------------------------------------
+22/02/2023 17:59:48.563: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 17:59:54.671: -------------------------------------------------------------------------
+22/02/2023 17:59:54.672: Tiempo Total de Ejecución: 1 min. 1 seg. 249 mseg.
+22/02/2023 17:59:54.672: Proceso concluido: Módulo - PROFORMA
+22/02/2023 17:59:54.673: =========================================================================
+22/02/2023 17:59:56.456: Proceso concluido exitosamente
+22/02/2023 18:09:23.555: Tiempo Inicialización (navegador): 7 seg. 715 mseg.
+22/02/2023 18:09:23.597: Abriendo aplicación...
+22/02/2023 18:09:23.871: *************************************************************************
+22/02/2023 18:09:23.871:                        PROFORMA
+22/02/2023 18:09:23.871: *************************************************************************
+22/02/2023 18:09:23.871: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 18:09:23.871: Fecha: 22/02/2023 18:09:23.871
+22/02/2023 18:09:24.860: Proceso de Iniciar sesión: ...
+22/02/2023 18:09:24.996:  Proceso de autenticación exitoso.
+22/02/2023 18:09:24.997: -------------------------------------------------------------------------
+22/02/2023 18:09:28.226: Existen notificaciones.
+22/02/2023 18:09:31.182: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 18:09:37.199: Items seleccionados...
+22/02/2023 18:09:45.337: By.xpath: //h2[text()='Notificacion']cargado.
+22/02/2023 18:09:45.634: -------------------------------------------------------------------------
+22/02/2023 18:09:49.308: Existen notificaciones.
+22/02/2023 18:09:52.189: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 18:09:55.700: Items seleccionados...
+22/02/2023 18:10:03.526: By.xpath: //h2[text()='Notificacion']cargado.
+22/02/2023 18:10:05.156: Tiempo Inicialización (navegador): 49 seg. 358 mseg.
+22/02/2023 18:10:05.194: Abriendo aplicación...
+22/02/2023 18:10:05.207: *************************************************************************
+22/02/2023 18:10:05.207:                        PROFORMA
+22/02/2023 18:10:05.207: *************************************************************************
+22/02/2023 18:10:05.207: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 18:10:05.207: Fecha: 22/02/2023 18:10:05.207
+22/02/2023 18:10:06.172: Proceso de Iniciar sesión: ...
+22/02/2023 18:10:06.367:  Proceso de autenticación exitoso.
+22/02/2023 18:10:06.367: -------------------------------------------------------------------------
+22/02/2023 18:10:10.251: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 18:10:16.558: -------------------------------------------------------------------------
+22/02/2023 18:10:16.559: Tiempo Total de Ejecución: 1 min. 60 seg. 762 mseg.
+22/02/2023 18:10:16.559: Proceso concluido: Módulo - PROFORMA
+22/02/2023 18:10:16.560: =========================================================================
+22/02/2023 18:10:19.546: Proceso concluido exitosamente
+22/02/2023 18:11:50.035: Tiempo Inicialización (navegador): 7 seg. 326 mseg.
+22/02/2023 18:11:50.074: Abriendo aplicación...
+22/02/2023 18:11:50.403: *************************************************************************
+22/02/2023 18:11:50.405:                        PROFORMA
+22/02/2023 18:11:50.406: *************************************************************************
+22/02/2023 18:11:50.406: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 18:11:50.407: Fecha: 22/02/2023 18:11:50.407
+22/02/2023 18:11:51.436: Proceso de Iniciar sesión: ...
+22/02/2023 18:11:51.602:  Proceso de autenticación exitoso.
+22/02/2023 18:11:51.602: -------------------------------------------------------------------------
+22/02/2023 18:11:54.806: Existen notificaciones.
+22/02/2023 18:11:57.725: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 18:12:03.691: Items seleccionados...
+22/02/2023 18:12:11.830: By.xpath: //h2[text()='Notificacion']cargado.
+22/02/2023 18:12:12.138: -------------------------------------------------------------------------
+22/02/2023 18:12:16.008: Existen notificaciones.
+22/02/2023 18:12:18.957: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 18:12:22.386: Items seleccionados...
+22/02/2023 18:12:30.205: By.xpath: //h2[text()='Notificacion']cargado.
+22/02/2023 18:12:31.871: Tiempo Inicialización (navegador): 49 seg. 197 mseg.
+22/02/2023 18:12:31.895: Abriendo aplicación...
+22/02/2023 18:12:31.904: *************************************************************************
+22/02/2023 18:12:31.905:                        PROFORMA
+22/02/2023 18:12:31.905: *************************************************************************
+22/02/2023 18:12:31.906: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 18:12:31.907: Fecha: 22/02/2023 18:12:31.906
+22/02/2023 18:12:32.821: Proceso de Iniciar sesión: ...
+22/02/2023 18:12:32.921:  Proceso de autenticación exitoso.
+22/02/2023 18:12:32.922: -------------------------------------------------------------------------
+22/02/2023 18:12:36.861: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 18:12:43.063: -------------------------------------------------------------------------
+22/02/2023 18:12:43.063: Tiempo Total de Ejecución: 1 min. 60 seg. 390 mseg.
+22/02/2023 18:12:43.064: Proceso concluido: Módulo - PROFORMA
+22/02/2023 18:12:43.064: =========================================================================
+22/02/2023 18:12:45.203: Proceso concluido exitosamente
+22/02/2023 18:14:27.191: Tiempo Inicialización (navegador): 7 seg. 226 mseg.
+22/02/2023 18:14:27.209: Abriendo aplicación...
+22/02/2023 18:14:27.503: *************************************************************************
+22/02/2023 18:14:27.503:                        PROFORMA
+22/02/2023 18:14:27.503: *************************************************************************
+22/02/2023 18:14:27.503: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 18:14:27.503: Fecha: 22/02/2023 18:14:27.503
+22/02/2023 18:14:28.558: Proceso de Iniciar sesión: ...
+22/02/2023 18:14:28.690:  Proceso de autenticación exitoso.
+22/02/2023 18:14:28.703: -------------------------------------------------------------------------
+22/02/2023 18:14:32.661: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 18:14:40.075: Tiempo Inicialización (navegador): 20 seg. 147 mseg.
+22/02/2023 18:14:40.091: Abriendo aplicación...
+22/02/2023 18:14:40.109: *************************************************************************
+22/02/2023 18:14:40.111:                        PROFORMA
+22/02/2023 18:14:40.111: *************************************************************************
+22/02/2023 18:14:40.112: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 18:14:40.113: Fecha: 22/02/2023 18:14:40.112
+22/02/2023 18:14:41.380: Proceso de Iniciar sesión: ...
+22/02/2023 18:14:41.514:  Proceso de autenticación exitoso.
+22/02/2023 18:14:41.514: -------------------------------------------------------------------------
+22/02/2023 18:14:44.673: Existen notificaciones.
+22/02/2023 18:14:47.594: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 18:14:51.051: Items seleccionados...
+22/02/2023 18:14:58.956: By.xpath: //h2[text()='Notificacion']cargado.
+22/02/2023 18:15:00.643: Tiempo Inicialización (navegador): 40 seg. 715 mseg.
+22/02/2023 18:15:00.676: Abriendo aplicación...
+22/02/2023 18:15:00.690: *************************************************************************
+22/02/2023 18:15:00.691:                        PROFORMA
+22/02/2023 18:15:00.691: *************************************************************************
+22/02/2023 18:15:00.691: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 18:15:00.693: Fecha: 22/02/2023 18:15:00.692
+22/02/2023 18:15:01.538: Proceso de Iniciar sesión: ...
+22/02/2023 18:15:01.660:  Proceso de autenticación exitoso.
+22/02/2023 18:15:01.661: -------------------------------------------------------------------------
+22/02/2023 18:15:05.615: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 18:15:13.108: Tiempo Inicialización (navegador): 53 seg. 180 mseg.
+22/02/2023 18:15:13.132: Abriendo aplicación...
+22/02/2023 18:15:13.148: *************************************************************************
+22/02/2023 18:15:13.149:                        PROFORMA
+22/02/2023 18:15:13.149: *************************************************************************
+22/02/2023 18:15:13.150: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 18:15:13.150: Fecha: 22/02/2023 18:15:13.150
+22/02/2023 18:15:14.064: Proceso de Iniciar sesión: ...
+22/02/2023 18:15:14.243:  Proceso de autenticación exitoso.
+22/02/2023 18:15:14.244: -------------------------------------------------------------------------
+22/02/2023 18:15:17.370: Existen notificaciones.
+22/02/2023 18:15:20.310: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 18:15:26.305: Items seleccionados...
+22/02/2023 18:15:34.395: By.xpath: //h2[text()='Notificacion']cargado.
+22/02/2023 18:15:34.695: -------------------------------------------------------------------------
+22/02/2023 18:15:34.696: Tiempo Total de Ejecución: 1 min. 14 seg. 768 mseg.
+22/02/2023 18:15:34.696: Proceso concluido: Módulo - PROFORMA
+22/02/2023 18:15:34.697: =========================================================================
+22/02/2023 18:15:36.744: Proceso concluido exitosamente
+22/02/2023 18:17:22.469: Tiempo Inicialización (navegador): 1 min. 1 seg. 431 mseg.
+22/02/2023 18:17:24.584: Abriendo aplicación...
+22/02/2023 18:17:26.593: *************************************************************************
+22/02/2023 18:17:26.596:                        PROFORMA
+22/02/2023 18:17:26.598: *************************************************************************
+22/02/2023 18:17:26.601: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 18:17:26.604: Fecha: 22/02/2023 18:17:26.603
+22/02/2023 18:17:34.941: Proceso de Iniciar sesión: ...
+22/02/2023 18:17:41.920:  Proceso de autenticación exitoso.
+22/02/2023 18:17:47.333: -------------------------------------------------------------------------
+22/02/2023 18:18:02.161: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 19:00:16.394: Tiempo Inicialización (navegador): 7 seg. 536 mseg.
+22/02/2023 19:00:16.418: Abriendo aplicación...
+22/02/2023 19:00:16.699: *************************************************************************
+22/02/2023 19:00:16.710:                        PROFORMA
+22/02/2023 19:00:16.713: *************************************************************************
+22/02/2023 19:00:16.716: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 19:00:16.720: Fecha: 22/02/2023 19:00:16.719
+22/02/2023 19:00:17.779: Proceso de Iniciar sesión: ...
+22/02/2023 19:00:17.917:  Proceso de autenticación exitoso.
+22/02/2023 19:00:17.918: -------------------------------------------------------------------------
+22/02/2023 19:00:21.961: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 19:00:28.072: Items seleccionados...
+22/02/2023 19:00:35.997: By.xpath: //h2[text()='Notificacion']cargado.
+22/02/2023 19:00:37.664: Tiempo Inicialización (navegador): 28 seg. 839 mseg.
+22/02/2023 19:00:37.688: Abriendo aplicación...
+22/02/2023 19:00:37.697: *************************************************************************
+22/02/2023 19:00:37.699:                        PROFORMA
+22/02/2023 19:00:37.699: *************************************************************************
+22/02/2023 19:00:37.700: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 19:00:37.701: Fecha: 22/02/2023 19:00:37.701
+22/02/2023 19:00:38.636: Proceso de Iniciar sesión: ...
+22/02/2023 19:00:38.794:  Proceso de autenticación exitoso.
+22/02/2023 19:00:38.795: -------------------------------------------------------------------------
+22/02/2023 19:00:41.881: Existen notificaciones.
+22/02/2023 19:00:44.781: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 19:00:48.197: Items seleccionados...
+22/02/2023 19:00:56.029: By.xpath: //h2[text()='Notificacion']cargado.
+22/02/2023 19:00:57.794: Tiempo Inicialización (navegador): 48 seg. 968 mseg.
+22/02/2023 19:00:57.814: Abriendo aplicación...
+22/02/2023 19:00:57.833: *************************************************************************
+22/02/2023 19:00:57.833:                        PROFORMA
+22/02/2023 19:00:57.834: *************************************************************************
+22/02/2023 19:00:57.834: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 19:00:57.835: Fecha: 22/02/2023 19:00:57.835
+22/02/2023 19:00:58.852: Proceso de Iniciar sesión: ...
+22/02/2023 19:00:58.936:  Proceso de autenticación exitoso.
+22/02/2023 19:00:58.937: -------------------------------------------------------------------------
+22/02/2023 19:01:02.937: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 19:01:09.050: Items seleccionados...
+22/02/2023 19:01:16.974: By.xpath: //h2[text()='Notificacion']cargado.
+22/02/2023 19:01:18.627: Tiempo Inicialización (navegador): 1 min. 9 seg. 802 mseg.
+22/02/2023 19:01:18.656: Abriendo aplicación...
+22/02/2023 19:01:18.685: *************************************************************************
+22/02/2023 19:01:18.686:                        PROFORMA
+22/02/2023 19:01:18.686: *************************************************************************
+22/02/2023 19:01:18.687: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 19:01:18.687: Fecha: 22/02/2023 19:01:18.687
+22/02/2023 19:01:19.617: Proceso de Iniciar sesión: ...
+22/02/2023 19:01:19.729:  Proceso de autenticación exitoso.
+22/02/2023 19:01:19.730: -------------------------------------------------------------------------
+22/02/2023 19:01:22.905: Existen notificaciones.
+22/02/2023 19:01:25.741: By.xpath: //h2[text()='Detalle Deudas']cargado.
+22/02/2023 19:01:31.635: Items seleccionados...
+22/02/2023 19:01:39.717: By.xpath: //h2[text()='Notificacion']cargado.
+22/02/2023 19:01:39.987: -------------------------------------------------------------------------
+22/02/2023 19:01:39.988: Tiempo Total de Ejecución: 1 min. 31 seg. 162 mseg.
+22/02/2023 19:01:39.988: Proceso concluido: Módulo - PROFORMA
+22/02/2023 19:01:39.989: =========================================================================
+22/02/2023 19:01:42.089: Proceso concluido exitosamente
