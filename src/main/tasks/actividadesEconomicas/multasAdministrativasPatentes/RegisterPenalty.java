@@ -11,11 +11,11 @@ import main.ui.actividadesEconomicasUI.multasAdministrativasPatentesUI.RegisterP
 import org.openqa.selenium.WebDriver;
 
 public class RegisterPenalty {
-    public static void withDefaultData(WebDriver driver, String amount){
+    public static void withDefaultData(WebDriver driver, String amount, String date){
         Clear.on(driver, RegisterPenaltyUI.txtNumeroDocumento, 1);
         Enter.text(driver, RegisterPenaltyUI.txtNumeroDocumento, "123");
         Clear.on(driver, RegisterPenaltyUI.txtFechaDocumento, 1);
-        Enter.text(driver, RegisterPenaltyUI.txtFechaDocumento, DateUtility.getCurrentDate());
+        Enter.text(driver, RegisterPenaltyUI.txtFechaDocumento, date);
         Clear.on(driver, RegisterPenaltyUI.txtAutorizadoPor, 1);
         Enter.text(driver, RegisterPenaltyUI.txtAutorizadoPor, "Juan Topo");
         Clear.on(driver, RegisterPenaltyUI.txtCargo, 1);

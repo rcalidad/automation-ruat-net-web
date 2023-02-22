@@ -15,6 +15,9 @@ import main.tasks.actividadesEconomicas.commonAEC.Verify;
 import main.tasks.actividadesEconomicas.commonAEC.confirmProcedure.ConfirmProcedureFactory;
 import main.tasks.actividadesEconomicas.helpersAEC.GeneratorAEC;
 import main.tasks.actividadesEconomicas.helpersAEC.Messages;
+import main.tasks.commonTasks.GetDate;
+import main.ui.actividadesEconomicasUI.commonUI.CabeceraUI;
+import main.ui.actividadesEconomicasUI.commonUI.MainMenuUI;
 import main.ui.actividadesEconomicasUI.empadronamientoUI.ConfirmProcedureUI;
 import main.ui.actividadesEconomicasUI.empadronamientoUI.ReceiveDocumentationUI;
 import main.ui.actividadesEconomicasUI.multasAdministrativasPatentesUI.DetailPeriodsUI;
@@ -43,12 +46,13 @@ public class MultasAdministrativasPatentes extends GeneratorAEC {
     public void execute() {
         try{
             Log.recordInLog(Constants.DELIMITER_MARK);
+            String currentSystemDate = GetDate.ofSystem(this.driverApp, CabeceraUI.fecha);
             LoadModule.fromMainMenu(this.driverApp, ConstantsAEC.MULTAS_GROUPER, ConstantsAEC.MULTAS_ADMINISTRATIVAS_PATENTES_MODULE);
             SearchActivity.byActivityNumber(this.driverApp, this.numeroActividadEconomica);
             Verify.isReady(this.driverApp, test.get(i), ReceiveDocumentationUI.ttlRecepcionarDocumentacion);
             ReceiveDocumentation.withoutDocuments(this.driverApp);
             Verify.isReady(this.driverApp, test.get(i), DetailPeriodsUI.ttlDetalleGestiones);
-            DetailPeriods.registerOperation(this.driverApp, test.get(i), this.tipoMulta, this.gestionInicio, this.gestionFin, this.gestion, this.operacion, this.montoMulta);
+            DetailPeriods.registerOperation(this.driverApp, test.get(i), this.tipoMulta, this.gestionInicio, this.gestionFin, this.gestion, this.operacion, this.montoMulta, currentSystemDate);
             ConfirmProcedureFactory.getInstance().executeConfirmProcedure(this.driverApp, test.get(i), this.getClass().getSimpleName(), this.numeroActividadEconomica, i + 1, this.operacion);
             //ScreenShotHelper.takeScreenShotAndAdToHTMLReportGenerator(this.driverApp, test.get(i), Status.INFO,"GESTIONES SELECCIONADAS");
         }catch (Exception exception){

@@ -1,3 +1,4 @@
 Manifest-Version: 1.0
-Main-Class: test.generators.inmuebles.runnable.RunnableBasesImponiblesIP
+Main-Class: test.generators.actividadesEconomicas.runnable.RunnableMulta
+ sAdministrativasPatentes
 

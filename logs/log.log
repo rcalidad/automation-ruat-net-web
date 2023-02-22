@@ -30284,3 +30284,295 @@
 22/02/2023 14:08:38.341: Proceso concluido: Módulo - COMPENSACIONES
 22/02/2023 14:08:38.342: =========================================================================
 22/02/2023 14:08:40.960: Proceso concluido con éxito...
+22/02/2023 14:59:03.096: Tiempo Inicialización (navegador): 7 seg. 192 mseg.
+22/02/2023 14:59:03.121: Abriendo aplicación...
+22/02/2023 14:59:03.392: *************************************************************************
+22/02/2023 14:59:03.393:                        MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 14:59:03.394: *************************************************************************
+22/02/2023 14:59:03.395: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 14:59:03.397: Fecha: 22/02/2023 14:59:03.395
+22/02/2023 14:59:04.447: Proceso de Iniciar sesión: ...
+22/02/2023 14:59:04.590:  Proceso de autenticación exitoso.
+22/02/2023 14:59:04.591: -------------------------------------------------------------------------
+22/02/2023 14:59:09.366: HUBO UN ERROR...
+22/02/2023 14:59:09.514: -------------------------------------------------------------------------
+22/02/2023 14:59:13.926: By.xpath: //h2[text()='RECEPCIONAR DOCUMENTACION']cargado.
+22/02/2023 14:59:16.508: By.xpath: //h2[text()='DETALLE GESTIONES']cargado.
+22/02/2023 14:59:19.493: By.xpath: //*[@id='divGestiones']/tablecargado.
+22/02/2023 14:59:20.395: Debe seleccionar una gestión para procesar.
+22/02/2023 14:59:22.620: By.xpath: //h2[text()='DETALLE GESTIONES']cargado.
+22/02/2023 14:59:23.679: Debe realizar por lo menos una operación para aceptar.
+22/02/2023 14:59:23.840: -------------------------------------------------------------------------
+22/02/2023 14:59:31.465: El elemento esperado no se encuentra visible...
+22/02/2023 14:59:31.633: -------------------------------------------------------------------------
+22/02/2023 14:59:31.634: Tiempo Total de Ejecución: 35 seg. 761 mseg.
+22/02/2023 14:59:31.634: Proceso concluido: Módulo - MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 14:59:31.634: =========================================================================
+22/02/2023 14:59:33.388: Proceso concluido con éxito...
+22/02/2023 15:02:14.559: Tiempo Inicialización (navegador): 7 seg. 465 mseg.
+22/02/2023 15:02:14.589: Abriendo aplicación...
+22/02/2023 15:02:14.888: *************************************************************************
+22/02/2023 15:02:14.890:                        MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 15:02:14.890: *************************************************************************
+22/02/2023 15:02:14.891: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 15:02:14.893: Fecha: 22/02/2023 15:02:14.892
+22/02/2023 15:02:15.857: Proceso de Iniciar sesión: ...
+22/02/2023 15:02:15.985:  Proceso de autenticación exitoso.
+22/02/2023 15:02:15.986: -------------------------------------------------------------------------
+22/02/2023 15:02:20.820: HUBO UN ERROR...
+22/02/2023 15:02:20.978: -------------------------------------------------------------------------
+22/02/2023 15:02:25.203: By.xpath: //h2[text()='RECEPCIONAR DOCUMENTACION']cargado.
+22/02/2023 15:02:27.773: By.xpath: //h2[text()='DETALLE GESTIONES']cargado.
+22/02/2023 15:02:30.601: By.xpath: //*[@id='divGestiones']/tablecargado.
+22/02/2023 15:02:33.953: By.xpath: //h2[text()='Registrar Multa']cargado.
+22/02/2023 15:02:36.059: La Fecha Documento no puede ser mayor a la fecha actual.
+22/02/2023 15:02:40.739: El elemento esperado no se encuentra visible...
+22/02/2023 15:02:40.895: -------------------------------------------------------------------------
+22/02/2023 15:02:48.081: El elemento esperado no se encuentra visible...
+22/02/2023 15:02:48.227: -------------------------------------------------------------------------
+22/02/2023 15:02:48.228: Tiempo Total de Ejecución: 41 seg. 179 mseg.
+22/02/2023 15:02:48.228: Proceso concluido: Módulo - MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 15:02:48.229: =========================================================================
+22/02/2023 15:02:50.392: Proceso concluido con éxito...
+22/02/2023 15:09:55.481: Tiempo Inicialización (navegador): 7 seg. 249 mseg.
+22/02/2023 15:09:55.511: Abriendo aplicación...
+22/02/2023 15:09:55.793: *************************************************************************
+22/02/2023 15:09:55.793:                        MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 15:09:55.793: *************************************************************************
+22/02/2023 15:09:55.794: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 15:09:55.794: Fecha: 22/02/2023 15:09:55.794
+22/02/2023 15:09:56.816: Proceso de Iniciar sesión: ...
+22/02/2023 15:09:56.987:  Proceso de autenticación exitoso.
+22/02/2023 15:09:56.989: -------------------------------------------------------------------------
+22/02/2023 15:10:03.026: El elemento esperado no se encuentra visible...
+22/02/2023 15:10:03.179: -------------------------------------------------------------------------
+22/02/2023 15:10:07.455: By.xpath: //h2[text()='RECEPCIONAR DOCUMENTACION']cargado.
+22/02/2023 15:10:10.030: By.xpath: //h2[text()='DETALLE GESTIONES']cargado.
+22/02/2023 15:10:12.870: By.xpath: //*[@id='divGestiones']/tablecargado.
+22/02/2023 15:10:16.232: By.xpath: //h2[text()='Registrar Multa']cargado.
+22/02/2023 15:10:21.077: By.xpath: //h2[text()='DETALLE GESTIONES']cargado.
+22/02/2023 15:10:23.746: By.xpath: //h2[text()='CONFIRMAR TRAMITE']cargado.
+22/02/2023 15:10:27.292: -------------------------------------------------------------------------
+22/02/2023 15:10:34.682: El elemento esperado no se encuentra visible...
+22/02/2023 15:10:34.833: -------------------------------------------------------------------------
+22/02/2023 15:10:34.835: Tiempo Total de Ejecución: 46 seg. 638 mseg.
+22/02/2023 15:10:34.836: Proceso concluido: Módulo - MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 15:10:34.836: =========================================================================
+22/02/2023 15:10:36.665: Proceso concluido con éxito...
+22/02/2023 16:02:46.031: Tiempo Inicialización (navegador): 7 seg. 436 mseg.
+22/02/2023 16:02:46.061: Abriendo aplicación...
+22/02/2023 16:02:46.359: *************************************************************************
+22/02/2023 16:02:46.360:                        MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 16:02:46.360: *************************************************************************
+22/02/2023 16:02:46.361: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 16:02:46.362: Fecha: 22/02/2023 16:02:46.361
+22/02/2023 16:02:47.407: Proceso de Iniciar sesión: ...
+22/02/2023 16:02:47.569:  Proceso de autenticación exitoso.
+22/02/2023 16:02:47.570: -------------------------------------------------------------------------
+22/02/2023 16:02:53.561: El elemento esperado no se encuentra visible...
+22/02/2023 16:02:53.712: -------------------------------------------------------------------------
+22/02/2023 16:02:58.225: By.xpath: //h2[text()='RECEPCIONAR DOCUMENTACION']cargado.
+22/02/2023 16:03:00.800: By.xpath: //h2[text()='DETALLE GESTIONES']cargado.
+22/02/2023 16:03:03.607: By.xpath: //*[@id='divGestiones']/tablecargado.
+22/02/2023 16:03:06.949: By.xpath: //h2[text()='MODIFICAR MULTA']cargado.
+22/02/2023 16:03:08.621: Debe realizar al menos una modificación en los datos de la multa.
+22/02/2023 16:03:13.393: El elemento esperado no se encuentra visible...
+22/02/2023 16:03:13.557: -------------------------------------------------------------------------
+22/02/2023 16:03:20.854: El elemento esperado no se encuentra visible...
+22/02/2023 16:03:21.005: -------------------------------------------------------------------------
+22/02/2023 16:03:21.006: Tiempo Total de Ejecución: 42 seg. 445 mseg.
+22/02/2023 16:03:21.007: Proceso concluido: Módulo - MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 16:03:21.007: =========================================================================
+22/02/2023 16:03:23.056: Proceso concluido con éxito...
+22/02/2023 16:31:00.961: Tiempo Inicialización (navegador): 7 seg. 593 mseg.
+22/02/2023 16:31:00.986: Abriendo aplicación...
+22/02/2023 16:31:01.282: *************************************************************************
+22/02/2023 16:31:01.283:                        MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 16:31:01.283: *************************************************************************
+22/02/2023 16:31:01.284: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 16:31:01.287: Fecha: 22/02/2023 16:31:01.286
+22/02/2023 16:31:02.317: Proceso de Iniciar sesión: ...
+22/02/2023 16:31:02.475:  Proceso de autenticación exitoso.
+22/02/2023 16:31:02.475: -------------------------------------------------------------------------
+22/02/2023 16:31:08.615: El elemento esperado no se encuentra visible...
+22/02/2023 16:31:08.777: -------------------------------------------------------------------------
+22/02/2023 16:31:13.233: By.xpath: //h2[text()='RECEPCIONAR DOCUMENTACION']cargado.
+22/02/2023 16:31:15.828: By.xpath: //h2[text()='DETALLE GESTIONES']cargado.
+22/02/2023 16:31:18.657: By.xpath: //*[@id='divGestiones']/tablecargado.
+22/02/2023 16:31:21.957: By.xpath: //h2[text()='MODIFICAR MULTA']cargado.
+22/02/2023 16:31:23.678: Debe realizar al menos una modificación en los datos de la multa.
+22/02/2023 16:31:28.356: El elemento esperado no se encuentra visible...
+22/02/2023 16:31:28.521: -------------------------------------------------------------------------
+22/02/2023 16:31:36.091: El elemento esperado no se encuentra visible...
+22/02/2023 16:31:36.244: -------------------------------------------------------------------------
+22/02/2023 16:31:36.245: Tiempo Total de Ejecución: 42 seg. 919 mseg.
+22/02/2023 16:31:36.245: Proceso concluido: Módulo - MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 16:31:36.247: =========================================================================
+22/02/2023 16:31:38.120: Proceso concluido con éxito...
+22/02/2023 16:39:15.445: Tiempo Inicialización (navegador): 7 seg. 534 mseg.
+22/02/2023 16:39:15.471: Abriendo aplicación...
+22/02/2023 16:39:15.771: *************************************************************************
+22/02/2023 16:39:15.772:                        MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 16:39:15.773: *************************************************************************
+22/02/2023 16:39:15.773: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 16:39:15.774: Fecha: 22/02/2023 16:39:15.774
+22/02/2023 16:39:16.802: Proceso de Iniciar sesión: ...
+22/02/2023 16:39:16.930:  Proceso de autenticación exitoso.
+22/02/2023 16:39:16.931: -------------------------------------------------------------------------
+22/02/2023 16:39:22.929: El elemento esperado no se encuentra visible...
+22/02/2023 16:39:23.083: -------------------------------------------------------------------------
+22/02/2023 16:39:27.506: By.xpath: //h2[text()='RECEPCIONAR DOCUMENTACION']cargado.
+22/02/2023 16:39:30.064: By.xpath: //h2[text()='DETALLE GESTIONES']cargado.
+22/02/2023 16:39:32.885: By.xpath: //*[@id='divGestiones']/tablecargado.
+22/02/2023 16:39:36.215: By.xpath: //h2[text()='MODIFICAR MULTA']cargado.
+22/02/2023 16:39:37.951: Debe realizar al menos una modificación en los datos de la multa.
+22/02/2023 16:39:42.945: El elemento esperado no se encuentra visible...
+22/02/2023 16:39:43.109: -------------------------------------------------------------------------
+22/02/2023 16:39:50.550: El elemento esperado no se encuentra visible...
+22/02/2023 16:39:50.704: -------------------------------------------------------------------------
+22/02/2023 16:39:50.704: Tiempo Total de Ejecución: 42 seg. 854 mseg.
+22/02/2023 16:39:50.705: Proceso concluido: Módulo - MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 16:39:50.705: =========================================================================
+22/02/2023 16:39:53.467: Proceso concluido con éxito...
+22/02/2023 16:41:13.322: Tiempo Inicialización (navegador): 8 seg. 889 mseg.
+22/02/2023 16:41:13.345: Abriendo aplicación...
+22/02/2023 16:41:13.637: *************************************************************************
+22/02/2023 16:41:13.637:                        MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 16:41:13.637: *************************************************************************
+22/02/2023 16:41:13.648: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 16:41:13.650: Fecha: 22/02/2023 16:41:13.650
+22/02/2023 16:41:14.707: Proceso de Iniciar sesión: ...
+22/02/2023 16:41:14.898:  Proceso de autenticación exitoso.
+22/02/2023 16:41:14.899: -------------------------------------------------------------------------
+22/02/2023 16:41:21.207: El elemento esperado no se encuentra visible...
+22/02/2023 16:41:21.381: -------------------------------------------------------------------------
+22/02/2023 16:41:25.811: By.xpath: //h2[text()='RECEPCIONAR DOCUMENTACION']cargado.
+22/02/2023 16:41:28.458: By.xpath: //h2[text()='DETALLE GESTIONES']cargado.
+22/02/2023 16:41:31.327: By.xpath: //*[@id='divGestiones']/tablecargado.
+22/02/2023 16:41:34.708: By.xpath: //h2[text()='MODIFICAR MULTA']cargado.
+22/02/2023 16:41:36.660: Debe realizar al menos una modificación en los datos de la multa.
+22/02/2023 16:41:41.324: El elemento esperado no se encuentra visible...
+22/02/2023 16:41:41.484: -------------------------------------------------------------------------
+22/02/2023 16:41:49.123: El elemento esperado no se encuentra visible...
+22/02/2023 16:41:49.275: -------------------------------------------------------------------------
+22/02/2023 16:41:49.276: Tiempo Total de Ejecución: 44 seg. 878 mseg.
+22/02/2023 16:41:49.276: Proceso concluido: Módulo - MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 16:41:49.277: =========================================================================
+22/02/2023 16:41:51.554: Proceso concluido con éxito...
+22/02/2023 16:43:58.594: Tiempo Inicialización (navegador): 49 seg. 240 mseg.
+22/02/2023 16:43:58.654: Abriendo aplicación...
+22/02/2023 16:43:58.961: *************************************************************************
+22/02/2023 16:43:58.964:                        MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 16:43:58.966: *************************************************************************
+22/02/2023 16:43:58.969: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 16:43:58.972: Fecha: 22/02/2023 16:43:58.971
+22/02/2023 16:44:06.752: Proceso de Iniciar sesión: ...
+22/02/2023 16:44:08.564:  Proceso de autenticación exitoso.
+22/02/2023 16:44:14.653: -------------------------------------------------------------------------
+22/02/2023 16:44:36.972: El elemento esperado no se encuentra visible...
+22/02/2023 16:44:54.296: -------------------------------------------------------------------------
+22/02/2023 16:45:10.546: By.xpath: //h2[text()='RECEPCIONAR DOCUMENTACION']cargado.
+22/02/2023 16:45:18.570: By.xpath: //h2[text()='DETALLE GESTIONES']cargado.
+22/02/2023 16:45:30.754: By.xpath: //*[@id='divGestiones']/tablecargado.
+22/02/2023 16:45:56.404: By.xpath: //h2[text()='MODIFICAR MULTA']cargado.
+22/02/2023 16:48:17.434: Debe realizar al menos una modificación en los datos de la multa.
+22/02/2023 16:49:15.869: Tiempo Inicialización (navegador): 8 seg. 84 mseg.
+22/02/2023 16:49:15.898: Abriendo aplicación...
+22/02/2023 16:49:16.189: *************************************************************************
+22/02/2023 16:49:16.190:                        MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 16:49:16.190: *************************************************************************
+22/02/2023 16:49:16.196: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 16:49:16.198: Fecha: 22/02/2023 16:49:16.198
+22/02/2023 16:49:17.297: Proceso de Iniciar sesión: ...
+22/02/2023 16:49:17.450:  Proceso de autenticación exitoso.
+22/02/2023 16:49:17.451: -------------------------------------------------------------------------
+22/02/2023 16:49:23.574: El elemento esperado no se encuentra visible...
+22/02/2023 16:49:23.726: -------------------------------------------------------------------------
+22/02/2023 16:49:28.815: By.xpath: //h2[text()='RECEPCIONAR DOCUMENTACION']cargado.
+22/02/2023 16:49:31.380: By.xpath: //h2[text()='DETALLE GESTIONES']cargado.
+22/02/2023 16:49:34.166: By.xpath: //*[@id='divGestiones']/tablecargado.
+22/02/2023 16:49:37.556: By.xpath: //h2[text()='MODIFICAR MULTA']cargado.
+22/02/2023 16:49:42.635: By.xpath: //h2[text()='DETALLE GESTIONES']cargado.
+22/02/2023 16:49:45.267: By.xpath: //h2[text()='CONFIRMAR TRAMITE']cargado.
+22/02/2023 16:49:49.226: -------------------------------------------------------------------------
+22/02/2023 16:49:56.770: El elemento esperado no se encuentra visible...
+22/02/2023 16:49:56.925: -------------------------------------------------------------------------
+22/02/2023 16:49:56.926: Tiempo Total de Ejecución: 49 seg. 172 mseg.
+22/02/2023 16:49:56.927: Proceso concluido: Módulo - MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 16:49:56.927: =========================================================================
+22/02/2023 16:49:59.036: Proceso concluido con éxito...
+22/02/2023 17:10:41.637: Tiempo Inicialización (navegador): 7 seg. 734 mseg.
+22/02/2023 17:10:41.663: Abriendo aplicación...
+22/02/2023 17:10:41.959: *************************************************************************
+22/02/2023 17:10:41.960:                        MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 17:10:41.961: *************************************************************************
+22/02/2023 17:10:41.961: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 17:10:41.962: Fecha: 22/02/2023 17:10:41.962
+22/02/2023 17:10:42.867: Proceso de Iniciar sesión: ...
+22/02/2023 17:10:42.976:  Proceso de autenticación exitoso.
+22/02/2023 17:10:42.977: -------------------------------------------------------------------------
+22/02/2023 17:10:48.827: El elemento esperado no se encuentra visible...
+22/02/2023 17:10:48.987: -------------------------------------------------------------------------
+22/02/2023 17:10:53.206: By.xpath: //h2[text()='RECEPCIONAR DOCUMENTACION']cargado.
+22/02/2023 17:10:55.708: By.xpath: //h2[text()='DETALLE GESTIONES']cargado.
+22/02/2023 17:10:58.684: By.xpath: //*[@id='divGestiones']/tablecargado.
+22/02/2023 17:11:02.609: By.xpath: //h2[text()='Registrar Multa']cargado.
+22/02/2023 17:11:07.605: By.xpath: //h2[text()='DETALLE GESTIONES']cargado.
+22/02/2023 17:11:10.230: By.xpath: //h2[text()='CONFIRMAR TRAMITE']cargado.
+22/02/2023 17:11:14.074: -------------------------------------------------------------------------
+22/02/2023 17:11:21.386: El elemento esperado no se encuentra visible...
+22/02/2023 17:11:21.540: -------------------------------------------------------------------------
+22/02/2023 17:11:21.540: Tiempo Total de Ejecución: 47 seg. 667 mseg.
+22/02/2023 17:11:21.541: Proceso concluido: Módulo - MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 17:11:21.541: =========================================================================
+22/02/2023 17:11:23.485: Proceso concluido con éxito...
+22/02/2023 17:12:00.410: Tiempo Inicialización (navegador): 7 seg. 502 mseg.
+22/02/2023 17:12:00.430: Abriendo aplicación...
+22/02/2023 17:12:00.738: *************************************************************************
+22/02/2023 17:12:00.744:                        MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 17:12:00.746: *************************************************************************
+22/02/2023 17:12:00.747: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 17:12:00.749: Fecha: 22/02/2023 17:12:00.749
+22/02/2023 17:12:02.345: Proceso de Iniciar sesión: ...
+22/02/2023 17:12:02.493:  Proceso de autenticación exitoso.
+22/02/2023 17:12:02.493: -------------------------------------------------------------------------
+22/02/2023 17:12:09.025: El elemento esperado no se encuentra visible...
+22/02/2023 17:12:09.174: -------------------------------------------------------------------------
+22/02/2023 17:12:13.613: By.xpath: //h2[text()='RECEPCIONAR DOCUMENTACION']cargado.
+22/02/2023 17:12:16.217: By.xpath: //h2[text()='DETALLE GESTIONES']cargado.
+22/02/2023 17:12:19.007: By.xpath: //*[@id='divGestiones']/tablecargado.
+22/02/2023 17:12:22.957: By.xpath: //h2[text()='Anular Multa']cargado.
+22/02/2023 17:12:26.724: By.xpath: //h2[text()='DETALLE GESTIONES']cargado.
+22/02/2023 17:12:29.356: By.xpath: //h2[text()='CONFIRMAR TRAMITE']cargado.
+22/02/2023 17:12:33.293: -------------------------------------------------------------------------
+22/02/2023 17:12:40.628: El elemento esperado no se encuentra visible...
+22/02/2023 17:12:40.781: -------------------------------------------------------------------------
+22/02/2023 17:12:40.781: Tiempo Total de Ejecución: 47 seg. 914 mseg.
+22/02/2023 17:12:40.782: Proceso concluido: Módulo - MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 17:12:40.782: =========================================================================
+22/02/2023 17:12:43.173: Proceso concluido con éxito...
+22/02/2023 17:13:32.538: Tiempo Inicialización (navegador): 7 seg. 722 mseg.
+22/02/2023 17:13:32.569: Abriendo aplicación...
+22/02/2023 17:13:32.863: *************************************************************************
+22/02/2023 17:13:32.863:                        MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 17:13:32.864: *************************************************************************
+22/02/2023 17:13:32.865: Ambiente: https://actecocalidad.ruat.gob.bo/ActividadesEconomicasWeb/Administracion/Autentificacion/loginForm.do
+22/02/2023 17:13:32.866: Fecha: 22/02/2023 17:13:32.865
+22/02/2023 17:13:33.838: Proceso de Iniciar sesión: ...
+22/02/2023 17:13:33.951:  Proceso de autenticación exitoso.
+22/02/2023 17:13:33.951: -------------------------------------------------------------------------
+22/02/2023 17:13:40.019: El elemento esperado no se encuentra visible...
+22/02/2023 17:13:40.171: -------------------------------------------------------------------------
+22/02/2023 17:13:44.496: By.xpath: //h2[text()='RECEPCIONAR DOCUMENTACION']cargado.
+22/02/2023 17:13:47.079: By.xpath: //h2[text()='DETALLE GESTIONES']cargado.
+22/02/2023 17:13:49.916: By.xpath: //*[@id='divGestiones']/tablecargado.
+22/02/2023 17:13:53.205: By.xpath: //h2[text()='Registrar Multa']cargado.
+22/02/2023 17:13:57.017: By.xpath: //h2[text()='DETALLE GESTIONES']cargado.
+22/02/2023 17:13:59.688: By.xpath: //h2[text()='CONFIRMAR TRAMITE']cargado.
+22/02/2023 17:14:03.283: -------------------------------------------------------------------------
+22/02/2023 17:14:10.702: El elemento esperado no se encuentra visible...
+22/02/2023 17:14:10.849: -------------------------------------------------------------------------
+22/02/2023 17:14:10.850: Tiempo Total de Ejecución: 46 seg. 65 mseg.
+22/02/2023 17:14:10.850: Proceso concluido: Módulo - MULTAS-ADMINISTRATIVAS-PATENTES
+22/02/2023 17:14:10.851: =========================================================================
+22/02/2023 17:14:13.053: Proceso concluido con éxito...
