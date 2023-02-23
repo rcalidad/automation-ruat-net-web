@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-22T22:14:23Z" name="AECProforma" finished-at="2023-02-22T22:15:36Z" duration-ms="72855">
+  <suite started-at="2023-02-23T12:36:19Z" name="AEC:CondonacionLeyMunicipal" finished-at="2023-02-23T12:36:46Z" duration-ms="27046">
     <groups>
     </groups>
-    <test started-at="2023-02-22T22:14:23Z" name="AECTest" finished-at="2023-02-22T22:15:36Z" duration-ms="72855">
-      <class name="test.generators.actividadesEconomicas.liquidacion.ProformaGen">
-        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:test.generators.actividadesEconomicas.liquidacion.ProformaGen@667a738]" started-at="2023-02-22T22:14:19Z" name="setUpSuite" finished-at="2023-02-22T22:14:23Z" duration-ms="4000" status="PASS">
+    <test started-at="2023-02-23T12:36:19Z" name="AECTest" finished-at="2023-02-23T12:36:46Z" duration-ms="27046">
+      <class name="test.generators.actividadesEconomicas.condonacionLeyMunicipal.CondonacionLeyMunicipalGen">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:test.generators.actividadesEconomicas.condonacionLeyMunicipal.CondonacionLeyMunicipalGen@57d5872c]" started-at="2023-02-23T12:36:13Z" name="setUpSuite" finished-at="2023-02-23T12:36:19Z" duration-ms="5712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method signature="proforma()[pri:0, instance:test.generators.actividadesEconomicas.liquidacion.ProformaGen@667a738]" started-at="2023-02-22T22:14:23Z" name="proforma" finished-at="2023-02-22T22:15:36Z" duration-ms="72828" status="PASS">
+        <test-method signature="condonacionLeyMunicipal()[pri:0, instance:test.generators.actividadesEconomicas.condonacionLeyMunicipal.CondonacionLeyMunicipalGen@57d5872c]" started-at="2023-02-23T12:36:19Z" name="condonacionLeyMunicipal" finished-at="2023-02-23T12:36:46Z" duration-ms="27028" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- proforma -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:test.generators.actividadesEconomicas.liquidacion.ProformaGen@667a738]" started-at="2023-02-22T22:15:36Z" name="tearDownSuite" finished-at="2023-02-22T22:15:36Z" duration-ms="115" status="PASS">
+        </test-method> <!-- condonacionLeyMunicipal -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:test.generators.actividadesEconomicas.condonacionLeyMunicipal.CondonacionLeyMunicipalGen@57d5872c]" started-at="2023-02-23T12:36:46Z" name="tearDownSuite" finished-at="2023-02-23T12:36:46Z" duration-ms="139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->
-      </class> <!-- test.generators.actividadesEconomicas.liquidacion.ProformaGen -->
+      </class> <!-- test.generators.actividadesEconomicas.condonacionLeyMunicipal.CondonacionLeyMunicipalGen -->
     </test> <!-- AECTest -->
-  </suite> <!-- AECProforma -->
+  </suite> <!-- AEC:CondonacionLeyMunicipal -->
 </testng-results>
