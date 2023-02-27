@@ -3,6 +3,8 @@ package main.tasks.inmuebles.empadronamiento;
 import main.actions.*;
 import main.ui.inmueblesUI.empadronamientoUI.DatosTerrenoUI;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 public class AreaData {
     public static void fillAreaData(WebDriver driver, String year, String area){
@@ -12,7 +14,9 @@ public class AreaData {
             Click.on(driver, DatosTerrenoUI.rbtM2);
         }
         if (IsDisplayed.element(driver, DatosTerrenoUI.lstTaxArea, 1)){
-            SelectOption.nonEmptyRandomValue(driver, DatosTerrenoUI.lstTaxArea);
+            if (IsClickable.element(driver, DatosTerrenoUI.lstTaxArea, 1)){
+                SelectOption.nonEmptyRandomValue(driver, DatosTerrenoUI.lstTaxArea);
+            }
         }
         SelectOption.waitUntilLoadOptions(driver, DatosTerrenoUI.lstInclinacion, 1);
         SelectOption.nonEmptyRandomValue(driver, DatosTerrenoUI.lstInclinacion);
