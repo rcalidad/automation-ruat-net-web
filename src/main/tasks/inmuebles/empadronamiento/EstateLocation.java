@@ -38,13 +38,13 @@ public class EstateLocation {
         Click.on(driver, UbicacionInmuebleUI.btnAceptar);
     }
     public static void defineBuildingData(WebDriver driver){
-        //if (IsDisplayed.element(driver, UbicacionInmuebleUI.txtNombreEdificio, 1)){
+        if (IsDisplayed.element(driver, UbicacionInmuebleUI.txtNombreEdificio, 1)){
             Scroll.toElement(driver, UbicacionInmuebleUI.txtNombreEdificio);
             Enter.text(driver, UbicacionInmuebleUI.txtNombreEdificio, MessagesINM.testText);
             Enter.text(driver, UbicacionInmuebleUI.txtPiso, "12");
             selectRandomOption(driver, UbicacionInmuebleUI.lstTipoUnidadFuncional);
             Enter.text(driver, UbicacionInmuebleUI.txtNumeroUnidadFuncional, "2");
-        //}
+        }
     }
     public static void selectRandomOption(WebDriver driver, By locator){
         SelectOption.waitUntilLoadOptions(driver, locator, 1);
