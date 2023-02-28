@@ -1,51 +1,57 @@
-1677529676307	geckodriver	INFO	Listening on 127.0.0.1:2422
-1677529676641	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileXUszyN"
+1677589050436	geckodriver	INFO	Listening on 127.0.0.1:14856
+1677589050745	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofilelWkQrt"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1677529677234	Marionette	INFO	Marionette enabled
+1677589053037	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1677529677243	Marionette	INFO	Listening on port 51858
-1677529677747	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileXUszyN\\search.json.mozlz4", (void 0)))
+1677589053046	Marionette	INFO	Listening on port 59154
+1677589053533	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofilelWkQrt\\search.json.mozlz4", (void 0)))
 console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
 console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
-JavaScript warning: https://cobrocalidad.ruat.gob.bo/BancosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cobrocalidad.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cobrocalidad.ruat.gob.bo."
-JavaScript warning: https://cobrocalidad.ruat.gob.bo/BancosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
-JavaScript warning: https://cobrocalidad.ruat.gob.bo/BancosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/cabecera.jsp, line 1: TypeError: document.getElementById(...) is null
-JavaScript warning: https://cobrocalidad.ruat.gob.bo/BancosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/menu.jsp, line 1: TypeError: document.getElementById(...) is null
-JavaScript warning: https://cobrocalidad.ruat.gob.bo/BancosWeb/resources/js/Ajax/Comun/Jquery/jquery-1.3.2.min.js, line 20: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cobrocalidad.ruat.gob.bo."
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/cabecera.jsp, line 1: TypeError: document.getElementById(...) is null
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/menu.jsp, line 1: TypeError: document.getElementById(...) is null
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cobrocalidad.ruat.gob.bo."
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/cabecera.jsp, line 1: TypeError: document.getElementById(...) is null
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/menu.jsp, line 1: TypeError: document.getElementById(...) is null
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/resources/js/Administracion/Logon/scriptTemplate.js, line 1: ReferenceError: $ is not defined
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cobrocalidad.ruat.gob.bo."
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Tasas/Pagos/PagosController.jpf, line 1: ReferenceError: validaDatosIngresados is not defined
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/menu.jsp, line 1: TypeError: document.getElementById(...) is null
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/cabecera.jsp, line 1: TypeError: document.getElementById(...) is null
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cobrocalidad.ruat.gob.bo."
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/cabecera.jsp, line 1: TypeError: document.getElementById(...) is null
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/menu.jsp, line 1: TypeError: document.getElementById(...) is null
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/cabecera.jsp, line 1: TypeError: document.getElementById(...) is null
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/menu.jsp, line 1: TypeError: document.getElementById(...) is null
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/menu.jsp, line 1: TypeError: document.getElementById(...) is null
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/cabecera.jsp, line 1: TypeError: document.getElementById(...) is null
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/cabecera.jsp, line 1: TypeError: document.getElementById(...) is null
-JavaScript error: https://cobrocalidad.ruat.gob.bo/BancosWeb/Administracion/menuPrincipal/menu.jsp, line 1: TypeError: document.getElementById(...) is null
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cobrocalidad.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+1677589069638	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+1677589079502	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-1677529917842	Marionette	INFO	Stopped listening on port 51858
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
+JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+1677589094012	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+1677589104188	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+1677589109190	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
+JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
+JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+1677589117795	Marionette	INFO	Stopped listening on port 59154
 Dynamically enable window occlusion 1
-console.error: services.settings: 
-  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
-console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.jsm", 116))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 237))

@@ -31385,3 +31385,37 @@
 27/02/2023 16:31:56.847: Proceso concluido: Módulo - COBRO
 27/02/2023 16:31:56.847: =========================================================================
 27/02/2023 16:31:59.389: Proceso de pago concluido.
+28/02/2023 08:57:40.248: Tiempo Inicialización (navegador): 10 seg. 469 mseg.
+28/02/2023 08:57:40.282: Abriendo aplicación...
+28/02/2023 08:57:40.576: *************************************************************************
+28/02/2023 08:57:40.576:                        AUTOAVALUOS
+28/02/2023 08:57:40.576: *************************************************************************
+28/02/2023 08:57:40.576: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+28/02/2023 08:57:40.582: Fecha: 28/02/2023 08:57:40.576
+28/02/2023 08:57:41.723: Proceso de autentificación: ...
+28/02/2023 08:57:44.939: Proceso de autentificación: OK.
+28/02/2023 08:57:44.940: -------------------------------------------------------------------------
+28/02/2023 08:57:47.065: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+28/02/2023 08:57:49.048: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+28/02/2023 08:57:51.526: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+28/02/2023 08:57:54.416: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+28/02/2023 08:57:58.032: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+28/02/2023 08:58:01.373: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+28/02/2023 08:58:04.385: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+28/02/2023 08:58:07.552: Proceso concluido.
+28/02/2023 08:58:08.275: -------------------------------------------------------------------------
+28/02/2023 08:58:10.867: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+28/02/2023 08:58:13.453: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+28/02/2023 08:58:15.847: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+28/02/2023 08:58:18.737: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+28/02/2023 08:58:21.718: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+28/02/2023 08:58:26.042: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+28/02/2023 08:58:28.279: By.xpath: //h2[text()='REGISTRAR AUTOAVALUO'] cargado.
+28/02/2023 08:58:31.091: By.xpath: //h2[text()='DETALLE AUTOAVALUOS'] cargado.
+28/02/2023 08:58:32.908: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+28/02/2023 08:58:36.115: Proceso concluido.
+28/02/2023 08:58:36.925: -------------------------------------------------------------------------
+28/02/2023 08:58:36.926: Tiempo Total de Ejecución: 1 min. 7 seg. 191 mseg.
+28/02/2023 08:58:36.927: Proceso concluido: Módulo - AUTOAVALUOS
+28/02/2023 08:58:36.928: =========================================================================
+28/02/2023 08:58:39.374: Proceso concluido con exito.
