@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-28T14:16:35Z" name="INM:Compensaciones" finished-at="2023-02-28T14:18:59Z" duration-ms="144032">
+  <suite started-at="2023-02-28T14:53:41Z" name="INM:PrescripcionNormal" finished-at="2023-02-28T14:55:47Z" duration-ms="126418">
     <groups>
     </groups>
-    <test started-at="2023-02-28T14:16:35Z" name="INM:Test" finished-at="2023-02-28T14:18:59Z" duration-ms="144032">
-      <class name="test.generators.inmuebles.compensaciones.CompensacionesGen">
-        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:test.generators.inmuebles.compensaciones.CompensacionesGen@667a738]" started-at="2023-02-28T14:16:30Z" name="setUpSuite" finished-at="2023-02-28T14:16:35Z" duration-ms="4180" status="PASS">
+    <test started-at="2023-02-28T14:53:41Z" name="INM:Test" finished-at="2023-02-28T14:55:47Z" duration-ms="126418">
+      <class name="test.generators.inmuebles.prescripcionNormal.PrescripcionNormalGen">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:test.generators.inmuebles.prescripcionNormal.PrescripcionNormalGen@667a738]" started-at="2023-02-28T14:53:37Z" name="setUpSuite" finished-at="2023-02-28T14:53:41Z" duration-ms="4313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method signature="compensaciones()[pri:0, instance:test.generators.inmuebles.compensaciones.CompensacionesGen@667a738]" started-at="2023-02-28T14:16:35Z" name="compensaciones" finished-at="2023-02-28T14:18:59Z" duration-ms="144015" status="PASS">
+        <test-method signature="prescripcionNormal()[pri:0, instance:test.generators.inmuebles.prescripcionNormal.PrescripcionNormalGen@667a738]" started-at="2023-02-28T14:53:41Z" name="prescripcionNormal" finished-at="2023-02-28T14:55:47Z" duration-ms="126402" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- compensaciones -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:test.generators.inmuebles.compensaciones.CompensacionesGen@667a738]" started-at="2023-02-28T14:18:59Z" name="tearDownSuite" finished-at="2023-02-28T14:18:59Z" duration-ms="127" status="PASS">
+        </test-method> <!-- prescripcionNormal -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:test.generators.inmuebles.prescripcionNormal.PrescripcionNormalGen@667a738]" started-at="2023-02-28T14:55:47Z" name="tearDownSuite" finished-at="2023-02-28T14:55:47Z" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->
-      </class> <!-- test.generators.inmuebles.compensaciones.CompensacionesGen -->
+      </class> <!-- test.generators.inmuebles.prescripcionNormal.PrescripcionNormalGen -->
     </test> <!-- INM:Test -->
-  </suite> <!-- INM:Compensaciones -->
+  </suite> <!-- INM:PrescripcionNormal -->
 </testng-results>

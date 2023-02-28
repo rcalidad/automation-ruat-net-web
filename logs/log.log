@@ -31505,3 +31505,90 @@
 28/02/2023 10:18:56.511: Proceso concluido: Módulo - COMPENSACIONES
 28/02/2023 10:18:56.511: =========================================================================
 28/02/2023 10:18:59.080: Proceso concluido con exito.
+28/02/2023 10:46:16.207: Tiempo Inicialización (navegador): 8 seg. 585 mseg.
+28/02/2023 10:46:16.231: Abriendo aplicación...
+28/02/2023 10:46:16.539: *************************************************************************
+28/02/2023 10:46:16.540:                        PRESCRIPCION-NORMAL
+28/02/2023 10:46:16.541: *************************************************************************
+28/02/2023 10:46:16.542: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+28/02/2023 10:46:16.542: Fecha: 28/02/2023 10:46:16.542
+28/02/2023 10:46:17.718: Proceso de autentificación: ...
+28/02/2023 10:46:20.149: Proceso de autentificación: OK.
+28/02/2023 10:46:20.149: -------------------------------------------------------------------------
+28/02/2023 10:46:22.569: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+28/02/2023 10:46:31.146: -------------------------------------------------------------------------
+28/02/2023 10:46:33.944: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+28/02/2023 10:46:38.838: Inmueble Observado, por proceso de liquidación por determinación mixta. N° RD 311/2022.  La(s) gestión(es) 2013, 2014, 2015.
+28/02/2023 10:46:40.630: Tiempo Inicialización (navegador): 33 seg. 39 mseg.
+28/02/2023 10:46:40.657: Abriendo aplicación...
+28/02/2023 10:46:40.679: *************************************************************************
+28/02/2023 10:46:40.680:                        PRESCRIPCION-NORMAL
+28/02/2023 10:46:40.682: *************************************************************************
+28/02/2023 10:46:40.682: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+28/02/2023 10:46:40.683: Fecha: 28/02/2023 10:46:40.682
+28/02/2023 10:46:41.333:  Usuario no autentificado.
+28/02/2023 10:46:43.064: Proceso de autentificación: ...
+28/02/2023 10:46:44.526: Proceso de autentificación: OK.
+28/02/2023 10:46:44.527: -------------------------------------------------------------------------
+28/02/2023 10:46:46.971: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+28/02/2023 10:46:55.976: El Inmueble corresponde a una propiedad de Acciones y Derechos. Verifique el propietario.
+28/02/2023 10:46:58.313: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+28/02/2023 10:47:01.282: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+28/02/2023 10:47:07.987: By.xpath: //h2[normalize-space()='DETALLE GESTIONES'] cargado.
+28/02/2023 10:47:10.424: By.xpath: //h2[text()='REGISTRAR PRESCRIPCION'] cargado.
+28/02/2023 10:47:14.159: By.xpath: //h2[normalize-space()='DETALLE GESTIONES'] cargado.
+28/02/2023 10:47:16.171: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+28/02/2023 10:47:20.502: -------------------------------------------------------------------------
+28/02/2023 10:47:20.503: Tiempo Total de Ejecución: 1 min. 12 seg. 912 mseg.
+28/02/2023 10:47:20.503: Proceso concluido: Módulo - PRESCRIPCION-NORMAL
+28/02/2023 10:47:20.507: =========================================================================
+28/02/2023 10:47:23.103: Proceso concluido con exito.
+28/02/2023 10:53:45.962: Tiempo Inicialización (navegador): 8 seg. 858 mseg.
+28/02/2023 10:53:45.991: Abriendo aplicación...
+28/02/2023 10:53:46.290: *************************************************************************
+28/02/2023 10:53:46.291:                        PRESCRIPCION-NORMAL
+28/02/2023 10:53:46.292: *************************************************************************
+28/02/2023 10:53:46.297: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+28/02/2023 10:53:46.301: Fecha: 28/02/2023 10:53:46.300
+28/02/2023 10:53:47.495: Proceso de autentificación: ...
+28/02/2023 10:53:50.526: Proceso de autentificación: OK.
+28/02/2023 10:53:50.527: -------------------------------------------------------------------------
+28/02/2023 10:53:53.360: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+28/02/2023 10:54:09.575: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+28/02/2023 10:54:12.654: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+28/02/2023 10:54:23.315: By.xpath: //h2[normalize-space()='DETALLE GESTIONES'] cargado.
+28/02/2023 10:54:30.992: Debe seleccionar al menos una gestión para continuar.
+28/02/2023 10:54:32.242: By.xpath: //h2[normalize-space()='DETALLE GESTIONES'] cargado.
+28/02/2023 10:54:35.711: -------------------------------------------------------------------------
+28/02/2023 10:54:38.437: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+28/02/2023 10:54:40.018: Inmueble Observado, por proceso de liquidación por determinación mixta. N° RD 311/2022.  La(s) gestión(es) 2013, 2014, 2015.
+28/02/2023 10:54:47.650: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+28/02/2023 10:54:50.637: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+28/02/2023 10:54:55.002: By.xpath: //h2[normalize-space()='DETALLE GESTIONES'] cargado.
+28/02/2023 10:54:57.632: By.xpath: //h2[text()='REGISTRAR PRESCRIPCION'] cargado.
+28/02/2023 10:55:00.771: By.xpath: //h2[normalize-space()='DETALLE GESTIONES'] cargado.
+28/02/2023 10:55:02.749: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+28/02/2023 10:55:08.348: Tiempo Inicialización (navegador): 1 min. 31 seg. 282 mseg.
+28/02/2023 10:55:08.367: Abriendo aplicación...
+28/02/2023 10:55:08.381: *************************************************************************
+28/02/2023 10:55:08.383:                        PRESCRIPCION-NORMAL
+28/02/2023 10:55:08.384: *************************************************************************
+28/02/2023 10:55:08.385: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+28/02/2023 10:55:08.386: Fecha: 28/02/2023 10:55:08.386
+28/02/2023 10:55:09.027:  Usuario no autentificado.
+28/02/2023 10:55:10.777: Proceso de autentificación: ...
+28/02/2023 10:55:12.110: Proceso de autentificación: OK.
+28/02/2023 10:55:12.111: -------------------------------------------------------------------------
+28/02/2023 10:55:14.865: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+28/02/2023 10:55:24.899: El Inmueble corresponde a una propiedad de Acciones y Derechos. Verifique el propietario.
+28/02/2023 10:55:27.233: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+28/02/2023 10:55:30.136: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+28/02/2023 10:55:33.627: By.xpath: //h2[normalize-space()='DETALLE GESTIONES'] cargado.
+28/02/2023 10:55:36.072: By.xpath: //h2[text()='ANULAR PRESCRIPCION'] cargado.
+28/02/2023 10:55:40.214: By.xpath: //h2[normalize-space()='DETALLE GESTIONES'] cargado.
+28/02/2023 10:55:42.031: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+28/02/2023 10:55:45.444: -------------------------------------------------------------------------
+28/02/2023 10:55:45.445: Tiempo Total de Ejecución: 2 min. 8 seg. 379 mseg.
+28/02/2023 10:55:45.445: Proceso concluido: Módulo - PRESCRIPCION-NORMAL
+28/02/2023 10:55:45.447: =========================================================================
+28/02/2023 10:55:47.747: Proceso concluido con exito.

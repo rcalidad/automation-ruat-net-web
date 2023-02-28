@@ -1,12 +1,12 @@
-1677593791581	geckodriver	INFO	Listening on 127.0.0.1:22375
-1677593791859	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileivI6Gn"
+1677596017682	geckodriver	INFO	Listening on 127.0.0.1:20022
+1677596017980	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofile82ynWW"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1677593792448	Marionette	INFO	Marionette enabled
+1677596018588	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1677593792456	Marionette	INFO	Listening on port 64793
-1677593793197	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileivI6Gn\\search.json.mozlz4", (void 0)))
+1677596018595	Marionette	INFO	Listening on port 65283
+1677596019150	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofile82ynWW\\search.json.mozlz4", (void 0)))
 console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
 console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://inmueblesimpl.ruat.gob.bo."
@@ -17,21 +17,66 @@ console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefin
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-1677593825993	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1677596050856	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+1677596064129	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1677596064967	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1677596065823	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1677596066659	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1677596067515	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1677596068352	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1677596069204	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1677596070039	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+1677596070865	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+1677596088806	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-1677593875608	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+1677596097948	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
@@ -40,14 +85,22 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://i
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+1677596107882	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+1677596128355	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-1677593914072	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
+1677596136357	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
@@ -56,6 +109,6 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://i
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-1677593937803	Marionette	INFO	Stopped listening on port 64793
+1677596146382	Marionette	INFO	Stopped listening on port 65283
 Dynamically enable window occlusion 1
 console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.jsm", 116))
