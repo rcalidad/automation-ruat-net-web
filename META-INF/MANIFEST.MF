@@ -1,4 +1,4 @@
 Manifest-Version: 1.0
-Main-Class: test.generators.inmuebles.runnable.RunnablePrescripcionNorma
- l
+Main-Class: test.generators.inmuebles.runnable.RunnableCondonacionLeyMun
+ icipal
 

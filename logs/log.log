@@ -31592,3 +31592,48 @@
 28/02/2023 10:55:45.445: Proceso concluido: Módulo - PRESCRIPCION-NORMAL
 28/02/2023 10:55:45.447: =========================================================================
 28/02/2023 10:55:47.747: Proceso concluido con exito.
+28/02/2023 11:37:18.153: Tiempo Inicialización (navegador): 8 seg. 321 mseg.
+28/02/2023 11:37:18.180: Abriendo aplicación...
+28/02/2023 11:37:18.458: *************************************************************************
+28/02/2023 11:37:18.458:                        CONDONACION-LEY-MUNICIPAL
+28/02/2023 11:37:18.459: *************************************************************************
+28/02/2023 11:37:18.460: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+28/02/2023 11:37:18.461: Fecha: 28/02/2023 11:37:18.460
+28/02/2023 11:37:19.709: Proceso de autentificación: ...
+28/02/2023 11:37:21.765: Proceso de autentificación: OK.
+28/02/2023 11:37:21.768: -------------------------------------------------------------------------
+28/02/2023 11:37:24.716: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+28/02/2023 11:37:32.131: Inmueble Observado.
+28/02/2023 11:37:32.464: Inmueble Observado, por proceso de liquidación por determinación mixta. N° 16130/2017. N° 16130.  La(s) gestión(es) 2015.
+28/02/2023 11:37:33.287: Inmueble Observado, por proceso de liquidación por determinación mixta. N° 4651/2021.  La(s) gestión(es) 2016, 2017, 2018.
+28/02/2023 11:37:40.896: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+28/02/2023 11:37:43.414: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+28/02/2023 11:37:46.077: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+28/02/2023 11:37:58.340: Debe realizar por lo menos una operación para Aceptar.
+28/02/2023 11:37:59.145: -------------------------------------------------------------------------
+28/02/2023 11:38:03.056: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+28/02/2023 11:38:16.981: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+28/02/2023 11:38:19.386: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+28/02/2023 11:38:21.746: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+28/02/2023 11:38:41.924: Debe seleccionar al menos un registro para continuar.
+28/02/2023 11:38:54.944: -------------------------------------------------------------------------
+28/02/2023 11:38:57.805: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+28/02/2023 11:39:09.611: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+28/02/2023 11:39:11.945: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+28/02/2023 11:39:14.295: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+28/02/2023 11:39:33.634: Debe seleccionar al menos un registro para continuar.
+28/02/2023 11:39:46.533: -------------------------------------------------------------------------
+28/02/2023 11:39:49.336: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+28/02/2023 11:39:59.920: -------------------------------------------------------------------------
+28/02/2023 11:40:02.731: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+28/02/2023 11:40:09.284: El Inmueble corresponde a una propiedad de Acciones y Derechos. Verifique el propietario.
+28/02/2023 11:40:11.627: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+28/02/2023 11:40:13.949: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+28/02/2023 11:40:16.252: By.xpath: //h2[text()='DETALLE CONDONACION'] cargado.
+28/02/2023 11:40:36.291: By.xpath: //h2[text()='ANULAR REGISTRO CONDONACION'] cargado.
+28/02/2023 11:40:43.527: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+28/02/2023 11:40:47.788: -------------------------------------------------------------------------
+28/02/2023 11:40:47.789: Tiempo Total de Ejecución: 3 min. 37 seg. 994 mseg.
+28/02/2023 11:40:47.790: Proceso concluido: Módulo - CONDONACION-LEY-MUNICIPAL
+28/02/2023 11:40:47.790: =========================================================================
+28/02/2023 11:40:49.680: Proceso concluido con exito.

@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-28T14:53:41Z" name="INM:PrescripcionNormal" finished-at="2023-02-28T14:55:47Z" duration-ms="126418">
+  <suite started-at="2023-02-28T15:37:14Z" name="INM:CondonacionLeyMunicipal" finished-at="2023-02-28T15:40:49Z" duration-ms="215479">
     <groups>
     </groups>
-    <test started-at="2023-02-28T14:53:41Z" name="INM:Test" finished-at="2023-02-28T14:55:47Z" duration-ms="126418">
-      <class name="test.generators.inmuebles.prescripcionNormal.PrescripcionNormalGen">
-        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:test.generators.inmuebles.prescripcionNormal.PrescripcionNormalGen@667a738]" started-at="2023-02-28T14:53:37Z" name="setUpSuite" finished-at="2023-02-28T14:53:41Z" duration-ms="4313" status="PASS">
+    <test started-at="2023-02-28T15:37:14Z" name="INM:Test" finished-at="2023-02-28T15:40:49Z" duration-ms="215479">
+      <class name="test.generators.inmuebles.condonacionLeyMunicipal.CondonacionLeyMunicipalGen">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:test.generators.inmuebles.condonacionLeyMunicipal.CondonacionLeyMunicipalGen@57d5872c]" started-at="2023-02-28T15:37:09Z" name="setUpSuite" finished-at="2023-02-28T15:37:14Z" duration-ms="4453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method signature="prescripcionNormal()[pri:0, instance:test.generators.inmuebles.prescripcionNormal.PrescripcionNormalGen@667a738]" started-at="2023-02-28T14:53:41Z" name="prescripcionNormal" finished-at="2023-02-28T14:55:47Z" duration-ms="126402" status="PASS">
+        <test-method signature="condonacionLeyMunicipal()[pri:0, instance:test.generators.inmuebles.condonacionLeyMunicipal.CondonacionLeyMunicipalGen@57d5872c]" started-at="2023-02-28T15:37:14Z" name="condonacionLeyMunicipal" finished-at="2023-02-28T15:40:49Z" duration-ms="215448" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- prescripcionNormal -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:test.generators.inmuebles.prescripcionNormal.PrescripcionNormalGen@667a738]" started-at="2023-02-28T14:55:47Z" name="tearDownSuite" finished-at="2023-02-28T14:55:47Z" duration-ms="116" status="PASS">
+        </test-method> <!-- condonacionLeyMunicipal -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:test.generators.inmuebles.condonacionLeyMunicipal.CondonacionLeyMunicipalGen@57d5872c]" started-at="2023-02-28T15:40:49Z" name="tearDownSuite" finished-at="2023-02-28T15:40:49Z" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->
-      </class> <!-- test.generators.inmuebles.prescripcionNormal.PrescripcionNormalGen -->
+      </class> <!-- test.generators.inmuebles.condonacionLeyMunicipal.CondonacionLeyMunicipalGen -->
     </test> <!-- INM:Test -->
-  </suite> <!-- INM:PrescripcionNormal -->
+  </suite> <!-- INM:CondonacionLeyMunicipal -->
 </testng-results>
