@@ -1,12 +1,12 @@
-1677598630444	geckodriver	INFO	Listening on 127.0.0.1:9288
-1677598630757	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofile7uHIU8"
+1677605355579	geckodriver	INFO	Listening on 127.0.0.1:7238
+1677605355876	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileoTtI3W"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1677598631341	Marionette	INFO	Marionette enabled
+1677605356467	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1677598631350	Marionette	INFO	Listening on port 49340
-1677598632099	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofile7uHIU8\\search.json.mozlz4", (void 0)))
+1677605356477	Marionette	INFO	Listening on port 50778
+1677605357008	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\scondori\\AppData\\Local\\Temp\\rust_mozprofileoTtI3W\\search.json.mozlz4", (void 0)))
 console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
 console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://inmueblesimpl.ruat.gob.bo."
@@ -16,269 +16,100 @@ console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1
 console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-1677598661471	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-1677598697572	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-1677598706409	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598707265	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598708134	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598708982	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598709841	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598710704	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598711576	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598712447	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598713319	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598714190	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598715101	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598716002	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598716898	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598717857	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598718719	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598719653	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598720537	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-1677598721766	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-1677598750128	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-1677598758567	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598759433	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598760305	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598761180	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598762027	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598762899	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598763769	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598764636	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598765728	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598766587	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598767460	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598768301	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598769144	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598769982	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598770887	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598771769	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598772622	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-1677598812148	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-1677598821302	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598822182	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598823052	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598823921	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598826273	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598827154	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598828027	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-1677598831400	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
-TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-1677598840809	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://inmueblesimpl.ruat.gob.bo."
-1677598848822	Marionette	INFO	Stopped listening on port 49340
+1677605381456	Marionette	INFO	Stopped listening on port 50778
 Dynamically enable window occlusion 1
-console.error: services.settings: 
-  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
-console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.jsm", 116))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 237))
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlockerJav@resourace://gre/modules/AsyncShutdown.sys.mjs:523:S26
+addcriptBlo ckeerror: resource://gre/modulesr/AsyncS@hreusource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@rtedosource://gre/modules/osfile/oswfni.lsey_sa.sync_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://grem/jms, line 727: Error: Phase "profile-before-change" is foidnuilses/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://hgerde, i/modules/TelemetrySend.t is tsoo late to register completys.mjs:863:17
+setup@reion condition "OS.File: flush sI/O queued ource://gre/mobefore profileBefodreChange"
+uJavaScript error:l es/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modurles/TelemetrySend.sys.mjs:e2sour41:30
+setupTelemetry/thice:/s._delayedInitTa/sk<@resgre/modules/AsyncSohutdownurce://gre.sys.mj/s, modules/lTelemetrine 727: Error: Phase "profile-before-change" is finished, it is too late to register completion conditiony ControllerParent.sys.mjs:8"29:36
+obOS.Filsere: flush Ive@/O resource:/que/greu/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiteingd.
+          Bl before porofcker:  TielemetryContleBeforolreClhange"
+JavaScript error: resource://gre/moduler: shutting down
+          Phase: profile-before-change-telemeets/AsryyncShutdown.sys.mjs, line 
+          State: Err72o7: r getting state: Error: Phase "profile-before-change" is finEirror: Phase s"profile-before-change" is finished, it is too late to register completion condithed, it is too ilate on "OS.Ftile: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+o register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+

@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-28T15:37:14Z" name="INM:CondonacionLeyMunicipal" finished-at="2023-02-28T15:40:49Z" duration-ms="215479">
+  <suite started-at="2023-02-28T17:29:19Z" name="INM:Proforma" finished-at="2023-02-28T17:29:42Z" duration-ms="23609">
     <groups>
     </groups>
-    <test started-at="2023-02-28T15:37:14Z" name="INM:Test" finished-at="2023-02-28T15:40:49Z" duration-ms="215479">
-      <class name="test.generators.inmuebles.condonacionLeyMunicipal.CondonacionLeyMunicipalGen">
-        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:test.generators.inmuebles.condonacionLeyMunicipal.CondonacionLeyMunicipalGen@57d5872c]" started-at="2023-02-28T15:37:09Z" name="setUpSuite" finished-at="2023-02-28T15:37:14Z" duration-ms="4453" status="PASS">
+    <test started-at="2023-02-28T17:29:19Z" name="INM:Test" finished-at="2023-02-28T17:29:42Z" duration-ms="23609">
+      <class name="test.generators.inmuebles.liquidacion.ProformaGen">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:test.generators.inmuebles.liquidacion.ProformaGen@667a738]" started-at="2023-02-28T17:29:14Z" name="setUpSuite" finished-at="2023-02-28T17:29:19Z" duration-ms="4310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method signature="condonacionLeyMunicipal()[pri:0, instance:test.generators.inmuebles.condonacionLeyMunicipal.CondonacionLeyMunicipalGen@57d5872c]" started-at="2023-02-28T15:37:14Z" name="condonacionLeyMunicipal" finished-at="2023-02-28T15:40:49Z" duration-ms="215448" status="PASS">
+        <test-method signature="proforma()[pri:0, instance:test.generators.inmuebles.liquidacion.ProformaGen@667a738]" started-at="2023-02-28T17:29:19Z" name="proforma" finished-at="2023-02-28T17:29:42Z" duration-ms="23594" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- condonacionLeyMunicipal -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:test.generators.inmuebles.condonacionLeyMunicipal.CondonacionLeyMunicipalGen@57d5872c]" started-at="2023-02-28T15:40:49Z" name="tearDownSuite" finished-at="2023-02-28T15:40:49Z" duration-ms="104" status="PASS">
+        </test-method> <!-- proforma -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:test.generators.inmuebles.liquidacion.ProformaGen@667a738]" started-at="2023-02-28T17:29:42Z" name="tearDownSuite" finished-at="2023-02-28T17:29:42Z" duration-ms="110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->
-      </class> <!-- test.generators.inmuebles.condonacionLeyMunicipal.CondonacionLeyMunicipalGen -->
+      </class> <!-- test.generators.inmuebles.liquidacion.ProformaGen -->
     </test> <!-- INM:Test -->
-  </suite> <!-- INM:CondonacionLeyMunicipal -->
+  </suite> <!-- INM:Proforma -->
 </testng-results>
