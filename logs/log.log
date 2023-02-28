@@ -31419,3 +31419,89 @@
 28/02/2023 08:58:36.927: Proceso concluido: Módulo - AUTOAVALUOS
 28/02/2023 08:58:36.928: =========================================================================
 28/02/2023 08:58:39.374: Proceso concluido con exito.
+28/02/2023 10:12:22.402: Tiempo Inicialización (navegador): 7 seg. 911 mseg.
+28/02/2023 10:12:22.427: Abriendo aplicación...
+28/02/2023 10:12:22.708: *************************************************************************
+28/02/2023 10:12:22.711:                        COMPENSACIONES
+28/02/2023 10:12:22.712: *************************************************************************
+28/02/2023 10:12:22.713: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+28/02/2023 10:12:22.714: Fecha: 28/02/2023 10:12:22.714
+28/02/2023 10:12:23.895: Proceso de autentificación: ...
+28/02/2023 10:12:26.267: Proceso de autentificación: OK.
+28/02/2023 10:12:26.274: -------------------------------------------------------------------------
+28/02/2023 10:12:33.911: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+28/02/2023 10:12:40.792: El inmueble está observado por Observación-Control Preventivo. Si existe gestión vigente se habilitará para cobro.
+28/02/2023 10:12:41.116: Inmueble Observado.
+28/02/2023 10:12:41.466: Inmueble Observado, por proceso de liquidación por determinación mixta. N° 32154/2017. N° 32154.  La(s) gestión(es) 2012, 2013.
+28/02/2023 10:12:49.113: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+28/02/2023 10:12:51.809: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+28/02/2023 10:12:55.940: By.xpath: //h2[normalize-space()='Detalle Deudas'] cargado.
+28/02/2023 10:12:58.152: Items seleccionados...
+28/02/2023 10:13:00.374: El monto mínimo para el registro de la compensación es de Bs. 2073.
+28/02/2023 10:13:01.080: -------------------------------------------------------------------------
+28/02/2023 10:13:08.817: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+28/02/2023 10:13:19.490: -------------------------------------------------------------------------
+28/02/2023 10:13:27.217: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+28/02/2023 10:13:37.738: El Inmueble corresponde a una propiedad de Acciones y Derechos. Verifique el propietario.
+28/02/2023 10:13:40.093: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+28/02/2023 10:13:42.718: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+28/02/2023 10:13:50.819: By.xpath: //h2[normalize-space()='Detalle Deudas'] cargado.
+28/02/2023 10:13:52.101: Items seleccionados...
+28/02/2023 10:13:52.715: Debe cancelar el IP de la gestión 2021 antes de poder cancelar la MIDF.
+28/02/2023 10:13:53.491: -------------------------------------------------------------------------
+28/02/2023 10:14:01.046: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+28/02/2023 10:14:04.097: El Inmueble corresponde a una propiedad de Acciones y Derechos. Verifique el propietario.
+28/02/2023 10:14:06.452: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+28/02/2023 10:14:09.726: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+28/02/2023 10:14:18.772: By.xpath: //h2[normalize-space()='Detalle Deudas'] cargado.
+28/02/2023 10:14:19.973: Items seleccionados...
+28/02/2023 10:14:20.620: Debe cancelar el IP de la gestión 2021 antes de poder cancelar la MIDF.
+28/02/2023 10:14:21.926: -------------------------------------------------------------------------
+28/02/2023 10:14:21.926: Tiempo Total de Ejecución: 2 min. 7 seg. 489 mseg.
+28/02/2023 10:14:21.927: Proceso concluido: Módulo - COMPENSACIONES
+28/02/2023 10:14:21.927: =========================================================================
+28/02/2023 10:14:24.125: Proceso concluido con exito.
+28/02/2023 10:16:40.119: Tiempo Inicialización (navegador): 9 seg. 147 mseg.
+28/02/2023 10:16:40.149: Abriendo aplicación...
+28/02/2023 10:16:40.432: *************************************************************************
+28/02/2023 10:16:40.437:                        COMPENSACIONES
+28/02/2023 10:16:40.438: *************************************************************************
+28/02/2023 10:16:40.439: Ambiente: https://inmueblesimpl.ruat.gob.bo/InmueblesWeb/Administracion/Autentificacion/LoginUsuario.jsp
+28/02/2023 10:16:40.439: Fecha: 28/02/2023 10:16:40.439
+28/02/2023 10:16:41.721: Proceso de autentificación: ...
+28/02/2023 10:16:44.116: Proceso de autentificación: OK.
+28/02/2023 10:16:44.117: -------------------------------------------------------------------------
+28/02/2023 10:16:52.567: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+28/02/2023 10:16:55.875: El inmueble está observado por Observación-Control Preventivo. Si existe gestión vigente se habilitará para cobro.
+28/02/2023 10:16:56.678: Inmueble Observado.
+28/02/2023 10:16:57.521: Inmueble Observado, por proceso de liquidación por determinación mixta. N° 32154/2017. N° 32154.  La(s) gestión(es) 2012, 2013.
+28/02/2023 10:17:05.148: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+28/02/2023 10:17:07.805: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+28/02/2023 10:17:11.792: By.xpath: //h2[normalize-space()='Detalle Deudas'] cargado.
+28/02/2023 10:17:13.951: Items seleccionados...
+28/02/2023 10:17:14.621: El monto mínimo para el registro de la compensación es de Bs. 2073.
+28/02/2023 10:17:15.309: -------------------------------------------------------------------------
+28/02/2023 10:17:23.553: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+28/02/2023 10:17:33.906: -------------------------------------------------------------------------
+28/02/2023 10:17:41.917: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+28/02/2023 10:17:52.418: El Inmueble corresponde a una propiedad de Acciones y Derechos. Verifique el propietario.
+28/02/2023 10:17:54.747: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+28/02/2023 10:17:57.502: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+28/02/2023 10:18:05.801: By.xpath: //h2[normalize-space()='Detalle Deudas'] cargado.
+28/02/2023 10:18:06.910: Items seleccionados...
+28/02/2023 10:18:08.364: By.xpath: //h2[normalize-space()='Confirmar Registro'] cargado.
+28/02/2023 10:18:13.821: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+28/02/2023 10:18:19.208: -------------------------------------------------------------------------
+28/02/2023 10:18:26.807: By.xpath: //h2[normalize-space()='BUSQUEDA INMUEBLE'] cargado.
+28/02/2023 10:18:30.869: El Inmueble corresponde a una propiedad de Acciones y Derechos. Verifique el propietario.
+28/02/2023 10:18:33.229: By.xpath: //h2[text()='Inicio Tramite'] cargado.
+28/02/2023 10:18:35.895: By.xpath: //h2[text()='REGISTRAR SOLICITUD'] cargado.
+28/02/2023 10:18:43.866: By.xpath: //h2[normalize-space()='Detalle Deudas'] cargado.
+28/02/2023 10:18:44.866: Items seleccionados...
+28/02/2023 10:18:46.361: By.xpath: //h2[normalize-space()='Confirmar Registro'] cargado.
+28/02/2023 10:18:51.288: By.xpath: //h2[normalize-space()='CONFIRMAR TRAMITE'] cargado.
+28/02/2023 10:18:56.511: -------------------------------------------------------------------------
+28/02/2023 10:18:56.511: Tiempo Total de Ejecución: 2 min. 25 seg. 573 mseg.
+28/02/2023 10:18:56.511: Proceso concluido: Módulo - COMPENSACIONES
+28/02/2023 10:18:56.511: =========================================================================
+28/02/2023 10:18:59.080: Proceso concluido con exito.
