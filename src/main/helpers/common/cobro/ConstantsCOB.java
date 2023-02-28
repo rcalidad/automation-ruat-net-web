@@ -1,7 +1,7 @@
 package main.helpers.common.cobro;
 
 public class ConstantsCOB {
-    public static final String GENERATOR_DATA_FILE = "generators/cobro/DataPageGeneratorCB.xls";
+    public static final String GENERATOR_DATA_FILE = "generators/cobro/DataPageGeneratorCOB.xls";
     public static final String ID_SUBSYSTEM = "COB";
 
     //DATA SHEET

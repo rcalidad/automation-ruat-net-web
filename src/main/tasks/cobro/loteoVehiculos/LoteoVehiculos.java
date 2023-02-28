@@ -6,6 +6,7 @@ import main.actions.WaitUntilElement;
 import main.helpers.common.vehiculos.ConstantsVEH;
 import main.helpers.fileUtility.FileBuilder;
 import main.tasks.cobro.common.Verify;
+import main.tasks.commonTasks.CloseChildWindows;
 import main.ui.cobroUI.loteoUI.LoteoVehiculosUI;
 import org.openqa.selenium.WebDriver;
 
@@ -16,9 +17,11 @@ public class LoteoVehiculos {
     }
     public static void now(WebDriver driver, ExtentTest extentTest, int numCase){
         if (Verify.isReady(driver, extentTest, LoteoVehiculosUI.btnImprimir)){
+            String originalWindow = driver.getWindowHandle();
             Click.on(driver, LoteoVehiculosUI.btnImprimir);
             if (Verify.isReady(driver, extentTest, LoteoVehiculosUI.msgFinalizo)){
                 FileBuilder.moveAndRenameFile("reporte.pdf", "LOTEO", "VEHICULOS", "REPORTE", ConstantsVEH.ID_SUBSYSTEM, numCase);
+                CloseChildWindows.now(driver, originalWindow);
             }
         }
     }
